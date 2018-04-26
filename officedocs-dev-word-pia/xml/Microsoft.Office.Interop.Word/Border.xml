@@ -1,0 +1,377 @@
+﻿<Type Name="Border" FullName="Microsoft.Office.Interop.Word.Border">
+  <TypeSignature Language="C#" Value="public interface Border" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Border" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Border" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Border" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Border" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002093B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a border of an object.</summary>
+    <remarks>
+      <para>The <b>Border</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.Borders" /> collection.</para>
+      <para>Use <b>Borders</b>(<paramref name="index" />), where <paramref name="index" /> identifies the border, to return a single <b>Border</b> object. <paramref name="Index" /> can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdBorderType" /> constants: <b>wdBorderBottom</b>, <b>wdBorderDiagonalDown</b>, <b>wdBorderDiagonalUp</b>, <b>wdBorderHorizontal</b>, <b>wdBorderLeft</b>, <b>wdBorderRight</b>, <b>wdBorderTop</b>, or <b>wdBorderVertical</b>. Use the <see cref="P:Microsoft.Office.Interop.Word.Border.LineStyle" /> property to apply a border line to a <b>Border</b> object.</para>
+      <para>
+        <b>Border</b> objects cannot be added to the <b>Borders</b> collection. The number of members in the <b>Borders</b> collection is finite and varies depending on the type of object. For example, a table has six elements in the <b>Borders</b> collection, whereas a paragraph has four.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArtStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdPageBorderArt ArtStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdPageBorderArt ArtStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.ArtStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArtStyle As WdPageBorderArt" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdPageBorderArt ArtStyle { Microsoft::Office::Interop::Word::WdPageBorderArt get(); void set(Microsoft::Office::Interop::Word::WdPageBorderArt value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdPageBorderArt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the graphical page-border design for a document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArtWidth">
+      <MemberSignature Language="C#" Value="public int ArtWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ArtWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.ArtWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArtWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ArtWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the width (in points) of the specified graphical page border.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdColor Color { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdColor Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.Color" />
+      <MemberSignature Language="VB.NET" Value="Public Property Color As WdColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColor Color { Microsoft::Office::Interop::Word::WdColor get(); void set(Microsoft::Office::Interop::Word::WdColor value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the 24-bit color for the specified <see cref="T:Microsoft.Office.Interop.Word.Border" /> object. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Can be any valid <see cref="T:Microsoft.Office.Interop.Word.WdColor" /> constant or a value returned by Visual Basic's RGB function.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdColorIndex ColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdColorIndex ColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.ColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As WdColorIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColorIndex ColorIndex { Microsoft::Office::Interop::Word::WdColorIndex get(); void set(Microsoft::Office::Interop::Word::WdColorIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdColorIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color for the specified border object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a value that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inside">
+      <MemberSignature Language="C#" Value="public bool Inside { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Inside" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.Inside" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Inside As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Inside { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an inside border that can be applied to the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdLineStyle LineStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdLineStyle LineStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.LineStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineStyle As WdLineStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLineStyle LineStyle { Microsoft::Office::Interop::Word::WdLineStyle get(); void set(Microsoft::Office::Interop::Word::WdLineStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdLineStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the border line style for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <b>LineStyle</b> property for a range that refers to individual characters or words applies a character border.</para>
+          <para>Setting the <b>LineStyle</b> property for a paragraph or range of paragraphs applies a paragraph border. Use the <see cref="P:Microsoft.Office.Interop.Word.Borders.InsideLineStyle" /> property to apply a border between consecutive paragraphs.</para>
+          <para>Setting the <b>LineStyle</b> property for a section applies a page border around the pages in the section.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineWidth">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdLineWidth LineWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdLineWidth LineWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.LineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineWidth As WdLineWidth" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLineWidth LineWidth { Microsoft::Office::Interop::Word::WdLineWidth get(); void set(Microsoft::Office::Interop::Word::WdLineWidth value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdLineWidth</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the line width of an object's border.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Returns a <see cref="T:Microsoft.Office.Interop.Word.WdLineWidth" /> constant or <b>wdUndefined</b> if the object either has no borders or has borders with more than one line width.</para>
+          <para>If the specified line width isn't available for the border's line style, this property generates an error. To determine the line widths available for a particular line style, see the Borders and Shading dialog box (Format menu).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Border.Visible" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool default { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that indicates if the specified <see cref="T:Microsoft.Office.Interop.Word.Border" /> object is visible.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

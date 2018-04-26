@@ -1,0 +1,381 @@
+﻿<Type Name="OMathDelim" FullName="Microsoft.Office.Interop.Word.OMathDelim">
+  <TypeSignature Language="C#" Value="public interface OMathDelim" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathDelim" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathDelim" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OMathDelim" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OMathDelim" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("C94688A6-A2A7-4133-A26D-726CD569D5F3")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a delimiter object, consisting of opening and closing delimiters (such as parentheses, braces, brackets, or vertical bars), and one or more elements contained inside the delimiters.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word._Application" /> object that represents the Microsoft Word application.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word._Application" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BegChar">
+      <MemberSignature Language="C#" Value="public short BegChar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 BegChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.BegChar" />
+      <MemberSignature Language="VB.NET" Value="Public Property BegChar As Short" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property short BegChar { short get(); void set(short value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Short</b> that represents the beginning delimiter character in a <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object. Read/write.</summary>
+        <value>
+          <b>Short</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit <b>Integer</b> that indicates the application in which the add-in was created. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, the <see cref="P:Microsoft.Office.Interop.Word.OMathDelim.Creator" /> property returns the hexadecimal number 4D535744, which represents the string "MSWD". This value can also be represented by the constant <see cref="F:Microsoft.Office.Interop.Word.WdConstants.wdCreatorCode" />. </para>
+          <para>This property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="E">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathArgs E { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathArgs E" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.E" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property E As OMathArgs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathArgs ^ E { Microsoft::Office::Interop::Word::OMathArgs ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathArgs</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathArgs" /> object that represents the list of arguments for the specified equation object. Read-only. </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathArgs" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndChar">
+      <MemberSignature Language="C#" Value="public short EndChar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 EndChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.EndChar" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndChar As Short" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property short EndChar { short get(); void set(short value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Short</b> that represents the ending delimiter character in a <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object. Read/write.</summary>
+        <value>
+          <b>Short</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Grow">
+      <MemberSignature Language="C#" Value="public bool Grow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Grow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.Grow" />
+      <MemberSignature Language="VB.NET" Value="Public Property Grow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Grow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> that represents whether delimiter characters grow to the full height of the arguments that they contain. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoLeftChar">
+      <MemberSignature Language="C#" Value="public bool NoLeftChar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NoLeftChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.NoLeftChar" />
+      <MemberSignature Language="VB.NET" Value="Public Property NoLeftChar As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoLeftChar { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> that represents whether to hide the opening delimiter in a <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoRightChar">
+      <MemberSignature Language="C#" Value="public bool NoRightChar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NoRightChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.NoRightChar" />
+      <MemberSignature Language="VB.NET" Value="Public Property NoRightChar As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoRightChar { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> that represents whether to hide the closing delimiter in a <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object of the specified <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object. </summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SepChar">
+      <MemberSignature Language="C#" Value="public short SepChar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 SepChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.SepChar" />
+      <MemberSignature Language="VB.NET" Value="Public Property SepChar As Short" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property short SepChar { short get(); void set(short value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Short</b> that represents the separator character in a <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object when the <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object contains two or more arguments. Read/write.</summary>
+        <value>
+          <b>Short</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdOMathShapeType Shape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdOMathShapeType Shape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathDelim.Shape" />
+      <MemberSignature Language="VB.NET" Value="Public Property Shape As WdOMathShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdOMathShapeType Shape { Microsoft::Office::Interop::Word::WdOMathShapeType get(); void set(Microsoft::Office::Interop::Word::WdOMathShapeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdOMathShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:Microsoft.Office.Interop.Word.WdOMathShapeType" /> constant that represents the appearance of delimiters (for example, parentheses, braces, and brackets) in relationship to the content that they surround. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.WdOMathShapeType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

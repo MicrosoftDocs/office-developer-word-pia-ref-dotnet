@@ -1,0 +1,2466 @@
+<Type Name="_Global" FullName="Microsoft.Office.Interop.Word._Global">
+  <TypeSignature Language="C#" Value="public interface _Global" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Global" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word._Global" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Global" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Global" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000209B9-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object. For more information about the COM object, see <see cref="T:Microsoft.Office.Interop.Word.Global" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveDocument">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Document ActiveDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Document ActiveDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActiveDocument" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveDocument As Document" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Document ^ ActiveDocument { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Document</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Document" /> object that represents the active document (the document with the focus). If there are no documents open, an error occurs.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivePrinter">
+      <MemberSignature Language="C#" Value="public string ActivePrinter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActivePrinter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActivePrinter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActivePrinter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ActivePrinter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the active printer.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveProtectedViewWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ProtectedViewWindow ActiveProtectedViewWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ProtectedViewWindow ActiveProtectedViewWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActiveProtectedViewWindow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveProtectedViewWindow As ProtectedViewWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ProtectedViewWindow ^ ActiveProtectedViewWindow { Microsoft::Office::Interop::Word::ProtectedViewWindow ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ProtectedViewWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Word.ProtectedViewWindow" /> object that represents the active protected view window (the protected view window with the focus).</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Word.ProtectedViewWindow" /> object.</value>
+        <remarks>
+          <para>Read-only. If there are no windows open, using this property causes an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Window ActiveWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Window ActiveWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActiveWindow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveWindow As Window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Window ^ ActiveWindow { Microsoft::Office::Interop::Word::Window ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Window</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Window" /> object that represents the active window (the window with the focus).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If there are no windows open, an error occurs.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddIns">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.AddIns AddIns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.AddIns AddIns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AddIns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddIns As AddIns" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AddIns ^ AddIns { Microsoft::Office::Interop::Word::AddIns ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.AddIns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.AddIns" /> collection that represents all available add-ins, regardless of whether they're currently loaded.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AddIns</b> collection includes the global templates and Microsoft Word add-in libraries (WLLs) listed in the Templates and Add-ins dialog box (Tools menu).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnswerWizard">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.AnswerWizard AnswerWizard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.AnswerWizard AnswerWizard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AnswerWizard" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnswerWizard As AnswerWizard" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::AnswerWizard ^ AnswerWizard { Microsoft::Office::Core::AnswerWizard ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.AnswerWizard</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Core.AnswerWizard" /> object that contains the files used by the online Help search engine.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word._Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Assistant">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Assistant Assistant { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Assistant Assistant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Assistant" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Assistant As Assistant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Assistant ^ Assistant { Microsoft::Office::Core::Assistant ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Assistant</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Core.Assistant" /> object that represents the Microsoft Office Assistant.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoCaptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.AutoCaptions AutoCaptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.AutoCaptions AutoCaptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AutoCaptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoCaptions As AutoCaptions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoCaptions ^ AutoCaptions { Microsoft::Office::Interop::Word::AutoCaptions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.AutoCaptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.AutoCaptions" /> collection that represents the captions that are automatically added when items such as tables and pictures are inserted into a document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoCorrect">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.AutoCorrect AutoCorrect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.AutoCorrect AutoCorrect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AutoCorrect" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoCorrect As AutoCorrect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoCorrect ^ AutoCorrect { Microsoft::Office::Interop::Word::AutoCorrect ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.AutoCorrect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.AutoCorrect" /> object that contains the current AutoCorrect options, entries, and exceptions.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoCorrectEmail">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.AutoCorrect AutoCorrectEmail { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.AutoCorrect AutoCorrectEmail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AutoCorrectEmail" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoCorrectEmail As AutoCorrect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoCorrect ^ AutoCorrectEmail { Microsoft::Office::Interop::Word::AutoCorrect ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.AutoCorrect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.AutoCorrect" /> object that represents automatic corrections made to e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildKeyCode">
+      <MemberSignature Language="C#" Value="public int BuildKeyCode (Microsoft.Office.Interop.Word.WdKey Arg1, ref object Arg2, ref object Arg3, ref object Arg4);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 BuildKeyCode([in]valuetype Microsoft.Office.Interop.Word.WdKey Arg1, [in]object&amp; Arg2, [in]object&amp; Arg3, [in]object&amp; Arg4) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.BuildKeyCode(Microsoft.Office.Interop.Word.WdKey,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BuildKeyCode (Arg1 As WdKey, Optional ByRef Arg2 As Object, Optional ByRef Arg3 As Object, Optional ByRef Arg4 As Object) As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(316)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Arg1" Type="Microsoft.Office.Interop.Word.WdKey" />
+        <Parameter Name="Arg2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Arg3" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Arg4" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Arg1">Required <see cref="T:Microsoft.Office.Interop.Word.WdKey" />. A key you specify by using one of the <b>WdKey</b> constants.</param>
+        <param name="Arg2">Optional <b>WdKey</b>. A key you specify by using one of the <b>WdKey</b> constants.</param>
+        <param name="Arg3">Optional <b>WdKey</b>. A key you specify by using one of the <b>WdKey</b> constants.</param>
+        <param name="Arg4">Optional <b>WdKey</b>. A key you specify by using one of the <b>WdKey</b> constants.</param>
+        <summary>Returns a unique number for the specified key combination.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptionLabels">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.CaptionLabels CaptionLabels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.CaptionLabels CaptionLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CaptionLabels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CaptionLabels As CaptionLabels" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CaptionLabels ^ CaptionLabels { Microsoft::Office::Interop::Word::CaptionLabels ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.CaptionLabels</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.CaptionLabels" /> collection that represents all the available caption labels.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CentimetersToPoints">
+      <MemberSignature Language="C#" Value="public float CentimetersToPoints (float Centimeters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 CentimetersToPoints([in]float32 Centimeters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.CentimetersToPoints(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CentimetersToPoints (Centimeters As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float CentimetersToPoints(float Centimeters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(371)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Centimeters" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Centimeters">Required <b>Single</b>. The centimeter value to be converted to points.</param>
+        <summary>Converts a measurement from centimeters to points (1 cm = 28.35 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This property returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeFileOpenDirectory">
+      <MemberSignature Language="C#" Value="public void ChangeFileOpenDirectory (string Path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ChangeFileOpenDirectory([in]string Path) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.ChangeFileOpenDirectory(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ChangeFileOpenDirectory (Path As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeFileOpenDirectory(System::String ^ Path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Path">Required <b>String</b>. The path to the folder in which Word searches for documents.</param>
+        <summary>Sets the folder in which Microsoft Word searches for documents.</summary>
+        <remarks>
+          <para>The specified folder's contents are listed the next time the Open dialog box (File menu) is displayed.</para>
+          <para>Word searches the specified folder for documents until the user changes the folder in the Open dialog box or the current Word session ends. Use the <see cref="P:Microsoft.Office.Interop.Word.Options.DefaultFilePath(Microsoft.Office.Interop.Word.WdDefaultFilePath)" /> property to change the default folder for documents in every Word session.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckSpelling">
+      <MemberSignature Language="C#" Value="public bool CheckSpelling (string Word, ref object CustomDictionary, ref object IgnoreUppercase, ref object MainDictionary, ref object CustomDictionary2, ref object CustomDictionary3, ref object CustomDictionary4, ref object CustomDictionary5, ref object CustomDictionary6, ref object CustomDictionary7, ref object CustomDictionary8, ref object CustomDictionary9, ref object CustomDictionary10);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CheckSpelling([in]string Word, [in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; MainDictionary, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.CheckSpelling(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CheckSpelling (Word As String, Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef MainDictionary As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(324)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Word" Type="System.String" />
+        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="MainDictionary" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Word">Required <b>String</b>. The text whose spelling is to be checked.</param>
+        <param name="CustomDictionary">Optional <b>Object</b>. Either an expression that returns a <see cref="T:Microsoft.Office.Interop.Word.Dictionary" /> object or the file name of the custom dictionary.</param>
+        <param name="IgnoreUppercase">Optional <b>Object</b>. <b>True</b> if capitalization is ignored. If this argument is omitted, the current value of the <see cref="P:Microsoft.Office.Interop.Word.Options.IgnoreUppercase" /> property is used.</param>
+        <param name="MainDictionary">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of the main dictionary.</param>
+        <param name="CustomDictionary2">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary. You can specify as many as nine additional dictionaries.</param>
+        <param name="CustomDictionary3">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary4">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary5">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary6">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary7">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary8">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary9">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary10">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <summary>Checks a string for spelling errors.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This property returns <b>True</b> if the string has no spelling errors, and <b>False</b> if it does.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CleanString">
+      <MemberSignature Language="C#" Value="public string CleanString (string String);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string CleanString([in]string String) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.CleanString(System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ CleanString(System::String ^ String);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="String" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="String">Required <b>String</b>. The source string.</param>
+        <summary>Removes nonprinting characters (character codes 1 – 29) and special Microsoft Word characters from the specified string or changes them to spaces (character code 32).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This property returns the result as a <b>String</b>.</para>
+          <para>The following characters are converted as described in this table.</para>
+          <list type="table">
+            <item>
+              <description>7 (beep)</description>
+              <description>Removed unless preceded by character 13 (paragraph), then converted to character 9 (tab).</description>
+            </item>
+            <item>
+              <description>10 (line feed)</description>
+              <description>Converted to character 13 (paragraph) unless preceded by character 13, then removed.</description>
+            </item>
+            <item>
+              <description>13 (paragraph)</description>
+              <description>Unchanged.</description>
+            </item>
+            <item>
+              <description>31 (optional hyphen)</description>
+              <description>Removed.</description>
+            </item>
+            <item>
+              <description>160 (nonbreaking space)</description>
+              <description>Converted to character 32 (space).</description>
+            </item>
+            <item>
+              <description>172 (optional hyphen)</description>
+              <description>Removed.</description>
+            </item>
+            <item>
+              <description>176 (nonbreaking space)</description>
+              <description>Converted to character 32 (space).</description>
+            </item>
+            <item>
+              <description>182 (paragraph mark)</description>
+              <description>Removed.</description>
+            </item>
+            <item>
+              <description>183 (bullet)</description>
+              <description>Converted to character 32 (space).</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandBars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CommandBars CommandBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBars CommandBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CommandBars" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandBars As CommandBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CommandBars ^ CommandBars { Microsoft::Office::Core::CommandBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(57)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(57)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Core.CommandBars" /> collection that represents the menu bar and all the toolbars in Microsoft Word.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Global.CustomizationContext" /> property to set the template or document context prior to accessing the <b>CommandBars</b> collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomDictionaries">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Dictionaries CustomDictionaries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Dictionaries CustomDictionaries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CustomDictionaries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomDictionaries As Dictionaries" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Dictionaries ^ CustomDictionaries { Microsoft::Office::Interop::Word::Dictionaries ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Dictionaries</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Dictionaries" /> object that represents the collection of active custom dictionaries. Active custom dictionaries are marked with a check in the Custom Dictionaries dialog box.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomizationContext">
+      <MemberSignature Language="C#" Value="public object CustomizationContext { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CustomizationContext" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CustomizationContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomizationContext As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CustomizationContext { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(68)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(68)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(68)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:Microsoft.Office.Interop.Word.Template" /> or <see cref="T:Microsoft.Office.Interop.Word.Document" /> object that represents the template or document in which changes to menu bars, toolbars, and key bindings are stored.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Corresponds to the value of the Save in box on the Commands tab in the Customize dialog box (Tools menu).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DDEExecute">
+      <MemberSignature Language="C#" Value="public void DDEExecute (int Channel, string Command);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DDEExecute([in]int32 Channel, [in]string Command) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDEExecute(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DDEExecute (Channel As Integer, Command As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDEExecute(int Channel, System::String ^ Command);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(310)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Channel" Type="System.Int32" />
+        <Parameter Name="Command" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Channel">Required <b>Integer</b>. The channel number returned by the <see cref="M:Microsoft.Office.Interop.Word._Global.DDEInitiate(System.String,System.String)" /> method.</param>
+        <param name="Command">Required <b>String</b>. A command or series of commands recognized by the receiving application (the DDE server). If the receiving application cannot perform the specified command, an error occurs.</param>
+        <summary>Sends a command or series of commands to an application through the specified dynamic data exchange (DDE) channel.</summary>
+        <remarks>
+          <para>Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DDEInitiate">
+      <MemberSignature Language="C#" Value="public int DDEInitiate (string App, string Topic);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DDEInitiate([in]string App, [in]string Topic) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDEInitiate(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DDEInitiate (App As String, Topic As String) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int DDEInitiate(System::String ^ App, System::String ^ Topic);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(311)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="App" Type="System.String" />
+        <Parameter Name="Topic" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="App">Required <b>String</b>. The name of the application.</param>
+        <param name="Topic">Required <b>String</b>. The name of a DDE topic— for example, the name of an open document— recognized by the application to which you're opening a channel.</param>
+        <summary>Opens a dynamic data exchange (DDE) channel to another application, and returns the channel number.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.</para>
+          <para>If it's successful, the <b>DDEInitiate</b> method returns the number of the open channel. All subsequent DDE functions use this number to specify the channel.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DDEPoke">
+      <MemberSignature Language="C#" Value="public void DDEPoke (int Channel, string Item, string Data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DDEPoke([in]int32 Channel, [in]string Item, [in]string Data) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDEPoke(System.Int32,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DDEPoke (Channel As Integer, Item As String, Data As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDEPoke(int Channel, System::String ^ Item, System::String ^ Data);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(312)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Channel" Type="System.Int32" />
+        <Parameter Name="Item" Type="System.String" />
+        <Parameter Name="Data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Channel">Required <b>Integer</b>. The channel number returned by the <see cref="M:Microsoft.Office.Interop.Word._Global.DDEInitiate(System.String,System.String)" /> method.</param>
+        <param name="Item">Required <b>String</b>. The item within a DDE topic to which the specified data is to be sent.</param>
+        <param name="Data">Required <b>String</b>. The data to be sent to the receiving application (the DDE server).</param>
+        <summary>Uses an open dynamic data exchange (DDE) channel to send data to an application.</summary>
+        <remarks>
+          <para>Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.</para>
+          <para>If the <b>DDEPoke</b> method isn't successful, an error occurs.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DDERequest">
+      <MemberSignature Language="C#" Value="public string DDERequest (int Channel, string Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string DDERequest([in]int32 Channel, [in]string Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDERequest(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DDERequest (Channel As Integer, Item As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ DDERequest(int Channel, System::String ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(313)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Channel" Type="System.Int32" />
+        <Parameter Name="Item" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Channel">Required <b>Integer</b>. The channel number returned by the <see cref="M:Microsoft.Office.Interop.Word._Global.DDEInitiate(System.String,System.String)" /> method.</param>
+        <param name="Item">Required <b>String</b>. The item to be requested.</param>
+        <summary>Uses an open dynamic data exchange (DDE) channel to request information from the receiving application, and returns the information as a string.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.</para>
+          <para>When you request information from the topic in the server application, you must specify the item in that topic whose contents you're requesting. In Microsoft Excel, for example, cells are valid items, and you refer to them by using either the "R1C1" format or named references.</para>
+          <para>Microsoft Excel and other applications that support DDE recognize a topic named "System." Three standard items in the System topic are described in the following table. Note that you can get a list of the other items in the System topic by using the <b>SysItems</b> item.</para>
+          <list type="table">
+            <item>
+              <description>SysItems</description>
+              <description>Returns a list of all the items in the System topic.</description>
+            </item>
+            <item>
+              <description>Topics</description>
+              <description>Returns a list of all the available topics.</description>
+            </item>
+            <item>
+              <description>Formats</description>
+              <description>Returns a list of all the Clipboard formats supported by Microsoft Word.</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DDETerminate">
+      <MemberSignature Language="C#" Value="public void DDETerminate (int Channel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DDETerminate([in]int32 Channel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDETerminate(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DDETerminate (Channel As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDETerminate(int Channel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(314)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Channel" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Channel">Required <b>Integer</b>. The channel number returned by the <see cref="M:Microsoft.Office.Interop.Word._Global.DDEInitiate(System.String,System.String)" /> method.</param>
+        <summary>Closes the specified dynamic data exchange (DDE) channel to another application.</summary>
+        <remarks>
+          <para>Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DDETerminateAll">
+      <MemberSignature Language="C#" Value="public void DDETerminateAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DDETerminateAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDETerminateAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DDETerminateAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDETerminateAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(315)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Closes all dynamic data exchange (DDE) channels opened by Microsoft Word.</summary>
+        <remarks>
+          <para>This method doesn't close channels opened to Word by client applications. Using this method is the same as using the <see cref="M:Microsoft.Office.Interop.Word._Global.DDETerminate(System.Int32)" /> method for each open channel.</para>
+          <para>Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.</para>
+          <para>If you interrupt code that opens a DDE channel, you may inadvertently leave a channel open. Open channels aren't closed automatically when a macro or program ends, and each open channel uses system resources. For this reason, it's a good idea to use this method when you're debugging code that opens one or more DDE channels.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dialogs">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Dialogs Dialogs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Dialogs Dialogs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Dialogs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dialogs As Dialogs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Dialogs ^ Dialogs { Microsoft::Office::Interop::Word::Dialogs ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Dialogs</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Dialogs" /> collection that represents all the built-in dialog boxes in Microsoft Word.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Documents">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Documents Documents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Documents Documents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Documents" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Documents As Documents" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Documents ^ Documents { Microsoft::Office::Interop::Word::Documents ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Documents</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Documents" /> collection that represents all the open documents.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileConverters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.FileConverters FileConverters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.FileConverters FileConverters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.FileConverters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileConverters As FileConverters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FileConverters ^ FileConverters { Microsoft::Office::Interop::Word::FileConverters ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.FileConverters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.FileConverters" /> collection that represents all the file converters available to Microsoft Word.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindKey">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.KeyBinding FindKey[int KeyCode, ref object KeyCode2] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.KeyBinding FindKey(int32, object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.FindKey(System.Int32,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FindKey(KeyCode As Integer, Optional ByRef KeyCode2 As Object) As KeyBinding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeyBinding ^ FindKey[int, System::Object ^ %] { Microsoft::Office::Interop::Word::KeyBinding ^ get(int KeyCode, System::Object ^ % KeyCode2); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(71)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(71)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.KeyBinding</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCode" Type="System.Int32" />
+        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCode">Required <b>Integer</b>. A key you specify by using one of the <see cref="T:Microsoft.Office.Interop.Word.WdKey" /> constants.</param>
+        <param name="KeyCode2">Optional <b>Object</b>. A second key you specify by using one of the <b>WdKey</b> constants.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.KeyBinding" /> object that represents the specified key combination.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can use the <see cref="M:Microsoft.Office.Interop.Word._Global.BuildKeyCode(Microsoft.Office.Interop.Word.WdKey,System.Object@,System.Object@,System.Object@)" /> method to create the <paramref name="KeyCode" /> or <paramref name="KeyCode2" /> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontNames">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.FontNames FontNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.FontNames FontNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.FontNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontNames As FontNames" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FontNames ^ FontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.FontNames</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.FontNames" /> object that includes the names of all the available fonts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSpellingSuggestions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.SpellingSuggestions GetSpellingSuggestions (string Word, ref object CustomDictionary, ref object IgnoreUppercase, ref object MainDictionary, ref object SuggestionMode, ref object CustomDictionary2, ref object CustomDictionary3, ref object CustomDictionary4, ref object CustomDictionary5, ref object CustomDictionary6, ref object CustomDictionary7, ref object CustomDictionary8, ref object CustomDictionary9, ref object CustomDictionary10);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.SpellingSuggestions GetSpellingSuggestions([in]string Word, [in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; MainDictionary, [in]object&amp; SuggestionMode, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.GetSpellingSuggestions(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSpellingSuggestions (Word As String, Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef MainDictionary As Object, Optional ByRef SuggestionMode As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object) As SpellingSuggestions" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(327)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.SpellingSuggestions</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Word" Type="System.String" />
+        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="MainDictionary" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SuggestionMode" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Word">Required <b>String</b>. The word whose spelling is to be checked.</param>
+        <param name="CustomDictionary">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of the custom dictionary.</param>
+        <param name="IgnoreUppercase">Optional <b>Object</b>. <b>True</b> to ignore words in all uppercase letters. If this argument is omitted, the current value of the <see cref="P:Microsoft.Office.Interop.Word.Options.IgnoreUppercase" /> property is used.</param>
+        <param name="MainDictionary">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of the main dictionary. If you don't specify a main dictionary, Microsoft Word uses the main dictionary that corresponds to the language formatting of <paramref name="Word" /> or of the first word in the range.</param>
+        <param name="SuggestionMode">Optional <b>Object</b>. Specifies the way Word makes spelling suggestions. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdSpellingWordType" /> constants. The default value is <b>WdSpellword</b>.</param>
+        <param name="CustomDictionary2">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary. You can specify as many as nine additional dictionaries.</param>
+        <param name="CustomDictionary3">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary4">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary5">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary6">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary7">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary8">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary9">Optional <b>Object</b>. Either an expression that returns a <b>Dictionary</b> object or the file name of an additional custom dictionary.</param>
+        <param name="CustomDictionary10">Optional <b>Object</b>. Either an expression that returns a <see cref="T:Microsoft.Office.Interop.Word.Dictionary" /> object or the file name of an additional custom dictionary. You can specify as many as nine additional dictionaries.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.SpellingSuggestions" /> collection that represents the words suggested as spelling replacements for a given word.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>If the word is spelled correctly, the <see cref="P:Microsoft.Office.Interop.Word.SpellingSuggestions.Count" /> property of the <b>SpellingSuggestions</b> object returns 0 (zero).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HangulHanjaDictionaries">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.HangulHanjaConversionDictionaries HangulHanjaDictionaries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.HangulHanjaConversionDictionaries HangulHanjaDictionaries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.HangulHanjaDictionaries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HangulHanjaDictionaries As HangulHanjaConversionDictionaries" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HangulHanjaConversionDictionaries ^ HangulHanjaDictionaries { Microsoft::Office::Interop::Word::HangulHanjaConversionDictionaries ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.HangulHanjaConversionDictionaries</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.HangulHanjaConversionDictionaries" /> collection that represents all the active custom conversion dictionaries.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Active custom conversion dictionaries are marked with a check in the Custom Dictionaries dialog box (on the Tools menu, click Options, then click the Spelling &amp; Grammar tab, and then click the Custom Dictionaries button).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Help">
+      <MemberSignature Language="C#" Value="public void Help (ref object HelpType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Help([in]object&amp; HelpType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.Help(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Help (ByRef HelpType As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Help(System::Object ^ % HelpType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(329)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HelpType" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="HelpType">Required <b>Object</b>. The on-line Help topic or window. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdHelpType" /> constant.</param>
+        <summary>Displays on-line Help information.</summary>
+        <remarks>
+          <para>Some of the <b>WdHelpType</b> constants may not be available to you, depending on the language support (U.S. English, for example) that you’ve selected or installed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InchesToPoints">
+      <MemberSignature Language="C#" Value="public float InchesToPoints (float Inches);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 InchesToPoints([in]float32 Inches) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.InchesToPoints(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InchesToPoints (Inches As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float InchesToPoints(float Inches);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(370)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Inches" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Inches">Required <b>Single</b>. The inch value to be converted to points.</param>
+        <summary>Converts a measurement from inches to points (1 inch = 72 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsObjectValid">
+      <MemberSignature Language="C#" Value="public bool IsObjectValid[object Object] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsObjectValid(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.IsObjectValid(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsObjectValid(Object As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsObjectValid[System::Object ^] { bool get(System::Object ^ Object); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Object" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Object">Required <b>Object</b>. A variable that references an object.</param>
+        <summary>Determines if the specified variable that references an object is valid.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the specified variable that references an object is valid, and <b>False</b> if the object referenced by the variable has been deleted.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSandboxed">
+      <MemberSignature Language="C#" Value="public bool IsSandboxed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSandboxed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.IsSandboxed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSandboxed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSandboxed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the application window is a protected view window.</summary>
+        <value>
+          <b>true</b> if the application window is a protected view window; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyBindings">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.KeyBindings KeyBindings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.KeyBindings KeyBindings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.KeyBindings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyBindings As KeyBindings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeyBindings ^ KeyBindings { Microsoft::Office::Interop::Word::KeyBindings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(69)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(69)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.KeyBindings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.KeyBindings" /> collection that represents customized key assignments, which include a key code, a key category, and a command.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeysBoundTo">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.KeysBoundTo KeysBoundTo[Microsoft.Office.Interop.Word.WdKeyCategory KeyCategory, string Command, ref object CommandParameter] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.KeysBoundTo KeysBoundTo(valuetype Microsoft.Office.Interop.Word.WdKeyCategory, string, object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.KeysBoundTo(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeysBoundTo(KeyCategory As WdKeyCategory, Command As String, Optional ByRef CommandParameter As Object) As KeysBoundTo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeysBoundTo ^ KeysBoundTo[Microsoft::Office::Interop::Word::WdKeyCategory, System::String ^, System::Object ^ %] { Microsoft::Office::Interop::Word::KeysBoundTo ^ get(Microsoft::Office::Interop::Word::WdKeyCategory KeyCategory, System::String ^ Command, System::Object ^ % CommandParameter); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(70)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(70)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.KeysBoundTo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCategory" Type="Microsoft.Office.Interop.Word.WdKeyCategory" />
+        <Parameter Name="Command" Type="System.String" />
+        <Parameter Name="CommandParameter" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCategory">Required <see cref="T:Microsoft.Office.Interop.Word.WdKeyCategory" />. The category of the key combination.</param>
+        <param name="Command">Required <b>String</b>. The name of the command.</param>
+        <param name="CommandParameter">Optional <b>Object</b>. Additional text, if any, required for the command specified by <paramref name="Command" />. For more information, see the <see cref="M:Microsoft.Office.Interop.Word.KeyBindings.Add(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Int32,System.Object@,System.Object@)" /> method for the <see cref="T:Microsoft.Office.Interop.Word.KeyBindings" /> object.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.KeysBoundTo" /> object that represents all the key combinations assigned to the specified item.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyString">
+      <MemberSignature Language="C#" Value="public string KeyString (int KeyCode, ref object KeyCode2);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string KeyString([in]int32 KeyCode, [in]object&amp; KeyCode2) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.KeyString(System.Int32,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function KeyString (KeyCode As Integer, Optional ByRef KeyCode2 As Object) As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(317)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCode" Type="System.Int32" />
+        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCode">Required <b>Integer</b>. A key you specify by using one of the <b>WdKey</b> constants.</param>
+        <param name="KeyCode2">Optional <b>Object</b>. A second key you specify by using one of the <see cref="T:Microsoft.Office.Interop.Word.WdKey" /> constants.</param>
+        <summary>Returns the key combination string for the specified keys (for example, CTRL+SHIFT+A).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>You can use the <see cref="M:Microsoft.Office.Interop.Word._Global.BuildKeyCode(Microsoft.Office.Interop.Word.WdKey,System.Object@,System.Object@,System.Object@)" /> method to create the <paramref name="KeyCode" /> or <paramref name="KeyCode2" /> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LandscapeFontNames">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.FontNames LandscapeFontNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.FontNames LandscapeFontNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.LandscapeFontNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LandscapeFontNames As FontNames" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FontNames ^ LandscapeFontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.FontNames</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.FontNames" /> object that includes the names of all the available landscape fonts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Languages">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Languages Languages { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Languages Languages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Languages" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Languages As Languages" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Languages ^ Languages { Microsoft::Office::Interop::Word::Languages ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Languages</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Languages" /> collection that represents the proofing languages listed in the Language dialog box.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>To access the Language dialog box, on the Tools menu, click Language, and then click Set Language.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.LanguageSettings LanguageSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.LanguageSettings LanguageSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.LanguageSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageSettings As LanguageSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::LanguageSettings ^ LanguageSettings { Microsoft::Office::Core::LanguageSettings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.LanguageSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Core.LanguageSettings" /> object, which contains information about the language settings in Microsoft Word.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinesToPoints">
+      <MemberSignature Language="C#" Value="public float LinesToPoints (float Lines);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 LinesToPoints([in]float32 Lines) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.LinesToPoints(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LinesToPoints (Lines As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float LinesToPoints(float Lines);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(374)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Lines" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Lines">Required <b>Single</b>. The line value to be converted to points.</param>
+        <summary>Converts a measurement from lines to points (1 line = 12 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListGalleries">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ListGalleries ListGalleries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ListGalleries ListGalleries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ListGalleries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListGalleries As ListGalleries" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListGalleries ^ ListGalleries { Microsoft::Office::Interop::Word::ListGalleries ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(65)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(65)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ListGalleries</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.ListGalleries" /> collection that represents the three list template galleries: <b>Bulleted</b>, <b>Numbered</b>, and <b>Outline Numbered</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Each gallery corresponds to a tab in the Bullets and Numbering dialog box located in the Format menu.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MacroContainer">
+      <MemberSignature Language="C#" Value="public object MacroContainer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MacroContainer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.MacroContainer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MacroContainer As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MacroContainer { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Template" /> or <see cref="T:Microsoft.Office.Interop.Word.Document" /> object that represents the template or document in which the module that contains the running procedure is stored.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MillimetersToPoints">
+      <MemberSignature Language="C#" Value="public float MillimetersToPoints (float Millimeters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 MillimetersToPoints([in]float32 Millimeters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.MillimetersToPoints(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function MillimetersToPoints (Millimeters As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float MillimetersToPoints(float Millimeters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(372)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Millimeters" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Millimeters">Required <b>Single</b>. The millimeter value to be converted to points.</param>
+        <summary>Converts a measurement from millimeters to points (1 mm = 2.85 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Window NewWindow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Window NewWindow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.NewWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Function NewWindow () As Window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Window ^ NewWindow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Window</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Opens a new window with the same document as the specified window.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns a <see cref="T:Microsoft.Office.Interop.Word.Window" /> object.</para>
+          <para>A colon (:) and a number appear in the window caption when more than one window is open for a document.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalTemplate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Template NormalTemplate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Template NormalTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.NormalTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalTemplate As Template" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Template ^ NormalTemplate { Microsoft::Office::Interop::Word::Template ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Template</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Template" /> object that represents the Normal template.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Options">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Options Options { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Options Options" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Options" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Options As Options" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Options ^ Options { Microsoft::Office::Interop::Word::Options ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(93)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(93)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Options</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.Options" /> object that represents application settings in Microsoft Word.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PicasToPoints">
+      <MemberSignature Language="C#" Value="public float PicasToPoints (float Picas);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PicasToPoints([in]float32 Picas) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PicasToPoints(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PicasToPoints (Picas As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float PicasToPoints(float Picas);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(373)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Picas" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Picas">Required <b>Single</b>. The pica value to be converted to points.</param>
+        <summary>Converts a measurement from picas to points (1 pica = 12 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PixelsToPoints">
+      <MemberSignature Language="C#" Value="public float PixelsToPoints (float Pixels, ref object fVertical);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PixelsToPoints([in]float32 Pixels, [in]object&amp; fVertical) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PixelsToPoints(System.Single,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PixelsToPoints (Pixels As Single, Optional ByRef fVertical As Object) As Single" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(386)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pixels" Type="System.Single" />
+        <Parameter Name="fVertical" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Pixels">Required <b>Single</b>. The pixel value to be converted to points.</param>
+        <param name="fVertical">Optional <b>Object</b>. <b>True</b> to convert vertical pixels; <b>False</b> to convert horizontal pixels.</param>
+        <summary>Converts a measurement from pixels to points.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointsToCentimeters">
+      <MemberSignature Language="C#" Value="public float PointsToCentimeters (float Points);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToCentimeters([in]float32 Points) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToCentimeters(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PointsToCentimeters (Points As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToCentimeters(float Points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(381)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Points" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Points">Required <b>Single</b>. The measurement, in points.</param>
+        <summary>Converts a measurement from points to centimeters (1 centimeter = 28.35 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointsToInches">
+      <MemberSignature Language="C#" Value="public float PointsToInches (float Points);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToInches([in]float32 Points) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToInches(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PointsToInches (Points As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToInches(float Points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(380)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Points" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Points">Required <b>Single</b>. The measurement, in points.</param>
+        <summary>Converts a measurement from points to inches (1 inch = 72 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointsToLines">
+      <MemberSignature Language="C#" Value="public float PointsToLines (float Points);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToLines([in]float32 Points) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToLines(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PointsToLines (Points As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToLines(float Points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(384)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Points" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Points">Required <b>Single</b>. The measurement, in points.</param>
+        <summary>Converts a measurement from points to lines (1 line = 12 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointsToMillimeters">
+      <MemberSignature Language="C#" Value="public float PointsToMillimeters (float Points);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToMillimeters([in]float32 Points) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToMillimeters(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PointsToMillimeters (Points As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToMillimeters(float Points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(382)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Points" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Points">Required <b>Single</b>. The measurement, in points.</param>
+        <summary>Converts a measurement from points to millimeters (1 millimeter = 2.835 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This property returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointsToPicas">
+      <MemberSignature Language="C#" Value="public float PointsToPicas (float Points);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToPicas([in]float32 Points) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToPicas(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PointsToPicas (Points As Single) As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToPicas(float Points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(383)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Points" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Points">Required <b>Single</b>. The measurement, in points.</param>
+        <summary>Converts a measurement from points to picas (1 pica = 12 points).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointsToPixels">
+      <MemberSignature Language="C#" Value="public float PointsToPixels (float Points, ref object fVertical);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToPixels([in]float32 Points, [in]object&amp; fVertical) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToPixels(System.Single,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PointsToPixels (Points As Single, Optional ByRef fVertical As Object) As Single" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(385)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Points" Type="System.Single" />
+        <Parameter Name="fVertical" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Points">Required <b>Single</b>. The point value to be converted to pixels.</param>
+        <param name="fVertical">Optional <b>Object</b>. <b>True</b> to return the result as vertical pixels; <b>False</b> to return the result as horizontal pixels.</param>
+        <summary>Converts a measurement from points to pixels.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns the converted measurement as a <b>Single</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PortraitFontNames">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.FontNames PortraitFontNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.FontNames PortraitFontNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.PortraitFontNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PortraitFontNames As FontNames" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FontNames ^ PortraitFontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.FontNames</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.FontNames" /> object that includes the names of all the available portrait fonts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintPreview">
+      <MemberSignature Language="C#" Value="public bool PrintPreview { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PrintPreview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.PrintPreview" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrintPreview As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PrintPreview { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if print preview is the current view.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if print preview is the current view, and <b>False</b> if not. Specify <b>True</b> or <b>False</b> to enable or disable the functionality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindows">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ProtectedViewWindows ProtectedViewWindows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ProtectedViewWindows ProtectedViewWindows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ProtectedViewWindows" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProtectedViewWindows As ProtectedViewWindows" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ProtectedViewWindows ^ ProtectedViewWindows { Microsoft::Office::Interop::Word::ProtectedViewWindows ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ProtectedViewWindows</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Word.ProtectedViewWindows" /> object that represents the open protected view windows.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Word.ProtectedViewWindows" /> object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecentFiles">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.RecentFiles RecentFiles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.RecentFiles RecentFiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.RecentFiles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecentFiles As RecentFiles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::RecentFiles ^ RecentFiles { Microsoft::Office::Interop::Word::RecentFiles ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.RecentFiles</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.RecentFiles" /> collection that represents the most recently accessed files.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Repeat">
+      <MemberSignature Language="C#" Value="public bool Repeat (ref object Times);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Repeat([in]object&amp; Times) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.Repeat(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Repeat (Optional ByRef Times As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(305)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Times" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Times">Optional <b>Object</b>. The number of times you want to repeat the last command.</param>
+        <summary>Repeats the most recent editing action one or more times.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This method returns <b>True</b> if the commands were repeated successfully.</para>
+          <para>Using this method is the equivalent to using the Repeat command on the Edit menu.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Selection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Selection Selection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Selection Selection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Selection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As Selection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Selection ^ Selection { Microsoft::Office::Interop::Word::Selection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Selection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Word.Selection" /> object that represents a selected range or the insertion point.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowVisualBasicEditor">
+      <MemberSignature Language="C#" Value="public bool ShowVisualBasicEditor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowVisualBasicEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ShowVisualBasicEditor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowVisualBasicEditor As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowVisualBasicEditor { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the Visual Basic Editor window is visible.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the Visual Basic Editor window is visible, and <b>False</b> if not. Specify <b>True</b> or <b>False</b> to enable or disable the visibility.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusBar">
+      <MemberSignature Language="C#" Value="public string StatusBar { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StatusBar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.StatusBar" />
+      <MemberSignature Language="VB.NET" Value="Public Property StatusBar As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StatusBar {  void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Displays the specified text in the status bar.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SynonymInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.SynonymInfo SynonymInfo[string Word, ref object LanguageID] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.SynonymInfo SynonymInfo(string, object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.SynonymInfo(System.String,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SynonymInfo(Word As String, Optional ByRef LanguageID As Object) As SynonymInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::SynonymInfo ^ SynonymInfo[System::String ^, System::Object ^ %] { Microsoft::Office::Interop::Word::SynonymInfo ^ get(System::String ^ Word, System::Object ^ % LanguageID); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(59)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(59)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.SynonymInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Word" Type="System.String" />
+        <Parameter Name="LanguageID" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Word">Required <b>String</b>. The specified word or phrase.</param>
+        <param name="LanguageID">Optional <b>Object</b>. The language used for the thesaurus. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdLanguageID" /> constants (although some of the constants listed may not be available to you, depending on the language support (U.S. English, for example) that you’ve selected or installed).</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.SynonymInfo" /> object that contains information from the thesaurus on synonyms, antonyms, or related words and expressions for the specified word or phrase.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.System System { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.System System" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.System" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property System As System" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::System ^ System { Microsoft::Office::Interop::Word::System ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.System</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.System" /> object, which can be used to return system-related information and perform system-related tasks.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tasks">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Tasks Tasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Tasks Tasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tasks As Tasks" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Tasks ^ Tasks { Microsoft::Office::Interop::Word::Tasks ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Tasks</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Tasks" /> collection that represents all the applications that are running.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Templates">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Templates Templates { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Templates Templates" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Templates" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Templates As Templates" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Templates ^ Templates { Microsoft::Office::Interop::Word::Templates ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(67)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(67)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Templates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Templates" /> collection that represents all the available templates — global templates as well as those attached to open documents.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VBE">
+      <MemberSignature Language="C#" Value="public Microsoft.Vbe.Interop.VBE VBE { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Vbe.Interop.VBE VBE" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.VBE" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VBE As VBE" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Vbe::Interop::VBE ^ VBE { Microsoft::Vbe::Interop::VBE ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Vbe.Interop.VBE</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="P:Microsoft.Office.Interop.Word._Application.VBE" /> object that represents the Visual Basic Editor.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Windows">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Windows Windows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Windows Windows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Windows" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Windows As Windows" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Windows ^ Windows { Microsoft::Office::Interop::Word::Windows ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Windows</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Windows" /> collection that represents all document windows. The collection corresponds to the window names that appear at the bottom of the Window menu.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordBasic">
+      <MemberSignature Language="C#" Value="public object WordBasic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object WordBasic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.WordBasic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WordBasic As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ WordBasic { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Automation</b> object (Word.Basic) that includes methods for all the WordBasic statements and functions available in Microsoft Word version 6.0 and Word for Windows 95. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>In Word 2000 and later, when you open a Word version 6.0 or Word for Windows 95 template that contains WordBasic macros, the macros are automatically converted to Visual Basic modules. Each WordBasic statement and function in the macro is converted to the corresponding Word.Basic method.</para>
+          <para>For information about WordBasic statements and functions, see WordBasic Help in Word version 6.0 or Word for Windows 95.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

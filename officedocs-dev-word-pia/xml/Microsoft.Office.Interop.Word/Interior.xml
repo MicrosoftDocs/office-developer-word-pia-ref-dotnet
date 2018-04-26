@@ -1,0 +1,334 @@
+﻿<Type Name="Interior" FullName="Microsoft.Office.Interop.Word.Interior">
+  <TypeSignature Language="C#" Value="public interface Interior" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Interior" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Interior" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Interior" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Interior" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("B184502B-587A-4C6A-8DC4-ECE4354883C6")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the interior of an object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When used without an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Word._Application" />
+ object that represents the Microsoft Word application. When used with an object qualifier, this property returns an <b>Application</b> object that represents the creator of the specified object (you can use this property with an OLE Automation object to return the application of that object). Read-only.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public object Color { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Color" />
+      <MemberSignature Language="VB.NET" Value="Public Property Color As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Color { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the primary color of the object.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorIndex">
+      <MemberSignature Language="C#" Value="public object ColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.ColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the interior.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>
+          <para>The color is specified as an <b>Object</b> set to an index value for the current color palette, or as one of the following <see cref="T:Microsoft.Office.Interop.Word.XlColorIndex" /> constants:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>xlColorIndexAutomatic</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>xlColorIndexNone</b>
+              </para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit <b>Integer</b> that indicates the application in which the specified object was created. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, the <b>Creator</b> property returns the hexadecimal number 4D535744, which represents the string "MSWD".  This property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvertIfNegative">
+      <MemberSignature Language="C#" Value="public object InvertIfNegative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object InvertIfNegative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.InvertIfNegative" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvertIfNegative As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ InvertIfNegative { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word inverts the pattern in the object when it corresponds to a negative number. Read/write.</summary>
+        <value>An <b>Object</b> set to <b>True</b> if the pattern is inverted when it's negative, otherwise <b>False</b></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent of the specified object. Read-only.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pattern">
+      <MemberSignature Language="C#" Value="public object Pattern { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Pattern" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Pattern" />
+      <MemberSignature Language="VB.NET" Value="Public Property Pattern As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Pattern { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Object</b>, containing an <see cref="T:Microsoft.Office.Interop.Word.XlPattern" /> constant, that represents the interior pattern.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternColor">
+      <MemberSignature Language="C#" Value="public object PatternColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object PatternColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.PatternColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternColor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternColor { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the interior pattern as an RGB value. Read/write.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternColorIndex">
+      <MemberSignature Language="C#" Value="public object PatternColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object PatternColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.PatternColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternColorIndex As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the interior pattern as an index into the current color palette, or as one of the following <see cref="T:Microsoft.Office.Interop.Word.XlColorIndex" /> constants: <b>xlColorIndexAutomatic</b> or <b>xlColorIndexNone</b>. Read/write.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>
+          <para>Set <see cref="P:Microsoft.Office.Interop.Word.Interior.PatternColorIndex" /> to <b>xlColorIndexAutomatic</b> to specify the automatic fill style for drawing objects. Set it to <b>xlColorIndexNone</b> to specify that you don't want a pattern (this is the same as setting <see cref="P:Microsoft.Office.Interop.Word.Interior.Pattern" /> to <b>xlPatternNone</b>).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,404 @@
+﻿<Type Name="TablesOfFigures" FullName="Microsoft.Office.Interop.Word.TablesOfFigures">
+  <TypeSignature Language="C#" Value="public interface TablesOfFigures : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TablesOfFigures implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TablesOfFigures" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TablesOfFigures&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TablesOfFigures : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020922-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A collection of <see cref="T:Microsoft.Office.Interop.Word.TableOfFigures" /> objects that represent the tables of figures in a document.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Document.TablesOfFigures" /> property to return the <b>TablesOfFigures</b> collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.TablesOfFigures.Add(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" /> method to add a table of figures to a document. A table of figures lists figure captions in the order in which they appear in the document.</para>
+      <para>Use <b>TablesOfFigures</b>(<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>TableOfFigures</b> object. The index number represents the position of the table of figures in the document.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TableOfFigures Add (Microsoft.Office.Interop.Word.Range Range, ref object Caption, ref object IncludeLabel, ref object UseHeadingStyles, ref object UpperHeadingLevel, ref object LowerHeadingLevel, ref object UseFields, ref object TableID, ref object RightAlignPageNumbers, ref object IncludePageNumbers, ref object AddedStyles, ref object UseHyperlinks, ref object HidePageNumbersInWeb);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.TableOfFigures Add([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; Caption, [in]object&amp; IncludeLabel, [in]object&amp; UseHeadingStyles, [in]object&amp; UpperHeadingLevel, [in]object&amp; LowerHeadingLevel, [in]object&amp; UseFields, [in]object&amp; TableID, [in]object&amp; RightAlignPageNumbers, [in]object&amp; IncludePageNumbers, [in]object&amp; AddedStyles, [in]object&amp; UseHyperlinks, [in]object&amp; HidePageNumbersInWeb) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfFigures.Add(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(444)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.TableOfFigures</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
+        <Parameter Name="Caption" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="IncludeLabel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseHeadingStyles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UpperHeadingLevel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LowerHeadingLevel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseFields" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="TableID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="RightAlignPageNumbers" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="IncludePageNumbers" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="AddedStyles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseHyperlinks" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="HidePageNumbersInWeb" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The range where you want the table of figures to appear.</param>
+        <param name="Caption">Optional <b>Object</b>. The label that identifies the items you want to include in the table of figures. Corresponds to the \c switch for a Table of Contents (TOC) field. The default value is "Figure."</param>
+        <param name="IncludeLabel">Optional <b>Object</b>. <b>True</b> to include the caption label and caption number in the table of figures. The default value is <b>True</b>.</param>
+        <param name="UseHeadingStyles">Optional <b>Object</b>. <b>True</b> to use built-in heading styles to create the table of figures. The default value is <b>False</b>.</param>
+        <param name="UpperHeadingLevel">Optional <b>Object</b>. The starting heading level for the table of figures, if <paramref name="UseHeadingStyles" /> is set to <b>True</b>. Corresponds to the starting value used with the \o switch for a Table of Contents (TOC) field. The default value is 1.</param>
+        <param name="LowerHeadingLevel">Optional <b>Object</b>. The ending heading level for the table of figures, if <paramref name="UseHeadingStyles" /> is set to <b>True</b>. Corresponds to the ending value used with the \o switch for a Table of Contents (TOC) field. The default value is 9.</param>
+        <param name="UseFields">Optional <b>Object</b>. <b>True</b> to use Table of Contents Entry (TC) fields to create the table of figures. Use the <see cref="M:Microsoft.Office.Interop.Word.TablesOfFigures.MarkEntry(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@)" /> method to mark entries you want to include in the table of figures. The default value is <b>False</b>.</param>
+        <param name="TableID">Optional <b>Object</b>. A one-letter identifier that's used to build a table of figures from Table of Contents Entry (TC) fields. Corresponds to the \f switch for a Table of Contents (TOC) field. For example, "i" builds a table of figures for an illustration.</param>
+        <param name="RightAlignPageNumbers">Optional <b>Object</b>. <b>True</b> align page numbers with the right margin in the table of figures. The default value is <b>True</b>.</param>
+        <param name="IncludePageNumbers">Optional <b>Object</b>. <b>True</b> if page numbers are included in the table of figures. The default value is <b>True</b>.</param>
+        <param name="AddedStyles">Optional <b>Object</b>. The string name for additional styles used to compile the table of figures (styles other than the Heading 1 – Heading 9 styles).</param>
+        <param name="UseHyperlinks">Optional <b>Object</b>. <b>True</b> if entries in a table of figures should be formatted as hyperlinks when publishing to the Web. The default value is <b>True</b>.</param>
+        <param name="HidePageNumbersInWeb">Optional <b>Object</b>. <b>True</b> if page numbers in a table of figures should be hidden when publishing to the Web. The default value is <b>True</b>.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.TableOfFigures" /> object that represents a table of figures added to a document.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddOld">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TableOfFigures AddOld (Microsoft.Office.Interop.Word.Range Range, ref object Caption, ref object IncludeLabel, ref object UseHeadingStyles, ref object UpperHeadingLevel, ref object LowerHeadingLevel, ref object UseFields, ref object TableID, ref object RightAlignPageNumbers, ref object IncludePageNumbers, ref object AddedStyles);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.TableOfFigures AddOld([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; Caption, [in]object&amp; IncludeLabel, [in]object&amp; UseHeadingStyles, [in]object&amp; UpperHeadingLevel, [in]object&amp; LowerHeadingLevel, [in]object&amp; UseFields, [in]object&amp; TableID, [in]object&amp; RightAlignPageNumbers, [in]object&amp; IncludePageNumbers, [in]object&amp; AddedStyles) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfFigures.AddOld(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.TableOfFigures</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
+        <Parameter Name="Caption" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="IncludeLabel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseHeadingStyles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UpperHeadingLevel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LowerHeadingLevel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseFields" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="TableID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="RightAlignPageNumbers" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="IncludePageNumbers" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="AddedStyles" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Range">To be added.</param>
+        <param name="Caption">To be added.</param>
+        <param name="IncludeLabel">To be added.</param>
+        <param name="UseHeadingStyles">To be added.</param>
+        <param name="UpperHeadingLevel">To be added.</param>
+        <param name="LowerHeadingLevel">To be added.</param>
+        <param name="UseFields">To be added.</param>
+        <param name="TableID">To be added.</param>
+        <param name="RightAlignPageNumbers">To be added.</param>
+        <param name="IncludePageNumbers">To be added.</param>
+        <param name="AddedStyles">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfFigures.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfFigures.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of items in the specified collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfFigures.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdTofFormat Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdTofFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfFigures.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As WdTofFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTofFormat Format { Microsoft::Office::Interop::Word::WdTofFormat get(); void set(Microsoft::Office::Interop::Word::WdTofFormat value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdTofFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the formatting for the tables of figures in the specified document.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdTofFormat" /> can be one of these <b>WdTofFormat</b> constants. </para>
+          <para>
+            <b>wdTOFCentered </b>
+          </para>
+          <para>
+            <b>wdTOFDistinctive </b>
+          </para>
+          <para>
+            <b>wdTOFSimple </b>
+          </para>
+          <para>
+            <b>wdTOFClassic </b>
+          </para>
+          <para>
+            <b>wdTOFFormal </b>
+          </para>
+          <para>
+            <b>wdTOFTemplate</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfFigures.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TableOfFigures this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.TableOfFigures Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfFigures.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As TableOfFigures" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TableOfFigures ^ default[int] { Microsoft::Office::Interop::Word::TableOfFigures ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.TableOfFigures</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">An <b>Integer</b> indicating the ordinal position of the individual object.</param>
+        <summary>Returns an individual object in a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkEntry">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Field MarkEntry (Microsoft.Office.Interop.Word.Range Range, ref object Entry, ref object EntryAutoText, ref object TableID, ref object Level);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Field MarkEntry([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; Entry, [in]object&amp; EntryAutoText, [in]object&amp; TableID, [in]object&amp; Level) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfFigures.MarkEntry(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Field</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
+        <Parameter Name="Entry" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="EntryAutoText" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="TableID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Level" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location of the entry. The TC field is inserted after <paramref name="Range" />.</param>
+        <param name="Entry">Optional <b>Object</b>. The text that appears in the table of contents or table of figures. To indicate a subentry, include the main entry text and the subentry text, separated by a colon (:) (for example, "Introduction:The Product").</param>
+        <param name="EntryAutoText">Optional <b>Object</b>. The AutoText entry name that includes text for the index, table of figures, or table of contents (<paramref name="Entry" /> is ignored).</param>
+        <param name="TableID">Optional <b>Object</b>. A one-letter identifier for the table of figures or table of contents item (for example, "i" for an "illustration").</param>
+        <param name="Level">Optional <b>Object</b>. A level for the entry in the table of contents or table of figures.</param>
+        <summary>Inserts a TC (Table of Contents Entry) field after the specified range. The method returns a <see cref="T:Microsoft.Office.Interop.Word.Field" /> object representing the TC field.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfFigures.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

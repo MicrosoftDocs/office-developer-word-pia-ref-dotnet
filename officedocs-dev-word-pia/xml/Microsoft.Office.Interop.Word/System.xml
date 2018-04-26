@@ -1,0 +1,739 @@
+﻿<Type Name="System" FullName="Microsoft.Office.Interop.Word.System">
+  <TypeSignature Language="C#" Value="public interface System" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract System" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.System" />
+  <TypeSignature Language="VB.NET" Value="Public Interface System" />
+  <TypeSignature Language="C++ CLI" Value="public interface class System" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020935-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains information about the computer system.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Application.System" /> property to return the <b>System</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputerType">
+      <MemberSignature Language="C#" Value="public string ComputerType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ComputerType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.ComputerType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ComputerType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ComputerType { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>You have requested Help for a keyword used only on the Macintosh. For information about this keyword, consult the language reference Help included with Microsoft Office Macintosh Edition.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public void Connect (string Path, ref object Drive, ref object Password);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Connect([in]string Path, [in]object&amp; Drive, [in]object&amp; Password) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.System.Connect(System.String,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Connect (Path As String, Optional ByRef Drive As Object, Optional ByRef Password As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+        <Parameter Name="Drive" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Password" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Path">Required <b>String</b>. The path for the network drive (for example, "\\Project\Info").</param>
+        <param name="Drive">Optional <b>Object</b>. A number corresponding to the letter you want to assign to the network drive, where 0 (zero) corresponds to the first available drive letter, 1 corresponds to the second available drive letter, and so on. If this argument is omitted, the next available letter is used.</param>
+        <param name="Password">Optional <b>Object</b>. The password, if the network drive is protected with a password.</param>
+        <summary>Establishes a connection to a network drive.</summary>
+        <remarks>
+          <para>
+            <b>Security</b>   Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Application.Dialogs" /> property with the <b>wdDialogConnect</b> constant to display the Connect To Network Drive dialog box.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Country">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdCountry Country { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdCountry Country" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.Country" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Country As WdCountry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCountry Country { Microsoft::Office::Interop::Word::WdCountry get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdCountry</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountryRegion">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdCountry CountryRegion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdCountry CountryRegion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.CountryRegion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CountryRegion As WdCountry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCountry CountryRegion { Microsoft::Office::Interop::Word::WdCountry get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdCountry</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the country/region designation of the system.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdCountry" /> can be one of these <b>WdCountry</b> constants. </para>
+          <para>
+            <b>wdArgentina </b>
+          </para>
+          <para>
+            <b>wdCanada </b>
+          </para>
+          <para>
+            <b>wdChina </b>
+          </para>
+          <para>
+            <b>wdFinland </b>
+          </para>
+          <para>
+            <b>wdGermany </b>
+          </para>
+          <para>
+            <b>wdItaly </b>
+          </para>
+          <para>
+            <b>wdKorea </b>
+          </para>
+          <para>
+            <b>wdMexico </b>
+          </para>
+          <para>
+            <b>wdNorway </b>
+          </para>
+          <para>
+            <b>wdSpain </b>
+          </para>
+          <para>
+            <b>wdTaiwan </b>
+          </para>
+          <para>
+            <b>wdUS </b>
+          </para>
+          <para>
+            <b>wdBrazil </b>
+          </para>
+          <para>
+            <b>wdChile </b>
+          </para>
+          <para>
+            <b>wdDenmark </b>
+          </para>
+          <para>
+            <b>wdFrance </b>
+          </para>
+          <para>
+            <b>wdIceland </b>
+          </para>
+          <para>
+            <b>wdJapan </b>
+          </para>
+          <para>
+            <b>wdLatinAmerica </b>
+          </para>
+          <para>
+            <b>wdNetherlands </b>
+          </para>
+          <para>
+            <b>wdPeru </b>
+          </para>
+          <para>
+            <b>wdSweden </b>
+          </para>
+          <para>
+            <b>wdUK </b>
+          </para>
+          <para>
+            <b>wdVenezuela</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cursor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdCursorType Cursor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdCursorType Cursor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.Cursor" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cursor As WdCursorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCursorType Cursor { Microsoft::Office::Interop::Word::WdCursorType get(); void set(Microsoft::Office::Interop::Word::WdCursorType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdCursorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the state (shape) of the pointer. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdCursorType" /> constants: <b>wdCursorIBeam</b>, <b>wdCursorNormal</b>, <b>wdCursorNorthwestArrow</b>, or <b>wdCursorWait</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeDiskSpace">
+      <MemberSignature Language="C#" Value="public int FreeDiskSpace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FreeDiskSpace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.FreeDiskSpace" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeDiskSpace As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FreeDiskSpace { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the available disk space for the current drive, in bytes.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Note</b>  There are 1024 bytes in a kilobyte and 1,048,576 bytes in a megabyte. The maximum return value for the <b>FreeDiskSpace</b> property is 2,147,483,647. Therefore, even if you have four gigabytes of free disk space, it returns 2147483647.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalResolution">
+      <MemberSignature Language="C#" Value="public int HorizontalResolution { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HorizontalResolution" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.HorizontalResolution" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalResolution As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HorizontalResolution { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the horizontal display resolution, in pixels.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageDesignation">
+      <MemberSignature Language="C#" Value="public string LanguageDesignation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LanguageDesignation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.LanguageDesignation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageDesignation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LanguageDesignation { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the designated language of the system software.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MacintoshName">
+      <MemberSignature Language="C#" Value="public string MacintoshName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MacintoshName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.MacintoshName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MacintoshName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MacintoshName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>You have requested Help for a keyword used only on the Macintosh. For information about this keyword, consult the language reference Help included with Microsoft Office Macintosh Edition.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MathCoprocessorInstalled">
+      <MemberSignature Language="C#" Value="public bool MathCoprocessorInstalled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MathCoprocessorInstalled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.MathCoprocessorInstalled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MathCoprocessorInstalled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MathCoprocessorInstalled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a math coprocessor is installed on the system.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MSInfo">
+      <MemberSignature Language="C#" Value="public void MSInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MSInfo() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.System.MSInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MSInfo ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MSInfo();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Starts the Microsoft System Information application if it's not running, or switches to it if it's already running.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperatingSystem">
+      <MemberSignature Language="C#" Value="public string OperatingSystem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OperatingSystem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.OperatingSystem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperatingSystem As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OperatingSystem { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the current operating system (for example, "Windows" or "Windows NT").</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateProfileString">
+      <MemberSignature Language="C#" Value="public string PrivateProfileString[string FileName, string Section, string Key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrivateProfileString(string, string, string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.PrivateProfileString(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivateProfileString(FileName As String, Section As String, Key As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrivateProfileString[System::String ^, System::String ^, System::String ^] { System::String ^ get(System::String ^ FileName, System::String ^ Section, System::String ^ Key); void set(System::String ^ FileName, System::String ^ Section, System::String ^ Key, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+        <Parameter Name="Section" Type="System.String" />
+        <Parameter Name="Key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">Required <b>String</b>. The file name for the settings file. If there's no path specified, the Windows folder is assumed.</param>
+        <param name="Section">Required <b>String</b>. The name of the section in the settings file that contains <paramref name="Key" />. In a Windows settings file, the section name appears between brackets before the associated keys (don't include the brackets with <paramref name="Section" />). If you're returning the value of an entry from the Windows registry, <paramref name="Section" /> should be the complete path to the subkey, including the subtree (for example, "HKEY_CURRENT_USER\Software\Microsoft\Office\version   \Word\Options").</param>
+        <param name="Key">Required <b>String</b>. The key setting or registry entry value you want to retrieve. In a Windows settings file, the key name is followed by an equal sign (=) and the setting. If you're returning the value of an entry from the Windows registry, <paramref name="Key" /> should be the name of an entry in the subkey specified by <paramref name="Section" /> (for example, "STARTUP-PATH").</param>
+        <summary>Returns or sets a string in a settings file or the Windows registry.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can write code that uses a settings file to store and retrieve settings. For example, you can store the name of the active document when you quit Word so that it can be reopened automatically the next time you start Microsoft Word. A settings file is a text file with information arranged like the information in the Windows 3.x WIN.INI file.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorType">
+      <MemberSignature Language="C#" Value="public string ProcessorType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProcessorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.ProcessorType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProcessorType { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the type of processor that the system is using (for example, i486).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProfileString">
+      <MemberSignature Language="C#" Value="public string ProfileString[string Section, string Key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProfileString(string, string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.ProfileString(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProfileString(Section As String, Key As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProfileString[System::String ^, System::String ^] { System::String ^ get(System::String ^ Section, System::String ^ Key); void set(System::String ^ Section, System::String ^ Key, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Section" Type="System.String" />
+        <Parameter Name="Key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Section">Required <b>String</b>. A subkey below the "HKEY_CURRENT_USER\Software\Microsoft\Office\version   \Word" subkey in the Windows registry.</param>
+        <param name="Key">Required <b>String</b>. The name of the entry in the subkey specified by <paramref name="Section" /> (for example, "BackgroundPrint" in the Options subkey).</param>
+        <summary>Returns or sets a value for an entry in the Windows registry under the following subkey: HKEY_CURRENT_USER\Software\Microsoft\Office\version\Word.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QuickDrawInstalled">
+      <MemberSignature Language="C#" Value="public bool QuickDrawInstalled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool QuickDrawInstalled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.QuickDrawInstalled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QuickDrawInstalled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool QuickDrawInstalled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>You have requested Help for a keyword used only on the Macintosh. For information about this keyword, consult the language reference Help included with Microsoft Office Macintosh Edition.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the version number of the operating system.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalResolution">
+      <MemberSignature Language="C#" Value="public int VerticalResolution { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 VerticalResolution" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.System.VerticalResolution" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalResolution As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int VerticalResolution { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the vertical screen resolution in pixels.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,262 @@
+﻿<Type Name="Zoom" FullName="Microsoft.Office.Interop.Word.Zoom">
+  <TypeSignature Language="C#" Value="public interface Zoom" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Zoom" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Zoom" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Zoom" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Zoom" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000209A6-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains magnification options (for example, the zoom percentage) for a window or pane.</summary>
+    <remarks>
+      <para>The <b>Zoom</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.Zooms" /> collection.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.View.Zoom" /> property of the <see cref="T:Microsoft.Office.Interop.Word.View" /> object to return a single <b>Zoom</b> object.</para>
+      <para>Use <b>Zooms</b>(<paramref name="index" />), where <paramref name="index" /> identifies the view type, to return a single <b>Zoom</b> object. The view type specified by index can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdViewType" /> constants: <b>wdMasterView</b>, <b>wdNormalView</b>, <b>wdOutlineView</b>, <b>wdPrintPreview</b>, <b>wdPrintView</b>, or <b>wdWebView</b>.</para>
+      <para>The <b>Add</b> method isn't available for the <b>Zooms</b> collection. The <b>Zooms</b> collection includes a single <b>Zoom</b> object for each of the various view types (outline, normal, page layout, and so on).</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Zoom.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Zoom.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageColumns">
+      <MemberSignature Language="C#" Value="public int PageColumns { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageColumns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Zoom.PageColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageColumns As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageColumns { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of pages to be displayed side by side on-screen at the same time in print layout view or print preview.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFit">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdPageFit PageFit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdPageFit PageFit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Zoom.PageFit" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageFit As WdPageFit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdPageFit PageFit { Microsoft::Office::Interop::Word::WdPageFit get(); void set(Microsoft::Office::Interop::Word::WdPageFit value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdPageFit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the view magnification of a window so that either the entire page is visible or the entire width of the page is visible.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdPageFit" /> can be one of these <b>WdPageFit</b> constants: </para>
+          <para>
+            <b>wdPageFitBestFit </b>
+          </para>
+          <para>
+            <b>wdPageFitFullPage </b>
+          </para>
+          <para>
+            <b>wdPageFitNone </b>
+          </para>
+          <para>
+            <b>wdPageFitTextFit</b>
+          </para>
+          <para>The <b>wdPageFitFullPage</b> constant has no effect if the document isn't in print view.</para>
+          <para>When the <b>PageFit</b> property is set to <b>wdPageFitBestFit</b>, the zoom percentage is automatically recalculated every time the document window size is changed. Setting this property to <b>wdPageFitNone</b> keeps the zoom percentage from being recalculated whenever this happens.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageRows">
+      <MemberSignature Language="C#" Value="public int PageRows { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageRows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Zoom.PageRows" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageRows As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageRows { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of pages to be displayed one above the other on-screen at the same time in print layout view or print preview.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Zoom.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Percentage">
+      <MemberSignature Language="C#" Value="public int this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Percentage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Zoom.Percentage" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Percentage As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int default { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the magnification for a window as a percentage.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

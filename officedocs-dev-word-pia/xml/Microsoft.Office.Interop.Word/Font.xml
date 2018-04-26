@@ -1,0 +1,35 @@
+﻿<Type Name="Font" FullName="Microsoft.Office.Interop.Word.Font">
+  <TypeSignature Language="C#" Value="public interface Font : Microsoft.Office.Interop.Word._Font" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Font implements class Microsoft.Office.Interop.Word._Font" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Font" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Font&#xA;Implements _Font" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Font : Microsoft::Office::Interop::Word::_Font" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word._Font</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Word.FontClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020952-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains font attributes (font name, font size, color, and so on) for an object.</summary>
+    <remarks>
+      <para>This is a COM class interface that is required for COM interoperability. This interface defines no members of its own. You use this interface to access the members of the class interface from which this interface inherits. For information about the inherited interface, including a link to the members it defines, see the following topic: <see cref="T:Microsoft.Office.Interop.Word._Font" />.</para>
+      <para>Use the <b>Font</b> property to return the <b>Font</b> object.</para>
+      <para>You can use the <b>New</b> keyword to create a new, standalone <b>Font</b> object.</para>
+      <para>You can also duplicate a <b>Font</b> object by using the <see cref="P:Microsoft.Office.Interop.Word._Font.Duplicate" /> property.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

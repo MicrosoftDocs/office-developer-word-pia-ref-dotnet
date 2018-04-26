@@ -1,0 +1,39 @@
+﻿<Type Name="Document" FullName="Microsoft.Office.Interop.Word.Document">
+  <TypeSignature Language="C#" Value="public interface Document : Microsoft.Office.Interop.Word._Document, Microsoft.Office.Interop.Word.DocumentEvents2_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Document implements class Microsoft.Office.Interop.Word._Document, class Microsoft.Office.Interop.Word.DocumentEvents2_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Document" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Document&#xA;Implements _Document, DocumentEvents2_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Document : Microsoft::Office::Interop::Word::_Document, Microsoft::Office::Interop::Word::DocumentEvents2_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word._Document</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word.DocumentEvents2_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Word.DocumentClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002096B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a document.</summary>
+    <remarks>
+      <para>The <b>Document</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.Documents" /> collection. The <b>Documents</b> collection contains all the <b>Document</b> objects that are currently open in Microsoft Word.</para>
+      <para>Use<b>Documents</b><paramref name="(index" />) where <paramref name="index" /> is the document name or index number to return a single <b>Document</b> object.</para>
+      <para>The index number represents the position of the document in the <b>Documents</b> collection.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Application.ActiveDocument" /> property to refer to the document with the focus.</para>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Word._Document" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Word.DocumentEvents2_Event" /></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

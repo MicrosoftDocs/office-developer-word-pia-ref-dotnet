@@ -1,0 +1,63 @@
+﻿<Type Name="ApplicationEvents4_EPostageInsertExEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_EPostageInsertExEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_EPostageInsertExEventHandler(Document Doc, int cpDeliveryAddrStart, int cpDeliveryAddrEnd, int cpReturnAddrStart, int cpReturnAddrEnd, int xaWidth, int yaHeight, string bstrPrinterName, string bstrPaperFeed, bool fPrint, out bool fCancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_EPostageInsertExEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_EPostageInsertExEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_EPostageInsertExEventHandler(Doc As Document, cpDeliveryAddrStart As Integer, cpDeliveryAddrEnd As Integer, cpReturnAddrStart As Integer, cpReturnAddrEnd As Integer, xaWidth As Integer, yaHeight As Integer, bstrPrinterName As String, bstrPaperFeed As String, fPrint As Boolean, ByRef fCancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_EPostageInsertExEventHandler(Document ^ Doc, int cpDeliveryAddrStart, int cpDeliveryAddrEnd, int cpReturnAddrStart, int cpReturnAddrEnd, int xaWidth, int yaHeight, System::String ^ bstrPrinterName, System::String ^ bstrPaperFeed, bool fPrint, [Runtime::InteropServices::Out] bool % fCancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+    <Parameter Name="cpDeliveryAddrStart" Type="System.Int32" />
+    <Parameter Name="cpDeliveryAddrEnd" Type="System.Int32" />
+    <Parameter Name="cpReturnAddrStart" Type="System.Int32" />
+    <Parameter Name="cpReturnAddrEnd" Type="System.Int32" />
+    <Parameter Name="xaWidth" Type="System.Int32" />
+    <Parameter Name="yaHeight" Type="System.Int32" />
+    <Parameter Name="bstrPrinterName" Type="System.String" />
+    <Parameter Name="bstrPaperFeed" Type="System.String" />
+    <Parameter Name="fPrint" Type="System.Boolean" />
+    <Parameter Name="fCancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Doc">Required <see cref="T:Microsoft.Office.Interop.Word.Document" />. The document to which electronic postage is being added.</param>
+    <param name="cpDeliveryAddrStart">
+      <b>Integer</b>. The starting position in the document for the delivery address. Positioning corresponds to the value of the <see cref="P:Microsoft.Office.Interop.Word.Range.Start" /> property for a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object.</param>
+    <param name="cpDeliveryAddrEnd">
+      <b>Integer</b>. The ending position in the document for the delivery address. Positioning corresponds to the value of the <see cref="P:Microsoft.Office.Interop.Word.Range.End" /> property for a <b>Range</b> object.</param>
+    <param name="cpReturnAddrStart">
+      <b>Integer</b>. The starting position in the document for the return address. Positioning corresponds to the value of the <b>Start</b> property for a <b>Range</b> object.</param>
+    <param name="cpReturnAddrEnd">
+      <b>Integer</b>. The ending position in the document for the return address. Positioning corresponds to the value of the <b>End</b> property for a <b>Range</b> object.</param>
+    <param name="xaWidth">
+      <b>Integer</b>. The width of the envelope in 1/1440-inch units.</param>
+    <param name="yaHeight">
+      <b>Integer</b>. The height of the envelope in 1/1440-inch units.</param>
+    <param name="bstrPrinterName">
+      <b>String</b>. The name of the printer as specified on the Printing Options tab of the Envelope Options dialog box.</param>
+    <param name="bstrPaperFeed">
+      <b>String</b>. The feed method as specified on the Printing Options tab of the Envelope Options dialog box.</param>
+    <param name="fPrint">
+      <b>Boolean</b>. <b>True</b> if the user has specified to print the envelope. <b>False</b> if the user has specified to insert the envelope into the document.</param>
+    <param name="fCancel">
+      <b>Boolean</b>. <b>True</b> cancels the action the user specified as indicated in the <paramref name="fPrint" /> parameter.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.EPostageInsertEx" /> event. The <b>EPostageInsertEx</b> event occurs when a user inserts electronic postage into a document.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>
