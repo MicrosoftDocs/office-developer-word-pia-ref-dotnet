@@ -1,0 +1,259 @@
+﻿<Type Name="SmartTagType" FullName="Microsoft.Office.Interop.Word.SmartTagType">
+  <TypeSignature Language="C#" Value="public interface SmartTagType" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartTagType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.SmartTagType" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SmartTagType" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SmartTagType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("5E9A888C-E5DC-4DCB-8308-3C91FB61E6F4")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a type of smart tag.</summary>
+    <remarks>
+      <para>A smart tag type is a single item in a smart tag list. Smart tag lists can contain multiple smart tag types. For example, the Address smart tag list installed on English systems by default contains a name smart tag type, a street smart tag type, and a city smart tag type, to name just a few.</para>
+      <para>
+        <see cref="T:Microsoft.Office.Interop.Word.SmartTagRecognizer" />, <see cref="T:Microsoft.Office.Interop.Word.SmartTagAction" />, and <see cref="T:Microsoft.Office.Interop.Word.SmartTagType" /> objects are related in that each item that a smart tag component recognizes is a <b>SmartTagType</b> object. For example, "city" in the Address smart tag component is a specific <b>SmartTagType</b> object. The city smart tag type then has related <b>SmartTagRecognizer</b> objects (the part of the smart tag component that recognizes smart tags of type "city" in documents) and <b>SmartTagAction</b> objects (the part of the smart tag component that provides the actions related to the specific smart tag type, which may include looking up a recognized city in Microsoft MapPoint on MSN). Put simply, the recognizer does the labeling, the action handler provides end-user functionality, and what ties them together is the type of smart tag they work on.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.SmartTagTypes.Item(System.Object@)" /> method to return a specific smart tag type in a collection of smart tag types. Then use the <see cref="P:Microsoft.Office.Interop.Word.SmartTagType.SmartTagRecognizers" /> property to return all smart tag recognizers associated with a specified type of smart tag, and use the <see cref="P:Microsoft.Office.Interop.Word.SmartTagType.SmartTagActions" /> property to return all smart tag actions associated with a specified type of smart tag.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SmartTagType.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SmartTagType.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FriendlyName">
+      <MemberSignature Language="C#" Value="public string FriendlyName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FriendlyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SmartTagType.FriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FriendlyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FriendlyName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1005)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1005)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> that represents a friendly name for a smart tag type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Smart tag type names, as defined in the <see cref="P:Microsoft.Office.Interop.Word.SmartTagType.Name" /> property, are formatted as Uniform Resource Names (URNs). The friendly name removes the URN and leaves the name after the pound (#) sign. For example, the Address smart tag type returns the following URN for the <see cref="P:Microsoft.Office.Interop.Word.SmartTagType.Name" /> property.</para>
+          <para>urn:schemas-microsoft-com:office:smarttags#address</para>
+          <para>The <b>FriendlyName</b> property removes everything up to and including the pound (#) sign and leaves the following <b>String</b>:</para>
+          <para>address</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SmartTagType.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SmartTagType.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartTagActions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.SmartTagActions SmartTagActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.SmartTagActions SmartTagActions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SmartTagType.SmartTagActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartTagActions As SmartTagActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::SmartTagActions ^ SmartTagActions { Microsoft::Office::Interop::Word::SmartTagActions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1003)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1003)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.SmartTagActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.SmartTagActions" /> collection that represents the collection of actions available on a smart tag.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartTagRecognizers">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.SmartTagRecognizers SmartTagRecognizers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.SmartTagRecognizers SmartTagRecognizers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SmartTagType.SmartTagRecognizers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartTagRecognizers As SmartTagRecognizers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::SmartTagRecognizers ^ SmartTagRecognizers { Microsoft::Office::Interop::Word::SmartTagRecognizers ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.SmartTagRecognizers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.SmartTagRecognizers" /> collection for an application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

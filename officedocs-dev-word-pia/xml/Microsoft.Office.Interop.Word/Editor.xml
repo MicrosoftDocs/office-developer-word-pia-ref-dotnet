@@ -1,0 +1,318 @@
+﻿<Type Name="Editor" FullName="Microsoft.Office.Interop.Word.Editor">
+  <TypeSignature Language="C#" Value="public interface Editor" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Editor" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Editor" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Editor" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Editor" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("DD947D72-F33C-4198-9BDF-F86181D05E41")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a single user who has been given specific permissions to edit portions of a document.</summary>
+    <remarks>
+      <para>Users who can be given permissions include individual contributors and groups of users as defined for Document Workspace sites.</para>
+      <para>The permissions you assign to ranges and selections go into effect only after a document is protected. Use the <see cref="T:Microsoft.Office.Interop.Word.Editors" /> collection and the <b>Editor</b> object to assign specific permissions to sections of a document. Then use the <see cref="M:Microsoft.Office.Interop.Word._Document.Protect(Microsoft.Office.Interop.Word.WdProtectionType,System.Object@,System.Object@,System.Object@,System.Object@)" /> method to protect the document.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Editors.Add(System.Object@)" /> method of the <see cref="T:Microsoft.Office.Interop.Word.Editors" /> collection to give a specified user or group permission to modify a range or selection within a document.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Editor.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Editor.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Editor.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(500)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAll">
+      <MemberSignature Language="C#" Value="public void DeleteAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Editor.DeleteAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(501)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes all editing permissions in a document for a specific user.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public string ID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Editor.ID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the identifying label for the specified object when the current document is saved as a Web page.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>With the exception of the <see cref="T:Microsoft.Office.Interop.Word.Editor" /> object, you can use a label as a hyperlink reference from other Web pages or from within the current document.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Editor.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range NextRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range NextRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Editor.NextRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NextRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ NextRange { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the next range for which a user has permissions to modify.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can also use the <b>GoToEditableRange</b> method of the <b>Range</b> or <see cref="T:Microsoft.Office.Interop.Word.Selection" /> object to return the next range for which a user has permission to modify.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Editor.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range Range { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range Range" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Editor.Range" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the portion of a document that's contained in the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For information about returning a range from a document or returning a shape range from a collection of shapes, see the <see cref="P:Microsoft.Office.Interop.Word.Editor.Range" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectAll">
+      <MemberSignature Language="C#" Value="public void SelectAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Editor.SelectAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Selects all the shapes in the main story, in a canvas, or in headers and footers of a document.</summary>
+        <remarks>
+          <para>This method doesn't select <see cref="T:Microsoft.Office.Interop.Word.InlineShape" /> objects.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

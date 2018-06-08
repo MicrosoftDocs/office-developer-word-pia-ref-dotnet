@@ -1,0 +1,2920 @@
+﻿<Type Name="Shape" FullName="Microsoft.Office.Interop.Word.Shape">
+  <TypeSignature Language="C#" Value="public interface Shape" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Shape" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Shape" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Shape" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Shape" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000209A0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents an object in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture.</summary>
+    <remarks>
+      <para>The <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection, which includes all the shapes in the main story of a document or in all the headers and footers of a document.</para>
+      <para>A shape is always attached to an anchoring range. You can position the shape anywhere on the page that contains the anchor.</para>
+      <para>There are three objects that represent shapes: the <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection, which represents all the shapes on a document; the <see cref="T:Microsoft.Office.Interop.Word.ShapeRange" /> collection, which represents a specified subset of the shapes on a document (for example, a <see cref="T:Microsoft.Office.Interop.Word.ShapeRange" /> object could represent shapes one and four on the document, or it could represent all the selected shapes on the document); the <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object, which represents a single shape on a document. If you want to work with several shapes at the same time or with shapes within the selection, use a <see cref="T:Microsoft.Office.Interop.Word.ShapeRange" /> collection.</para>
+      <para>Use <b>Shapes</b>(<paramref name="index" />), where <paramref name="index" /> is the name or the index number, to return a single <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object. </para>
+      <para>Each shape is assigned a default name when it is created. For example, if you add three different shapes to a document, they might be named "Rectangle 2," "TextBox 3," and "Oval 4." To give a shape a more meaningful name, set the <see cref="P:Microsoft.Office.Interop.Word.Shape.Name" /> property.</para>
+      <para>Use <b>Selection.ShapeRange</b>(<paramref name="index" />), where <paramref name="index" /> is the name or the index number, to return a <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object that represents a shape within a selection.</para>
+      <para>To add a <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object to the collection of shapes for the specified document and return a <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object that represents the newly created shape, use one of the following methods of the <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection: <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddCallout(Microsoft.Office.Core.MsoCalloutType,System.Single,System.Single,System.Single,System.Single,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddCurve(System.Object@,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddLabel(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddLine(System.Single,System.Single,System.Single,System.Single,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddOLEControl(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddOLEObject(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddPolyline(System.Object@,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddShape(System.Int32,System.Single,System.Single,System.Single,System.Single,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddTextbox(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single,System.Object@)" />, <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddTextEffect(Microsoft.Office.Core.MsoPresetTextEffect,System.String,System.String,System.Single,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single,System.Object@)" />, or <see cref="M:Microsoft.Office.Interop.Word.Shapes.BuildFreeform(Microsoft.Office.Core.MsoEditingType,System.Single,System.Single)" />.</para>
+      <para>Use <b>GroupItems</b>(<paramref name="index" />), where <paramref name="index" /> is the shape name or the index number within the group, to return a <b>Shape</b> object that represents a single shape in a grouped shape.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.ShapeRange.Group" /> or <see cref="M:Microsoft.Office.Interop.Word.ShapeRange.Regroup" /> method to group a range of shapes and return a single <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object that represents the newly formed group. After a group has been formed, you can work with the group the same way you work with any other shape.</para>
+      <para>Every <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object is anchored to a range of text. A shape is anchored to the beginning of the first paragraph that contains the anchoring range. The shape will always remain on the same page as its anchor.</para>
+      <para>You can view the anchor itself by setting the <see cref="P:Microsoft.Office.Interop.Word.View.ShowObjectAnchors" /> property to <b>True</b>. The shape's <see cref="P:Microsoft.Office.Interop.Word.Shape.Top" /> and <see cref="P:Microsoft.Office.Interop.Word.Shape.Left" /> properties determine its vertical and horizontal positions. The shape's <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeHorizontalPosition" /> and <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeVerticalPosition" /> properties determine whether the position is measured from the anchoring paragraph, the column that contains the anchoring paragraph, the margin, or the edge of the page.</para>
+      <para>If the <see cref="P:Microsoft.Office.Interop.Word.Shape.LockAnchor" /> property for the shape is set to <b>True</b>, you cannot drag the anchor from its position on the page.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Shape.Fill" /> property to return the <see cref="T:Microsoft.Office.Interop.Word.FillFormat" /> object, which contains all the properties and methods for formatting the fill of a closed shape. The <see cref="P:Microsoft.Office.Interop.Word.Shape.Shadow" /> property returns the <see cref="T:Microsoft.Office.Interop.Word.ShadowFormat" /> object, which you use to format a shadow. Use the <see cref="P:Microsoft.Office.Interop.Word.Shape.Line" /> property to return the <see cref="T:Microsoft.Office.Interop.Word.LineFormat" /> object, which contains properties and methods for formatting lines and arrows. The <see cref="P:Microsoft.Office.Interop.Word.Shape.TextEffect" /> property returns the <see cref="T:Microsoft.Office.Interop.Word.TextEffectFormat" /> object, which you use to format WordArt. The <see cref="P:Microsoft.Office.Interop.Word.Shape.Callout" /> property returns the <see cref="T:Microsoft.Office.Interop.Word.CalloutFormat" /> object, which you use to format line callouts. The <see cref="P:Microsoft.Office.Interop.Word.Shape.WrapFormat" /> property returns the <see cref="T:Microsoft.Office.Interop.Word.WrapFormat" /> object, which you use to define how text wraps around shapes. The <see cref="P:Microsoft.Office.Interop.Word.Shape.ThreeD" /> property returns the <see cref="T:Microsoft.Office.Interop.Word.ThreeDFormat" /> object, which you use to create 3-D shapes. You can use the <see cref="M:Microsoft.Office.Interop.Word.Shape.PickUp" /> and <see cref="M:Microsoft.Office.Interop.Word.Shape.Apply" /> methods to transfer formatting from one shape to another.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Shape.SetShapesDefaultProperties" /> method for a <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object to set the formatting for the default shape for the document. New shapes inherit many of their attributes from the default shape.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Shape.Type" /> property to specify the type of shape: freeform, AutoShape, OLE object, callout, or linked picture, for instance. Use the <see cref="P:Microsoft.Office.Interop.Word.Shape.AutoShapeType" /> property to specify the type of AutoShape: oval, rectangle, or balloon, for instance.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Shape.Width" /> and <see cref="P:Microsoft.Office.Interop.Word.Shape.Height" /> properties to specify the size of the shape.</para>
+      <para>The <see cref="P:Microsoft.Office.Interop.Word.Shape.TextFrame" /> property returns the <see cref="T:Microsoft.Office.Interop.Word.TextFrame" /> object, which contains all the properties and methods for attaching text to shapes and linking the text between text frames.</para>
+      <para>
+        <see cref="T:Microsoft.Office.Interop.Word.Shape" /> objects are anchored to a range of text but are free-floating and can be positioned anywhere on the page. <see cref="T:Microsoft.Office.Interop.Word.InlineShape" /> objects are treated like characters and are positioned as characters within a line of text. You can use the <see cref="M:Microsoft.Office.Interop.Word.Shape.ConvertToInlineShape" /> method and the <see cref="M:Microsoft.Office.Interop.Word.InlineShape.ConvertToShape" /> method to convert shapes from one type to the other. You can convert only pictures, OLE objects, and ActiveX controls to inline shapes.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(50)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Activates the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Adjustments">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Adjustments Adjustments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Adjustments Adjustments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Adjustments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Adjustments As Adjustments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Adjustments ^ Adjustments { Microsoft::Office::Interop::Word::Adjustments ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Adjustments</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Adjustments" /> object that contains adjustment values for all the adjustments in the specified <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object that represents an AutoShape or WordArt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlternativeText">
+      <MemberSignature Language="C#" Value="public string AlternativeText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AlternativeText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.AlternativeText" />
+      <MemberSignature Language="VB.NET" Value="Public Property AlternativeText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AlternativeText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(131)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(131)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(131)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the alternative text associated with a shape in a Web page.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Anchor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range Anchor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range Anchor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Anchor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Anchor As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Anchor { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(501)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the anchoring range for the specified shape.</summary>
+        <value>All <see cref="T:Microsoft.Office.Interop.Word.Shape" /> objects are anchored to a range of text but can be positioned anywhere on the page that contains the anchor. If you specify the anchoring range when you create a shape, the anchor is positioned at the beginning of the first paragraph that contains the anchoring range. If you don't specify the anchoring range, the anchoring range is selected automatically and the shape is positioned relative to the top and left edges of the page.The shape will always remain on the same page as its anchor. If the <see cref="P:Microsoft.Office.Interop.Word.Shape.LockAnchor" /> property for the shape is set to <b>True</b>, you cannot drag the anchor from its position on the page.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnchorID">
+      <MemberSignature Language="C#" Value="public int AnchorID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AnchorID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.AnchorID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnchorID As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AnchorID { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Applies to the specified shape formatting that has been copied using the <see cref="M:Microsoft.Office.Interop.Word.Shape.PickUp" /> method.</summary>
+        <remarks>
+          <para>If formatting for the <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object has not previously been copied using the <see cref="M:Microsoft.Office.Core.Shape.PickUp" /> method, using the <see cref="M:Microsoft.Office.Interop.Word.Shape.Apply" /> method generates an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoShapeType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoAutoShapeType AutoShapeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoAutoShapeType AutoShapeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.AutoShapeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoShapeType As MsoAutoShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoAutoShapeType AutoShapeType { Microsoft::Office::Core::MsoAutoShapeType get(); void set(Microsoft::Office::Core::MsoAutoShapeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the shape type for the specified <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object, which must represent an AutoShape other than a line or freeform drawing.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When you change the type of a shape, the shape retains its size, color, and other attributes.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackgroundStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBackgroundStyleIndex BackgroundStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBackgroundStyleIndex BackgroundStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.BackgroundStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackgroundStyle As MsoBackgroundStyleIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBackgroundStyleIndex BackgroundStyle { Microsoft::Office::Core::MsoBackgroundStyleIndex get(); void set(Microsoft::Office::Core::MsoBackgroundStyleIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(151)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(151)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(151)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBackgroundStyleIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the background style of the specified shape. </summary>
+        <value>The background style of the specified shape.</value>
+        <remarks>
+          <para>Read/write <see cref="T:Microsoft.Office.Core.MsoBackgroundStyleIndex" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Callout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.CalloutFormat Callout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.CalloutFormat Callout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Callout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Callout As CalloutFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CalloutFormat ^ Callout { Microsoft::Office::Interop::Word::CalloutFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.CalloutFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.CalloutFormat" /> object that contains callout formatting properties for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property applies to <see cref="T:Microsoft.Office.Interop.Word.Shape" /> objects that represent callouts.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanvasCropBottom">
+      <MemberSignature Language="C#" Value="public void CanvasCropBottom (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CanvasCropBottom([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.CanvasCropBottom(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CanvasCropBottom (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CanvasCropBottom(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(143)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. The amount in percentage points of a drawing canvas's height that you want remaining after the canvas is cropped. Entering 0.9 as the increment crops ten percent of the canvas's height from the bottom. Entering 0.1 crops ninety percent of the canvas's height from the bottom.</param>
+        <summary>Crops a percentage of the height of a drawing canvas from the bottom of the canvas.</summary>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Shape.CanvasCropTop(System.Single)" /> method to crop from the top.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanvasCropLeft">
+      <MemberSignature Language="C#" Value="public void CanvasCropLeft (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CanvasCropLeft([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.CanvasCropLeft(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CanvasCropLeft (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CanvasCropLeft(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(140)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. The amount in percentage points of the drawing canvas's width that you want remaining after the canvas is cropped. Entering 0.9 as the increment crops ten percent of the canvas's width from the left. Entering 0.1 crops ninety percent of the canvas's width from the left.</param>
+        <summary>Crops a percentage of the width of a drawing canvas from the left side of the canvas.</summary>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Shape.CanvasCropRight(System.Single)" /> method to crop from the right side of a drawing canvas.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanvasCropRight">
+      <MemberSignature Language="C#" Value="public void CanvasCropRight (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CanvasCropRight([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.CanvasCropRight(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CanvasCropRight (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CanvasCropRight(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(142)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. The amount in percentage points of the canvas's width that you want remaining after the canvas is cropped. Entering 0.9 as the increment crops ten percent of the canvas's width from the right. Entering 0.1 crops ninety percent of the canvas's width from the right.</param>
+        <summary>Crops a percentage of the width of a drawing canvas from the right side of the canvas.</summary>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Shape.CanvasCropLeft(System.Single)" /> method to crop from the left side of a drawing canvas.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanvasCropTop">
+      <MemberSignature Language="C#" Value="public void CanvasCropTop (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CanvasCropTop([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.CanvasCropTop(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CanvasCropTop (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CanvasCropTop(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(141)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. The amount in percentage points of a canvas's height that you want remaining after the canvas is cropped. Entering 0.9 as the increment crops ten percent of the canvas's height from the top. Entering 0.1 crops ninety percent of the canvas's height from the top.</param>
+        <summary>Crops a percentage of the height of a drawing canvas from the top of the canvas.</summary>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Shape.CanvasCropBottom(System.Single)" /> method to crop from the bottom.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanvasItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.CanvasShapes CanvasItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.CanvasShapes CanvasItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.CanvasItems" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanvasItems As CanvasShapes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CanvasShapes ^ CanvasItems { Microsoft::Office::Interop::Word::CanvasShapes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(138)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(138)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.CanvasShapes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.CanvasShapes" /> object that represents a collection of shapes in a drawing canvas.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Chart">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Chart Chart { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Chart Chart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Chart" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Chart As Chart" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Chart ^ Chart { Microsoft::Office::Interop::Word::Chart ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Chart</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Chart" /> object that represents a chart within the collection of shapes in a document. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.Chart" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Child">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Child { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Child" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Child" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Child As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Child { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(136)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(136)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the shape is a child shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the shape is a child shape, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionSiteCount">
+      <MemberSignature Language="C#" Value="public int ConnectionSiteCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConnectionSiteCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.ConnectionSiteCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionSiteCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConnectionSiteCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Connector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Connector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Connector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Connector As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Connector { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectorFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ConnectorFormat ConnectorFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ConnectorFormat ConnectorFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.ConnectorFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectorFormat As ConnectorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ConnectorFormat ^ ConnectorFormat { Microsoft::Office::Interop::Word::ConnectorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ConnectorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertToFrame">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Frame ConvertToFrame ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Frame ConvertToFrame() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.ConvertToFrame" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertToFrame () As Frame" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Frame ^ ConvertToFrame();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(29)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Frame</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Converts the specified shape to a frame.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This property returns a <see cref="T:Microsoft.Office.Interop.Word.Frame" /> object that represents the new frame.</para>
+          <para>Shapes that don't support attached text cannot be converted to frames. For pictures, OLE objects, and ActiveX controls, use the <see cref="M:Microsoft.Office.Interop.Word.Shape.ConvertToInlineShape" /> method.</para>
+          <para>In Microsoft Word 97 and later, frames have been replaced by text boxes.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertToInlineShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.InlineShape ConvertToInlineShape ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.InlineShape ConvertToInlineShape() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.ConvertToInlineShape" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertToInlineShape () As InlineShape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::InlineShape ^ ConvertToInlineShape();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.InlineShape</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Converts the specified shape in the drawing layer of a document to an inline shape in the text layer.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>You can convert only shapes that represent pictures, OLE objects, or ActiveX controls. This method returns an <see cref="T:Microsoft.Office.Interop.Word.InlineShape" /> object that represents the picture or OLE object.</para>
+          <para>Shapes that support attached text cannot be converted to inline shapes. For these shapes, use the <see cref="M:Microsoft.Office.Interop.Word.Shape.ConvertToFrame" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Diagram">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoDiagram Diagram { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoDiagram Diagram" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Diagram" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Diagram As IMsoDiagram" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoDiagram ^ Diagram { Microsoft::Office::Core::IMsoDiagram ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoDiagram</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Diagram" /> object to which a diagram node belongs.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiagramNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.DiagramNode DiagramNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.DiagramNode DiagramNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.DiagramNode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiagramNode As DiagramNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::DiagramNode ^ DiagramNode { Microsoft::Office::Interop::Word::DiagramNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(135)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(135)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.DiagramNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.DiagramNode" /> object that represents a node in a diagram.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duplicate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Shape Duplicate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Shape Duplicate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.Duplicate" />
+      <MemberSignature Language="VB.NET" Value="Public Function Duplicate () As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ Duplicate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a duplicate of the specified <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object, adds the new range of shapes to the <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection at a standard offset from the original shapes, and then returns the new <b>Shape</b> object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditID">
+      <MemberSignature Language="C#" Value="public int EditID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EditID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.EditID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EditID As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EditID { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(208)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(208)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fill">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.FillFormat Fill { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.FillFormat Fill" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Fill" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As FillFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FillFormat ^ Fill { Microsoft::Office::Interop::Word::FillFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.FillFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.FillFormat" /> object that contains fill formatting properties for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flip">
+      <MemberSignature Language="C#" Value="public void Flip (Microsoft.Office.Core.MsoFlipCmd FlipCmd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Flip([in]valuetype Microsoft.Office.Core.MsoFlipCmd FlipCmd) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.Flip(Microsoft.Office.Core.MsoFlipCmd)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Flip (FlipCmd As MsoFlipCmd)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Flip(Microsoft::Office::Core::MsoFlipCmd FlipCmd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FlipCmd" Type="Microsoft.Office.Core.MsoFlipCmd" />
+      </Parameters>
+      <Docs>
+        <param name="FlipCmd">Required <see cref="T:Microsoft.Office.Core.MsoFlipCmd" />. The flip orientation.</param>
+        <summary>Flips a shape horizontally or vertically.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Glow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.GlowFormat Glow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.GlowFormat Glow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Glow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Glow As GlowFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::GlowFormat ^ Glow { Microsoft::Office::Interop::Word::GlowFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(153)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(153)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.GlowFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.GlowFormat" /> object that represents the glow formatting for a shape. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.GlowFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.GroupShapes GroupItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.GroupShapes GroupItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.GroupItems" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupItems As GroupShapes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::GroupShapes ^ GroupItems { Microsoft::Office::Interop::Word::GroupShapes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.GroupShapes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.GroupShapes" /> object that represents the individual shapes in the specified group.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word.GroupShapes.Item(System.Object@)" /> method of the <b>GroupShapes</b> object to return a single shape from the group.</para>
+          <para>This property applies to <see cref="T:Microsoft.Office.Interop.Word.Shape" /> or <see cref="T:Microsoft.Office.Interop.Word.ShapeRange" /> objects that represent grouped shapes.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasChart">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState HasChart { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState HasChart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.HasChart" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasChart As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState HasChart { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified shape has a chart. Read-only.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>This property always returns false for OLE charts. For OLE charts, use InlineShape.OLEFormat.ProgID and check for the following possible values: "Excel.Chart.8", "MSGraph.Chart.8", "Excel.Sheet.8", "Excel.Chart.5", "MSGraph.Chart.5", or "Excel.Sheet.5".</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasDiagram">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState HasDiagram { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState HasDiagram" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.HasDiagram" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasDiagram As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState HasDiagram { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if a shape is a diagram.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>MsoTrue</b> if a shape is a diagram.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasDiagramNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState HasDiagramNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState HasDiagramNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.HasDiagramNode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasDiagramNode As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState HasDiagramNode { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if a shape is a diagram node.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>MsoTrue</b> if a shape is a diagram node.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasSmartArt">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState HasSmartArt { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState HasSmartArt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.HasSmartArt" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasSmartArt As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState HasSmartArt { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets <b>True</b> if there is a SmartArt diagram present on the shape. </summary>
+        <value>A <see cref="T:Microsoft.Office.Core.MsoTriState" /> object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public float Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the height of the specified shape in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeightRelative">
+      <MemberSignature Language="C#" Value="public float HeightRelative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 HeightRelative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.HeightRelative" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeightRelative As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float HeightRelative { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(203)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(203)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(203)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a  <b>Single</b> that represents the percentage of the relative height of a shape. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>Use this property with the <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeVerticalSize" /> property. When set to <b>wdShapeSizeRelativeNone</b> (-999999) (see the <see cref="T:Microsoft.Office.Interop.Word.WdShapeSizeRelative" /> enumeration), this property should be ignored because the shape does not use percent sizing. The height is solely determined by the <see cref="P:Microsoft.Office.Interop.Word.Shape.Height" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalFlip">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState HorizontalFlip { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState HorizontalFlip" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.HorizontalFlip" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalFlip As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState HorizontalFlip { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that a shape has been flipped horizontally.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hyperlink">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Hyperlink Hyperlink { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Hyperlink Hyperlink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Hyperlink" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hyperlink As Hyperlink" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Hyperlink ^ Hyperlink { Microsoft::Office::Interop::Word::Hyperlink ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Hyperlink</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Hyperlink" /> object that represents the hyperlink associated with the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If there's no hyperlink associated with the specified shape, an error occurs.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public int ID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.ID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ID As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ID { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the type for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementLeft">
+      <MemberSignature Language="C#" Value="public void IncrementLeft (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementLeft([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.IncrementLeft(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementLeft (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementLeft(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. Specifies how far the shape is to be moved horizontally, in points. A positive value moves the shape to the right; a negative value moves it to the left.</param>
+        <summary>Moves the specified shape horizontally by the specified number of points.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementRotation">
+      <MemberSignature Language="C#" Value="public void IncrementRotation (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementRotation([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.IncrementRotation(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementRotation (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementRotation(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. Specifies how far the shape is to be rotated horizontally, in degrees. A positive value rotates the shape clockwise; a negative value rotates it counterclockwise.</param>
+        <summary>Changes the rotation of the specified shape around the z-axis by the specified number of degrees.</summary>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Shape.Rotation" /> property to set the absolute rotation of the shape.</para>
+          <para>To rotate a three-dimensional shape around the x-axis or the y-axis, use the <see cref="M:Microsoft.Office.Interop.Word.ThreeDFormat.IncrementRotationX(System.Single)" /> method or the <see cref="M:Microsoft.Office.Interop.Word.ThreeDFormat.IncrementRotationY(System.Single)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementTop">
+      <MemberSignature Language="C#" Value="public void IncrementTop (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementTop([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.IncrementTop(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementTop (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementTop(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. Specifies how far the shape object is to be moved vertically, in points. A positive value moves the shape down; a negative value moves it up.</param>
+        <summary>Moves the specified shape vertically by the specified number of points.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutInCell">
+      <MemberSignature Language="C#" Value="public int LayoutInCell { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LayoutInCell" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.LayoutInCell" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutInCell As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LayoutInCell { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(145)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(145)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(145)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> that represents whether a shape in a table is displayed inside the table or outside of the table.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> to indicate that a specified picture is displayed within the table, and <b>False</b> to indicate that a specified picture is displayed outside of the table.</para>
+          <para>Setting the <b>LayoutInCell</b> property will take effect only if the <see cref="P:Microsoft.Office.Interop.Word.WrapFormat.Type" /> property of the <see cref="T:Microsoft.Office.Interop.Word.WrapFormat" /> object is set to something other than <b>wdWrapTypeInline</b> or <b>wdWrapTypeNone</b>.</para>
+          <para>The <b>LayoutInCell</b> property corresponds to the Layout in table cell option in the Advanced Layout dialog box for picture formatting.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public float Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Left { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Single</b> that represents the horizontal position, measured in points, of the specified shape or shape range.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns any valid <see cref="T:Microsoft.Office.Interop.Word.WdShapePosition" /> constant.</para>
+          <para>The position of a shape is measured from the upper-left corner of the shape's bounding box to the shape's anchor. The <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeHorizontalPosition" /> property controls whether the anchor is positioned alongside a character, column, margin, or the edge of the page.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftRelative">
+      <MemberSignature Language="C#" Value="public float LeftRelative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LeftRelative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.LeftRelative" />
+      <MemberSignature Language="VB.NET" Value="Public Property LeftRelative As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LeftRelative { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(200)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(200)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(200)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a  <b>Single</b> that represents the relative left position of a shape. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>Use this property with the <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeHorizontalPosition" /> property. When set to <b>wdShapePositionRelativeNone</b> (-999999) (see the <see cref="T:Microsoft.Office.Interop.Word.WdShapePositionRelative" /> enumeration), this property should be ignored because the shape does not use percent positioning. The horizontal position is solely determined by the <see cref="P:Microsoft.Office.Interop.Word.Shape.Left" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Line">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.LineFormat Line { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.LineFormat Line" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Line" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Line As LineFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::LineFormat ^ Line { Microsoft::Office::Interop::Word::LineFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.LineFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.LineFormat" /> object that contains line formatting properties for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For a line, the <b>LineFormat</b> object represents the line itself; for a shape with a border, the <b>LineFormat</b> object represents the border.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.LinkFormat LinkFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.LinkFormat LinkFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.LinkFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LinkFormat As LinkFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::LinkFormat ^ LinkFormat { Microsoft::Office::Interop::Word::LinkFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.LinkFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.LinkFormat" /> object that represents the link options of the specified shape that's linked to a file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockAnchor">
+      <MemberSignature Language="C#" Value="public int LockAnchor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LockAnchor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.LockAnchor" />
+      <MemberSignature Language="VB.NET" Value="Public Property LockAnchor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LockAnchor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(302)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(302)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(302)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the specified <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object's anchor is locked to the anchoring range.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns true if the specified <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object's anchor is locked to the anchoring range. When a shape has a locked anchor, you cannot move the shape's anchor by dragging it (the anchor doesn't move as the shape is moved).</para>
+          <para>A <b>Shape</b> object is anchored to a range of text, but you can position it anywhere on the page. The shape is anchored to the beginning of the first paragraph that contains the anchoring range. A shape will always remain on the same page as its anchor.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockAspectRatio">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState LockAspectRatio { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState LockAspectRatio" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.LockAspectRatio" />
+      <MemberSignature Language="VB.NET" Value="Public Property LockAspectRatio As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState LockAspectRatio { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if you can change the height and width of the shape independently of one another when you resize it or if it retains its original proportions.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>MsoTrue</b> if the specified shape retains its original proportions when you resize it, and <b>MsoFalse</b> if you can change the height and width of the shape independently of one another when you resize it.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ShapeNodes Nodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ShapeNodes Nodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Nodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Nodes As ShapeNodes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ShapeNodes ^ Nodes { Microsoft::Office::Interop::Word::ShapeNodes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ShapeNodes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.ShapeNodes" /> collection that represents the geometric description of the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OLEFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OLEFormat OLEFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OLEFormat OLEFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.OLEFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OLEFormat As OLEFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OLEFormat ^ OLEFormat { Microsoft::Office::Interop::Word::OLEFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(500)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(500)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OLEFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.OLEFormat" /> object that represents the OLE characteristics (other than linking) for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentGroup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Shape ParentGroup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Shape ParentGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.ParentGroup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentGroup As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shape ^ ParentGroup { Microsoft::Office::Interop::Word::Shape ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(137)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(137)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Shape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object that represents the common parent shape of a child shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickUp">
+      <MemberSignature Language="C#" Value="public void PickUp ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PickUp() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.PickUp" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PickUp ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PickUp();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Copies the formatting of the specified shape.</summary>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Shape.Apply" /> method to apply the copied formatting to another shape.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.PictureFormat PictureFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.PictureFormat PictureFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.PictureFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PictureFormat As PictureFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::PictureFormat ^ PictureFormat { Microsoft::Office::Interop::Word::PictureFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.PictureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.PictureFormat" /> object that contains picture formatting properties for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property applies to shape objects that represent pictures or OLE objects.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reflection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ReflectionFormat Reflection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ReflectionFormat Reflection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Reflection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Reflection As ReflectionFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ReflectionFormat ^ Reflection { Microsoft::Office::Interop::Word::ReflectionFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(154)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(154)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ReflectionFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.ReflectionFormat" /> object  that represents the reflection formatting for a shape. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.ReflectionFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelativeHorizontalPosition">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdRelativeHorizontalPosition RelativeHorizontalPosition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdRelativeHorizontalPosition RelativeHorizontalPosition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.RelativeHorizontalPosition" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelativeHorizontalPosition As WdRelativeHorizontalPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRelativeHorizontalPosition RelativeHorizontalPosition { Microsoft::Office::Interop::Word::WdRelativeHorizontalPosition get(); void set(Microsoft::Office::Interop::Word::WdRelativeHorizontalPosition value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(300)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(300)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(300)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdRelativeHorizontalPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies to what the horizontal position of a shape is relative.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelativeHorizontalSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdRelativeHorizontalSize RelativeHorizontalSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdRelativeHorizontalSize RelativeHorizontalSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.RelativeHorizontalSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelativeHorizontalSize As WdRelativeHorizontalSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRelativeHorizontalSize RelativeHorizontalSize { Microsoft::Office::Interop::Word::WdRelativeHorizontalSize get(); void set(Microsoft::Office::Interop::Word::WdRelativeHorizontalSize value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(204)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(204)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(204)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdRelativeHorizontalSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:Microsoft.Office.Interop.Word.WdRelativeHorizontalSize" /> constant that represents the object to which a range of shapes is relative. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.WdRelativeHorizontalSize" />
+        </value>
+        <remarks>
+          <para>Use this property with the <see cref="P:Microsoft.Office.Interop.Word.Shape.WidthRelative" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelativeVerticalPosition">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdRelativeVerticalPosition RelativeVerticalPosition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdRelativeVerticalPosition RelativeVerticalPosition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.RelativeVerticalPosition" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelativeVerticalPosition As WdRelativeVerticalPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRelativeVerticalPosition RelativeVerticalPosition { Microsoft::Office::Interop::Word::WdRelativeVerticalPosition get(); void set(Microsoft::Office::Interop::Word::WdRelativeVerticalPosition value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(301)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdRelativeVerticalPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies to what the vertical position of a shape is relative.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelativeVerticalSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdRelativeVerticalSize RelativeVerticalSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdRelativeVerticalSize RelativeVerticalSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.RelativeVerticalSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelativeVerticalSize As WdRelativeVerticalSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRelativeVerticalSize RelativeVerticalSize { Microsoft::Office::Interop::Word::WdRelativeVerticalSize get(); void set(Microsoft::Office::Interop::Word::WdRelativeVerticalSize value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(205)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(205)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(205)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdRelativeVerticalSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:Microsoft.Office.Interop.Word.WdRelativeVerticalSize" /> constant  that represents the relative vertical size of a shape. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.WdRelativeVerticalSize" />
+        </value>
+        <remarks>
+          <para>Use this property with the <see cref="P:Microsoft.Office.Interop.Word.Shape.HeightRelative" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RerouteConnections">
+      <MemberSignature Language="C#" Value="public void RerouteConnections ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RerouteConnections() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.RerouteConnections" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RerouteConnections ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RerouteConnections();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotation">
+      <MemberSignature Language="C#" Value="public float Rotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Rotation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Rotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rotation As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Rotation { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of degrees the specified shape is rotated around the z-axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation.</para>
+          <para>To set the rotation of a three-dimensional shape around the x-axis or the y-axis, use the <see cref="P:Microsoft.Office.Interop.Word.ThreeDFormat.RotationX" /> property or the <see cref="P:Microsoft.Office.Interop.Word.ThreeDFormat.RotationY" /> property of the <see cref="T:Microsoft.Office.Interop.Word.ThreeDFormat" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RTF">
+      <MemberSignature Language="C#" Value="public string RTF { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RTF" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.RTF" />
+      <MemberSignature Language="VB.NET" Value="Public Property RTF As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RTF {  void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(144)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(144)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleHeight">
+      <MemberSignature Language="C#" Value="public void ScaleHeight (float Factor, Microsoft.Office.Core.MsoTriState RelativeToOriginalSize, Microsoft.Office.Core.MsoScaleFrom Scale = Microsoft.Office.Core.MsoScaleFrom.msoScaleFromTopLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ScaleHeight([in]float32 Factor, [in]valuetype Microsoft.Office.Core.MsoTriState RelativeToOriginalSize, [in]valuetype Microsoft.Office.Core.MsoScaleFrom Scale) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.ScaleHeight(System.Single,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoScaleFrom)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ScaleHeight (Factor As Single, RelativeToOriginalSize As MsoTriState, Optional Scale As MsoScaleFrom = Microsoft.Office.Core.MsoScaleFrom.msoScaleFromTopLeft)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Factor" Type="System.Single" />
+        <Parameter Name="RelativeToOriginalSize" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="Scale" Type="Microsoft.Office.Core.MsoScaleFrom" />
+      </Parameters>
+      <Docs>
+        <param name="Factor">Required <b>Single</b>. Specifies the ratio between the height of the shape after you resize it and the current or original height. For example, to make a rectangle 50 percent larger, specify 1.5 for this argument.</param>
+        <param name="RelativeToOriginalSize">Required <see cref="T:Microsoft.Office.Core.MsoTriState" />. <b>True</b> to scale the shape relative to its original size. <b>False</b> to scale it relative to its current size. You can specify <b>True</b> for this argument only if the specified shape is a picture or an OLE object.</param>
+        <param name="Scale">Optional <see cref="T:Microsoft.Office.Core.MsoScaleFrom" />. The part of the shape that retains its position when the shape is scaled.</param>
+        <summary>Scales the height of the shape by a specified factor.</summary>
+        <remarks>
+          <para>For pictures and OLE objects, you can indicate whether you want to scale the shape relative to the original size or relative to the current size. Shapes other than pictures and OLE objects are always scaled relative to their current height.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleWidth">
+      <MemberSignature Language="C#" Value="public void ScaleWidth (float Factor, Microsoft.Office.Core.MsoTriState RelativeToOriginalSize, Microsoft.Office.Core.MsoScaleFrom Scale = Microsoft.Office.Core.MsoScaleFrom.msoScaleFromTopLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ScaleWidth([in]float32 Factor, [in]valuetype Microsoft.Office.Core.MsoTriState RelativeToOriginalSize, [in]valuetype Microsoft.Office.Core.MsoScaleFrom Scale) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.ScaleWidth(System.Single,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoScaleFrom)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ScaleWidth (Factor As Single, RelativeToOriginalSize As MsoTriState, Optional Scale As MsoScaleFrom = Microsoft.Office.Core.MsoScaleFrom.msoScaleFromTopLeft)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Factor" Type="System.Single" />
+        <Parameter Name="RelativeToOriginalSize" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="Scale" Type="Microsoft.Office.Core.MsoScaleFrom" />
+      </Parameters>
+      <Docs>
+        <param name="Factor">Required <b>Single</b>. Specifies the ratio between the width of the shape after you resize it and the current or original width. For example, to make a rectangle 50 percent larger, specify 1.5 for this argument.</param>
+        <param name="RelativeToOriginalSize">Required <see cref="T:Microsoft.Office.Core.MsoTriState" />. <b>True</b> to scale the shape relative to its original size. <b>False</b> to scale it relative to its current size. You can specify <b>True</b> for this argument only if the specified shape is a picture or an OLE object.</param>
+        <param name="Scale">Optional <see cref="T:Microsoft.Office.Core.MsoScaleFrom" />. The part of the shape that retains its position when the shape is scaled.</param>
+        <summary>Scales the width of the shape by a specified factor.</summary>
+        <remarks>
+          <para>For pictures and OLE objects, you can indicate whether you want to scale the shape relative to the original size or relative to the current size. Shapes other than pictures and OLE objects are always scaled relative to their current width.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Script">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Script Script { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Script Script" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Script" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Script As Script" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Script ^ Script { Microsoft::Office::Core::Script ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(503)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(503)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Script</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Core.Script" /> object, which represents a block of script or code on the specified Web page.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the page contains no script, nothing is returned.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select (ref object Replace);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select([in]object&amp; Replace) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.Select(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select (Optional ByRef Replace As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Replace" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Replace">Optional <b>Object</b>. If adding a shape, <b>True</b> replaces the selection. <b>False</b> adds the new shape to the selection.</param>
+        <summary>Selects the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShapesDefaultProperties">
+      <MemberSignature Language="C#" Value="public void SetShapesDefaultProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetShapesDefaultProperties() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.SetShapesDefaultProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetShapesDefaultProperties ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetShapesDefaultProperties();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Applies the formatting of the specified shape to a default shape for that document. New shapes inherit many of their attributes from the default shape.</summary>
+        <remarks>
+          <para>Using this method is equivalent to using the Set AutoShape Defaults command on the Draw menu on the Drawing toolbar.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shadow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ShadowFormat Shadow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ShadowFormat Shadow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Shadow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shadow As ShadowFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ShadowFormat ^ Shadow { Microsoft::Office::Interop::Word::ShadowFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ShadowFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.ShadowFormat" /> object that represents the shadow formatting for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoShapeStyleIndex ShapeStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoShapeStyleIndex ShapeStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.ShapeStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShapeStyle As MsoShapeStyleIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoShapeStyleIndex ShapeStyle { Microsoft::Office::Core::MsoShapeStyleIndex get(); void set(Microsoft::Office::Core::MsoShapeStyleIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the shape style for the specified shape. </summary>
+        <value>The shape style for the specified shape.</value>
+        <remarks>
+          <para>Read/write <see cref="T:Microsoft.Office.Core.MsoShapeStyleIndex" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartArt">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SmartArt SmartArt { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SmartArt SmartArt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.SmartArt" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartArt As SmartArt" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SmartArt ^ SmartArt { Microsoft::Office::Core::SmartArt ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(156)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(156)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SmartArt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Core.SmartArt" /> object that provides a way to work with the SmartArt associated with the specified shape.  </summary>
+        <value>A <see cref="T:Microsoft.Office.Core.SmartArt" /> object that provides a way to work with the SmartArt associated with the specified shape. </value>
+        <remarks>
+          <para>Read-only. This property provides an entry point for interacting with a Smart Art graphic associated with the shape.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftEdge">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.SoftEdgeFormat SoftEdge { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.SoftEdgeFormat SoftEdge" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.SoftEdge" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SoftEdge As SoftEdgeFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::SoftEdgeFormat ^ SoftEdge { Microsoft::Office::Interop::Word::SoftEdgeFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(152)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(152)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.SoftEdgeFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.SoftEdgeFormat" /> object  that represents the soft edge formatting for a shape. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.SoftEdgeFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextEffect">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TextEffectFormat TextEffect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.TextEffectFormat TextEffect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.TextEffect" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextEffect As TextEffectFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TextEffectFormat ^ TextEffect { Microsoft::Office::Interop::Word::TextEffectFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.TextEffectFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.TextEffectFormat" /> object that contains text-effect formatting properties for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property applies to <see cref="T:Microsoft.Office.Interop.Word.Shape" /> objects that represent WordArt.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFrame">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TextFrame TextFrame { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.TextFrame TextFrame" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.TextFrame" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextFrame As TextFrame" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TextFrame ^ TextFrame { Microsoft::Office::Interop::Word::TextFrame ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(121)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(121)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.TextFrame</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.TextFrame" /> object that contains the text for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFrame2">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextFrame2 TextFrame2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextFrame2 TextFrame2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.TextFrame2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextFrame2 As TextFrame2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextFrame2 ^ TextFrame2 { Microsoft::Office::Core::TextFrame2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(155)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(155)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextFrame2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Core.TextFrame2" /> object that contains the text for the specified shape. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextFrame2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreeD">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ThreeDFormat ThreeD { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.ThreeDFormat ThreeD" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.ThreeD" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreeD As ThreeDFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ThreeDFormat ^ ThreeD { Microsoft::Office::Interop::Word::ThreeDFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ThreeDFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.ThreeDFormat" /> object that contains formatting properties of the three-dimensional effect for the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(158)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(158)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(158)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a string that contains a title for the specified shape. </summary>
+        <value>A string that contains a title for the specified shape.</value>
+        <remarks>
+          <para>Read/write. Use this property to provide an alternative text title for a shape. This property adds title text to the Title text box on the Alt Text pane of the Format Shape dialog in Microsoft Word 2010.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public float Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Top { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the vertical position of the specified shape in points.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The position of a shape is measured from the upper-left corner of the shape's bounding box to the shape's anchor. The <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeVerticalPosition" /> property controls whether the shape's anchor is positioned alongside the line, the paragraph, the margin, or the edge of the page.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TopRelative">
+      <MemberSignature Language="C#" Value="public float TopRelative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 TopRelative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.TopRelative" />
+      <MemberSignature Language="VB.NET" Value="Public Property TopRelative As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TopRelative { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(201)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(201)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Single</b> that represents the relative top position of a shape. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>Use this property with the <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeHorizontalPosition" /> property. When set to <b>wdShapePositionRelativeNone</b> (-999999) (see the <see cref="T:Microsoft.Office.Interop.Word.WdShapePositionRelative" /> enumeration), this property should be ignored because the shape does not use percent positioning. The vertical position is solely determined by the <see cref="P:Microsoft.Office.Interop.Word.Shape.Top" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoShapeType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoShapeType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As MsoShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoShapeType Type { Microsoft::Office::Core::MsoShapeType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(124)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(124)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the shape type.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ungroup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.ShapeRange Ungroup ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.ShapeRange Ungroup() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.Ungroup" />
+      <MemberSignature Language="VB.NET" Value="Public Function Ungroup () As ShapeRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::ShapeRange ^ Ungroup();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.ShapeRange</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Ungroups any grouped shapes in the specified shape.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Disassembles pictures and OLE objects within the specified shape.</para>
+          <para>Returns the ungrouped shapes as a single <see cref="T:Microsoft.Office.Interop.Word.ShapeRange" /> object.</para>
+          <para>Because a group of shapes is treated as a single object, grouping and ungrouping shapes changes the number of items in the <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection and changes the index numbers of items that come after the affected items in the collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalFlip">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState VerticalFlip { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState VerticalFlip" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.VerticalFlip" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalFlip As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState VerticalFlip { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(125)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(125)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the specified shape is flipped around the vertical axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the specified shape is flipped around the vertical axis, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Vertices">
+      <MemberSignature Language="C#" Value="public object Vertices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Vertices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Vertices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Vertices As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Vertices { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the coordinates of the specified freeform drawing's vertices (and control points for Bézier curves) as a series of coordinate pairs.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can use the array returned by this property as an argument for the <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddCurve(System.Object@,System.Object@)" /> or <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddPolyline(System.Object@,System.Object@)" /> method.</para>
+          <para>The following table shows how the <b>Vertices</b> property associates values in the array vertArray() with the coordinates of a triangle's vertices.</para>
+          <list type="table">
+            <item>
+              <description>vertArray(1, 1)</description>
+              <description>The horizontal distance from the first vertex to the left side of the document.</description>
+            </item>
+            <item>
+              <description>vertArray(1, 2)</description>
+              <description>The vertical distance from the first vertex to the top of the document.</description>
+            </item>
+            <item>
+              <description>vertArray(2, 1)</description>
+              <description>The horizontal distance from the second vertex to the left side of the document.</description>
+            </item>
+            <item>
+              <description>vertArray(2, 2)</description>
+              <description>The vertical distance from the second vertex to the top of the document.</description>
+            </item>
+            <item>
+              <description>vertArray(3, 1)</description>
+              <description>The horizontal distance from the third vertex to the left side of the document.</description>
+            </item>
+            <item>
+              <description>vertArray(3, 2)</description>
+              <description>The vertical distance from the third vertex to the top of the document.</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(127)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(127)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(127)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the specified object, or the formatting applied to it, is visible.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the specified object, or the formatting applied to it, is visible, and <b>False</b> if it is not.</para>
+          <para>For any object, some methods and properties may be unavailable if the <b>Visible</b> property is <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public float Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the width of the specified object, in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WidthRelative">
+      <MemberSignature Language="C#" Value="public float WidthRelative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 WidthRelative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.WidthRelative" />
+      <MemberSignature Language="VB.NET" Value="Public Property WidthRelative As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float WidthRelative { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(202)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(202)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(202)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Single</b>  that represents the relative width of a shape. Read/write.</summary>
+        <value>Returns <see cref="T:System.Single" />.</value>
+        <remarks>
+          <para>Use this property with the <see cref="P:Microsoft.Office.Interop.Word.Shape.RelativeVerticalSize" /> property. When set to <b>wdShapeSizeRelativeNone</b> (-999999) (see the <see cref="T:Microsoft.Office.Interop.Word.WdShapeSizeRelative" /> enumeration), this property should be ignored because the shape does not use percent sizing. The width is solely determined by the <see cref="P:Microsoft.Office.Interop.Word.Shape.Width" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WrapFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WrapFormat WrapFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.WrapFormat WrapFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.WrapFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WrapFormat As WrapFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WrapFormat ^ WrapFormat { Microsoft::Office::Interop::Word::WrapFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(303)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(303)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WrapFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.WrapFormat" /> object that contains the properties for wrapping text around the specified shape.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZOrder">
+      <MemberSignature Language="C#" Value="public void ZOrder (Microsoft.Office.Core.MsoZOrderCmd ZOrderCmd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ZOrder([in]valuetype Microsoft.Office.Core.MsoZOrderCmd ZOrderCmd) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Shape.ZOrder(Microsoft.Office.Core.MsoZOrderCmd)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ZOrder (ZOrderCmd As MsoZOrderCmd)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ZOrder(Microsoft::Office::Core::MsoZOrderCmd ZOrderCmd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ZOrderCmd" Type="Microsoft.Office.Core.MsoZOrderCmd" />
+      </Parameters>
+      <Docs>
+        <param name="ZOrderCmd">Required <see cref="T:Microsoft.Office.Core.MsoZOrderCmd" />. Specifies where to move the specified shape relative to the other shapes.</param>
+        <summary>Moves the specified shape in front of or behind other shapes in the collection (that is, changes the shape's position in the z-order).</summary>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Shape.ZOrderPosition" /> property to determine a shape's current position in the z-order.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZOrderPosition">
+      <MemberSignature Language="C#" Value="public int ZOrderPosition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ZOrderPosition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shape.ZOrderPosition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ZOrderPosition As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ZOrderPosition { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(129)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(129)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the position of the specified shape in the z-order.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>To set the shape's position in the z-order, use the <see cref="M:Microsoft.Office.Interop.Word.Shape.ZOrder(Microsoft.Office.Core.MsoZOrderCmd)" /> method.</para>
+          <para>A shape's position in the z-order corresponds to the shape's index number in the <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection.</para>
+          <para>Whenever you add a new shape to a collection, it's added to the front of the z-order by default.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

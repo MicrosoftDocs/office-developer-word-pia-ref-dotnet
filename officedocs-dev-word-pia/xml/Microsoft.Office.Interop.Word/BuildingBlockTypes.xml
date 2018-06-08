@@ -1,0 +1,186 @@
+﻿<Type Name="BuildingBlockTypes" FullName="Microsoft.Office.Interop.Word.BuildingBlockTypes">
+  <TypeSignature Language="C#" Value="public interface BuildingBlockTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract BuildingBlockTypes" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.BuildingBlockTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Interface BuildingBlockTypes" />
+  <TypeSignature Language="C++ CLI" Value="public interface class BuildingBlockTypes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("B5828B50-0E3D-448A-962D-A40702A5868D")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a collection of <see cref="T:Microsoft.Office.Interop.Word.BuildingBlockType" /> objects.</summary>
+    <remarks>
+      <para>Building block types are represented by <see cref="T:Microsoft.Office.Interop.Word.WdBuildingBlockTypes" /> constants. Use the <see cref="M:Microsoft.Office.Interop.Word.BuildingBlockTypes.Item(Microsoft.Office.Interop.Word.WdBuildingBlockTypes)" /> method to access a specific type in the <b>BuildingBlockTypes</b> collection. For more information about building blocks, see <a href="HV10120827">Working with Building Blocks</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockTypes.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word._Application" /> object that represents the Microsoft Word application.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word._Application" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockTypes.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of items in the <see cref="T:Microsoft.Office.Interop.Word.BuildingBlockTypes" /> collection. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockTypes.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit <b>Integer</b> that indicates the application in which the add-in was created. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, the <see cref="P:Microsoft.Office.Interop.Word.BuildingBlockTypes.Creator" /> property returns the hexadecimal number 4D535744, which represents the string "MSWD."  This value can also be represented by the constant <see cref="F:Microsoft.Office.Interop.Word.WdConstants.wdCreatorCode" />. </para>
+          <para>This property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>
+            <b>Note</b>: </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.BuildingBlockType Item (Microsoft.Office.Interop.Word.WdBuildingBlockTypes Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.BuildingBlockType Item([in]valuetype Microsoft.Office.Interop.Word.WdBuildingBlockTypes Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.BuildingBlockTypes.Item(Microsoft.Office.Interop.Word.WdBuildingBlockTypes)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As WdBuildingBlockTypes) As BuildingBlockType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::BuildingBlockType ^ Item(Microsoft::Office::Interop::Word::WdBuildingBlockTypes Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.BuildingBlockType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="Microsoft.Office.Interop.Word.WdBuildingBlockTypes" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Required <see cref="T:Microsoft.Office.Interop.Word.WdBuildingBlockTypes" /> Specifies the building block type of the item in the collection.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.BuildingBlockType" /> object that represents the specified item in the collection.</summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Interop.Word.BuildingBlockType" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockTypes.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent of the specified <see cref="T:Microsoft.Office.Interop.Word.BuildingBlockTypes" /> object.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

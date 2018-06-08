@@ -1,0 +1,36 @@
+﻿<Type Name="ApplicationEvents4_DocumentBeforePrintEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_DocumentBeforePrintEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_DocumentBeforePrintEventHandler(Document Doc, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_DocumentBeforePrintEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_DocumentBeforePrintEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_DocumentBeforePrintEventHandler(Doc As Document, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_DocumentBeforePrintEventHandler(Document ^ Doc, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Doc">The document that's being printed.</param>
+    <param name="Cancel">
+      <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the document isn't printed when the procedure is finished.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforePrint" /> event. The <b>DocumentBeforePrint</b> event occurs before any open document is printed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

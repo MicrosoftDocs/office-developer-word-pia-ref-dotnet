@@ -1,0 +1,364 @@
+﻿<Type Name="KeysBoundTo" FullName="Microsoft.Office.Interop.Word.KeysBoundTo">
+  <TypeSignature Language="C#" Value="public interface KeysBoundTo : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract KeysBoundTo implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.KeysBoundTo" />
+  <TypeSignature Language="VB.NET" Value="Public Interface KeysBoundTo&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class KeysBoundTo : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020997-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A collection of <see cref="T:Microsoft.Office.Interop.Word.KeyBinding" /> objects assigned to a command, style, macro, or other item in the current context.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Application.KeysBoundTo(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Object@)" /> property to return the <b>KeysBoundTo</b> collection.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public string Command { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Command" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Command" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Command As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Command { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the command assigned to the specified key combination.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandParameter">
+      <MemberSignature Language="C#" Value="public string CommandParameter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CommandParameter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.CommandParameter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandParameter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CommandParameter { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the command parameter assigned to the specified shortcut key.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For information about commands that take parameters, see the <see cref="M:Microsoft.Office.Interop.Word.KeyBindings.Add(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Int32,System.Object@,System.Object@)" /> Method of the <see cref="T:Microsoft.Office.Interop.Word.KeyBindingsObject" />. Use the <see cref="P:Microsoft.Office.Interop.Word.KeyBinding.Command" /> property to return the command name assigned to the specified shortcut key.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public object Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Context { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the storage location of the specified key binding. This property can return a <see cref="T:Microsoft.Office.Interop.Word.Document" />, <see cref="T:Microsoft.Office.Interop.Word.Template" />, or <see cref="T:Microsoft.Office.Interop.Word.Application" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Built-in key assignments (for example, CTRL+I for <b>Italic</b>) return the <b>Application</b> object as the context. Any key bindings you add will return a <b>Document</b> or <b>Template</b> object, depending on the customization context in effect when the <see cref="T:Microsoft.Office.Interop.Word.KeyBinding" /> object was added.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of items in the specified collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeysBoundTo.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.KeyBinding this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.KeyBinding Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As KeyBinding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeyBinding ^ default[int] { Microsoft::Office::Interop::Word::KeyBinding ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.KeyBinding</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">An <b>Integer</b> indicating the ordinal position of the individual object.</param>
+        <summary>Returns an individual object in a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.KeyBinding Key (int KeyCode, ref object KeyCode2);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.KeyBinding Key([in]int32 KeyCode, [in]object&amp; KeyCode2) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeysBoundTo.Key(System.Int32,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Key (KeyCode As Integer, Optional ByRef KeyCode2 As Object) As KeyBinding" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.KeyBinding</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="KeyCode" Type="System.Int32" />
+        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="KeyCode">Required <b>Integer</b>. A key you specify by using one of the <b>WdKey</b> constants.</param>
+        <param name="KeyCode2">Optional <b>Object</b>. A second key you specify by using one of the <see cref="T:Microsoft.Office.Interop.Word.WdKey" /> constants.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.KeyBinding" /> object that represents the specified custom key combination. If the key combination doesn't exist, this method returns <b>Nothing</b>.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>You can use the <see cref="M:Microsoft.Office.Interop.Word._Application.BuildKeyCode(Microsoft.Office.Interop.Word.WdKey,System.Object@,System.Object@,System.Object@)" /> method to create the <paramref name="KeyCode" /> or <paramref name="KeyCode2" /> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyCategory">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdKeyCategory KeyCategory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdKeyCategory KeyCategory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.KeyCategory" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyCategory As WdKeyCategory" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdKeyCategory KeyCategory { Microsoft::Office::Interop::Word::WdKeyCategory get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdKeyCategory</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the type of item assigned to the specified key binding.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

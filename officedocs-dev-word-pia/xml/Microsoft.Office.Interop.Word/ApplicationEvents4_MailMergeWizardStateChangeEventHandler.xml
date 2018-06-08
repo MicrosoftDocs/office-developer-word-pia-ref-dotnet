@@ -1,0 +1,40 @@
+﻿<Type Name="ApplicationEvents4_MailMergeWizardStateChangeEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeWizardStateChangeEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_MailMergeWizardStateChangeEventHandler(Document Doc, ref int FromState, ref int ToState, ref bool Handled);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_MailMergeWizardStateChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeWizardStateChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_MailMergeWizardStateChangeEventHandler(Doc As Document, ByRef FromState As Integer, ByRef ToState As Integer, ByRef Handled As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_MailMergeWizardStateChangeEventHandler(Document ^ Doc, int % FromState, int % ToState, bool % Handled);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+    <Parameter Name="FromState" Type="System.Int32&amp;" RefType="ref" />
+    <Parameter Name="ToState" Type="System.Int32&amp;" RefType="ref" />
+    <Parameter Name="Handled" Type="System.Boolean&amp;" RefType="ref" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Doc">The mail merge main document.</param>
+    <param name="FromState">The Mail Merge Wizard step from which a user is moving.</param>
+    <param name="ToState">The Mail Merge Wizard step to which a user is moving.</param>
+    <param name="Handled">
+      <b>True</b> moves the user to the next step. <b>False</b> for the user to remain at the current step.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.MailMergeWizardStateChange" /> event. The <b>MailMergeWizardStateChange</b> event occurs when a user changes from a specified step to a specified step in the Mail Merge Wizard.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,481 @@
+﻿<Type Name="Revision" FullName="Microsoft.Office.Interop.Word.Revision">
+  <TypeSignature Language="C#" Value="public interface Revision" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Revision" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Revision" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Revision" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Revision" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020981-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a change marked with a revision mark.</summary>
+    <remarks>
+      <para>The <b>Revision</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.Revisions" /> collection. The <b>Revisions</b> collection includes all the revision marks in a range or document.</para>
+      <para>Use <b>Revisions</b>(<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>Revision</b> object. The index number represents the position of the revision in the range or document.</para>
+      <para>The <b>Add</b> method isn't available for the <b>Revisions</b> collection. <b>Revision</b> objects are added when change tracking is enabled. Set the <see cref="P:Microsoft.Office.Interop.Word._Document.TrackRevisions" /> property to <b>True</b> to track revisions made to the document text.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accept">
+      <MemberSignature Language="C#" Value="public void Accept ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Accept() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Revision.Accept" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Accept ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Accept();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Accepts the specified tracked change. The revision marks are removed, and the change is incorporated into the document.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Author">
+      <MemberSignature Language="C#" Value="public string Author { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Author" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Author" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Author As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Author { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the user who made the specified tracked change.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cells">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Cells Cells { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Cells Cells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Cells" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cells As Cells" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Cells ^ Cells { Microsoft::Office::Interop::Word::Cells ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Cells</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Cells" /> collection that represents the table cells that have been marked with revision marks. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.Cells" />
+        </value>
+        <remarks>
+          <para>For information about returning a single member of a collection, see <a href="HV10056838">Returning an Object from a Collection</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Date">
+      <MemberSignature Language="C#" Value="public DateTime Date { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Date" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Date" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Date As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Date { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The date and time that the tracked change was made.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatDescription">
+      <MemberSignature Language="C#" Value="public string FormatDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormatDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.FormatDescription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormatDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormatDescription { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> representing a description of tracked formatting changes in a revision.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> that represents the position of an item in a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MovedRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range MovedRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range MovedRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.MovedRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MovedRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ MovedRange { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents a range of text that was moved from one place to another in a document with tracked changes. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.Range" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range Range { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range Range" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Range" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the portion of a document that's contained in the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For information about returning a range from a document or returning a shape range from a collection of shapes, see the <b>Range</b> method of a <see cref="T:Microsoft.Office.Interop.Word.Document" /> or <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reject">
+      <MemberSignature Language="C#" Value="public void Reject ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reject() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Revision.Reject" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reject ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reject();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Rejects the specified tracked change. The revision marks are removed, leaving the original text intact.</summary>
+        <remarks>
+          <para>
+            <b>Note</b>  Formatting changes cannot be rejected.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Style Style { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Style Style" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Style" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Style As Style" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Style ^ Style { Microsoft::Office::Interop::Word::Style ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Style" /> object that represents the style associated with the current author for revisions.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdRevisionType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdRevisionType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Revision.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdRevisionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRevisionType Type { Microsoft::Office::Interop::Word::WdRevisionType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdRevisionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the revision type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdRevisionType" /> can be one of these <b>WdRevisionType</b> constants.</para>
+          <para>
+            <b>wdNoRevision </b>
+          </para>
+          <para>
+            <b>wdRevisionDelete </b>
+          </para>
+          <para>
+            <b>wdRevisionInsert </b>
+          </para>
+          <para>
+            <b>wdRevisionParagraphProperty </b>
+          </para>
+          <para>
+            <b>wdRevisionReconcile </b>
+          </para>
+          <para>
+            <b>wdRevisionSectionProperty </b>
+          </para>
+          <para>
+            <b>wdRevisionStyleDefinition </b>
+          </para>
+          <para>
+            <b>wdRevisionConflict </b>
+          </para>
+          <para>
+            <b>wdRevisionDisplayField </b>
+          </para>
+          <para>
+            <b>wdRevisionParagraphNumber </b>
+          </para>
+          <para>
+            <b>wdRevisionProperty </b>
+          </para>
+          <para>
+            <b>wdRevisionReplace </b>
+          </para>
+          <para>
+            <b>wdRevisionStyle </b>
+          </para>
+          <para>
+            <b>wdRevisionTableProperty</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

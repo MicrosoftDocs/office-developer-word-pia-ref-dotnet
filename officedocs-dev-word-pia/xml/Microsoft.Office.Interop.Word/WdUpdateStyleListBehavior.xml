@@ -1,0 +1,66 @@
+﻿<Type Name="WdUpdateStyleListBehavior" FullName="Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior">
+  <TypeSignature Language="C#" Value="public enum WdUpdateStyleListBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WdUpdateStyleListBehavior extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WdUpdateStyleListBehavior" />
+  <TypeSignature Language="C++ CLI" Value="public enum class WdUpdateStyleListBehavior" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("E9F1477D-EBE4-3E52-8171-6D2E3AEF58CD")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Specifies the behavior Word 2010 should take when updating a style to match a selection that contains numbering or bullets.</summary>
+    <remarks>
+      <para>Use the <b>WdUpdateStyleListBehavior</b> enumeration to set the <see cref="P:Microsoft.Office.Interop.Word.Options.UpdateStyleListBehavior" /> property of the <see cref="T:Microsoft.Office.Interop.Word.Options" /> object. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="wdListBehaviorAddBulletsNumbering">
+      <MemberSignature Language="C#" Value="wdListBehaviorAddBulletsNumbering" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior wdListBehaviorAddBulletsNumbering = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior.wdListBehaviorAddBulletsNumbering" />
+      <MemberSignature Language="VB.NET" Value="wdListBehaviorAddBulletsNumbering" />
+      <MemberSignature Language="C++ CLI" Value="wdListBehaviorAddBulletsNumbering" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Adds the numbering or bullets pattern of the selection to all paragraphs in the document that use the same style.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="wdListBehaviorKeepPreviousPattern">
+      <MemberSignature Language="C#" Value="wdListBehaviorKeepPreviousPattern" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior wdListBehaviorKeepPreviousPattern = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior.wdListBehaviorKeepPreviousPattern" />
+      <MemberSignature Language="VB.NET" Value="wdListBehaviorKeepPreviousPattern" />
+      <MemberSignature Language="C++ CLI" Value="wdListBehaviorKeepPreviousPattern" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdUpdateStyleListBehavior</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Keeps the existing numbering or bullets pattern for all other paragraphs that use the same style and does not apply the numbering or bullets pattern of the selection.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

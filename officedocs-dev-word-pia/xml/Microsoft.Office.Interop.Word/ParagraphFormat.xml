@@ -1,0 +1,33 @@
+﻿<Type Name="ParagraphFormat" FullName="Microsoft.Office.Interop.Word.ParagraphFormat">
+  <TypeSignature Language="C#" Value="public interface ParagraphFormat : Microsoft.Office.Interop.Word._ParagraphFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ParagraphFormat implements class Microsoft.Office.Interop.Word._ParagraphFormat" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ParagraphFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ParagraphFormat&#xA;Implements _ParagraphFormat" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ParagraphFormat : Microsoft::Office::Interop::Word::_ParagraphFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word._ParagraphFormat</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Word.ParagraphFormatClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020953-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents all the formatting for a paragraph.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Paragraph.Format" /> property to return the <b>ParagraphFormat</b> object for a paragraph or paragraphs. The <b>ParagraphFormat</b> property returns the <b>ParagraphFormat</b> object for a <see cref="T:Microsoft.Office.Interop.Word.Selection" />, <see cref="T:Microsoft.Office.Interop.Word.Range" />, <see cref="T:Microsoft.Office.Interop.Word.Style" />, <see cref="T:Microsoft.Office.Interop.Word.Find" />, or <see cref="T:Microsoft.Office.Interop.Word.Replacement" /> object.</para>
+      <para>You can make a standalone copy of an existing <b>ParagraphFormat</b> object by using the <see cref="P:Microsoft.Office.Interop.Word._ParagraphFormat.Duplicate" /> property.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

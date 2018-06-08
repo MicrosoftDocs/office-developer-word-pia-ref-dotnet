@@ -1,0 +1,342 @@
+﻿<Type Name="HeaderFooter" FullName="Microsoft.Office.Interop.Word.HeaderFooter">
+  <TypeSignature Language="C#" Value="public interface HeaderFooter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract HeaderFooter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.HeaderFooter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface HeaderFooter" />
+  <TypeSignature Language="C++ CLI" Value="public interface class HeaderFooter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020985-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a single header or footer.</summary>
+    <remarks>
+      <para>The <b>HeaderFooter</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.HeadersFooters" /> collection. The <b>HeadersFooters</b> collection includes all headers and footers in the specified document section.</para>
+      <para>Use <b>Headers</b>(<paramref name="index" />) or <b>Footers</b>(<paramref name="index" />), where <paramref name="index" /> is one of the <see cref="T:Microsoft.Office.Interop.Word.WdHeaderFooterIndex" /> constants (<b>wdHeaderFooterEvenPages</b>, <b>wdHeaderFooterFirstPage</b>, or <b>wdHeaderFooterPrimary</b>), to return a single <b>HeaderFooter</b> object.</para>
+      <para>You can also return a single <b>HeaderFooter</b> object by using the <see cref="P:Microsoft.Office.Interop.Word.Selection.HeaderFooter" /> property with a <see cref="T:Microsoft.Office.Interop.Word.Selection" /> object.</para>
+      <para>
+        <b>Note</b>: You cannot add <b>HeaderFooter</b> objects to the <b>HeadersFooters</b> collection.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.PageSetup.DifferentFirstPageHeaderFooter" /> property with the <see cref="T:Microsoft.Office.Interop.Word.PageSetup" /> object to specify a different first page.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.PageSetup.OddAndEvenPagesHeaderFooter" /> property with the <b>PageSetup</b> object to specify different odd and even page headers and footers. If the <b>OddAndEvenPagesHeaderFooter</b> property is <b>True</b>, you can return an odd header or footer by using <b>wdHeaderFooterPrimary</b>, and you can return an even header or footer by using <b>wdHeaderFooterEvenPages</b>.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.PageNumbers.Add(System.Object@,System.Object@)" /> method with the <see cref="T:Microsoft.Office.Interop.Word.PageNumbers" /> object to add a page number to a header or footer.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public bool Exists { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Exists" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Exists" />
+      <MemberSignature Language="VB.NET" Value="Public Property Exists As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Exists { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified <see cref="T:Microsoft.Office.Interop.Word.HeaderFooter" /> object exists.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The primary header and footer exist in all new documents by default. Use this method to determine whether a first-page or odd-page header or footer exists. You can also use the <see cref="P:Microsoft.Office.Interop.Word.PageSetup.DifferentFirstPageHeaderFooter" /> or <see cref="P:Microsoft.Office.Interop.Word.PageSetup.OddAndEvenPagesHeaderFooter" /> property to return or set the number of headers and footers in the specified document or section.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdHeaderFooterIndex Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdHeaderFooterIndex Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As WdHeaderFooterIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdHeaderFooterIndex Index { Microsoft::Office::Interop::Word::WdHeaderFooterIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdHeaderFooterIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.WdHeaderFooterIndex" /> constant that represents the specified header or footer in a document or section.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHeader">
+      <MemberSignature Language="C#" Value="public bool IsHeader { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.IsHeader" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsHeader As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsHeader { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified <see cref="T:Microsoft.Office.Interop.Word.HeaderFooter" /> object is a header.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkToPrevious">
+      <MemberSignature Language="C#" Value="public bool LinkToPrevious { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LinkToPrevious" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.LinkToPrevious" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinkToPrevious As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LinkToPrevious { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified header or footer is linked to the corresponding header or footer in the previous section. When a header or footer is linked, its contents are the same as in the previous header or footer.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Because the <b>LinkToPrevious</b> property is set to <b>True</b> by default, you can add headers, footers, and page numbers to your entire document by working with the headers, footers, and page numbers in the first section.</para>
+          <para>The <b>LinkToPrevious</b> property applies to each header or footer individually. For example, the <b>LinkToPrevious</b> property could be set to <b>True</b> for the even-numbered-page header but <b>False</b> for the even-numbered-page footer.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.PageNumbers PageNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.PageNumbers PageNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.PageNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageNumbers As PageNumbers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::PageNumbers ^ PageNumbers { Microsoft::Office::Interop::Word::PageNumbers ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.PageNumbers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.PageNumbers" /> collection that represents all the page number fields included in the specified header or footer.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range Range" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Range" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Range As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ default { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the portion of a document that's contained in the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For information about returning a range from a document or returning a shape range from a collection of shapes, see the <see cref="M:Microsoft.Office.Interop.Word.Shapes.Range(System.Object@)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shapes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Shapes Shapes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Shapes Shapes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Shapes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shapes As Shapes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shapes ^ Shapes { Microsoft::Office::Interop::Word::Shapes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Shapes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection that represents all the <see cref="T:Microsoft.Office.Interop.Word.Shape" /> objects in the specified header or footer. This collection can contain drawings, shapes, pictures, OLE objects, ActiveX controls, text objects, and callouts.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When applied to a <see cref="T:Microsoft.Office.Interop.Word.HeaderFooter" /> object, the <b>Shapes</b> property returns all the <b>Shape</b> objects found in all the headers and footers in the document.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

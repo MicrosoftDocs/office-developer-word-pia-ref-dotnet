@@ -1,0 +1,1968 @@
+﻿<Type Name="Window" FullName="Microsoft.Office.Interop.Word.Window">
+  <TypeSignature Language="C#" Value="public interface Window" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Window" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Window" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Window" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Window" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020962-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a window.</summary>
+    <remarks>
+      <para>Many document characteristics, such as scroll bars and rulers, are actually properties of the window. The <see cref="T:Microsoft.Office.Interop.Word.Window" /> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.Windows" /> collection. The <see cref="T:Microsoft.Office.Interop.Word.Windows" /> collection for the <see cref="T:Microsoft.Office.Interop.Word.Application" /> object contains all the windows in the application, whereas the <see cref="T:Microsoft.Office.Interop.Word.Windows" /> collection for the <see cref="T:Microsoft.Office.Interop.Word.Document" /> object contains only the windows that display the specified document.</para>
+      <para>Use <b>Windows</b>(<paramref name="index" />), where <paramref name="index" /> is the window name or the index number, to return a single <see cref="T:Microsoft.Office.Interop.Word.Window" /> object.</para>
+      <para>The index number is the number to the left of the window name on the Window menu.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Windows.Add(System.Object@)" /> method or the <see cref="M:Microsoft.Office.Interop.Word.Window.NewWindow" /> method to add a new window to the <see cref="T:Microsoft.Office.Interop.Word.Windows" /> collection.</para>
+      <para>A colon (:) and a number appear in the window caption when more than one window is open for a document.</para>
+      <para>When you switch the view to print preview, a new window is created. This window is removed from the <see cref="T:Microsoft.Office.Interop.Word.Windows" /> collection when you close print preview.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Activates the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="public bool Active { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Active" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Active" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Active As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Active { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified window is active.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivePane">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Pane ActivePane { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Pane ActivePane" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.ActivePane" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivePane As Pane" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pane ^ ActivePane { Microsoft::Office::Interop::Word::Pane ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Pane</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Pane" /> object that represents the active pane for the specified window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Caption" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the caption text for the specified document or application window.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>To change the caption of the application window to the default text, set this property to an empty string ("").</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (ref object SaveChanges, ref object RouteDocument);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]object&amp; SaveChanges, [in]object&amp; RouteDocument) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.Close(System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (Optional ByRef SaveChanges As Object, Optional ByRef RouteDocument As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SaveChanges" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="RouteDocument" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="SaveChanges">Optional <b>Object</b>. Specifies the save action for the document. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdSaveOptions" /> constants: <b>wdDoNotSaveChanges</b>, <b>wdPromptToSaveChanges</b>, or <b>wdSaveChanges</b>.</param>
+        <param name="RouteDocument">Optional <b>Object</b>. <b>True</b> to route the document to the next recipient. If the document doesn't have a routing slip attached, this argument is ignored.</param>
+        <summary>Closes the specified window.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayHorizontalScrollBar">
+      <MemberSignature Language="C#" Value="public bool DisplayHorizontalScrollBar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayHorizontalScrollBar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayHorizontalScrollBar" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayHorizontalScrollBar As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayHorizontalScrollBar { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a horizontal scroll bar is displayed for the specified window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayLeftScrollBar">
+      <MemberSignature Language="C#" Value="public bool DisplayLeftScrollBar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayLeftScrollBar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayLeftScrollBar" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayLeftScrollBar As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayLeftScrollBar { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the vertical scroll bar appears on the left side of the document window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayRightRuler">
+      <MemberSignature Language="C#" Value="public bool DisplayRightRuler { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayRightRuler" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayRightRuler" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayRightRuler As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayRightRuler { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the vertical ruler appears on the right side of the document window in print layout view.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayRulers">
+      <MemberSignature Language="C#" Value="public bool DisplayRulers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayRulers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayRulers" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayRulers As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayRulers { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if rulers are displayed for the specified window or pane.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>DisplayRulers</b> property is equivalent to the Ruler command on the View menu. </para>
+          <para>
+            <b>Note</b>  If <b>DisplayRulers</b> is <b>False</b>, the horizontal and vertical rulers won't be displayed, regardless of the state of the <see cref="P:Microsoft.Office.Interop.Word.Window.DisplayVerticalRuler" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayScreenTips">
+      <MemberSignature Language="C#" Value="public bool DisplayScreenTips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayScreenTips" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayScreenTips" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayScreenTips As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayScreenTips { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if comments, footnotes, endnotes, and hyperlinks are displayed as tips. Text marked as having comments is highlighted.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayVerticalRuler">
+      <MemberSignature Language="C#" Value="public bool DisplayVerticalRuler { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayVerticalRuler" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayVerticalRuler" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayVerticalRuler As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayVerticalRuler { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a vertical ruler is displayed for the specified window or pane.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Note</b>  A vertical ruler appears only in print layout view, and only if the <see cref="P:Microsoft.Office.Interop.Word.Window.DisplayRulers" /> property is set to <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayVerticalScrollBar">
+      <MemberSignature Language="C#" Value="public bool DisplayVerticalScrollBar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayVerticalScrollBar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayVerticalScrollBar" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayVerticalScrollBar As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayVerticalScrollBar { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a vertical scroll bar is displayed for the specified window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Document">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Document Document { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Document Document" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Document" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Document As Document" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Document ^ Document { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Document</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Document" /> object associated with the specified window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentMap">
+      <MemberSignature Language="C#" Value="public bool DocumentMap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DocumentMap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DocumentMap" />
+      <MemberSignature Language="VB.NET" Value="Public Property DocumentMap As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DocumentMap { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the document map is visible.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentMapPercentWidth">
+      <MemberSignature Language="C#" Value="public int DocumentMapPercentWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DocumentMapPercentWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DocumentMapPercentWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property DocumentMapPercentWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DocumentMapPercentWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the width of the document map as a percentage of the width of the specified window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvelopeVisible">
+      <MemberSignature Language="C#" Value="public bool EnvelopeVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnvelopeVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.EnvelopeVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnvelopeVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnvelopeVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the e-mail message header is visible in the document window. The default value is <b>False</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property has no effect if the document isn't an e-mail message.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPoint">
+      <MemberSignature Language="C#" Value="public void GetPoint (out int ScreenPixelsLeft, out int ScreenPixelsTop, out int ScreenPixelsWidth, out int ScreenPixelsHeight, object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetPoint([out] int32&amp; ScreenPixelsLeft, [out] int32&amp; ScreenPixelsTop, [out] int32&amp; ScreenPixelsWidth, [out] int32&amp; ScreenPixelsHeight, [in]object obj) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.GetPoint(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetPoint (ByRef ScreenPixelsLeft As Integer, ByRef ScreenPixelsTop As Integer, ByRef ScreenPixelsWidth As Integer, ByRef ScreenPixelsHeight As Integer, obj As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetPoint([Runtime::InteropServices::Out] int % ScreenPixelsLeft, [Runtime::InteropServices::Out] int % ScreenPixelsTop, [Runtime::InteropServices::Out] int % ScreenPixelsWidth, [Runtime::InteropServices::Out] int % ScreenPixelsHeight, System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ScreenPixelsLeft" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="ScreenPixelsTop" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="ScreenPixelsWidth" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="ScreenPixelsHeight" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ScreenPixelsLeft">Required <b>Integer</b>. The variable name to which you want Microsoft Word to return the value for the left edge of the object.</param>
+        <param name="ScreenPixelsTop">Required <b>Integer</b>. The variable name to which you want Word to return the value for the top edge of the object.</param>
+        <param name="ScreenPixelsWidth">Required <b>Integer</b>. The variable name to which you want Word to return the value for the width of the object.</param>
+        <param name="ScreenPixelsHeight">Required <b>Integer</b>. The variable name to which you want Word to return the value for the height of the object.</param>
+        <param name="obj">Required <b>Object</b>. A <see cref="T:Microsoft.Office.Interop.Word.Range" /> or <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object.</param>
+        <summary>Returns the screen coordinates of the specified range or shape.</summary>
+        <remarks>
+          <para>If the entire range or shape isn't visible on the screen, an error occurs.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the height of the window.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You cannot set this property if the window is maximized or minimized.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Application.UsableHeight" /> property of the <see cref="T:Microsoft.Office.Interop.Word.Application" /> object to determine the maximum size for the window. Use the <see cref="P:Microsoft.Office.Interop.Word.Window.WindowState" /> property to determine the window state.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalPercentScrolled">
+      <MemberSignature Language="C#" Value="public int HorizontalPercentScrolled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HorizontalPercentScrolled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.HorizontalPercentScrolled" />
+      <MemberSignature Language="VB.NET" Value="Public Property HorizontalPercentScrolled As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HorizontalPercentScrolled { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the horizontal scroll position as a percentage of the document width.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hwnd">
+      <MemberSignature Language="C#" Value="public int Hwnd { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Hwnd" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Hwnd" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hwnd As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Hwnd { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(39)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(39)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> (<b>int</b> in C#) that indicates the window handle of the specified window. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IMEMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdIMEMode IMEMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdIMEMode IMEMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.IMEMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property IMEMode As WdIMEMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdIMEMode IMEMode { Microsoft::Office::Interop::Word::WdIMEMode get(); void set(Microsoft::Office::Interop::Word::WdIMEMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(30)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(30)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(30)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdIMEMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the default start-up mode for the Japanese Input Method Editor (IME).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdIMEMode" /> can be one of these <b>WdIMEMode</b> constants: </para>
+          <para>
+            <b>wdIMEModeAlpha</b>
+            <b>–</b> Activates the IME in half-width Latin mode. </para>
+          <para>
+            <b>wdIMEModeAlphaFull</b>
+            <b>–</b> Activates the IME in full-width Latin mode. </para>
+          <para>
+            <b>wdIMEModeHangul</b>
+            <b>–</b> Activates the IME in half-width Hangul mode. </para>
+          <para>
+            <b>wdIMEModeHangulFull</b>
+            <b>–</b> Activates the IME in full-width Hangul mode. </para>
+          <para>
+            <b>wdIMEModeHiragana</b>
+            <b>–</b> Activates the IME in full-width hiragana mode. </para>
+          <para>
+            <b>wdIMEModeKatakana</b>
+            <b>–</b> Activates the IME in full-width katakana mode. </para>
+          <para>
+            <b>wdIMEModeKatakanaHalf</b>
+            <b>–</b> Activates the IME in half-width katakana mode. </para>
+          <para>
+            <b>wdIMEModeNoControl</b>
+            <b>–</b> Does not change the IME mode. </para>
+          <para>
+            <b>wdIMEModeOff</b>
+            <b>–</b> Disables the IME and activates Latin text entry. </para>
+          <para>
+            <b>wdIMEModeOn</b>
+            <b>–</b> Activates the IME.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> that represents the position of an item in a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LargeScroll">
+      <MemberSignature Language="C#" Value="public void LargeScroll (ref object Down, ref object Up, ref object ToRight, ref object ToLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LargeScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.LargeScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LargeScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Down">Optional <b>Object</b>. The number of screens to scroll the window down.</param>
+        <param name="Up">Optional <b>Object</b>. The number of screens to scroll the window up.</param>
+        <param name="ToRight">Optional <b>Object</b>. The number of screens to scroll the window to the right.</param>
+        <param name="ToLeft">Optional <b>Object</b>. The number of screens to scroll the window to the left.</param>
+        <summary>Scrolls a window or pane by the specified number of screens.</summary>
+        <remarks>
+          <para>The <b>LargeScroll</b> method is equivalent to clicking just before or just after the scroll boxes on the horizontal and vertical scroll bars.</para>
+          <para>If <paramref name="Down" /> and <paramref name="Up" /> are both specified, the window is scrolled by the difference of the arguments. For example, if <paramref name="Down" /> is 2 and <paramref name="Up" /> is 4, the window is scrolled up two screens. Similarly, if <paramref name="ToLeft" /> and <paramref name="ToRight" /> are both specified, the window is scrolled by the difference of the arguments.</para>
+          <para>Any of these arguments can be a negative number. If no arguments are specified, the window is scrolled down one screen.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> that represents the horizontal position of the specified window, measured in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Window NewWindow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Window NewWindow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.NewWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Function NewWindow () As Window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Window ^ NewWindow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Window</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Opens a new window with the same document as the specified window.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>
+            <b>Note</b>  A colon (:) and a number appear in the window caption when more than one window is open for a document.</para>
+          <para>If the <b>NewWindow</b> method is used with the <see cref="T:Microsoft.Office.Interop.Word.Application" /> object, a new window is opened for the active window.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Next">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Window Next { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Window Next" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Next" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As Window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Window ^ Next { Microsoft::Office::Interop::Word::Window ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Window</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the next object in the collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageScroll">
+      <MemberSignature Language="C#" Value="public void PageScroll (ref object Down, ref object Up);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PageScroll([in]object&amp; Down, [in]object&amp; Up) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PageScroll(System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PageScroll (Optional ByRef Down As Object, Optional ByRef Up As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Down">Optional <b>Object</b>. The number of pages to be scrolled down. If this argument is omitted, this value is assumed to be 1.</param>
+        <param name="Up">Optional <b>Object</b>. The number of pages to be scrolled up.</param>
+        <summary>Scrolls through the specified pane or window page by page.</summary>
+        <remarks>
+          <para>The <b>PageScroll</b> method is available only if you're in print layout view or web layout view. This method doesn't affect the position of the insertion point.</para>
+          <para>If <paramref name="Down" /> and <paramref name="Up" /> are both specified, the window is scrolled by the difference of the arguments. For example, if <paramref name="Down" /> is 2 and <paramref name="Up" /> is 4, the window is scrolled up two pages.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Panes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Panes Panes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Panes Panes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Panes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Panes As Panes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Panes ^ Panes { Microsoft::Office::Interop::Word::Panes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Panes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Panes" /> collection that represents all the window panes for the specified window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Previous">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Window Previous { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Window Previous" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Previous" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As Window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Window ^ Previous { Microsoft::Office::Interop::Word::Window ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Window</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the previous object in the collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintOut">
+      <MemberSignature Language="C#" Value="public void PrintOut (ref object Background, ref object Append, ref object Range, ref object OutputFileName, ref object From, ref object To, ref object Item, ref object Copies, ref object Pages, ref object PageType, ref object PrintToFile, ref object Collate, ref object ActivePrinterMacGX, ref object ManualDuplexPrint, ref object PrintZoomColumn, ref object PrintZoomRow, ref object PrintZoomPaperWidth, ref object PrintZoomPaperHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut([in]object&amp; Background, [in]object&amp; Append, [in]object&amp; Range, [in]object&amp; OutputFileName, [in]object&amp; From, [in]object&amp; To, [in]object&amp; Item, [in]object&amp; Copies, [in]object&amp; Pages, [in]object&amp; PageType, [in]object&amp; PrintToFile, [in]object&amp; Collate, [in]object&amp; ActivePrinterMacGX, [in]object&amp; ManualDuplexPrint, [in]object&amp; PrintZoomColumn, [in]object&amp; PrintZoomRow, [in]object&amp; PrintZoomPaperWidth, [in]object&amp; PrintZoomPaperHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PrintOut(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintOut (Optional ByRef Background As Object, Optional ByRef Append As Object, Optional ByRef Range As Object, Optional ByRef OutputFileName As Object, Optional ByRef From As Object, Optional ByRef To As Object, Optional ByRef Item As Object, Optional ByRef Copies As Object, Optional ByRef Pages As Object, Optional ByRef PageType As Object, Optional ByRef PrintToFile As Object, Optional ByRef Collate As Object, Optional ByRef ActivePrinterMacGX As Object, Optional ByRef ManualDuplexPrint As Object, Optional ByRef PrintZoomColumn As Object, Optional ByRef PrintZoomRow As Object, Optional ByRef PrintZoomPaperWidth As Object, Optional ByRef PrintZoomPaperHeight As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(445)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Background" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Append" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="OutputFileName" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="From" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="To" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Item" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Copies" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Pages" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PageType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintToFile" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Collate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ActivePrinterMacGX" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ManualDuplexPrint" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomColumn" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomRow" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomPaperWidth" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomPaperHeight" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Background">Optional <b>Object</b>. Set to <b>True</b> to have the macro continue while Microsoft Word prints the document.</param>
+        <param name="Append">Optional <b>Object</b>. Set to <b>True</b> to append the specified document to the file name specified by the <paramref name="OutputFileName" /> argument. <b>False</b> to overwrite the contents of <paramref name="OutputFileName" />.</param>
+        <param name="Range">Optional <b>Object</b>. The page range. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdPrintOutRange" /> constant. <b>wdPrintAllDocument</b><b>wdPrintCurrentPage </b><b>wdPrintFromTo </b><b>wdPrintRangeOfPages </b><b>wdPrintSelection</b></param>
+        <param name="OutputFileName">Optional <b>Object</b>. If <paramref name="PrintToFile" /> is <b>True</b>, this argument specifies the path and file name of the output file.</param>
+        <param name="From">Optional <b>Object</b>. The starting page number when <paramref name="Range" /> is set to <b>wdPrintFromTo</b>.</param>
+        <param name="To">Optional <b>Object</b>. The ending page number when <paramref name="Range" /> is set to <b>wdPrintFromTo</b>.</param>
+        <param name="Item">Optional <b>Object</b>. The item to be printed. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdPrintOutItem" /> constant.<b>wdPrintAutoTextEntries </b><b>wdPrintComments </b><b>wdPrintDocumentContent </b><b>wdPrintDocumentWithMarkup </b><b>wdPrintEnvelope </b><b>wdPrintKeyAssignments </b><b>wdPrintMarkup </b><b>wdPrintProperties </b><b>wdPrintStyles </b></param>
+        <param name="Copies">Optional <b>Object</b>. The number of copies to be printed.</param>
+        <param name="Pages">Optional <b>Object</b>. The page numbers and page ranges to be printed, separated by commas. For example, "2, 6-10" prints page 2 and pages 6 through 10.</param>
+        <param name="PageType">Optional <b>Object</b>. The type of pages to be printed. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdPrintOutPages" /> constant.<b>wdPrintAllPages </b><b>wdPrintEvenPagesOnly </b><b>wdPrintOddPagesOnly</b></param>
+        <param name="PrintToFile">Optional <b>Object</b>. <b>True</b> to send printer instructions to a file. Make sure to specify a file name with <paramref name="OutputFileName" />.</param>
+        <param name="Collate">Optional <b>Object</b>. When printing multiple copies of a document, <b>True</b> to print all pages of the document before printing the next copy.</param>
+        <param name="ActivePrinterMacGX">Optional <b>Object</b>. This argument is available only in Microsoft Office Macintosh Edition. For additional information about this argument, consult the language reference Help included with Microsoft Office Macintosh Edition.</param>
+        <param name="ManualDuplexPrint">Optional <b>Object</b>. <b>True</b> to print a two-sided document on a printer without a duplex printing kit. If this argument is <b>True</b>, the <see cref="P:Microsoft.Office.Interop.Word.Options.PrintBackground" /> and <see cref="P:Microsoft.Office.Interop.Word.Options.PrintReverse" /> properties are ignored. Use the <see cref="P:Microsoft.Office.Interop.Word.Options.PrintOddPagesInAscendingOrder" /> and <see cref="P:Microsoft.Office.Interop.Word.Options.PrintEvenPagesInAscendingOrder" /> properties to control the output during manual duplex printing. This argument may not be available to you, depending on the language support (U.S. English, for example) that you’ve selected or installed.</param>
+        <param name="PrintZoomColumn">Optional <b>Object</b>. The number of pages you want Word to fit horizontally on one page. Can be 1, 2, 3, or 4. Use with the <paramref name="PrintZoomRow" /> argument to print multiple pages on a single sheet.</param>
+        <param name="PrintZoomRow">Optional <b>Object</b>. The number of pages you want Word to fit vertically on one page. Can be 1, 2, or 4. Use with the <paramref name="PrintZoomColumn" /> argument to print multiple pages on a single sheet.</param>
+        <param name="PrintZoomPaperWidth">Optional <b>Object</b>. The width to which you want Word to scale printed pages, in twips (20 twips = 1 point; 72 points = 1 inch).</param>
+        <param name="PrintZoomPaperHeight">Optional <b>Object</b>. The height to which you want Word to scale printed pages, in twips (20 twips = 1 point; 72 points = 1 inch).</param>
+        <summary>Prints all or part of the specified document.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintOut2000">
+      <MemberSignature Language="C#" Value="public void PrintOut2000 (ref object Background, ref object Append, ref object Range, ref object OutputFileName, ref object From, ref object To, ref object Item, ref object Copies, ref object Pages, ref object PageType, ref object PrintToFile, ref object Collate, ref object ActivePrinterMacGX, ref object ManualDuplexPrint, ref object PrintZoomColumn, ref object PrintZoomRow, ref object PrintZoomPaperWidth, ref object PrintZoomPaperHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut2000([in]object&amp; Background, [in]object&amp; Append, [in]object&amp; Range, [in]object&amp; OutputFileName, [in]object&amp; From, [in]object&amp; To, [in]object&amp; Item, [in]object&amp; Copies, [in]object&amp; Pages, [in]object&amp; PageType, [in]object&amp; PrintToFile, [in]object&amp; Collate, [in]object&amp; ActivePrinterMacGX, [in]object&amp; ManualDuplexPrint, [in]object&amp; PrintZoomColumn, [in]object&amp; PrintZoomRow, [in]object&amp; PrintZoomPaperWidth, [in]object&amp; PrintZoomPaperHeight) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PrintOut2000(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintOut2000 (Optional ByRef Background As Object, Optional ByRef Append As Object, Optional ByRef Range As Object, Optional ByRef OutputFileName As Object, Optional ByRef From As Object, Optional ByRef To As Object, Optional ByRef Item As Object, Optional ByRef Copies As Object, Optional ByRef Pages As Object, Optional ByRef PageType As Object, Optional ByRef PrintToFile As Object, Optional ByRef Collate As Object, Optional ByRef ActivePrinterMacGX As Object, Optional ByRef ManualDuplexPrint As Object, Optional ByRef PrintZoomColumn As Object, Optional ByRef PrintZoomRow As Object, Optional ByRef PrintZoomPaperWidth As Object, Optional ByRef PrintZoomPaperHeight As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(444)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Background" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Append" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="OutputFileName" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="From" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="To" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Item" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Copies" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Pages" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PageType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintToFile" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Collate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ActivePrinterMacGX" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ManualDuplexPrint" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomColumn" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomRow" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomPaperWidth" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintZoomPaperHeight" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Background">To be added.</param>
+        <param name="Append">To be added.</param>
+        <param name="Range">To be added.</param>
+        <param name="OutputFileName">To be added.</param>
+        <param name="From">To be added.</param>
+        <param name="To">To be added.</param>
+        <param name="Item">To be added.</param>
+        <param name="Copies">To be added.</param>
+        <param name="Pages">To be added.</param>
+        <param name="PageType">To be added.</param>
+        <param name="PrintToFile">To be added.</param>
+        <param name="Collate">To be added.</param>
+        <param name="ActivePrinterMacGX">To be added.</param>
+        <param name="ManualDuplexPrint">To be added.</param>
+        <param name="PrintZoomColumn">To be added.</param>
+        <param name="PrintZoomRow">To be added.</param>
+        <param name="PrintZoomPaperWidth">To be added.</param>
+        <param name="PrintZoomPaperHeight">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintOutOld">
+      <MemberSignature Language="C#" Value="public void PrintOutOld (ref object Background, ref object Append, ref object Range, ref object OutputFileName, ref object From, ref object To, ref object Item, ref object Copies, ref object Pages, ref object PageType, ref object PrintToFile, ref object Collate, ref object ActivePrinterMacGX, ref object ManualDuplexPrint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOutOld([in]object&amp; Background, [in]object&amp; Append, [in]object&amp; Range, [in]object&amp; OutputFileName, [in]object&amp; From, [in]object&amp; To, [in]object&amp; Item, [in]object&amp; Copies, [in]object&amp; Pages, [in]object&amp; PageType, [in]object&amp; PrintToFile, [in]object&amp; Collate, [in]object&amp; ActivePrinterMacGX, [in]object&amp; ManualDuplexPrint) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PrintOutOld(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintOutOld (Optional ByRef Background As Object, Optional ByRef Append As Object, Optional ByRef Range As Object, Optional ByRef OutputFileName As Object, Optional ByRef From As Object, Optional ByRef To As Object, Optional ByRef Item As Object, Optional ByRef Copies As Object, Optional ByRef Pages As Object, Optional ByRef PageType As Object, Optional ByRef PrintToFile As Object, Optional ByRef Collate As Object, Optional ByRef ActivePrinterMacGX As Object, Optional ByRef ManualDuplexPrint As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Background" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Append" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="OutputFileName" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="From" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="To" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Item" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Copies" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Pages" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PageType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PrintToFile" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Collate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ActivePrinterMacGX" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ManualDuplexPrint" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Background">To be added.</param>
+        <param name="Append">To be added.</param>
+        <param name="Range">To be added.</param>
+        <param name="OutputFileName">To be added.</param>
+        <param name="From">To be added.</param>
+        <param name="To">To be added.</param>
+        <param name="Item">To be added.</param>
+        <param name="Copies">To be added.</param>
+        <param name="Pages">To be added.</param>
+        <param name="PageType">To be added.</param>
+        <param name="PrintToFile">To be added.</param>
+        <param name="Collate">To be added.</param>
+        <param name="ActivePrinterMacGX">To be added.</param>
+        <param name="ManualDuplexPrint">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RangeFromPoint">
+      <MemberSignature Language="C#" Value="public object RangeFromPoint (int x, int y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object RangeFromPoint([in]int32 x, [in]int32 y) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.RangeFromPoint(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RangeFromPoint (x As Integer, y As Integer) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ RangeFromPoint(int x, int y);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32" />
+        <Parameter Name="y" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="x">Required <b>Integer</b>. The horizontal distance (in pixels) from the left edge of the screen to the point.</param>
+        <param name="y">Required <b>Integer</b>. The vertical distance (in pixels) from the top of the screen to the point.</param>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Word.Range" /> or <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object that is located at the point specified by the screen position coordinate pair.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>If no range or shape is located at the coordinate pair specified, the method returns <b>Nothing</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollIntoView">
+      <MemberSignature Language="C#" Value="public void ScrollIntoView (object obj, ref object Start);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ScrollIntoView([in]object obj, [in]object&amp; Start) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.ScrollIntoView(System.Object,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ScrollIntoView (obj As Object, Optional ByRef Start As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="Start" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="obj">Required <b>Object</b>. A <see cref="T:Microsoft.Office.Interop.Word.Range" /> or <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object.</param>
+        <param name="Start">Optional <b>Boolean</b>. <b>True</b> if the top left corner of the range or shape appears at the top left corner of the document window. <b>False</b> if the bottom right corner of the range or shape appears at the bottom right corner of the document window. The default value is <b>True</b>.</param>
+        <summary>Scrolls through the document window so the specified range or shape is displayed in the document window.</summary>
+        <remarks>
+          <para>If the range or shape is larger than the document window, the <paramref name="Start" /> argument specifies which portion of the range or shape displays or gets initial focus. This method cannot be used with outline view.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Selection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Selection Selection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Selection Selection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Selection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As Selection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Selection ^ Selection { Microsoft::Office::Interop::Word::Selection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Selection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Word.Selection" /> object that represents a selected range or the insertion point.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFocus">
+      <MemberSignature Language="C#" Value="public void SetFocus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetFocus() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.SetFocus" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetFocus ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetFocus();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Sets the focus of the specified document window to the body of an e-mail message.</summary>
+        <remarks>
+          <para>If the document isn't an e-mail message, this method has no effect.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSourceDocuments">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdShowSourceDocuments ShowSourceDocuments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdShowSourceDocuments ShowSourceDocuments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.ShowSourceDocuments" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowSourceDocuments As WdShowSourceDocuments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdShowSourceDocuments ShowSourceDocuments { Microsoft::Office::Interop::Word::WdShowSourceDocuments get(); void set(Microsoft::Office::Interop::Word::WdShowSourceDocuments value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdShowSourceDocuments</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:Microsoft.Office.Interop.Word.WdShowSourceDocuments" /> constant that represents how Microsoft Office Word displays source documents after a compare and merge process. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.WdShowSourceDocuments" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmallScroll">
+      <MemberSignature Language="C#" Value="public void SmallScroll (ref object Down, ref object Up, ref object ToRight, ref object ToLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SmallScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.SmallScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SmallScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Down">Optional <b>Object</b>. The number of lines to scroll the window down. A "line" corresponds to the distance scrolled by clicking the down scroll arrow on the vertical scroll bar once.</param>
+        <param name="Up">Optional <b>Object</b>. The number of lines to scroll the window up. A "line" corresponds to the distance scrolled by clicking the up scroll arrow on the vertical scroll bar once.</param>
+        <param name="ToRight">Optional <b>Object</b>. The number of lines to scroll the window to the right. A "line" corresponds to the distance scrolled by clicking the right scroll arrow on the horizontal scroll bar once.</param>
+        <param name="ToLeft">Optional <b>Object</b>. The number of lines to scroll the window to the left. A "line" corresponds to the distance scrolled by clicking the left scroll arrow on the horizontal scroll bar once.</param>
+        <summary>Scrolls a window or pane by the specified number of lines.</summary>
+        <remarks>
+          <para>This method is equivalent to clicking the scroll arrows on the horizontal and vertical scroll bars.</para>
+          <para>If <paramref name="Down" /> and <paramref name="Up" /> are both specified, the window is scrolled by the difference of the arguments. For example, if <paramref name="Down" /> is 3 and <paramref name="Up" /> is 6, the window is scrolled up three lines. Similarly, if <paramref name="ToLeft" /> and <paramref name="ToRight" /> are both specified, the window is scrolled by the difference of the arguments.</para>
+          <para>Any of these arguments can be a negative number. If no arguments are specified, the window is scrolled down by one line.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Split">
+      <MemberSignature Language="C#" Value="public bool Split { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Split" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Split" />
+      <MemberSignature Language="VB.NET" Value="Public Property Split As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Split { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the window is split into multiple panes.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SplitVertical">
+      <MemberSignature Language="C#" Value="public int SplitVertical { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SplitVertical" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.SplitVertical" />
+      <MemberSignature Language="VB.NET" Value="Public Property SplitVertical As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SplitVertical { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the vertical split percentage for the specified window. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>To remove the split, set this property to zero (0) or set the <see cref="P:Microsoft.Office.Interop.Word.Window.Split" /> property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StyleAreaWidth">
+      <MemberSignature Language="C#" Value="public float StyleAreaWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 StyleAreaWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.StyleAreaWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property StyleAreaWidth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float StyleAreaWidth { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the width of the style area in points.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When the <b>StyleAreaWidth</b> property is greater than 0 (zero), style names are displayed to the left of the text. The style area isn't visible in print layout or Web layout view.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Thumbnails">
+      <MemberSignature Language="C#" Value="public bool Thumbnails { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Thumbnails" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Thumbnails" />
+      <MemberSignature Language="VB.NET" Value="Public Property Thumbnails As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Thumbnails { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or returns a <b>Boolean</b> that represents whether thumbnail images of the pages in a document are displayed along the left side of the Microsoft Word document window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToggleRibbon">
+      <MemberSignature Language="C#" Value="public void ToggleRibbon ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ToggleRibbon() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.ToggleRibbon" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ToggleRibbon ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToggleRibbon();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(447)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Shows or hides the ribbon.</summary>
+        <remarks>
+          <para>If the ribbon is visible, the <see cref="M:Microsoft.Office.Interop.Word.Window.ToggleRibbon" /> method hides it; if the ribbon is hidden, the <see cref="M:Microsoft.Office.Interop.Word.Window.ToggleRibbon" /> method shows it.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToggleShowAllReviewers">
+      <MemberSignature Language="C#" Value="public void ToggleShowAllReviewers ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ToggleShowAllReviewers() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.ToggleShowAllReviewers" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ToggleShowAllReviewers ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToggleShowAllReviewers();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(446)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the vertical position of the specified window, in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdWindowType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdWindowType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdWindowType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdWindowType Type { Microsoft::Office::Interop::Word::WdWindowType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdWindowType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the window type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdWindowType" /> can be one of these <b>WdWindowType</b> constants: </para>
+          <para>
+            <b>wdWindowTemplate </b>
+          </para>
+          <para>
+            <b>wdWindowDocument</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsableHeight">
+      <MemberSignature Language="C#" Value="public int UsableHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UsableHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.UsableHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsableHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UsableHeight { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(32)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(32)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the height (in points) of the active working area in the specified document window.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If none of the working area is visible in the document window, <b>UsableHeight</b> returns 1. To determine the actual available height, subtract 1 from the <b>UsableHeight</b> value.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsableWidth">
+      <MemberSignature Language="C#" Value="public int UsableWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UsableWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.UsableWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsableWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UsableWidth { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(31)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(31)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the width (in points) of the active working area in the specified document window. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If none of the working area is visible in the document window, <b>UsableWidth</b> returns 1. To determine the actual available height, subtract 1 from the <b>UsableWidth</b> value.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalPercentScrolled">
+      <MemberSignature Language="C#" Value="public int VerticalPercentScrolled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 VerticalPercentScrolled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.VerticalPercentScrolled" />
+      <MemberSignature Language="VB.NET" Value="Public Property VerticalPercentScrolled As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int VerticalPercentScrolled { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the vertical scroll position as a percentage of the document length.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.View View { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.View View" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.View" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property View As View" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::View ^ View { Microsoft::Office::Interop::Word::View ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.View</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.View" /> object that represents the view for the specified window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified object is visible.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For any object, some methods and properties may be unavailable if the <b>Visible</b> property is <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the width of the specified object, in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowNumber">
+      <MemberSignature Language="C#" Value="public int WindowNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WindowNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.WindowNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowNumber { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the window number of the document displayed in the specified window. For example, if the caption of the window is "Sales.doc:2", this property returns the number 2.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Window.Index" /> property to return the number of the specified window in the <see cref="T:Microsoft.Office.Interop.Word.Windows" /> collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdWindowState WindowState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdWindowState WindowState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.WindowState" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowState As WdWindowState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdWindowState WindowState { Microsoft::Office::Interop::Word::WdWindowState get(); void set(Microsoft::Office::Interop::Word::WdWindowState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdWindowState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the state of the specified document window or task window.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdWindowState" /> can be one of these <b>WdWindowState</b> constants: </para>
+          <para>
+            <b>wdWindowStateMaximize </b>
+          </para>
+          <para>
+            <b>wdWindowStateNormal </b>
+          </para>
+          <para>
+            <b>wdWindowStateMinimize </b>
+          </para>
+          <para>The <b>wdWindowStateNormal</b> constant indicates a window that's not maximized or minimized. The state of an inactive window cannot be set. Use the <see cref="M:Microsoft.Office.Interop.Word.Window.Activate" /> method to activate a window prior to setting the window state.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,275 @@
+﻿<Type Name="CheckBox" FullName="Microsoft.Office.Interop.Word.CheckBox">
+  <TypeSignature Language="C#" Value="public interface CheckBox" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CheckBox" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.CheckBox" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CheckBox" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CheckBox" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020926-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a single check box form field.</summary>
+    <remarks>
+      <para>Use <b>FormFields</b>(<paramref name="index" />), where <paramref name="index" /> is index number or the bookmark name associated with the check box, to return a single <see cref="T:Microsoft.Office.Interop.Word.FormField" /> object. Use the <see cref="P:Microsoft.Office.Interop.Word.FormField.CheckBox" /> property with the <b>FormField</b> object to return a <b>CheckBox</b> object.</para>
+      <para>The index number represents the position of the form field in the <see cref="T:Microsoft.Office.Interop.Word.FormFields" /> collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.FormFields.Add(Microsoft.Office.Interop.Word.Range,Microsoft.Office.Interop.Word.WdFieldType)" /> method with the <b>FormFields </b>object to add a check box form field.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSize">
+      <MemberSignature Language="C#" Value="public bool AutoSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.AutoSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoSize As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoSize { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> sizes the check box or text frame according to the font size of the surrounding text. <b>False</b> sizes the check box or text frame according to the <see cref="P:Microsoft.Office.Interop.Word.CheckBox.Size" /> property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a value that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public bool Default { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Property Default As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Default { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the default check box value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public float Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Size { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the size of the specified check box in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Valid">
+      <MemberSignature Language="C#" Value="public bool this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Valid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.Valid" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Valid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool default { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a value that indicates if the specified form field object is a valid check box form field.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word.FormField.Type" /> property of the <see cref="T:Microsoft.Office.Interop.Word.FormField" /> object to determine the type of form field (<see cref="F:Microsoft.Office.Interop.Word.WdFieldType.wdFieldFormCheckBox" />, <see cref="F:Microsoft.Office.Interop.Word.WdFieldType.wdFieldFormDropDown" />, or <see cref="F:Microsoft.Office.Interop.Word.WdFieldType.wdFieldFormTextInput" />) before applying the <see cref="P:Microsoft.Office.Interop.Word.FormField.CheckBox" /> property. This precaution ensures that the <b>FormField </b>object is the expected type.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public bool Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CheckBox.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Value { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that indicates if the check box is selected.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

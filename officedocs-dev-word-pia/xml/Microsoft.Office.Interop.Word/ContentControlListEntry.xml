@@ -1,0 +1,336 @@
+﻿<Type Name="ContentControlListEntry" FullName="Microsoft.Office.Interop.Word.ContentControlListEntry">
+  <TypeSignature Language="C#" Value="public interface ContentControlListEntry" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ContentControlListEntry" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ContentControlListEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ContentControlListEntry" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ContentControlListEntry" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0C6FA8CA-E65F-4FC7-AB8F-20729EECBB14")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A <see cref="T:Microsoft.Office.Interop.Word.ContentControlListEntry" /> object represents a list item in a drop-down list or combo box content control. A <see cref="T:Microsoft.Office.Interop.Word.ContentControlListEntry" /> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.ContentControlListEntries" /> collection for a <see cref="T:Microsoft.Office.Interop.Word.ContentControl" /> object.</summary>
+    <remarks>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.ContentControlListEntries.Add(System.String,System.String,System.Int32)" /> method of the <see cref="T:Microsoft.Office.Interop.Word.ContentControlListEntries" /> collection to create a new <see cref="T:Microsoft.Office.Interop.Word.ContentControlListEntry" /> object. Use the <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntries.Item(System.Int32)" /> method, or <see cref="P:Microsoft.Office.Interop.Word.ContentControl.DropdownListEntries" />(<paramref name="Index" />), where <paramref name="Index" /> is the ordinal position of the content control list item, to access an individual list item within the <see cref="T:Microsoft.Office.Interop.Word.ContentControlListEntries" /> collection.</para>
+      <para>
+        <b>Note</b>: List entries must have unique display names.  Attempting to add a list item that already exists raises a run-time error.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.ContentControlListEntry.MoveUp" /> and <see cref="M:Microsoft.Office.Interop.Word.ContentControlListEntry.MoveDown" /> methods to reposition items in a drop-down list. Use the <see cref="M:Microsoft.Office.Interop.Word.ContentControlListEntry.Select" /> method to programmatically select a content control list item.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Text" /> property to set the display text for a content control list item, and use the <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Value" /> property to set a programmatic value that you may use later for processing a form. For example, you may use a  content control drop-down list for a list of products. The <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Text" /> property may contain the name of the product, a display name that a user can easily recognize and understand. The <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Value" /> property may contain the product number for the product that corresponds to a product number in a database.  You can then use the the product number from the <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Value" /> property to look up product information in a database. Also, the value of the <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Value" /> property is what is sent to the custom XML data if the content control is mapped to XML data in the data store.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.ContentControlListEntry.Delete" /> method to remove an item from a content control drop-down list or combo box. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word._Application" /> object that represents the Microsoft Word application.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word._Application" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the add-in was created. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, the <b>Creator</b> property returns the hexadecimal number 4D535744, which represents the string "MSWD."  This property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>
+            <b>Note</b>: This value can also be represented by the constant <see cref="F:Microsoft.Office.Interop.Word.WdConstants.wdCreatorCode" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ContentControlListEntry.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the specified item in a combo box or drop-down list content control.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Index" />
+      <MemberSignature Language="VB.NET" Value="Public Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the ordinal position of a content control list item in the collection of list items. Read/write.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveDown">
+      <MemberSignature Language="C#" Value="public void MoveDown ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MoveDown() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ContentControlListEntry.MoveDown" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveDown ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveDown();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Moves an item in a drop-down list or combo box content control down one item, so that it is after the item that originally followed it.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveUp">
+      <MemberSignature Language="C#" Value="public void MoveUp ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MoveUp() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ContentControlListEntry.MoveUp" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveUp ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveUp();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Moves an item in a drop-down list or combo box content control up one item, so that it is before the item that originally preceded it.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object of the specified <see cref="T:Microsoft.Office.Interop.Word.ContentControlListEntry" /> object.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ContentControlListEntry.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Selects the list entry in a drop-down list or combo box content control and sets the text of the content control to the  value of the item.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Text" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the display text  of a list item for a drop-down list or combo box content control. Read/write.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>
+          <para>List entries must have unique display names.  Attempting to change the <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Text" /> property to a string that already exists in the list of entries raises a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the programmatic value of an item in a drop-down list or combo box content control. Read/write.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>
+          <para>Use the <b>Value</b> property to store data that you need to use at processing time. For example, the <see cref="P:Microsoft.Office.Interop.Word.ContentControlListEntry.Text" /> property may contain a string that you want to display and the <b>Value</b> property may contain a number, such as an item number, that you can use to look up information in a database.  Also, the value of the <b>Value</b> property is what is sent to the custom XML data, if the content control is mapped to XML data in the data store.</para>
+          <para>
+            <b>Note</b>: You cannot set the <b>Value</b> property for list entries that were automatically populated from an XML schema attached to the custom XML that is mapped to this control. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

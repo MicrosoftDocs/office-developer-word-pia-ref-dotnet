@@ -1,0 +1,933 @@
+﻿<Type Name="DefaultWebOptions" FullName="Microsoft.Office.Interop.Word.DefaultWebOptions">
+  <TypeSignature Language="C#" Value="public interface DefaultWebOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DefaultWebOptions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DefaultWebOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DefaultWebOptions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DefaultWebOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000209E3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains global application-level attributes used by Microsoft Word when you save a document as a Web page or open a Web page.</summary>
+    <remarks>
+      <para>You can return or set attributes either at the application (global) level or at the document level. (Note that attribute values can be different from one document to another, depending on the attribute value at the time the document was saved.) Document-level attribute settings override application-level attribute settings. Document-level attributes are contained in the <see cref="T:Microsoft.Office.Interop.Word.WebOptions" /> object.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word._Application.DefaultWebOptions" /> method to return the <b>DefaultWebOptions</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowPNG">
+      <MemberSignature Language="C#" Value="public bool AllowPNG { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowPNG" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.AllowPNG" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowPNG As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowPNG { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if PNG (Portable Network Graphics) is allowed as an image format when you save a document as a Web page. <b>False</b> if PNG is not allowed as an output format. The default value is <b>False</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If you save images in the PNG format and if the Web browsers you are targeting support the PNG format, you might improve the image quality or reduce the size of those image files, and therefore decrease the download time.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlwaysSaveInDefaultEncoding">
+      <MemberSignature Language="C#" Value="public bool AlwaysSaveInDefaultEncoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AlwaysSaveInDefaultEncoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.AlwaysSaveInDefaultEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property AlwaysSaveInDefaultEncoding As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AlwaysSaveInDefaultEncoding { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the default encoding is used when you save a Web page or plain text document, independent of the file's original encoding when opened. <b>False</b> if the original encoding of the file is used. The default value is <b>False</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Encoding" /> property can be used to set the default encoding.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrowserLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdBrowserLevel BrowserLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdBrowserLevel BrowserLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.BrowserLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property BrowserLevel As WdBrowserLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdBrowserLevel BrowserLevel { Microsoft::Office::Interop::Word::WdBrowserLevel get(); void set(Microsoft::Office::Interop::Word::WdBrowserLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdBrowserLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:Microsoft.Office.Interop.Word.WdBrowserLevel" /> that represents the level of the Web browser for which you want to target new Web pages created in Microsoft Word.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>After you set the <b>BrowserLevel</b> property on the <see cref="T:Microsoft.Office.Interop.Word.DefaultWebOptions" /> object, the <b>BrowserLevel</b> property of any new Web pages you create in Word will be the same as the global setting.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckIfOfficeIsHTMLEditor">
+      <MemberSignature Language="C#" Value="public bool CheckIfOfficeIsHTMLEditor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CheckIfOfficeIsHTMLEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.CheckIfOfficeIsHTMLEditor" />
+      <MemberSignature Language="VB.NET" Value="Public Property CheckIfOfficeIsHTMLEditor As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CheckIfOfficeIsHTMLEditor { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Word checks to see whether an Office application is the default HTML editor when you start Word. <b>False</b> if Word does not perform this check. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only if the Web browser you are using supports HTML editing and HTML editors.</para>
+          <para>To use a different HTML editor, you must set this property to <b>False</b> and then register the editor as the default system HTML editor.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckIfWordIsDefaultHTMLEditor">
+      <MemberSignature Language="C#" Value="public bool CheckIfWordIsDefaultHTMLEditor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CheckIfWordIsDefaultHTMLEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.CheckIfWordIsDefaultHTMLEditor" />
+      <MemberSignature Language="VB.NET" Value="Public Property CheckIfWordIsDefaultHTMLEditor As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CheckIfWordIsDefaultHTMLEditor { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Word checks to see whether it is the default HTML editor when you start Word. <b>False</b> if Word does not perform this check. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only if the Web browser you are using supports HTML editing and HTML editors.</para>
+          <para>To use a different HTML editor, you must set this property to <b>False</b> and then register the editor as the default system HTML editor.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For example, if the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Encoding">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoEncoding Encoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoEncoding Encoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Encoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property Encoding As MsoEncoding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoEncoding Encoding { Microsoft::Office::Core::MsoEncoding get(); void set(Microsoft::Office::Core::MsoEncoding value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the document encoding (code page or character set) to be used by the Web browser when you view the saved document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderSuffix">
+      <MemberSignature Language="C#" Value="public string FolderSuffix { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderSuffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.FolderSuffix" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderSuffix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderSuffix { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the folder suffix that Microsoft Word uses when you save a document as a Web page, use long file names, and choose to save supporting files in a separate folder (that is, if the <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.UseLongFileNames" /> and <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.OrganizeInFolder" /> properties are set to <b>True</b>).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Newly created documents use the suffix returned by the <b>FolderSuffix</b> property of the <see cref="T:Microsoft.Office.Interop.Word.DefaultWebOptions" /> object. The value of the <see cref="P:Microsoft.Office.Interop.Word.WebOptions.FolderSuffix" /> property of the <see cref="T:Microsoft.Office.Interop.Word.WebOptions" /> object may differ from that of the <b>DefaultWebOptions</b> object if the document was previously edited in a different language version of Microsoft Word. You can use the <see cref="M:Microsoft.Office.Interop.Word.WebOptions.UseDefaultFolderSuffix" /> method to change the suffix to the language you are currently using in Microsoft Office.</para>
+          <para>By default, the name of the supporting folder is the name of the Web page plus an underscore (_), a period (.), or a hyphen (-) and the word "files" (appearing in the language of the version of Word in which the file was saved as a Web page). For example, suppose that you use the Dutch language version of Word to save a file called "Page1" as a Web page. The default name of the supporting folder is Page1_bestanden.</para>
+          <para>The following table lists each language version of Office and gives its corresponding <see cref="P:Microsoft.Office.Interop.Word.Find.LanguageID" /> property value and folder suffix. For the languages that are not listed in the table, the suffix ".files" is used.</para>
+          <list type="table">
+            <item>
+              <description>Language</description>
+              <description>LanguageID</description>
+              <description>Folder suffix</description>
+            </item>
+            <item>
+              <description>Arabic</description>
+              <description>1025</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Basque</description>
+              <description>1069</description>
+              <description>_fitxategiak</description>
+            </item>
+            <item>
+              <description>Brazilian</description>
+              <description>1046</description>
+              <description>_arquivos</description>
+            </item>
+            <item>
+              <description>Bulgarian</description>
+              <description>1026</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Catalan</description>
+              <description>1027</description>
+              <description>_fitxers</description>
+            </item>
+            <item>
+              <description>Chinese - Simplified</description>
+              <description>2052</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Chinese - Traditional</description>
+              <description>1028</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Croatian</description>
+              <description>1050</description>
+              <description>_datoteke</description>
+            </item>
+            <item>
+              <description>Czech</description>
+              <description>1029</description>
+              <description>_soubory</description>
+            </item>
+            <item>
+              <description>Danish</description>
+              <description>1030</description>
+              <description>-filer</description>
+            </item>
+            <item>
+              <description>Dutch</description>
+              <description>1043</description>
+              <description>_bestanden</description>
+            </item>
+            <item>
+              <description>English</description>
+              <description>1033</description>
+              <description>_files</description>
+            </item>
+            <item>
+              <description>Estonian</description>
+              <description>1061</description>
+              <description>_failid</description>
+            </item>
+            <item>
+              <description>Finnish</description>
+              <description>1035</description>
+              <description>_tiedostot</description>
+            </item>
+            <item>
+              <description>French</description>
+              <description>1036</description>
+              <description>_fichiers</description>
+            </item>
+            <item>
+              <description>German</description>
+              <description>1031</description>
+              <description>-Dateien</description>
+            </item>
+            <item>
+              <description>Greek</description>
+              <description>1032</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Hebrew</description>
+              <description>1037</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Hungarian</description>
+              <description>1038</description>
+              <description>_elemei</description>
+            </item>
+            <item>
+              <description>Italian</description>
+              <description>1040</description>
+              <description>_file</description>
+            </item>
+            <item>
+              <description>Japanese</description>
+              <description>1041</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Korean</description>
+              <description>1042</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Latvian</description>
+              <description>1062</description>
+              <description>_fails</description>
+            </item>
+            <item>
+              <description>Lithuanian</description>
+              <description>1063</description>
+              <description>_bylos</description>
+            </item>
+            <item>
+              <description>Norwegian</description>
+              <description>1044</description>
+              <description>-filer</description>
+            </item>
+            <item>
+              <description>Polish</description>
+              <description>1045</description>
+              <description>_pliki</description>
+            </item>
+            <item>
+              <description>Portuguese</description>
+              <description>2070</description>
+              <description>_ficheiros</description>
+            </item>
+            <item>
+              <description>Romanian</description>
+              <description>1048</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Russian</description>
+              <description>1049</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Serbian (Cyrillic)</description>
+              <description>3098</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Serbian (Latin)</description>
+              <description>2074</description>
+              <description>_fajlovi</description>
+            </item>
+            <item>
+              <description>Slovakian</description>
+              <description>1051</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Slovenian</description>
+              <description>1060</description>
+              <description>_datoteke</description>
+            </item>
+            <item>
+              <description>Spanish</description>
+              <description>3082</description>
+              <description>_archivos</description>
+            </item>
+            <item>
+              <description>Swedish</description>
+              <description>1053</description>
+              <description>-filer</description>
+            </item>
+            <item>
+              <description>Thai</description>
+              <description>1054</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Turkish</description>
+              <description>1055</description>
+              <description>_dosyalar</description>
+            </item>
+            <item>
+              <description>Ukranian</description>
+              <description>1058</description>
+              <description>.files</description>
+            </item>
+            <item>
+              <description>Vietnamese</description>
+              <description>1066</description>
+              <description>.files</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fonts">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.WebPageFonts Fonts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.WebPageFonts Fonts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Fonts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fonts As WebPageFonts" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::WebPageFonts ^ Fonts { Microsoft::Office::Core::WebPageFonts ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.WebPageFonts</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Core.WebPageFonts" /> collection representing the set of fonts Microsoft Word uses when you open a Web page in Word and there is no font information specified in the Web page, or the current default font can't display the character set in the Web page.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptimizeForBrowser">
+      <MemberSignature Language="C#" Value="public bool OptimizeForBrowser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OptimizeForBrowser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.OptimizeForBrowser" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptimizeForBrowser As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OptimizeForBrowser { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Word optimizes new Web pages created in Word for the Web browser specified by the <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.BrowserLevel" /> property (for the <see cref="T:Microsoft.Office.Interop.Word.DefaultWebOptions" /> object). <b>True</b> if Word optimizes the specified Web page for the Web browser specified by the <see cref="P:Microsoft.Office.Interop.Word.WebOptions.BrowserLevel" /> property (for the <see cref="T:Microsoft.Office.Interop.Word.WebOptions" /> object).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrganizeInFolder">
+      <MemberSignature Language="C#" Value="public bool OrganizeInFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OrganizeInFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.OrganizeInFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrganizeInFolder As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OrganizeInFolder { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if all supporting files, such as background textures and graphics, are organized in a separate folder when you save the specified document as a Web page. <b>False</b> if supporting files are saved in the same folder as the Web page. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The new folder is created in the folder where you have saved the Web page and is named after the document. If long file names are used, a suffix is added to the folder name. The <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.FolderSuffix" /> property returns wither the folder suffix for the language support you have selected or installed or the default folder suffix.</para>
+          <para>If you save a document that was previously saved with the <b>OrganizeInFolder</b> property set to a different value, Microsoft Word automatically moves the supporting files into or out of the folder, as appropriate.</para>
+          <para>If you don't use long file names (that is, if the <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.UseLongFileNames" /> property is set to <b>False</b>), Word automatically saves any supporting files in a separate folder. The files cannot be saved in the same folder as the Web page.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PixelsPerInch">
+      <MemberSignature Language="C#" Value="public int PixelsPerInch { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PixelsPerInch" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.PixelsPerInch" />
+      <MemberSignature Language="VB.NET" Value="Public Property PixelsPerInch As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PixelsPerInch { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the density (pixels per inch) of graphics images and table cells on a Web page. The range of settings is usually from 19 to 480, and common settings for popular screen sizes are 72, 96, and 120.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property determines the size of the images and cells on the specified Web page relative to the size of text whenever you view the saved document in a Web browser. The physical dimensions of the resulting image or cell are the result of the original dimensions (in inches) multiplied by the number of pixels per inch.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.ScreenSize" /> property to set the optimum screen size for the targeted Web browsers.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelyOnCSS">
+      <MemberSignature Language="C#" Value="public bool RelyOnCSS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RelyOnCSS" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.RelyOnCSS" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelyOnCSS As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelyOnCSS { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if cascading style sheets (CSS) are used for font formatting when you view a saved document in a Web browser. Microsoft Word creates a cascading style sheet file and saves it either to the specified folder or to the same folder as your Web page, depending on the value of the <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.OrganizeInFolder" /> property. <b>False</b> if HTML &lt;FONT&gt; tags and cascading style sheets are used. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You should set this property to <b>True</b> if your Web browser supports cascading style sheets because this will give you more precise layout and formatting control on your Web page and make it look more like your document (as it appears in Microsoft Word).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelyOnVML">
+      <MemberSignature Language="C#" Value="public bool RelyOnVML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RelyOnVML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.RelyOnVML" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelyOnVML As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelyOnVML { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if image files are not generated from drawing objects when you save a document as a Web page. <b>False</b> if images are generated. The default value is <b>False</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can reduce file sizes by not generating images for drawing objects if your Web browser supports Vector Markup Language (VML). For example, Microsoft Internet Explorer 5 supports this feature, and you should set the <b>RelyOnVML</b> property to <b>True</b> if you are targeting this browser. For browsers that do not support VML, the image will not appear when you view a Web page saved with this property enabled.</para>
+          <para>Don't generate images if your Web page uses image files that you have generated earlier and if the location where you save the document is different from the final location of the page on the Web server.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveNewWebPagesAsWebArchives">
+      <MemberSignature Language="C#" Value="public bool SaveNewWebPagesAsWebArchives { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SaveNewWebPagesAsWebArchives" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.SaveNewWebPagesAsWebArchives" />
+      <MemberSignature Language="VB.NET" Value="Public Property SaveNewWebPagesAsWebArchives As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SaveNewWebPagesAsWebArchives { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> for Microsoft Word to save new Web pages using the Single File Web Page (formerly known as Web Archive) format.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <b>SaveNewWebPagesAsWebArchives</b> property won't change the format of any saved Web pages. To change their format, you must individually open them and then use the <see cref="M:Microsoft.Office.Interop.Word._Document.SaveAs(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" /> method to set the Web page format.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScreenSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoScreenSize ScreenSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoScreenSize ScreenSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.ScreenSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScreenSize As MsoScreenSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoScreenSize ScreenSize { Microsoft::Office::Core::MsoScreenSize get(); void set(Microsoft::Office::Core::MsoScreenSize value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the ideal minimum screen size (width by height, in pixels) that you should use when viewing the saved document in a Web browser.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetBrowser">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTargetBrowser TargetBrowser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTargetBrowser TargetBrowser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.TargetBrowser" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetBrowser As MsoTargetBrowser" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTargetBrowser TargetBrowser { Microsoft::Office::Core::MsoTargetBrowser get(); void set(Microsoft::Office::Core::MsoTargetBrowser value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTargetBrowser</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or returns an <see cref="T:Microsoft.Office.Core.MsoTargetBrowser" /> constant representing the target browser for documents viewed in a Web browser.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>TargetBrowser</b> property sets the <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.BrowserLevel" /> property, but <b>BrowserLevel</b> is only important if the <see cref="P:Microsoft.Office.Interop.Word._Document.DisableFeatures" /> property is set to <b>True</b>. Otherwise, it is ignored. The <b>TargetBrowser</b> property, however, is not ignored and sets the browser level for all Web documents or for a single Web document.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateLinksOnSave">
+      <MemberSignature Language="C#" Value="public bool UpdateLinksOnSave { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UpdateLinksOnSave" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.UpdateLinksOnSave" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpdateLinksOnSave As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UpdateLinksOnSave { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if hyperlinks and paths to all supporting files are automatically updated before you save the document as a Web page, ensuring that the links are up-to-date at the time the document is saved. <b>False</b> if the links are not updated. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You should set this property to <b>False</b> if the location where the document is saved is different from the final location on the Web server and the supporting files are not available at the first location.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseLongFileNames">
+      <MemberSignature Language="C#" Value="public bool UseLongFileNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseLongFileNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.UseLongFileNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseLongFileNames As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseLongFileNames { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if long file names are used when you save the document as a Web page. <b>False</b> if long file names are not used and the DOS file name format (8.3) is used. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If you don't use long file names and your document has supporting files, Microsoft Word automatically organizes those files in a separate folder. Otherwise, use the <see cref="P:Microsoft.Office.Interop.Word.DefaultWebOptions.OrganizeInFolder" /> property to determine whether supporting files are organized in a separate folder.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

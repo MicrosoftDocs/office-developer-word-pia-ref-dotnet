@@ -1,0 +1,66 @@
+﻿<Type Name="WdExportOptimizeFor" FullName="Microsoft.Office.Interop.Word.WdExportOptimizeFor">
+  <TypeSignature Language="C#" Value="public enum WdExportOptimizeFor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WdExportOptimizeFor extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.WdExportOptimizeFor" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WdExportOptimizeFor" />
+  <TypeSignature Language="C++ CLI" Value="public enum class WdExportOptimizeFor" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("147553BC-4DC5-3681-A445-D1C4BEA414AD")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Specifies the resolution and quality of the exported document.</summary>
+    <remarks>
+      <para>Use with the <b>ExportAsFixedFormat</b> method for the <see cref="T:Microsoft.Office.Interop.Word.Document" />, <see cref="T:Microsoft.Office.Interop.Word.Range" />, or <see cref="T:Microsoft.Office.Interop.Word.Selection" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="wdExportOptimizeForOnScreen">
+      <MemberSignature Language="C#" Value="wdExportOptimizeForOnScreen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Word.WdExportOptimizeFor wdExportOptimizeForOnScreen = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.WdExportOptimizeFor.wdExportOptimizeForOnScreen" />
+      <MemberSignature Language="VB.NET" Value="wdExportOptimizeForOnScreen" />
+      <MemberSignature Language="C++ CLI" Value="wdExportOptimizeForOnScreen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdExportOptimizeFor</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Export for screen, which is a lower quality and results in a smaller file size.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="wdExportOptimizeForPrint">
+      <MemberSignature Language="C#" Value="wdExportOptimizeForPrint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Word.WdExportOptimizeFor wdExportOptimizeForPrint = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.WdExportOptimizeFor.wdExportOptimizeForPrint" />
+      <MemberSignature Language="VB.NET" Value="wdExportOptimizeForPrint" />
+      <MemberSignature Language="C++ CLI" Value="wdExportOptimizeForPrint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdExportOptimizeFor</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Export for print, which is higher quailty and results in a larger file size.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

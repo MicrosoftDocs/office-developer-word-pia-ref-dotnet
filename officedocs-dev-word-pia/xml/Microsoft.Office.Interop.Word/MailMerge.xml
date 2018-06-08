@@ -1,0 +1,1168 @@
+﻿<Type Name="MailMerge" FullName="Microsoft.Office.Interop.Word.MailMerge">
+  <TypeSignature Language="C#" Value="public interface MailMerge" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MailMerge" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.MailMerge" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MailMerge" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MailMerge" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020920-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the mail merge functionality in Microsoft Word.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Document.MailMerge" /> property to return the <b>MailMerge</b> object. The <b>MailMerge</b> object is always available regardless of whether the mail merge operation has begun. Use the <see cref="P:Microsoft.Office.Interop.Word.MailMerge.State" /> property to determine the status of the mail merge operation.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Check">
+      <MemberSignature Language="C#" Value="public void Check ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Check() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.Check" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Check ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Check();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Simulates the mail merge operation, pausing to report each error as it occurs.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDataSource">
+      <MemberSignature Language="C#" Value="public void CreateDataSource (ref object Name, ref object PasswordDocument, ref object WritePasswordDocument, ref object HeaderRecord, ref object MSQuery, ref object SQLStatement, ref object SQLStatement1, ref object Connection, ref object LinkToSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreateDataSource([in]object&amp; Name, [in]object&amp; PasswordDocument, [in]object&amp; WritePasswordDocument, [in]object&amp; HeaderRecord, [in]object&amp; MSQuery, [in]object&amp; SQLStatement, [in]object&amp; SQLStatement1, [in]object&amp; Connection, [in]object&amp; LinkToSource) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.CreateDataSource(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CreateDataSource (Optional ByRef Name As Object, Optional ByRef PasswordDocument As Object, Optional ByRef WritePasswordDocument As Object, Optional ByRef HeaderRecord As Object, Optional ByRef MSQuery As Object, Optional ByRef SQLStatement As Object, Optional ByRef SQLStatement1 As Object, Optional ByRef Connection As Object, Optional ByRef LinkToSource As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="HeaderRecord" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="MSQuery" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SQLStatement" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SQLStatement1" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Connection" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LinkToSource" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Optional <b>Object</b>. The path and file name for the new data source.</param>
+        <param name="PasswordDocument">Optional <b>Object</b>. The password required to open the new data source.</param>
+        <param name="WritePasswordDocument">Optional <b>Object</b>. The password required to save changes to the data source.</param>
+        <param name="HeaderRecord">Optional <b>Object</b>. Field names for the header record. If this argument is omitted, the standard header record is used: "Title, FirstName, LastName, JobTitle, Company, Address1, Address2, City, State, PostalCode, Country, HomePhone, WorkPhone." To separate field names, use the list separator specified in Regional Settings in Control Panel.</param>
+        <param name="MSQuery">Optional <b>Object</b>. <b>True</b> to launch Microsoft Query, if it's installed. The <paramref name="Name" />, <paramref name="PasswordDocument" />, and <paramref name="HeaderRecord" /> arguments are ignored.</param>
+        <param name="SQLStatement">Optional <b>Object</b>. Defines query options for retrieving data.</param>
+        <param name="SQLStatement1">Optional <b>Object</b>. If the query string is longer than 255 characters, <paramref name="SQLStatement" /> specifies the first portion of the string, and <paramref name="SQLStatement1" /> specifies the second portion.</param>
+        <param name="Connection">Optional <b>Object</b>. A range within which the query specified by <paramref name="SQLStatement" /> will be performed. How you specify the range depends on how data is retrieved. For example:When retrieving data through ODBC, you specify a connection string. When retrieving data from Microsoft Excel using dynamic data exchange (DDE), you specify a named range. <b>Security</b>  Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.When retrieving data from Microsoft Access, you specify the word "Table" or "Query" followed by the name of a table or query.</param>
+        <param name="LinkToSource">Optional <b>Object</b>. <b>True</b> to perform the query specified by <paramref name="Connection" /> and <paramref name="SQLStatement" /> each time the main document is opened.</param>
+        <summary>Creates a Microsoft Word document that uses a table to store data for a mail merge. </summary>
+        <remarks>
+          <para>The new data source is attached to the specified document, which becomes a main document if it's not one already.</para>
+          <para>Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateHeaderSource">
+      <MemberSignature Language="C#" Value="public void CreateHeaderSource (string Name, ref object PasswordDocument, ref object WritePasswordDocument, ref object HeaderRecord);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreateHeaderSource([in]string Name, [in]object&amp; PasswordDocument, [in]object&amp; WritePasswordDocument, [in]object&amp; HeaderRecord) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.CreateHeaderSource(System.String,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CreateHeaderSource (Name As String, Optional ByRef PasswordDocument As Object, Optional ByRef WritePasswordDocument As Object, Optional ByRef HeaderRecord As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="PasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="HeaderRecord" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Required <b>String</b>. The path and file name for the new header source.</param>
+        <param name="PasswordDocument">Optional <b>Object</b>. The password required to open the new header source.</param>
+        <param name="WritePasswordDocument">Optional <b>Object</b>. The password required to save changes to the new header source.</param>
+        <param name="HeaderRecord">Optional <b>Object</b>. A string that specifies the field names for the header record. If this argument is omitted, the standard header record is used: "Title, FirstName, LastName, JobTitle, Company, Address1, Address2, City, State, PostalCode, Country, HomePhone, WorkPhone." To separate field names in Windows, use the list separator specified in Regional Settings in Control Panel.</param>
+        <summary>Creates a Microsoft Word document that stores a header record that's used in place of the data source header record in a mail merge. </summary>
+        <remarks>
+          <para>This method attaches the new header source to the specified document, which becomes a main document if it's not one already.</para>
+          <para>The new header source uses a table to arrange mail merge field names.</para>
+          <para>Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataSource">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeDataSource DataSource { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.MailMergeDataSource DataSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.DataSource" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataSource As MailMergeDataSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::MailMergeDataSource ^ DataSource { Microsoft::Office::Interop::Word::MailMergeDataSource ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.MailMergeDataSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.MailMergeDataSource" /> object that refers to the data source attached to a mail merge main document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Destination">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdMailMergeDestination Destination { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdMailMergeDestination Destination" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.Destination" />
+      <MemberSignature Language="VB.NET" Value="Public Property Destination As WdMailMergeDestination" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdMailMergeDestination Destination { Microsoft::Office::Interop::Word::WdMailMergeDestination get(); void set(Microsoft::Office::Interop::Word::WdMailMergeDestination value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdMailMergeDestination</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the destination of the mail merge results.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Destination</b> property can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdMailMergeDestination" /> constants: </para>
+          <para>
+            <b>wdSendToFax</b>
+          </para>
+          <para>
+            <b>wdSendToPrinter</b>
+          </para>
+          <para>
+            <b>wdSendToEmail</b>
+          </para>
+          <para>
+            <b>wdSendToNewDocument</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditDataSource">
+      <MemberSignature Language="C#" Value="public void EditDataSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EditDataSource() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.EditDataSource" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EditDataSource ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EditDataSource();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Opens or switches to the mail merge data source.</summary>
+        <remarks>
+          <para>If the data source is a Microsoft Word document, this method opens the data source (or activates the data source if it's already open).</para>
+          <para>If Word is accessing the data through dynamic data exchange (DDE)— using an application such as Microsoft Excel or Microsoft Access— this method displays the data source in that application.</para>
+          <para>Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.</para>
+          <para>If Word is accessing the data through open database connectivity (ODBC), this method displays the data in a Word document. Note that if Microsoft Query is installed, a message appears, providing the option to display Microsoft Query instead of converting data.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditHeaderSource">
+      <MemberSignature Language="C#" Value="public void EditHeaderSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EditHeaderSource() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.EditHeaderSource" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EditHeaderSource ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EditHeaderSource();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Opens the header source attached to a mail merge main document, or activates the header source if it's already open.</summary>
+        <remarks>
+          <para>If the mail merge main document doesn't have a header source, this method causes an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditMainDocument">
+      <MemberSignature Language="C#" Value="public void EditMainDocument ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EditMainDocument() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.EditMainDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EditMainDocument ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EditMainDocument();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Activates the mail merge main document associated with the specified header source or data source document.</summary>
+        <remarks>
+          <para>If the main document isn't open, an error occurs. Use the <see cref="M:Microsoft.Office.Interop.Word.Documents.Open(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" /> method if the main document isn't currently open.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute (ref object Pause);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute([in]object&amp; Pause) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.Execute(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute (Optional ByRef Pause As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pause" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Pause">Optional <b>Object</b>. <b>True</b> for Microsoft Word to pause and display a troubleshooting dialog box if a mail merge error is found; <b>False</b> to report errors in a new document.</param>
+        <summary>Performs the specified mail merge operation.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeFields Fields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.MailMergeFields Fields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.Fields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fields As MailMergeFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::MailMergeFields ^ Fields { Microsoft::Office::Interop::Word::MailMergeFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.MailMergeFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.MailMergeFields" /> collection that represents all the mail merge related fields in the specified document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightMergeFields">
+      <MemberSignature Language="C#" Value="public bool HighlightMergeFields { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HighlightMergeFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.HighlightMergeFields" />
+      <MemberSignature Language="VB.NET" Value="Public Property HighlightMergeFields As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HighlightMergeFields { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the merge fields in a document are highlighted.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the merge fields are highlighted, and <b>False</b> if not. Set the property value to <b>True</b> or <b>False</b> to enable or disable the functionality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailAddressFieldName">
+      <MemberSignature Language="C#" Value="public string MailAddressFieldName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailAddressFieldName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.MailAddressFieldName" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailAddressFieldName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailAddressFieldName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the field that contains e-mail addresses that are used when the mail merge destination is electronic mail.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailAsAttachment">
+      <MemberSignature Language="C#" Value="public bool MailAsAttachment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MailAsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.MailAsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailAsAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MailAsAttachment { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the merge documents are sent as attachments when the mail merge destination is an e-mail message or a fax.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the merge documents are sent as attachments when the mail merge destination is an e-mail message or a fax, and <b>False</b> if not. Set the property value to <b>True</b> or <b>False</b> to enable or disable the functionality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdMailMergeMailFormat MailFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdMailMergeMailFormat MailFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.MailFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailFormat As WdMailMergeMailFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdMailMergeMailFormat MailFormat { Microsoft::Office::Interop::Word::WdMailMergeMailFormat get(); void set(Microsoft::Office::Interop::Word::WdMailMergeMailFormat value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdMailMergeMailFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.WdMailMergeMailFormat" /> constant that represents the format to use when the mail merge destination is an e-mail message.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>WdMailMergeMailFormat</b> can be one of the following <b>WdMailMergeMailFormat</b> constants:</para>
+          <para>
+            <b>wdMailFormatHTML</b> Sends mail merge e-mail documents using HTML format.</para>
+          <para>
+            <b>wdMailFormatPlainText</b> Sends mail merge e-mail documents using plain text.</para>
+          <para>The <b>MailFormat</b> property is ignored if the <see cref="P:Microsoft.Office.Interop.Word.MailMerge.MailAsAttachment" /> property is set to <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailSubject">
+      <MemberSignature Language="C#" Value="public string MailSubject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailSubject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.MailSubject" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailSubject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailSubject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the subject line used when the mail merge destination is electronic mail.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MainDocumentType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdMailMergeMainDocType MainDocumentType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdMailMergeMainDocType MainDocumentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.MainDocumentType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MainDocumentType As WdMailMergeMainDocType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdMailMergeMainDocType MainDocumentType { Microsoft::Office::Interop::Word::WdMailMergeMainDocType get(); void set(Microsoft::Office::Interop::Word::WdMailMergeMainDocType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdMailMergeMainDocType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the mail merge main document type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>MainDocumentType</b> property can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdMailMergeMainDocType" /> constants:</para>
+          <para>
+            <b>wdCatalog</b>
+          </para>
+          <para>
+            <b>wdDirectory</b>
+          </para>
+          <para>
+            <b>wdEMail</b>
+          </para>
+          <para>
+            <b>wdEnvelopes</b>
+          </para>
+          <para>
+            <b>wdFax</b>
+          </para>
+          <para>
+            <b>wdFormLetters</b>
+          </para>
+          <para>
+            <b>wdMailingLabels</b>
+          </para>
+          <para>
+            <b>wdNotAMergeDocument</b>
+          </para>
+          <para>If you set this property for a document that's already a main document, the attached data source is removed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenDataSource">
+      <MemberSignature Language="C#" Value="public void OpenDataSource (string Name, ref object Format, ref object ConfirmConversions, ref object ReadOnly, ref object LinkToSource, ref object AddToRecentFiles, ref object PasswordDocument, ref object PasswordTemplate, ref object Revert, ref object WritePasswordDocument, ref object WritePasswordTemplate, ref object Connection, ref object SQLStatement, ref object SQLStatement1, ref object OpenExclusive, ref object SubType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OpenDataSource([in]string Name, [in]object&amp; Format, [in]object&amp; ConfirmConversions, [in]object&amp; ReadOnly, [in]object&amp; LinkToSource, [in]object&amp; AddToRecentFiles, [in]object&amp; PasswordDocument, [in]object&amp; PasswordTemplate, [in]object&amp; Revert, [in]object&amp; WritePasswordDocument, [in]object&amp; WritePasswordTemplate, [in]object&amp; Connection, [in]object&amp; SQLStatement, [in]object&amp; SQLStatement1, [in]object&amp; OpenExclusive, [in]object&amp; SubType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.OpenDataSource(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenDataSource (Name As String, Optional ByRef Format As Object, Optional ByRef ConfirmConversions As Object, Optional ByRef ReadOnly As Object, Optional ByRef LinkToSource As Object, Optional ByRef AddToRecentFiles As Object, Optional ByRef PasswordDocument As Object, Optional ByRef PasswordTemplate As Object, Optional ByRef Revert As Object, Optional ByRef WritePasswordDocument As Object, Optional ByRef WritePasswordTemplate As Object, Optional ByRef Connection As Object, Optional ByRef SQLStatement As Object, Optional ByRef SQLStatement1 As Object, Optional ByRef OpenExclusive As Object, Optional ByRef SubType As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ConfirmConversions" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReadOnly" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LinkToSource" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="AddToRecentFiles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Revert" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Connection" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SQLStatement" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SQLStatement1" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="OpenExclusive" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SubType" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Required <b>String</b>. The data source file name. You can specify a Microsoft Query (.qry) file instead of specifying a data source, a connection string, and a query string.</param>
+        <param name="Format">Optional <b>Object</b>. The file converter used to open the document. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdOpenFormat" /> constants. To specify an external file format, use the <see cref="P:Microsoft.Office.Interop.Word.FileConverter.OpenFormat" /> property with the <see cref="T:Microsoft.Office.Interop.Word.FileConverter" /> object to determine the value to use with this argument.<b>WdOpenFormat</b> can be one of the following constants:<b>wdOpenFormatAllWord</b><b>wdOpenFormatAuto Default.</b><b>wdOpenFormatDocument</b><b>wdOpenFormatEncodedText</b><b>wdOpenFormatRTF</b><b>wdOpenFormatTemplate</b><b>wdOpenFormatText</b><b>wdOpenFormatUnicodeText</b><b>wdOpenFormatWebPages</b><b>wdOpenFormatXML</b></param>
+        <param name="ConfirmConversions">Optional <b>Object</b>. <b>True</b> to display the Convert File dialog box if the file isn't in Microsoft Word format.</param>
+        <param name="ReadOnly">Optional <b>Object</b>. <b>True</b> to open the data source on a read-only basis.</param>
+        <param name="LinkToSource">Optional <b>Object</b>. <b>True</b> to perform the query specified by <paramref name="Connection" /> and <paramref name="SQLStatement" /> each time the main document is opened.</param>
+        <param name="AddToRecentFiles">Optional <b>Object</b>. <b>True</b> to add the file name to the list of recently used files at the bottom of the File menu.</param>
+        <param name="PasswordDocument">Optional <b>Object</b>. The password used to open the data source. (See Remarks below.)</param>
+        <param name="PasswordTemplate">Optional <b>Object</b>. The password used to open the template. (See Remarks below.)</param>
+        <param name="Revert">Optional <b>Object</b>. Controls what happens if <paramref name="Name" /> is the file name of an open document. <b>True</b> to discard any unsaved changes to the open document and reopen the file; <b>False</b> to activate the open document.</param>
+        <param name="WritePasswordDocument">Optional <b>Object</b>. The password used to save changes to the document. (See Remarks below.)</param>
+        <param name="WritePasswordTemplate">Optional object. The password used to save changes to the template. (See Remarks below.)</param>
+        <param name="Connection">Optional <b>Object</b>. A range within which the query specified by <paramref name="SQLStatement" /> is to be performed. (See Remarks below.) How you specify the range depends on how data is retrieved. For example:When retrieving data through Open Database Connectivity (ODBC), you specify a connection string. When retrieving data from Microsoft Excel using dynamic data exchange (DDE), you specify a named range.Dynamic data exchange (DDE) is an older technology that is not secure. If possible, use a more secure alternative to DDE.When retrieving data from Microsoft Access, you specify the word "Table" or "Query" followed by the name of a table or query.</param>
+        <param name="SQLStatement">Optional <b>Object</b>. Defines query options for retrieving data. (See Remarks below.)</param>
+        <param name="SQLStatement1">Optional <b>Object</b>. If the query string is longer than 255 characters, <paramref name="SQLStatement" /> specifies the first portion of the string, and <paramref name="SQLStatement1" /> specifies the second portion. (See Remarks below.)</param>
+        <param name="OpenExclusive">Optional <b>Object</b>. <b>True</b> to open exclusively.</param>
+        <param name="SubType">Optional <b>Object</b>. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdMergeSubType" /> constants:wdMergeSubTypeAccess 1wdMergeSubTypeOAL 2wdMergeSubTypeOLEDBText 5wdMergeSubTypeOLEDBWord 3wdMergeSubTypeOther 0wdMergeSubTypeOutlook 6wdMergeSubTypeWord 7wdMergeSubTypeWord2000 8wdMergeSubTypeWorks 4</param>
+        <summary>Attaches a data source to the specified document, which becomes a main document if it's not one already.</summary>
+        <remarks>
+          <para>To determine the ODBC connection and query strings, set query options manually, and use the <see cref="P:Microsoft.Office.Interop.Word.MailMergeDataSource.QueryString" /> property to return the connection string. The following table includes some commonly used SQL keywords.</para>
+          <list type="table">
+            <item>
+              <description>DSN</description>
+              <description>The name of the ODBC data source</description>
+            </item>
+            <item>
+              <description>UID</description>
+              <description>The user logon ID</description>
+            </item>
+            <item>
+              <description>PWD</description>
+              <description>The user-specified password</description>
+            </item>
+            <item>
+              <description>DBQ</description>
+              <description>The database file name</description>
+            </item>
+            <item>
+              <description>FIL</description>
+              <description>The file type</description>
+            </item>
+          </list>
+          <para>Avoid using the built-in system administrator (sa) logon account. Instead, make system administrators members of the sysadmin fixed server role, and have them use their own accounts to log on. Use sa only when there is no other way to log on. To prevent unauthorized access through the sa logon account, you should assign that account a strong, unique password.</para>
+          <para>When possible, use Windows Authentication (also referred to as a trusted connection), which uses a Windows user account to connect to SQL Server. When a user connects through a Windows user account, SQL Server uses information in the Windows operating system to validate the account name and password. Before you can use Windows Authentication, a server administrator must configure SQL Server to use this mode of authentication. If Windows Authentication is not available, avoid saving users' logon information. It is more secure for users to enter their logon information each time they log on.</para>
+          <para>Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenDataSource2000">
+      <MemberSignature Language="C#" Value="public void OpenDataSource2000 (string Name, ref object Format, ref object ConfirmConversions, ref object ReadOnly, ref object LinkToSource, ref object AddToRecentFiles, ref object PasswordDocument, ref object PasswordTemplate, ref object Revert, ref object WritePasswordDocument, ref object WritePasswordTemplate, ref object Connection, ref object SQLStatement, ref object SQLStatement1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OpenDataSource2000([in]string Name, [in]object&amp; Format, [in]object&amp; ConfirmConversions, [in]object&amp; ReadOnly, [in]object&amp; LinkToSource, [in]object&amp; AddToRecentFiles, [in]object&amp; PasswordDocument, [in]object&amp; PasswordTemplate, [in]object&amp; Revert, [in]object&amp; WritePasswordDocument, [in]object&amp; WritePasswordTemplate, [in]object&amp; Connection, [in]object&amp; SQLStatement, [in]object&amp; SQLStatement1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.OpenDataSource2000(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenDataSource2000 (Name As String, Optional ByRef Format As Object, Optional ByRef ConfirmConversions As Object, Optional ByRef ReadOnly As Object, Optional ByRef LinkToSource As Object, Optional ByRef AddToRecentFiles As Object, Optional ByRef PasswordDocument As Object, Optional ByRef PasswordTemplate As Object, Optional ByRef Revert As Object, Optional ByRef WritePasswordDocument As Object, Optional ByRef WritePasswordTemplate As Object, Optional ByRef Connection As Object, Optional ByRef SQLStatement As Object, Optional ByRef SQLStatement1 As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ConfirmConversions" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReadOnly" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LinkToSource" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="AddToRecentFiles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Revert" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Connection" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SQLStatement" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SQLStatement1" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Format">To be added.</param>
+        <param name="ConfirmConversions">To be added.</param>
+        <param name="ReadOnly">To be added.</param>
+        <param name="LinkToSource">To be added.</param>
+        <param name="AddToRecentFiles">To be added.</param>
+        <param name="PasswordDocument">To be added.</param>
+        <param name="PasswordTemplate">To be added.</param>
+        <param name="Revert">To be added.</param>
+        <param name="WritePasswordDocument">To be added.</param>
+        <param name="WritePasswordTemplate">To be added.</param>
+        <param name="Connection">To be added.</param>
+        <param name="SQLStatement">To be added.</param>
+        <param name="SQLStatement1">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenHeaderSource">
+      <MemberSignature Language="C#" Value="public void OpenHeaderSource (string Name, ref object Format, ref object ConfirmConversions, ref object ReadOnly, ref object AddToRecentFiles, ref object PasswordDocument, ref object PasswordTemplate, ref object Revert, ref object WritePasswordDocument, ref object WritePasswordTemplate, ref object OpenExclusive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OpenHeaderSource([in]string Name, [in]object&amp; Format, [in]object&amp; ConfirmConversions, [in]object&amp; ReadOnly, [in]object&amp; AddToRecentFiles, [in]object&amp; PasswordDocument, [in]object&amp; PasswordTemplate, [in]object&amp; Revert, [in]object&amp; WritePasswordDocument, [in]object&amp; WritePasswordTemplate, [in]object&amp; OpenExclusive) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.OpenHeaderSource(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenHeaderSource (Name As String, Optional ByRef Format As Object, Optional ByRef ConfirmConversions As Object, Optional ByRef ReadOnly As Object, Optional ByRef AddToRecentFiles As Object, Optional ByRef PasswordDocument As Object, Optional ByRef PasswordTemplate As Object, Optional ByRef Revert As Object, Optional ByRef WritePasswordDocument As Object, Optional ByRef WritePasswordTemplate As Object, Optional ByRef OpenExclusive As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ConfirmConversions" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReadOnly" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="AddToRecentFiles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Revert" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="OpenExclusive" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Required <b>String</b>. The file name of the header source.</param>
+        <param name="Format">Optional <b>Object</b>. The file converter used to open the document. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdOpenFormat" /> constants. To specify an external file format, use the <see cref="P:Microsoft.Office.Interop.Word.FileConverter.OpenFormat" /> property with a <see cref="T:Microsoft.Office.Interop.Word.FileConverter" /> object to determine the value to use with this argument.<b>WdOpenFormat</b> can be one of the following constants:<b>wdOpenFormatAllWord</b><b>wdOpenFormatAuto Default.</b><b>wdOpenFormatDocument</b><b>wdOpenFormatEncodedText</b><b>wdOpenFormatRTF</b><b>wdOpenFormatTemplate</b><b>wdOpenFormatText</b><b>wdOpenFormatUnicodeText</b><b>wdOpenFormatWebPages</b><b>wdOpenFormatXML</b></param>
+        <param name="ConfirmConversions">Optional <b>Object</b>. <b>True</b> to display the Convert File dialog box if the file isn't in Microsoft Word format.</param>
+        <param name="ReadOnly">Optional <b>Object</b>. <b>True</b> to open the header source on a read-only basis.</param>
+        <param name="AddToRecentFiles">Optional <b>Object</b>. <b>True</b> to add the file name to the list of recently used files at the bottom of the File menu.</param>
+        <param name="PasswordDocument">Optional <b>Object</b>. The password required to open the header source document. (See Remarks below.)</param>
+        <param name="PasswordTemplate">Optional <b>Object</b>. The password required to open the header source template. (See Remarks below.)</param>
+        <param name="Revert">Optional <b>Object</b>. Controls what happens if <paramref name="Name" /> is the file name of an open document. <b>True</b> to discard any unsaved changes to the open document and reopen the file; <b>False</b> to activate the open document.</param>
+        <param name="WritePasswordDocument">Optional <b>Object</b>. The password required to save changes to the document data source. (See Remarks below.)</param>
+        <param name="WritePasswordTemplate">Optional <b>Object</b>. The password required to save changes to the template data source. (See Remarks below.)</param>
+        <param name="OpenExclusive">Optional <b>Object</b>. True to open exclusively.</param>
+        <summary>Attaches a mail merge header source to the specified document.</summary>
+        <remarks>
+          <para>When a header source is attached, the first record in the header source is used in place of the header record in the data source.</para>
+          <para>Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenHeaderSource2000">
+      <MemberSignature Language="C#" Value="public void OpenHeaderSource2000 (string Name, ref object Format, ref object ConfirmConversions, ref object ReadOnly, ref object AddToRecentFiles, ref object PasswordDocument, ref object PasswordTemplate, ref object Revert, ref object WritePasswordDocument, ref object WritePasswordTemplate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OpenHeaderSource2000([in]string Name, [in]object&amp; Format, [in]object&amp; ConfirmConversions, [in]object&amp; ReadOnly, [in]object&amp; AddToRecentFiles, [in]object&amp; PasswordDocument, [in]object&amp; PasswordTemplate, [in]object&amp; Revert, [in]object&amp; WritePasswordDocument, [in]object&amp; WritePasswordTemplate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.OpenHeaderSource2000(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenHeaderSource2000 (Name As String, Optional ByRef Format As Object, Optional ByRef ConfirmConversions As Object, Optional ByRef ReadOnly As Object, Optional ByRef AddToRecentFiles As Object, Optional ByRef PasswordDocument As Object, Optional ByRef PasswordTemplate As Object, Optional ByRef Revert As Object, Optional ByRef WritePasswordDocument As Object, Optional ByRef WritePasswordTemplate As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ConfirmConversions" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReadOnly" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="AddToRecentFiles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Revert" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="WritePasswordTemplate" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Format">To be added.</param>
+        <param name="ConfirmConversions">To be added.</param>
+        <param name="ReadOnly">To be added.</param>
+        <param name="AddToRecentFiles">To be added.</param>
+        <param name="PasswordDocument">To be added.</param>
+        <param name="PasswordTemplate">To be added.</param>
+        <param name="Revert">To be added.</param>
+        <param name="WritePasswordDocument">To be added.</param>
+        <param name="WritePasswordTemplate">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSendToCustom">
+      <MemberSignature Language="C#" Value="public string ShowSendToCustom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ShowSendToCustom" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.ShowSendToCustom" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowSendToCustom As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ShowSendToCustom { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>String</b> corresponding to the caption on a custom button on the Complete the merge step (step six) of the Mail Merge Wizard.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When a user clicks the custom button, the <b>MailMergeWizardSendToCustom</b> event occurs.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowWizard">
+      <MemberSignature Language="C#" Value="public void ShowWizard (ref object InitialState, ref object ShowDocumentStep, ref object ShowTemplateStep, ref object ShowDataStep, ref object ShowWriteStep, ref object ShowPreviewStep, ref object ShowMergeStep);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowWizard([in]object&amp; InitialState, [in]object&amp; ShowDocumentStep, [in]object&amp; ShowTemplateStep, [in]object&amp; ShowDataStep, [in]object&amp; ShowWriteStep, [in]object&amp; ShowPreviewStep, [in]object&amp; ShowMergeStep) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.ShowWizard(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowWizard (ByRef InitialState As Object, Optional ByRef ShowDocumentStep As Object, Optional ByRef ShowTemplateStep As Object, Optional ByRef ShowDataStep As Object, Optional ByRef ShowWriteStep As Object, Optional ByRef ShowPreviewStep As Object, Optional ByRef ShowMergeStep As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="InitialState" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ShowDocumentStep" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ShowTemplateStep" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ShowDataStep" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ShowWriteStep" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ShowPreviewStep" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ShowMergeStep" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="InitialState">Required <b>Object</b>. The number of the Mail Merge Wizard step to display.</param>
+        <param name="ShowDocumentStep">Optional <b>Object</b>. <b>True</b> keeps the "Select document type" step in the sequence of mail merge steps. <b>False</b> removes step one.</param>
+        <param name="ShowTemplateStep">Optional <b>Object</b>. <b>True</b> keeps the "Select starting document" step in the sequence of mail merge steps; <b>False</b> removes step two.</param>
+        <param name="ShowDataStep">Optional <b>Object</b>. <b>True</b> keeps the "Select recipients" step in the sequence of mail merge steps; <b>False</b> removes step three.</param>
+        <param name="ShowWriteStep">Optional <b>Object</b>. <b>True</b> keeps the "Write your letter" step in the sequence of mail merge steps; <b>False</b> removes step four.</param>
+        <param name="ShowPreviewStep">Optional <b>Object</b>. <b>True</b> keeps the "Preview your letters" step in the sequence of mail merge steps; <b>False</b> removes step five.</param>
+        <param name="ShowMergeStep">Optional <b>Object</b>. <b>True</b> keeps the "Complete the merge" step in the sequence of mail merge steps; <b>False</b> removes step six.</param>
+        <summary>Displays the Mail Merge Wizard in a document.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdMailMergeState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdMailMergeState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As WdMailMergeState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdMailMergeState State { Microsoft::Office::Interop::Word::WdMailMergeState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdMailMergeState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the current state of a mail merge operation.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>State</b> property can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdMailMergeState" /> constants:</para>
+          <para>
+            <b>wdDataSource</b>
+          </para>
+          <para>
+            <b>wdMainAndDataSource</b>
+          </para>
+          <para>
+            <b>wdMainAndHeader</b>
+          </para>
+          <para>
+            <b>wdMainAndSourceAndHeader</b>
+          </para>
+          <para>
+            <b>wdMainDocumentOnly</b>
+          </para>
+          <para>
+            <b>wdNormalDocument</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressBlankLines">
+      <MemberSignature Language="C#" Value="public bool SuppressBlankLines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SuppressBlankLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.SuppressBlankLines" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressBlankLines As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SuppressBlankLines { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if blank lines are suppressed when mail merge fields in a mail merge main document are empty.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if blank lines are suppressed, and <b>False</b> if not. Set the property value to <b>True</b> or <b>False</b> to enable or disable the functionality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseAddressBook">
+      <MemberSignature Language="C#" Value="public void UseAddressBook (string Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UseAddressBook([in]string Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMerge.UseAddressBook(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UseAddressBook (Type As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UseAddressBook(System::String ^ Type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Type">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewMailMergeFieldCodes">
+      <MemberSignature Language="C#" Value="public int ViewMailMergeFieldCodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ViewMailMergeFieldCodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.ViewMailMergeFieldCodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewMailMergeFieldCodes As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ViewMailMergeFieldCodes { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if merge field names are displayed in a mail merge main document.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if merge field names are displayed in a mail merge main document, and <b>False</b> if information from the current data record is displayed.</para>
+          <para>If the active document isn't a mail merge main document, this property causes an error. To view merge field names or their results, set the <see cref="P:Microsoft.Office.Interop.Word.View.ShowFieldCodes" /> property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WizardState">
+      <MemberSignature Language="C#" Value="public int WizardState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WizardState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMerge.WizardState" />
+      <MemberSignature Language="VB.NET" Value="Public Property WizardState As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WizardState { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> indicating the current Mail Merge Wizard step for a document.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>WizardState</b> method returns a number that equates to the current Mail Merge Wizard step; a zero (0) means the Mail Merge Wizard is closed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,8869 @@
+﻿<Type Name="Pane" FullName="Microsoft.Office.Interop.Word.Pane">
+  <TypeSignature Language="C#" Value="public interface Pane" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Pane" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Pane" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Pane" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Pane" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020960-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a window pane. The <b>Pane</b> object is a member of the <b>Panes</b>
+ collection. The <see cref="Panes#SameCHM" /> collection includes all the window panes for a single window.</summary>
+    <remarks>
+      <para>Use <b>Panes</b>(<paramref name="Index" />), where <paramref name="Index" /> is the index number, to return a single <b>Pane</b> object. The following example closes the active pane.</para>
+      <code>&lt;span class="label"&gt;If ActiveDocument.ActiveWindow.Panes.Count &amp;gt;= 2 Then _ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    ActiveDocument.ActiveWindow.ActivePane.Close&lt;/span&gt;</code>
+      <para>Use the <b>Add</b>
+ method or the <b>Split</b>
+ property to add a window pane. The following example splits the active window at 20 percent of the current window size.</para>
+      <code>&lt;span class="label"&gt;ActiveDocument.ActiveWindow.Panes.Add SplitVertical:=20&lt;/span&gt;</code>
+      <para>The following example splits the active window in half.</para>
+      <code>&lt;span class="label"&gt;ActiveDocument.ActiveWindow.Split = True&lt;/span&gt;</code>
+      <para>You can use the <b>SplitSpecial</b>
+ property to show comments, footnotes, or endnotes in a separate pane.</para>
+      <para>A window has more than one pane if the window is split or the view is not print layout view and information such as footnotes or comments are displayed. The following example displays the comments pane in normal view and then prompts to close the pane.</para>
+      <code>&lt;span class="label"&gt;ActiveDocument.ActiveWindow.View.Type = wdNormalView 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+If ActiveDocument.Comments.Count &amp;gt;= 1 Then 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    ActiveDocument.ActiveWindow.View.SplitSpecial = wdPaneComments 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    response = _ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+        MsgBox("Do you want to close the comments pane?", vbYesNo) 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    If response = vbYes Then _ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+        ActiveDocument.ActiveWindow.ActivePane.Close 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+End If&lt;/span&gt;</code>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Activates the specified pane.</summary>
+        <remarks>To be added.</remarks>
+        <example>
+          <para>This example splits the active window and then activates the first pane.</para>
+          <code>&lt;span class="label"&gt;Sub SplitWindow() 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+  With ActiveDocument.ActiveWindow 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .SplitVertical = 50 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .Panes(1).&lt;/span&gt;
+&lt;span class="label"&gt;Activate&lt;/span&gt;
+&lt;span class="label"&gt;End WithEnd Sub&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Visual Basic's CreateObject and GetObject functions give you access to an OLE Automation object from a Visual Basic for Applications project.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoScroll">
+      <MemberSignature Language="C#" Value="public void AutoScroll (int Velocity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AutoScroll([in]int32 Velocity) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.AutoScroll(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AutoScroll (Velocity As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutoScroll(int Velocity);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Velocity" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Velocity">The speed for scrolling.</param>
+        <summary>Scrolls automatically through the specified pane.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrowseToWindow">
+      <MemberSignature Language="C#" Value="public bool BrowseToWindow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BrowseToWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.BrowseToWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Property BrowseToWindow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BrowseToWindow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrowseWidth">
+      <MemberSignature Language="C#" Value="public int BrowseWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BrowseWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.BrowseWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BrowseWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BrowseWidth { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the width (in points) of the area in which text wraps in the specified pane. Read-only <b>Long</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property works only when you are in Web layout view.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Closes the specified Mail Merge data source, pane, or task.</summary>
+        <remarks>To be added.</remarks>
+        <example>
+          <para>This example closes the active pane if the active window is split.</para>
+          <code>&lt;span class="label"&gt;If ActiveDocument.ActiveWindow.Panes.Count &amp;gt;= 2 Then _ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;Close&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only <b>Long</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, the <b>Creator</b> property returns the hexadecimal number 4D535744, which represents the string "MSWD."  This property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayRulers">
+      <MemberSignature Language="C#" Value="public bool DisplayRulers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayRulers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.DisplayRulers" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayRulers As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayRulers { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if rulers are displayed for the specified pane. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>DisplayRulers</b> property is equivalent to the Ruler command on the View menu. If <b>DisplayRulers</b> is <b>False</b>, the horizontal and vertical rulers won't be displayed, regardless of the state of the <b>DisplayVerticalRuler</b> property.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>This example switches the active pane to print layout view and displays the horizontal and vertical rulers.</para>
+          <code>&lt;span class="label"&gt;With ActiveDocument.ActiveWindow.ActivePane 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .View.Type = wdPrintView 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .&lt;/span&gt;
+&lt;span class="label"&gt;DisplayRulers&lt;/span&gt;
+&lt;span class="label"&gt;= True    .DisplayVerticalRuler = TrueEnd With&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayVerticalRuler">
+      <MemberSignature Language="C#" Value="public bool DisplayVerticalRuler { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayVerticalRuler" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.DisplayVerticalRuler" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayVerticalRuler As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayVerticalRuler { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a vertical ruler is displayed for the specified pane. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A vertical ruler appears only in print layout view, and only if the <b>DisplayRulers</b> property is set to <b>True</b>.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>This example switches the active pane to print layout view and displays the horizontal and vertical rulers.</para>
+          <code>&lt;span class="label"&gt;With ActiveDocument.ActiveWindow.ActivePane 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .View.Type = wdPrintView 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .DisplayRulers = True 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .&lt;/span&gt;
+&lt;span class="label"&gt;DisplayVerticalRuler&lt;/span&gt;
+&lt;span class="label"&gt;= TrueEnd With&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Document">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Document Document { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Document Document" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Document" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Document As Document" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Document ^ Document { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Document</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Document" /> object associated with the specified pane. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Frameset">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Frameset Frameset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Frameset Frameset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Frameset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Frameset As Frameset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Frameset ^ Frameset { Microsoft::Office::Interop::Word::Frameset ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Frameset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Frameset" /> object that represents an entire frames page or a single frame on a frames page. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For more information on creating frames pages, see <see cref="Creatingframespages#SameCHM" />.</para>
+          <para />
+          <para />
+        </remarks>
+        <example>
+          <para>This example adds a new frame to the immediate right of the specified frame.</para>
+          <code>&lt;span class="label"&gt;ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;Frameset&lt;/span&gt;
+&lt;span class="label"&gt;_    .AddNewFrame wdFramesetNewRight&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalPercentScrolled">
+      <MemberSignature Language="C#" Value="public int HorizontalPercentScrolled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HorizontalPercentScrolled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.HorizontalPercentScrolled" />
+      <MemberSignature Language="VB.NET" Value="Public Property HorizontalPercentScrolled As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HorizontalPercentScrolled { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the horizontal scroll position as a percentage of the document width. Read/write <b>Long</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <example>
+          <para>This example horizontally scrolls the active pane of the window for Document1 all the way to the left.</para>
+          <code>&lt;span class="label"&gt;With Windows("Document1") 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .Activate 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;HorizontalPercentScrolled&lt;/span&gt;
+&lt;span class="label"&gt;= 0End With&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Long</b> that represents the position of an item in a collection. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LargeScroll">
+      <MemberSignature Language="C#" Value="public void LargeScroll (ref object Down, ref object Up, ref object ToRight, ref object ToLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LargeScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.LargeScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LargeScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Down">The number of screens to scroll the window down.</param>
+        <param name="Up">The number of screens to scroll the window up.</param>
+        <param name="ToRight">The number of screens to scroll the window to the right.</param>
+        <param name="ToLeft">The number of screens to scroll the window to the left.</param>
+        <summary>Scrolls a window or pane by the specified number of screens.</summary>
+        <remarks>
+          <para>This method is equivalent to clicking just before or just after the scroll boxes on the horizontal and vertical scroll bars.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumFontSize">
+      <MemberSignature Language="C#" Value="public int MinimumFontSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumFontSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.MinimumFontSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumFontSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumFontSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the minimum font size (in points) displayed for the specified pane. Read/write <b>Long</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property only affects the text as shown in Web layout view. The point sizes that are displayed on the Formatting toolbar and used for printing aren't changed.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>This example sets the active window to online view and then sets the minimum font size for the active pane to 12 points.</para>
+          <code>&lt;span class="label"&gt;With ActiveDocument.ActiveWindow 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .View.Type = wdWebView 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;MinimumFontSize&lt;/span&gt;
+&lt;span class="label"&gt;= 12End With&lt;/span&gt;</code>
+          <para>This example returns the minimum font size for the active pane.</para>
+          <code>&lt;span class="label"&gt;Msgbox _ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;MinimumFontSize&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFrameset">
+      <MemberSignature Language="C#" Value="public void NewFrameset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewFrameset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.NewFrameset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NewFrameset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewFrameset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a new frames page based on the specified pane.</summary>
+        <remarks>
+          <para>For more information on creating frames pages, see <see cref="Creatingframespages#SameCHM" />.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>This example opens a document named "Temp.doc" and then creates a new frames page whose only frame contains "Temp.doc".</para>
+          <code>&lt;span class="label"&gt;Documents.Open "C:\Documents\Temp.doc" 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;NewFrameset&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Next">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Pane Next { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Pane Next" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Next" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As Pane" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pane ^ Next { Microsoft::Office::Interop::Word::Pane ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Pane</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Pane</b> object that represents the next document pane in the collection. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pages">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Pages Pages { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Pages Pages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Pages" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pages As Pages" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pages ^ Pages { Microsoft::Office::Interop::Word::Pages ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Pages</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Pages" /> collection that represents the pages in a document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageScroll">
+      <MemberSignature Language="C#" Value="public void PageScroll (ref object Down, ref object Up);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PageScroll([in]object&amp; Down, [in]object&amp; Up) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.PageScroll(System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PageScroll (Optional ByRef Down As Object, Optional ByRef Up As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Down">The number of pages to be scrolled down.</param>
+        <param name="Up">The number of pages to be scrolled up.</param>
+        <summary>Scrolls through the specified pane or window page by page.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> that represents the parent object of the specified <b>Pane</b> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Previous">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Pane Previous { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Pane Previous" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Previous" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As Pane" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pane ^ Previous { Microsoft::Office::Interop::Word::Pane ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Pane</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Pane</b> object that represents the previous document pane in the collection. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Selection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Selection Selection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Selection Selection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Selection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As Selection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Selection ^ Selection { Microsoft::Office::Interop::Word::Selection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Selection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <b>Selection</b> object that represents a selection or the insertion point within a document pane. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmallScroll">
+      <MemberSignature Language="C#" Value="public void SmallScroll (ref object Down, ref object Up, ref object ToRight, ref object ToLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SmallScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.SmallScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SmallScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Down">The number of lines to scroll the window down.</param>
+        <param name="Up">The number of lines to scroll the window up.</param>
+        <param name="ToRight">The number of lines to scroll the window to the right.</param>
+        <param name="ToLeft">The number of lines to scroll the window to the left.</param>
+        <summary>Scrolls a window or pane by the specified number of lines.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TOCInFrameset">
+      <MemberSignature Language="C#" Value="public void TOCInFrameset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TOCInFrameset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.TOCInFrameset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TOCInFrameset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TOCInFrameset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a table of contents based on the specified document and puts it in a new frame on the left side of the frames page.</summary>
+        <remarks>
+          <para>For more information on creating frames pages, see <see cref="Creatingframespages#SameCHM" />.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>This example opens a file named "Proposal.doc", creates a frames page based on the file, and adds a frame (on the left side of the page) containing a table of contents for the file.</para>
+          <code>&lt;span class="label"&gt;Documents.Open "C:\Documents\Proposal.doc" 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ActiveDocument.ActiveWindow.ActivePane.NewFrameset 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;TOCInFrameset&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalPercentScrolled">
+      <MemberSignature Language="C#" Value="public int VerticalPercentScrolled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 VerticalPercentScrolled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.VerticalPercentScrolled" />
+      <MemberSignature Language="VB.NET" Value="Public Property VerticalPercentScrolled As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int VerticalPercentScrolled { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the vertical scroll position as a percentage of the document length. Read/write <b>Long</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <example>
+          <para>This example vertically scrolls the active pane of the window for Document1 to the end.</para>
+          <code>&lt;span class="label"&gt;With Windows("Document1") 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .Activate 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    .ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;VerticalPercentScrolled&lt;/span&gt;
+&lt;span class="label"&gt;= 100End With&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="View">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.View View { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.View View" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.View" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property View As View" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::View ^ View { Microsoft::Office::Interop::Word::View ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.View</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>View</b> object that represents the view for the specified pane.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <example>
+          <para>This example shows all nonprinting characters for panes associated with the first window in the <b>Windows</b> collection.</para>
+          <code>&lt;span class="label"&gt;For Each myPane In Windows(1).Panes 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    myPane.&lt;/span&gt;
+&lt;span class="label"&gt;View&lt;/span&gt;
+&lt;span class="label"&gt;.ShowAll = TrueNext myPane&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Zooms">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Zooms Zooms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Zooms Zooms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Zooms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Zooms As Zooms" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Zooms ^ Zooms { Microsoft::Office::Interop::Word::Zooms ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Zooms</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="Zooms#SameCHM" />
+ collection that represents the magnification options for each view (such as normal view, outline view or print layout view).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For information about returning a single member of a collection, see <see cref="ReturninganObjectfromaCollection#SameCHM" />.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>This example sets the magnification in normal view to 100 percent for each open window.</para>
+          <code>&lt;span class="label"&gt;Dim wndLoop as Window 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+For Each wndLoop In Windows 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+    wndLoop.ActivePane.&lt;/span&gt;
+&lt;span class="label"&gt;Zooms&lt;/span&gt;
+&lt;span class="label"&gt;(wdNormalView).Percentage = 100Next wndLoop&lt;/span&gt;</code>
+          <para>This example sets the magnification in print layout view so that an entire page is visible.</para>
+          <code>&lt;span class="label"&gt;ActiveDocument.ActiveWindow.Panes(1).&lt;/span&gt;
+&lt;span class="label"&gt;Zooms&lt;/span&gt;
+&lt;span class="label"&gt;(wdPrintView).PageFit = _    wdPageFitFullPage&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

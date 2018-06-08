@@ -1,0 +1,1422 @@
+﻿<Type Name="EmailOptions" FullName="Microsoft.Office.Interop.Word.EmailOptions">
+  <TypeSignature Language="C#" Value="public interface EmailOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract EmailOptions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.EmailOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface EmailOptions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class EmailOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000209DB-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains global application-level attributes used by Microsoft Word when you create and edit e-mail messages and replies.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word._Application.EmailOptions" /> property to return the <b>EmailOptions</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyBorders">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyBorders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyBorders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyBorders" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyBorders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyBorders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if a series of three or more hyphens (-), equal signs (=), or underscore characters (_) are automatically replaced by a specific border line when the ENTER key is pressed.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if a series of three or more hyphens (-), equal signs (=), or underscore characters (_) are automatically replaced by a specific border line when the ENTER key is pressed, and <b>False</b> if not.</para>
+          <para>Hyphens (-) are replaced by a 0.75-point line, equal signs (=) are replaced by a 0.75-point double line, and underscore characters (_) are replaced by a 1.5-point line.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyBulletedLists">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyBulletedLists { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyBulletedLists" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyBulletedLists" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyBulletedLists As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyBulletedLists { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(262)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(262)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(262)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if bullet characters (such as asterisks, hyphens, and greater-than signs) are replaced with bullets from the Bullets And Numbering dialog box (Format menu) as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if bullet characters (such as asterisks, hyphens, and greater-than signs) are replaced with bullets from the Bullets And Numbering dialog box (Format menu) as you type, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyClosings">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyClosings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyClosings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyClosings" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyClosings As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyClosings { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(299)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(299)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(299)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically applies the Closing style to letter closings as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically applies the Closing style to letter closings as you type, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyDates">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyDates { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyDates" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyDates" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyDates As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyDates { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(298)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(298)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(298)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically applies the Date style to dates as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word to automatically applies the Date style to dates as you type, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyFirstIndents">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyFirstIndents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyFirstIndents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyFirstIndents" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyFirstIndents As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyFirstIndents { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(297)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(297)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(297)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically replaces a space entered at the beginning of a paragraph with a first-line indent.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically replaces a space entered at the beginning of a paragraph with a first-line indent, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyHeadings">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyHeadings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyHeadings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyHeadings" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyHeadings As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyHeadings { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(260)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(260)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(260)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if styles are automatically applied to headings as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if styles are automatically applied to headings as you type, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyNumberedLists">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyNumberedLists { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyNumberedLists" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyNumberedLists" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyNumberedLists As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyNumberedLists { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(263)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(263)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(263)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if paragraphs are automatically formatted as numbered lists with a numbering scheme from the Bullets and Numbering dialog box (Format menu), according to what's typed. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if paragraphs are automatically formatted, and <b>False</b> if not.</para>
+          <para>An example of this property's functionality is the following: if a paragraph starts with "1.1" and a tab character, Word automatically inserts "1.2" and a tab character after the ENTER key is pressed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeApplyTables">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeApplyTables { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeApplyTables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeApplyTables" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeApplyTables As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeApplyTables { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(290)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(290)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(290)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically creates a table when you type a plus sign, a series of hyphens, another plus sign, and so on, and then press ENTER.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically creates a table, and <b>False</b> if not.</para>
+          <para>The plus signs become the column borders, and the hyphens become the column widths.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeAutoLetterWizard">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeAutoLetterWizard { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeAutoLetterWizard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeAutoLetterWizard" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeAutoLetterWizard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeAutoLetterWizard { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(304)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(304)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(304)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically starts the Letter Wizard when the user enters a letter salutation or closing.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Microsoft Word automatically starts the Letter Wizard, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeDefineStyles">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeDefineStyles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeDefineStyles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeDefineStyles" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeDefineStyles As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeDefineStyles { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(270)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(270)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(270)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically creates new styles based on manual formatting.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically creates new styles based on manual formatting, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeDeleteAutoSpaces">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeDeleteAutoSpaces { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeDeleteAutoSpaces" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeDeleteAutoSpaces" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeDeleteAutoSpaces As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeDeleteAutoSpaces { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(302)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(302)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(302)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically deletes spaces inserted between Japanese and Latin text as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically deletes spaces, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeFormatListItemBeginning">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeFormatListItemBeginning { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeFormatListItemBeginning" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeFormatListItemBeginning" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeFormatListItemBeginning As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeFormatListItemBeginning { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(269)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(269)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(269)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word repeats character formatting applied to the beginning of a list item to the next list item.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word repeats character formatting, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeInsertClosings">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeInsertClosings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeInsertClosings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeInsertClosings" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeInsertClosings As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeInsertClosings { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(303)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(303)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(303)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically inserts the corresponding memo closing when the user enters a memo heading.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically inserts the memo closing, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeInsertOvers">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeInsertOvers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeInsertOvers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeInsertOvers" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeInsertOvers As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeInsertOvers { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(305)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(305)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(305)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word to automatically inserts "  " when the user enters "" or "".</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically inserts "  ", and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeMatchParentheses">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeMatchParentheses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeMatchParentheses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeMatchParentheses" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeMatchParentheses As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeMatchParentheses { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(300)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(300)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(300)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically corrects improperly paired parentheses.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Microsoft Word automatically corrects improperly paired parentheses, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeReplaceFarEastDashes">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeReplaceFarEastDashes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeReplaceFarEastDashes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeReplaceFarEastDashes" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeReplaceFarEastDashes As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeReplaceFarEastDashes { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(301)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word automatically corrects long vowel sounds and dashes.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word automatically corrects long vowel sounds and dashes, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeReplaceFractions">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeReplaceFractions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeReplaceFractions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeReplaceFractions" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeReplaceFractions As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeReplaceFractions { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(267)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(267)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(267)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if typed fractions are replaced with fractions from the current character set as you type, as when "1/2" is replaced with "½."</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if typed fractions are replaced, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeReplaceHyperlinks">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeReplaceHyperlinks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeReplaceHyperlinks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeReplaceHyperlinks" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeReplaceHyperlinks As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeReplaceHyperlinks { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(272)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(272)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(272)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if e-mail addresses, server and share names (also known as UNC paths), and Internet addresses (also known as URLs) are automatically changed to hyperlinks as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if e-mail addresses, server and share names (also known as UNC paths), and Internet addresses (also known as URLs) are automatically changed to hyperlinks, and <b>False</b> if not.</para>
+          <para>Microsoft Word changes any text that looks like an e-mail address, UNC, or URL to a hyperlink. Word doesn't check the validity of the hyperlink.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeReplaceOrdinals">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeReplaceOrdinals { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeReplaceOrdinals" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeReplaceOrdinals" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeReplaceOrdinals As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeReplaceOrdinals { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(266)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(266)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(266)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the ordinal number suffixes "st", "nd", "rd", and "th" are replaced with the same letters in superscript as you type, as when "1st" is replaced with "1" followed by "st" formatted as superscript.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the ordinal number suffixes "st", "nd", "rd", and "th" are replaced, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeReplacePlainTextEmphasis">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeReplacePlainTextEmphasis { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeReplacePlainTextEmphasis" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeReplacePlainTextEmphasis" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeReplacePlainTextEmphasis As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeReplacePlainTextEmphasis { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(268)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(268)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(268)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if manual emphasis characters are automatically replaced with character formatting as you type, as when "*bold*" is changed to "<b>bold</b>" and "_underline_" is changed to "underline."</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if manual emphasis characters are automatically replaced, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeReplaceQuotes">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeReplaceQuotes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeReplaceQuotes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeReplaceQuotes" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeReplaceQuotes As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeReplaceQuotes { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(264)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(264)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(264)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if straight quotation marks are automatically changed to smart (curly) quotation marks as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if straight quotation marks are automatically changed to smart (curly) quotation marks as you type, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatAsYouTypeReplaceSymbols">
+      <MemberSignature Language="C#" Value="public bool AutoFormatAsYouTypeReplaceSymbols { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFormatAsYouTypeReplaceSymbols" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.AutoFormatAsYouTypeReplaceSymbols" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFormatAsYouTypeReplaceSymbols As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFormatAsYouTypeReplaceSymbols { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(265)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(265)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(265)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if two consecutive hyphens (--) are replaced with an en-dash (–) or an em-dash (—) as you type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if two consecutive hyphens (--) are replaced, and <b>False</b> if not.</para>
+          <para>If the hyphens are typed with leading and trailing spaces, Microsoft Word replaces the hyphens with an en dash; if there are no trailing spaces, the hyphens are replaced with an em-dash.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComposeStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Style ComposeStyle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Style ComposeStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.ComposeStyle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ComposeStyle As Style" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Style ^ ComposeStyle { Microsoft::Office::Interop::Word::Style ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Style" /> object that represents the style used to compose new e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dummy1">
+      <MemberSignature Language="C#" Value="public bool Dummy1 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Dummy1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.Dummy1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dummy1 As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Dummy1 { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dummy2">
+      <MemberSignature Language="C#" Value="public bool Dummy2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Dummy2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.Dummy2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dummy2 As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Dummy2 { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dummy3">
+      <MemberSignature Language="C#" Value="public void Dummy3 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dummy3() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.EmailOptions.Dummy3" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dummy3 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Dummy3();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailSignature">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.EmailSignature EmailSignature { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.EmailSignature EmailSignature" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.EmailSignature" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailSignature As EmailSignature" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::EmailSignature ^ EmailSignature { Microsoft::Office::Interop::Word::EmailSignature ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.EmailSignature</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.EmailSignature" /> object that represents the signatures Microsoft Word appends to outgoing e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmbedSmartTag">
+      <MemberSignature Language="C#" Value="public bool EmbedSmartTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EmbedSmartTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.EmbedSmartTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property EmbedSmartTag As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EmbedSmartTag { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(308)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(308)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(308)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word saves the smart tag information in HTML e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word saves the smart tag information in HTML e-mail messages, and <b>False</b> if not.</para>
+          <para>Use the <b>EmbedSmartTag</b> property when Word is specified as your e-mail editor and messages are sent using HTML. This allows recipients of the message to have access to the smart tag information without having the recognizer file registered on their computer. To make Word your default e-mail editor, change the necessary settings in Microsoft Outlook.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLFidelity">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdEmailHTMLFidelity HTMLFidelity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdEmailHTMLFidelity HTMLFidelity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.HTMLFidelity" />
+      <MemberSignature Language="VB.NET" Value="Public Property HTMLFidelity As WdEmailHTMLFidelity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdEmailHTMLFidelity HTMLFidelity { Microsoft::Office::Interop::Word::WdEmailHTMLFidelity get(); void set(Microsoft::Office::Interop::Word::WdEmailHTMLFidelity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(307)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(307)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(307)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdEmailHTMLFidelity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Strips HTML tags that are used for opening HTML files in Microsoft Word but are not required for display.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkComments">
+      <MemberSignature Language="C#" Value="public bool MarkComments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MarkComments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.MarkComments" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkComments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MarkComments { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word marks the user's comments in e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word marks the user's comments in e-mail messages, and <b>False</b> if not.</para>
+          <para>This property marks comments with the value of the <see cref="P:Microsoft.Office.Interop.Word.EmailOptions.MarkCommentsWith" /> property. The default value of the <b>MarkCommentsWith</b> property is the value of the <see cref="P:Microsoft.Office.Interop.Word._Application.UserName" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkCommentsWith">
+      <MemberSignature Language="C#" Value="public string MarkCommentsWith { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MarkCommentsWith" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.MarkCommentsWith" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkCommentsWith As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MarkCommentsWith { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the string with which Microsoft Word marks comments in e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is the value of the <see cref="P:Microsoft.Office.Interop.Word._Application.UserName" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewColorOnReply">
+      <MemberSignature Language="C#" Value="public bool NewColorOnReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NewColorOnReply" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.NewColorOnReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property NewColorOnReply As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NewColorOnReply { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies whether a user needs to choose a new color for reply text when replying to e-mail.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> to specify that a user needs to choose a new color, and <b>False</b> if not.</para>
+          <para>Use the <b>NewColorOnReply</b> property if you want the reply text of e-mail messages sent from Microsoft Word to be a different color than the original message.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlainTextStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Style PlainTextStyle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Style PlainTextStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.PlainTextStyle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlainTextStyle As Style" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Style ^ PlainTextStyle { Microsoft::Office::Interop::Word::Style ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the <see cref="T:Microsoft.Office.Interop.Word.Style" /> object that represents the text attributes for e-mail messages that are sent or received using plain text.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelyOnCSS">
+      <MemberSignature Language="C#" Value="public bool RelyOnCSS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RelyOnCSS" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.RelyOnCSS" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelyOnCSS As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelyOnCSS { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(306)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(306)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(306)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if cascading style sheets (CSS) are used for font formatting when you view a saved document in a Web browser.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if cascading style sheets are used, and <b>False</b> if HTML &lt;FONT&gt; tags and cascading style sheets are used. The default value is <b>True</b>.</para>
+          <para>Microsoft Word creates a cascading style sheet file and saves it either to the specified folder or to the same folder as your Web page, depending on the value of the <see cref="P:Microsoft.Office.Interop.Word.WebOptions.OrganizeInFolder" /> property.</para>
+          <para>You should set this property to <b>True</b> if your Web browser supports cascading style sheets because this will give you more precise layout and formatting control on your Web page and make it look more like your document (as it appears in Microsoft Word).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Style ReplyStyle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Style ReplyStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.ReplyStyle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplyStyle As Style" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Style ^ ReplyStyle { Microsoft::Office::Interop::Word::Style ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Style" /> object that represents the style used when replying to e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabIndentKey">
+      <MemberSignature Language="C#" Value="public bool TabIndentKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TabIndentKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.TabIndentKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property TabIndentKey As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TabIndentKey { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(309)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the TAB and BACKSPACE keys can be used to increase and decrease, respectively, the left indent of paragraphs and if the BACKSPACE key can be used to change right-aligned paragraphs to centered paragraphs and centered paragraphs to left-aligned paragraphs. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the TAB and BACKSPACE keys are used, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThemeName">
+      <MemberSignature Language="C#" Value="public string ThemeName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ThemeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.ThemeName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThemeName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ThemeName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the theme plus any theme formatting options to use for new e-mail messages.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For an explanation of the value returned by this property, see the <paramref name="Name" /> argument of the <see cref="M:Microsoft.Office.Interop.Word._Document.ApplyTheme(System.String)" /> method. The value returned by this property may not correspond to the theme's display name as it appears in the Theme dialog box. To return a theme's display name, use the <see cref="P:Microsoft.Office.Interop.Word._Document.ActiveThemeDisplayName" /> property.</para>
+          <para>You can also use the <see cref="M:Microsoft.Office.Interop.Word._Application.GetDefaultTheme(Microsoft.Office.Interop.Word.WdDocumentMedium)" /> and <see cref="M:Microsoft.Office.Interop.Word._Application.SetDefaultTheme(System.String,Microsoft.Office.Interop.Word.WdDocumentMedium)" /> methods to return and set the default theme for new e-mail messages.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThemeStyle">
+      <MemberSignature Language="C#" Value="public bool UseThemeStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseThemeStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.UseThemeStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseThemeStyle As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseThemeStyle { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if new e-mail messages use the character style defined by the default e-mail message theme.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if new e-mail messages use the defined character style, and <b>False</b> if not.</para>
+          <para>If no default e-mail message theme has been specified, this property has no effect.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThemeStyleOnReply">
+      <MemberSignature Language="C#" Value="public bool UseThemeStyleOnReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseThemeStyleOnReply" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.EmailOptions.UseThemeStyleOnReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseThemeStyleOnReply As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseThemeStyleOnReply { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if Microsoft Word uses a theme when replying to e-mail.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if Word uses a theme when replying to e-mail, and <b>False</b> if not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

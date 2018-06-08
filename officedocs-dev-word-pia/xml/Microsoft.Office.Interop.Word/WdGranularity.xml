@@ -1,0 +1,66 @@
+﻿<Type Name="WdGranularity" FullName="Microsoft.Office.Interop.Word.WdGranularity">
+  <TypeSignature Language="C#" Value="public enum WdGranularity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WdGranularity extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.WdGranularity" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WdGranularity" />
+  <TypeSignature Language="C++ CLI" Value="public enum class WdGranularity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("AAAF85A7-31AF-3EE3-B5AA-99ECEDEEBAFF")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Specifies the granularity of changes to track when comparing two documents.  Version Added: Word 2007.</summary>
+    <remarks>
+      <para>Used with the <see cref="M:Microsoft.Office.Interop.Word._Application.CompareDocuments(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.WdCompareDestination,Microsoft.Office.Interop.Word.WdGranularity,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.Boolean)" /> method.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="wdGranularityCharLevel">
+      <MemberSignature Language="C#" Value="wdGranularityCharLevel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Word.WdGranularity wdGranularityCharLevel = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.WdGranularity.wdGranularityCharLevel" />
+      <MemberSignature Language="VB.NET" Value="wdGranularityCharLevel" />
+      <MemberSignature Language="C++ CLI" Value="wdGranularityCharLevel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdGranularity</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Tracks character-level changes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="wdGranularityWordLevel">
+      <MemberSignature Language="C#" Value="wdGranularityWordLevel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Word.WdGranularity wdGranularityWordLevel = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.WdGranularity.wdGranularityWordLevel" />
+      <MemberSignature Language="VB.NET" Value="wdGranularityWordLevel" />
+      <MemberSignature Language="C++ CLI" Value="wdGranularityWordLevel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdGranularity</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Tracks word-level changes.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

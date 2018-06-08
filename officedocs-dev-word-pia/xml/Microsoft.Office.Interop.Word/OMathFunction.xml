@@ -1,0 +1,841 @@
+﻿<Type Name="OMathFunction" FullName="Microsoft.Office.Interop.Word.OMathFunction">
+  <TypeSignature Language="C#" Value="public interface OMathFunction" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathFunction" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathFunction" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OMathFunction" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OMathFunction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("F1F37152-1DB1-4901-AD9A-C740F99464B4")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a mathematical function or structure that Microsoft Office Word supports, such as fractions, integrals, sums, and radicals. The <see cref="T:Microsoft.Office.Interop.Word.OMathFunction" /> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.OMathFunctions" /> collection.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Acc">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathAcc Acc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathAcc Acc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Acc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Acc As OMathAcc" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathAcc ^ Acc { Microsoft::Office::Interop::Word::OMathAcc ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathAcc</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathAcc" /> object that represents a base character with a combining accent mark. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathAcc" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word._Application" /> object that represents the Microsoft Word application.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word._Application" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Args">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathArgs Args { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathArgs Args" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Args" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Args As OMathArgs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathArgs ^ Args { Microsoft::Office::Interop::Word::OMathArgs ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathArgs</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathArgs" /> object that represents the arguments for an equation. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathArgs" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bar">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathBar Bar { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathBar Bar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Bar" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bar As OMathBar" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathBar ^ Bar { Microsoft::Office::Interop::Word::OMathBar ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathBar</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathBar" /> object that represents the mathematical overbar for an object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathBar" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderBox">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathBorderBox BorderBox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathBorderBox BorderBox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.BorderBox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BorderBox As OMathBorderBox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathBorderBox ^ BorderBox { Microsoft::Office::Interop::Word::OMathBorderBox ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathBorderBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathBorderBox" /> object that represents a border drawn around an equation or part of an equation. The <see cref="T:Microsoft.Office.Interop.Word.OMathBorderBox" /> object can also be used to draw horizontal, vertical, and diagonal strikethrough lines by using BorderBox arguments. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathBorderBox" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Box">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathBox Box { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathBox Box" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Box" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Box As OMathBox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathBox ^ Box { Microsoft::Office::Interop::Word::OMathBox ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathBox" /> object that represents an invisible box around an equation or part of an equation to which you can apply properties that affect the mathematical or formatting properties, such as line breaks. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathBox" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit <b>Integer</b> that indicates the application in which the add-in was created. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, the <see cref="P:Microsoft.Office.Interop.Word.OMathFunction.Creator" /> property returns the hexadecimal number 4D535744, which represents the string "MSWD".  This value can also be represented by the constant <see cref="F:Microsoft.Office.Interop.Word.WdConstants.wdCreatorCode" />. </para>
+          <para>This property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delim">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathDelim Delim { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathDelim Delim" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Delim" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Delim As OMathDelim" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathDelim ^ Delim { Microsoft::Office::Interop::Word::OMathDelim ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathDelim</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" /> object that represents the delimiter function. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathDelim" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EqArray">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathEqArray EqArray { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathEqArray EqArray" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.EqArray" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EqArray As OMathEqArray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathEqArray ^ EqArray { Microsoft::Office::Interop::Word::OMathEqArray ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathEqArray</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathEqArray" /> object that represents an equation array function. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathEqArray" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Frac">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathFrac Frac { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathFrac Frac" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Frac" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Frac As OMathFrac" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathFrac ^ Frac { Microsoft::Office::Interop::Word::OMathFrac ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathFrac</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathFrac" /> object that represents a fraction. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathFrac" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Func">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathFunc Func { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathFunc Func" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Func" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Func As OMathFunc" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathFunc ^ Func { Microsoft::Office::Interop::Word::OMathFunc ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathFunc</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathFunc" /> object that represents a type of mathematical function that consists of a function name, such as sin or cos, and an argument. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathFunc" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupChar">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathGroupChar GroupChar { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathGroupChar GroupChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.GroupChar" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupChar As OMathGroupChar" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathGroupChar ^ GroupChar { Microsoft::Office::Interop::Word::OMathGroupChar ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathGroupChar</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathGroupChar" /> object that represents a horizontal character placed above or below text in an equation, often with the purpose of grouping the text visually. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathGroupChar" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LimLow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathLimLow LimLow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathLimLow LimLow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.LimLow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LimLow As OMathLimLow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathLimLow ^ LimLow { Microsoft::Office::Interop::Word::OMathLimLow ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathLimLow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathLimLow" /> object that represents the lower limit for a function. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathLimLow" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LimUpp">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathLimUpp LimUpp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathLimUpp LimUpp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.LimUpp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LimUpp As OMathLimUpp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathLimUpp ^ LimUpp { Microsoft::Office::Interop::Word::OMathLimUpp ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathLimUpp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathLimUpp" /> object that represents upper limit function. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathLimUpp" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathMat Mat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathMat Mat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Mat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mat As OMathMat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathMat ^ Mat { Microsoft::Office::Interop::Word::OMathMat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathMat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathMat" /> object that represents a mathematical matrix. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathMat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nary">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathNary Nary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathNary Nary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Nary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Nary As OMathNary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathNary ^ Nary { Microsoft::Office::Interop::Word::OMathNary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathNary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathNary" /> object that represents the <paramref name="n" />-ary operation. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathNary" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OMath">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMath OMath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMath OMath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.OMath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OMath As OMath" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ OMath { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(125)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(125)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMath</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.OMath" /> object that represents the equation. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMath" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object of the specified <see cref="T:Microsoft.Office.Interop.Word.OMathFunction" /> object.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Phantom">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathPhantom Phantom { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathPhantom Phantom" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Phantom" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Phantom As OMathPhantom" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathPhantom ^ Phantom { Microsoft::Office::Interop::Word::OMathPhantom ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathPhantom</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathPhantom" /> object that represents an object used for advanced layout of an equation. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathPhantom" />
+        </value>
+        <remarks>
+          <para>The Phantom can be used to add horizontal spacing or vertical spacing, or to suppress part of an equation from being taken into consideration when laying out the equation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rad">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathRad Rad { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathRad Rad" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Rad" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rad As OMathRad" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathRad ^ Rad { Microsoft::Office::Interop::Word::OMathRad ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathRad</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathRad" /> object that represents the mathematical radical function. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathRad" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range Range { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range Range" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Range" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the portion of a document that is contained in the specified object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.Range" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathFunction Remove ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.OMathFunction Remove() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMathFunction.Remove" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove () As OMathFunction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::OMathFunction ^ Remove();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathFunction</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes a function from the collection of functions contained within an equation and returns an <see cref="T:Microsoft.Office.Interop.Word.OMathFunction" /> object.</summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathFunction" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrPre">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathScrPre ScrPre { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathScrPre ScrPre" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.ScrPre" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrPre As OMathScrPre" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathScrPre ^ ScrPre { Microsoft::Office::Interop::Word::OMathScrPre ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathScrPre</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathScrPre" /> object that represents a superscript and subscript to the left of the base. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathScrPre" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrSub">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathScrSub ScrSub { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathScrSub ScrSub" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.ScrSub" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrSub As OMathScrSub" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathScrSub ^ ScrSub { Microsoft::Office::Interop::Word::OMathScrSub ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(121)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(121)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathScrSub</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.OMathScrSub" /> object that represents the mathematical subscript function. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathScrSub" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrSubSup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathScrSubSup ScrSubSup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathScrSubSup ScrSubSup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.ScrSubSup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrSubSup As OMathScrSubSup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathScrSubSup ^ ScrSubSup { Microsoft::Office::Interop::Word::OMathScrSubSup ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathScrSubSup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.OMathScrSubSup" /> object that represents a mathematical subscript-superscript object that consists of a base, a subscript, and a superscript. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathScrSubSup" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrSup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.OMathScrSup ScrSup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.OMathScrSup ScrSup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.ScrSup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrSup As OMathScrSup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathScrSup ^ ScrSup { Microsoft::Office::Interop::Word::OMathScrSup ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.OMathScrSup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.OMathScrSup" /> object that represents the mathematical superscript function. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.OMathScrSup" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdOMathFunctionType this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdOMathFunctionType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathFunction.Type" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Type As WdOMathFunctionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdOMathFunctionType default { Microsoft::Office::Interop::Word::WdOMathFunctionType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdOMathFunctionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.WdOMathFunctionType" /> constant that represents the type of function.   Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Word.WdOMathFunctionType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

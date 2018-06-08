@@ -1,0 +1,363 @@
+﻿<Type Name="Page" FullName="Microsoft.Office.Interop.Word.Page">
+  <TypeSignature Language="C#" Value="public interface Page" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Page" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Page" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Page" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Page" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("352840A9-AF7D-4CA4-87FC-21C68FDAB3E4")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a page in a document. Use the <b>Page</b> object and the related methods and properties for programmatically defining page layout in a document.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Pages.Item(System.Int32)" /> method to access a specific page in a document.</para>
+      <para>To access the page number, use the <see cref="P:Microsoft.Office.Interop.Word.Range.Information(Microsoft.Office.Interop.Word.WdInformation)" /> property of a <see cref="T:Microsoft.Office.Interop.Word.Range" /> or <see cref="T:Microsoft.Office.Interop.Word.Selection" /> object, or the <see cref="P:Microsoft.Office.Interop.Word.Break.PageIndex" /> property of a <see cref="T:Microsoft.Office.Interop.Word.Break" /> object that belongs to the <see cref="T:Microsoft.Office.Interop.Word.Breaks" /> collection of the specified <b>Page</b> object.</para>
+      <para>The <see cref="P:Microsoft.Office.Interop.Word.Page.Top" /> and <see cref="P:Microsoft.Office.Interop.Word.Page.Left" /> properties of the <b>Page</b> object always return 0 (zero) indicating the upper left corner of the page. The <see cref="P:Microsoft.Office.Interop.Word.Page.Height" /> and <see cref="P:Microsoft.Office.Interop.Word.Page.Width" /> properties return the height and width in points (72 points = 1 inch) of the paper size specified in the Page Setup dialog or through the <see cref="T:Microsoft.Office.Interop.Word.PageSetup" /> object. For example, for an 8-1/2 by 11 inch page in portrait mode, the <b>Height</b> property returns 792 and the <b>Width</b> property returns 612. All four of these properties are read-only.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Breaks">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Breaks Breaks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Breaks Breaks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Breaks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Breaks As Breaks" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Breaks ^ Breaks { Microsoft::Office::Interop::Word::Breaks ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Breaks</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Breaks" /> collection that represents the breaks on a page. The <b>Breaks</b> collection includes page, column, and section breaks.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <b>Breaks</b> collection and the related objects and properties to programmatically define page layout in a document.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhMetaFileBits">
+      <MemberSignature Language="C#" Value="public object EnhMetaFileBits { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object EnhMetaFileBits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.EnhMetaFileBits" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnhMetaFileBits As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ EnhMetaFileBits { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Object</b> that represents a picture representation of how a page of text appears. Read-only.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>
+          <para>The <see cref="P:Microsoft.Office.Interop.Word.Page.EnhMetaFileBits" /> property returns an array of bytes, which can be used with the Microsoft Windows 32 Application Programming Interface from within the Microsoft Visual Basic or Microsoft C++ development environment.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Height" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <b>Height</b> property returns the height in points (72 points = 1 inch) of the paper size specified in the Page Setup dialog or through the <see cref="T:Microsoft.Office.Interop.Word.PageSetup" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For example, for an 8-1/2 by 11 inch page in portrait mode, the <b>Height</b> property returns 792 and the <b>Width</b> property returns 612.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Left" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns 0 (zero) indicating the upper left corner of the page.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rectangles">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Rectangles Rectangles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Rectangles Rectangles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Rectangles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rectangles As Rectangles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Rectangles ^ Rectangles { Microsoft::Office::Interop::Word::Rectangles ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Rectangles</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Rectangles" /> collection that represents a portion of text or graphics in a page in a document.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <b>Rectangles</b> collection and related objects and properties for programmatically defining page layout in a document. Rectangles correspond to portions of text or graphics on a page in a document.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsPNG">
+      <MemberSignature Language="C#" Value="public void SaveAsPNG (string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveAsPNG([in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Page.SaveAsPNG(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveAsPNG (FileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveAsPNG(System::String ^ FileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(200)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">deprecatedobjectmember</param>
+        <summary>This object or member is deprecated and is not intended to be used in your code.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Top" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns 0 (zero) indicating the upper left corner of the page.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Page.Width" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the width in points (72 points = 1 inch) of the paper size specified in the Page Setup dialog or through the <see cref="T:Microsoft.Office.Interop.Word.PageSetup" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For example, for an 8-1/2 by 11 inch page in portrait mode, the <b>Height</b> property returns 792 and the <b>Width</b> property returns 612.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

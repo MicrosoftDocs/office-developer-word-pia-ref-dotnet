@@ -1,0 +1,391 @@
+﻿<Type Name="CaptionLabel" FullName="Microsoft.Office.Interop.Word.CaptionLabel">
+  <TypeSignature Language="C#" Value="public interface CaptionLabel" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CaptionLabel" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.CaptionLabel" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CaptionLabel" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CaptionLabel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020979-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a single caption label.</summary>
+    <remarks>
+      <para>The <b>CaptionLabel</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.CaptionLabels" /> collection. The items in the <b>CaptionLabels</b> collection are listed in the Label box in the Caption dialog box (Insert menu).</para>
+      <para>Use <see cref="P:Microsoft.Office.Interop.Word.ApplicationClass.CaptionLabels" />(<paramref name="index" />), where <paramref name="index" /> is the caption label name or index number, to return a single <b>CaptionLabel</b> object.</para>
+      <para>The index number represents the position of the caption label in the <b>CaptionLabels</b> collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.CaptionLabels.Add(System.String)" /> method to add a custom caption label.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuiltIn">
+      <MemberSignature Language="C#" Value="public bool BuiltIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BuiltIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.BuiltIn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuiltIn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BuiltIn { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a value that indicates if the specified object is one of the built-in styles or caption labels in Microsoft Word.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can specify built-in styles across all languages by using the <see cref="T:Microsoft.Office.Interop.Word.WdBuiltinStyle" /> constants or within a language by using the style name for the language version of Word. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChapterStyleLevel">
+      <MemberSignature Language="C#" Value="public int ChapterStyleLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ChapterStyleLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.ChapterStyleLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChapterStyleLevel As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ChapterStyleLevel { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the heading style that marks a new chapter when chapter numbers are included with the specified caption label.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The returned number 1 corresponds to Heading 1, 2 corresponds to Heading 2, and so on.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Word.CaptionLabel.IncludeChapterNumber" /> property must be set to <b>True</b> for chapter numbers to be included with caption labels.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a value that indicates the application in which the specified object was created. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CaptionLabel.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdCaptionLabelID ID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdCaptionLabelID ID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.ID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ID As WdCaptionLabelID" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCaptionLabelID ID { Microsoft::Office::Interop::Word::WdCaptionLabelID get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdCaptionLabelID</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a value that represents the type for the specified caption label if the <see cref="P:Microsoft.Office.Interop.Word.CaptionLabel.BuiltIn" /> property of the <see cref="T:Microsoft.Office.Interop.Word.CaptionLabel" /> object is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeChapterNumber">
+      <MemberSignature Language="C#" Value="public bool IncludeChapterNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeChapterNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.IncludeChapterNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeChapterNumber As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeChapterNumber { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that indicates if a chapter number is included with page numbers or a caption label.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdCaptionNumberStyle NumberStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdCaptionNumberStyle NumberStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.NumberStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberStyle As WdCaptionNumberStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCaptionNumberStyle NumberStyle { Microsoft::Office::Interop::Word::WdCaptionNumberStyle get(); void set(Microsoft::Office::Interop::Word::WdCaptionNumberStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdCaptionNumberStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number style for the <see cref="T:Microsoft.Office.Interop.Word.CaptionLabel" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdCaptionPosition Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdCaptionPosition Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As WdCaptionPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCaptionPosition Position { Microsoft::Office::Interop::Word::WdCaptionPosition get(); void set(Microsoft::Office::Interop::Word::WdCaptionPosition value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdCaptionPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that indicates the position of caption label text.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Separator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdSeparatorType Separator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdSeparatorType Separator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Separator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Separator As WdSeparatorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdSeparatorType Separator { Microsoft::Office::Interop::Word::WdSeparatorType get(); void set(Microsoft::Office::Interop::Word::WdSeparatorType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdSeparatorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that indicates the character between the chapter number and the sequence number.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

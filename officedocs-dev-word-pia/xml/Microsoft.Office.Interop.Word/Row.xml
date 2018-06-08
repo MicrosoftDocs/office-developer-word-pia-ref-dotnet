@@ -1,0 +1,876 @@
+﻿<Type Name="Row" FullName="Microsoft.Office.Interop.Word.Row">
+  <TypeSignature Language="C#" Value="public interface Row" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Row" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Row" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Row" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Row" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020950-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a row in a table.</summary>
+    <remarks>
+      <para>The <b>Row</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Word.Rows" /> collection. The <b>Rows</b> collection includes all the rows in the specified selection, range, or table.</para>
+      <para>Use <b>Rows</b>(<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>Row</b> object. The index number represents the position of the row in the selection, range, or table.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Rows.Add(System.Object@)" /> method to add a row to a table.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Word.Row.Cells" /> property to modify the individual cells in a <b>Row</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alignment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdRowAlignment Alignment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdRowAlignment Alignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Alignment" />
+      <MemberSignature Language="VB.NET" Value="Public Property Alignment As WdRowAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRowAlignment Alignment { Microsoft::Office::Interop::Word::WdRowAlignment get(); void set(Microsoft::Office::Interop::Word::WdRowAlignment value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdRowAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:Microsoft.Office.Interop.Word.WdRowAlignment" /> constant that represents the alignment for the specified rows.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>WdRowAlignment</b> can be one of the following constants:</para>
+          <para>
+            <b>wdAlignRowLeft</b>
+          </para>
+          <para>
+            <b>wdAlignRowCenter</b>
+          </para>
+          <para>
+            <b>wdAlignRowRight</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowBreakAcrossPages">
+      <MemberSignature Language="C#" Value="public int AllowBreakAcrossPages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AllowBreakAcrossPages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.AllowBreakAcrossPages" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowBreakAcrossPages As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AllowBreakAcrossPages { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the text in a table row or rows are allowed to split across a page break.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The property return values can be <b>True</b>, <b>False</b> or <b>wdUndefined</b> (only some of the specified text is allowed to split).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Borders">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Borders Borders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Borders Borders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Borders" />
+      <MemberSignature Language="VB.NET" Value="Public Property Borders As Borders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Borders ^ Borders { Microsoft::Office::Interop::Word::Borders ^ get(); void set(Microsoft::Office::Interop::Word::Borders ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Borders</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Borders" /> collection that represents all the borders for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cells">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Cells Cells { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Cells Cells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Cells" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cells As Cells" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Cells ^ Cells { Microsoft::Office::Interop::Word::Cells ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Cells</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Cells" /> collection that represents the table cells in a column, row, selection, or range.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertToText">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range ConvertToText (ref object Separator, ref object NestedTables);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Range ConvertToText([in]object&amp; Separator, [in]object&amp; NestedTables) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Row.ConvertToText(System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertToText (Optional ByRef Separator As Object, Optional ByRef NestedTables As Object) As Range" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Separator" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="NestedTables" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Separator">Optional <b>Object</b>. The character that delimits the converted columns (paragraph marks delimit the converted rows). Can be any following <see cref="T:Microsoft.Office.Interop.Word.WdTableFieldSeparator" /> constants:<b>wdSeparateByCommas</b><b>wdSeparateByDefaultListSeparator</b><b>wdSeparateByParagraphs</b><b>wdSeparateByTabs Default</b></param>
+        <param name="NestedTables">Optional <b>Object</b>. <b>True</b> if nested tables are converted to text. This argument is ignored if <paramref name="Separator" /> is not <b>wdSeparateByParagraphs</b>. The default value is <b>True</b>.</param>
+        <summary>Converts a table to text and returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the delimited text.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>When you apply the <b>ConvertToText</b> method to a <see cref="T:Microsoft.Office.Interop.Word.Table" /> object, the object is deleted. To maintain a reference to the converted contents of the table, you must assign the <b>Range</b> object returned by the <b>ConvertToText</b> method to a new object variable.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertToTextOld">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range ConvertToTextOld (ref object Separator);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Range ConvertToTextOld([in]object&amp; Separator) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Row.ConvertToTextOld(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertToTextOld (Optional ByRef Separator As Object) As Range" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Separator" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Separator">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Row.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(200)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the specified object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeadingFormat">
+      <MemberSignature Language="C#" Value="public int HeadingFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HeadingFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.HeadingFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeadingFormat As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HeadingFormat { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the specified row or rows are formatted as a table heading.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Rows formatted as table headings are repeated when a table spans more than one page.</para>
+          <para>Possible property values can be <b>True</b>, <b>False</b> or <b>wdUndefined</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public float Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the height of the specified row in a table.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the <see cref="P:Microsoft.Office.Interop.Word.Row.HeightRule" /> property of the specified row is <b>wdRowHeightAuto</b>, <b>Height</b> returns <b>wdUndefined</b>. Setting the <b>Height</b> property sets <b>HeightRule</b> to <b>wdRowHeightAtLeast</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeightRule">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdRowHeightRule HeightRule { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdRowHeightRule HeightRule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.HeightRule" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeightRule As WdRowHeightRule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRowHeightRule HeightRule { Microsoft::Office::Interop::Word::WdRowHeightRule get(); void set(Microsoft::Office::Interop::Word::WdRowHeightRule value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdRowHeightRule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the rule for determining the height of the specified row.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdRowHeightRule" /> can be one of the following constants:</para>
+          <para>
+            <b>wdRowHeightAtLeast </b>
+          </para>
+          <para>
+            <b>wdRowHeightExactly </b>
+          </para>
+          <para>
+            <b>wdRowHeightAuto</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public string ID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.ID" />
+      <MemberSignature Language="VB.NET" Value="Public Property ID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the identifying label for the specified object when the current document is saved as a Web page.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>With the exception of the <see cref="T:Microsoft.Office.Interop.Word.Editor" /> object, you can use a label as a hyperlink reference from other Web pages or from within the current document.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> that represents the position of an item in a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFirst">
+      <MemberSignature Language="C#" Value="public bool IsFirst { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFirst" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.IsFirst" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFirst As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFirst { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the specified column or row is the first one in the table.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLast">
+      <MemberSignature Language="C#" Value="public bool IsLast { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLast" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.IsLast" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLast As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLast { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the specified column or row is the last one in the table.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftIndent">
+      <MemberSignature Language="C#" Value="public float LeftIndent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LeftIndent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.LeftIndent" />
+      <MemberSignature Language="VB.NET" Value="Public Property LeftIndent As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LeftIndent { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Single</b> that represents the left indent value (in points) for the specified table row.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NestingLevel">
+      <MemberSignature Language="C#" Value="public int NestingLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NestingLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.NestingLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NestingLevel As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NestingLevel { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the nesting level of the specified row.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The outermost table has a nesting level of 1. The nesting level of each successively nested table is one higher than the previous table.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Next">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Row Next { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Row Next" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Next" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Row ^ Next { Microsoft::Office::Interop::Word::Row ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Row</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the next object in the collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Previous">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Row Previous { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Row Previous" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Previous" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Row ^ Previous { Microsoft::Office::Interop::Word::Row ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Row</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the previous object in the collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Range this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Range Range" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Range" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Range As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ default { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the portion of a document that's contained in the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For information about returning a range from a document or returning a shape range from a collection of shapes, see the <see cref="M:Microsoft.Office.Interop.Word._Document.Range(System.Object@,System.Object@)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Row.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(65535)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Selects the specified object.</summary>
+        <remarks>
+          <para>After using this method, use the <see cref="P:Microsoft.Office.Interop.Word._Application.Selection" /> property to work with the selected items.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetHeight">
+      <MemberSignature Language="C#" Value="public void SetHeight (float RowHeight, Microsoft.Office.Interop.Word.WdRowHeightRule HeightRule);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHeight([in]float32 RowHeight, [in]valuetype Microsoft.Office.Interop.Word.WdRowHeightRule HeightRule) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Row.SetHeight(System.Single,Microsoft.Office.Interop.Word.WdRowHeightRule)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetHeight (RowHeight As Single, HeightRule As WdRowHeightRule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetHeight(float RowHeight, Microsoft::Office::Interop::Word::WdRowHeightRule HeightRule);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(203)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="RowHeight" Type="System.Single" />
+        <Parameter Name="HeightRule" Type="Microsoft.Office.Interop.Word.WdRowHeightRule" />
+      </Parameters>
+      <Docs>
+        <param name="RowHeight">Required <b>Single</b>. The height of the row or rows, in points.</param>
+        <param name="HeightRule">Required <see cref="T:Microsoft.Office.Interop.Word.WdRowHeightRule" />. The rule for determining the height of the specified rows.<b>WdRowHeightRule</b> can be one of the following  constants:<b>wdRowHeightAtLeast</b><b>wdRowHeightExactly</b><b>wdRowHeightAuto</b></param>
+        <summary>Sets the height of table rows.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLeftIndent">
+      <MemberSignature Language="C#" Value="public void SetLeftIndent (float LeftIndent, Microsoft.Office.Interop.Word.WdRulerStyle RulerStyle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetLeftIndent([in]float32 LeftIndent, [in]valuetype Microsoft.Office.Interop.Word.WdRulerStyle RulerStyle) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Row.SetLeftIndent(System.Single,Microsoft.Office.Interop.Word.WdRulerStyle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetLeftIndent (LeftIndent As Single, RulerStyle As WdRulerStyle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetLeftIndent(float LeftIndent, Microsoft::Office::Interop::Word::WdRulerStyle RulerStyle);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(202)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="LeftIndent" Type="System.Single" />
+        <Parameter Name="RulerStyle" Type="Microsoft.Office.Interop.Word.WdRulerStyle" />
+      </Parameters>
+      <Docs>
+        <param name="LeftIndent">Required <b>Single</b>. The distance (in points) between the current left edge of the specified row or rows and the desired left edge.</param>
+        <param name="RulerStyle">Required <see cref="T:Microsoft.Office.Interop.Word.WdRulerStyle" />. Controls the way Microsoft Word adjusts the table when the left indent is changed.<b>WdRulerStyle</b> can be one of the following  constants: <b>wdAdjustNone</b> – Adjusts the left edge of row or rows, preserving the width of all columns by shifting them to the left or right. This is the default value. <b>wdAdjustSameWidth</b> – Adjusts the left edge of the first column, preserving the position of the right edge of the table by setting the widths of all the cells in the specified row or rows to the same value. <b>wdAdjustFirstColumn</b> – Adjusts the left edge of the first column only, preserving the positions of the other columns and the right edge of the table. <b>wdAdjustProportional</b> – Adjusts the left edge of the first column, preserving the position of the right edge of the table by proportionally adjusting the widths of all the cells in the specified row or rows.</param>
+        <summary>Sets the indentation for a row or rows in a table.</summary>
+        <remarks>
+          <para>The <b>WdRulerStyle</b> behavior described above applies to left-aligned tables. The <b>WdRulerStyle</b> behavior for center- and right-aligned tables can be unexpected; in these cases, the <b>SetLeftIndent</b> method should be used with care.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shading">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Shading Shading { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Shading Shading" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.Shading" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shading As Shading" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shading ^ Shading { Microsoft::Office::Interop::Word::Shading ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Shading</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Shading" /> object that refers to the shading formatting for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpaceBetweenColumns">
+      <MemberSignature Language="C#" Value="public float SpaceBetweenColumns { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 SpaceBetweenColumns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Row.SpaceBetweenColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpaceBetweenColumns As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float SpaceBetweenColumns { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the distance (in points) between text in adjacent columns of the specified row.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

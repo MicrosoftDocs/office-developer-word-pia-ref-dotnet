@@ -1,0 +1,349 @@
+﻿<Type Name="TextInput" FullName="Microsoft.Office.Interop.Word.TextInput">
+  <TypeSignature Language="C#" Value="public interface TextInput" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextInput" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TextInput" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TextInput" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TextInput" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020927-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a single text form field.</summary>
+    <remarks>
+      <para>Use <b>FormFields</b>(<paramref name="index" />), where <paramref name="index" /> is either the bookmark name associated with the text form field or the index number, to return a <see cref="T:Microsoft.Office.Interop.Word.FormField" /> object. Use the <see cref="P:Microsoft.Office.Interop.Word.FormField.TextInput" /> property with the <b>FormField</b> object to return a <b>TextInput</b> object.</para>
+      <para>The index number represents the position of the form field in the <see cref="T:Microsoft.Office.Interop.Word.FormFields" /> collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.FormFields.Add(Microsoft.Office.Interop.Word.Range,Microsoft.Office.Interop.Word.WdFieldType)" /> method with the <b>FormFields</b> object to add a text form field.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Word.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1000)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Application" /> object that represents the Microsoft Word application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextInput.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the text from the specified text form field.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1001)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Word, this property returns the hexadecimal number 4D535744, which represents the string "MSWD." This value can also be represented by the constant <b>wdCreatorCode</b>.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="public string Default { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Property Default As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the text that represents the default text box contents.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditType">
+      <MemberSignature Language="C#" Value="public void EditType (Microsoft.Office.Interop.Word.WdTextFormFieldType Type, ref object Default, ref object Format, ref object Enabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EditType([in]valuetype Microsoft.Office.Interop.Word.WdTextFormFieldType Type, [in]object&amp; Default, [in]object&amp; Format, [in]object&amp; Enabled) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextInput.EditType(Microsoft.Office.Interop.Word.WdTextFormFieldType,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EditType (Type As WdTextFormFieldType, Optional ByRef Default As Object, Optional ByRef Format As Object, Optional ByRef Enabled As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Interop.Word.WdTextFormFieldType" />
+        <Parameter Name="Default" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Enabled" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Required <see cref="T:Microsoft.Office.Interop.Word.WdTextFormFieldType" />. The text box type.<b>WdTextFormFieldType</b> can be one of these constants: <b>wdCalculationText </b><b>wdCurrentDateText </b><b>wdCurrentTimeText </b><b>wdDateText </b><b>wdNumberText </b><b>wdRegularText</b></param>
+        <param name="Default">Optional <b>Object</b>. The default text that appears in the text box.</param>
+        <param name="Format">Optional <b>Object</b>. The formatting string used to format the text, number, or date (for example, "0.00," "Title Case," or "M/d/yy"). For more examples of formats, see the list of formats for the specified text form field type in the Text Form Field Options dialog box.</param>
+        <param name="Enabled">Optional <b>Object</b>. <b>True</b> to enable the form field for text entry.</param>
+        <summary>Sets options for the specified text form field.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public string Format { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Format" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the text formatting for the specified text box.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1002)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an object that represents the parent object of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdTextFormFieldType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Word.WdTextFormFieldType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdTextFormFieldType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTextFormFieldType Type { Microsoft::Office::Interop::Word::WdTextFormFieldType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Word.WdTextFormFieldType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the type of text form field.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Word.WdTextFormFieldType" /> can be one of these <b>WdTextFormFieldType</b> constants: </para>
+          <para>
+            <b>wdCalculationText </b>
+          </para>
+          <para>
+            <b>wdCurrentDateText </b>
+          </para>
+          <para>
+            <b>wdCurrentTimeText </b>
+          </para>
+          <para>
+            <b>wdDateText </b>
+          </para>
+          <para>
+            <b>wdNumberText </b>
+          </para>
+          <para>
+            <b>wdRegularText</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Valid">
+      <MemberSignature Language="C#" Value="public bool this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Valid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Valid" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Valid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool default { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified form field object is a valid check box form field.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Word.FormField.Type" /> property of the <see cref="T:Microsoft.Office.Interop.Word.FormField" /> object to determine the type of form field (<b>wdFieldFormCheckBox</b>, <b>wdFieldFormDropDown</b>, or <b>wdFieldFormTextInput</b>) before applying the <see cref="P:Microsoft.Office.Interop.Word.FormField.TextInput" /> property. This precaution ensures that the <b>FormField</b> object is the expected type.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the width of the specified object, in points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
