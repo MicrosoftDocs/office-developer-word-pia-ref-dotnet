@@ -39,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-word-pia/xml",
         "OutputYamlFolder": "officedocs-dev-word-pia/api",
         "Flatten": true,
-        "id": "officedocs-dev-word-pia"
+        "id": "officedocs-dev-word-pia",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-word-pia/api/officedocs-dev-word-pia/toc.yml"
@@ -88,8 +89,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
