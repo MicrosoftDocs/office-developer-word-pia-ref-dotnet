@@ -28,7 +28,7 @@
       <para />
     </remarks>
     <example>
-      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Legend.LegendEntries(System.Object)" /> method to return the <see cref="T:Microsoft.Office.Interop.Word.LegendEntries" /> collection. The following example loops through the collection of legend entries for the first chart in the active document and changes their font color.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.Legend.LegendEntries(System.Object)" /> method to return the <see cref="T:Microsoft.Office.Interop.Word.LegendEntries" /> collection.</para>
       <para>Use <see cref="T:Microsoft.Office.Interop.Word.LegendEntries" /> (<paramref name="index" />), where <paramref name="index" /> is the legend entry index number, to return a single <see cref="T:Microsoft.Office.Interop.Word.LegendKey" /> object. You cannot return legend entries by name.</para>
       <para>The index number represents the position of the legend entry in the legend. LegendEntries(1) is at the top of the legend; LegendEntries(LegendEntries.Count) is at the bottom.</para>
     </example>

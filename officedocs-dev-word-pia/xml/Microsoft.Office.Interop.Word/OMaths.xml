@@ -24,7 +24,7 @@
   <Docs>
     <summary>A collection of equations. Use the <see cref="T:Microsoft.Office.Interop.Word.OMaths" /> object to access individual members of the collection.</summary>
     <remarks>
-      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.OMaths.Add(Microsoft.Office.Interop.Word.Range)" />method to create an equation and add it to a document, selection, or range.  The following example creates an equation and uses the <see cref="M:Microsoft.Office.Interop.Word.OMaths.BuildUp" /> method of the <see cref="T:Microsoft.Office.Interop.Word.OMaths" /> collection to convert the equation to professional format.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.OMaths.Add(Microsoft.Office.Interop.Word.Range)" />method to create an equation and add it to a document, selection, or range.</para>
       <para />
     </remarks>
   </Docs>
@@ -55,9 +55,7 @@
         <summary>Creates an equation, from the text equation contained within the specified range, and returns a <b>Range</b> object that contains the new equation.</summary>
         <returns>Range</returns>
         <remarks>To be added.</remarks>
-        <example>
-          <para>The following example inserts an equation into the document at the cursor or replacing the selected text.</para>
-        </example>
+        
       </Docs>
     </Member>
     <Member MemberName="Application">
