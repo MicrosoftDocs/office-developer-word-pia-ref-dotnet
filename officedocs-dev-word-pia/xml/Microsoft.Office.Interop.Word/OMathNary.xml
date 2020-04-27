@@ -1,9 +1,10 @@
-﻿<Type Name="OMathNary" FullName="Microsoft.Office.Interop.Word.OMathNary">
+<Type Name="OMathNary" FullName="Microsoft.Office.Interop.Word.OMathNary">
   <TypeSignature Language="C#" Value="public interface OMathNary" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathNary" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathNary" />
   <TypeSignature Language="VB.NET" Value="Public Interface OMathNary" />
   <TypeSignature Language="C++ CLI" Value="public interface class OMathNary" />
+  <TypeSignature Language="F#" Value="type OMathNary = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.OMathNary.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -58,6 +60,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.Char" />
       <MemberSignature Language="VB.NET" Value="Public Property Char As Short" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property short Char { short get(); void set(short value); };" />
+      <MemberSignature Language="F#" Value="member this.Char : int16 with get, set" Usage="Microsoft.Office.Interop.Word.OMathNary.Char" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.OMathNary.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -124,6 +128,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.E" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property E As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ E { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.E : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathNary.E" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -154,6 +159,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.Grow" />
       <MemberSignature Language="VB.NET" Value="Public Property Grow As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Grow { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Grow : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathNary.Grow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -187,6 +193,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.HideSub" />
       <MemberSignature Language="VB.NET" Value="Public Property HideSub As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideSub { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideSub : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathNary.HideSub" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -220,6 +227,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.HideSup" />
       <MemberSignature Language="VB.NET" Value="Public Property HideSup As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideSup { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideSup : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathNary.HideSup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -253,6 +261,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.OMathNary.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -283,6 +292,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.Sub" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sub As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ Sub { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sub : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathNary.Sub" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -313,6 +323,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.SubSupLim" />
       <MemberSignature Language="VB.NET" Value="Public Property SubSupLim As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubSupLim { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SubSupLim : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathNary.SubSupLim" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -346,6 +357,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathNary.Sup" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sup As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ Sup { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sup : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathNary.Sup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

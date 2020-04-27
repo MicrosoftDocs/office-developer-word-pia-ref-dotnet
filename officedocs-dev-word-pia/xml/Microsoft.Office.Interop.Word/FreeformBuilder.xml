@@ -1,9 +1,10 @@
-﻿<Type Name="FreeformBuilder" FullName="Microsoft.Office.Interop.Word.FreeformBuilder">
+<Type Name="FreeformBuilder" FullName="Microsoft.Office.Interop.Word.FreeformBuilder">
   <TypeSignature Language="C#" Value="public interface FreeformBuilder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FreeformBuilder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.FreeformBuilder" />
   <TypeSignature Language="VB.NET" Value="Public Interface FreeformBuilder" />
   <TypeSignature Language="C++ CLI" Value="public interface class FreeformBuilder" />
+  <TypeSignature Language="F#" Value="type FreeformBuilder = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -30,6 +31,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddNodes([in]valuetype Microsoft.Office.Core.MsoSegmentType SegmentType, [in]valuetype Microsoft.Office.Core.MsoEditingType EditingType, [in]float32 X1, [in]float32 Y1, [in]float32 X2, [in]float32 Y2, [in]float32 X3, [in]float32 Y3) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.FreeformBuilder.AddNodes(Microsoft.Office.Core.MsoSegmentType,Microsoft.Office.Core.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddNodes (SegmentType As MsoSegmentType, EditingType As MsoEditingType, X1 As Single, Y1 As Single, Optional X2 As Single = 0, Optional Y2 As Single = 0, Optional X3 As Single = 0, Optional Y3 As Single = 0)" />
+      <MemberSignature Language="F#" Value="abstract member AddNodes : Microsoft.Office.Core.MsoSegmentType * Microsoft.Office.Core.MsoEditingType * single * single * single * single * single * single -&gt; unit" Usage="freeformBuilder.AddNodes (SegmentType, EditingType, X1, Y1, X2, Y2, X3, Y3)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -75,6 +77,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FreeformBuilder.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.FreeformBuilder.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -102,6 +105,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Shape ConvertToShape([in]object&amp; Anchor) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.FreeformBuilder.ConvertToShape(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertToShape (Optional ByRef Anchor As Object) As Shape" />
+      <MemberSignature Language="F#" Value="abstract member ConvertToShape : obj -&gt; Microsoft.Office.Interop.Word.Shape" Usage="freeformBuilder.ConvertToShape Anchor" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -116,7 +120,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.Shape</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Anchor" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Anchor" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Anchor">Optional <b>Object</b>. A <see cref="T:Microsoft.Office.Interop.Word.Range" /> object that represents the text to which the shape is bound. If <paramref name="Anchor" /> is specified, the anchor is positioned at the beginning of the first paragraph in the anchoring range. If this argument is omitted, the anchoring range is selected automatically and the shape is positioned relative to the top and left edges of the page.</param>
@@ -134,6 +138,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FreeformBuilder.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.FreeformBuilder.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -166,6 +171,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FreeformBuilder.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.FreeformBuilder.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

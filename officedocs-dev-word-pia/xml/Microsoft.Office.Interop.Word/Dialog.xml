@@ -1,9 +1,10 @@
-﻿<Type Name="Dialog" FullName="Microsoft.Office.Interop.Word.Dialog">
+<Type Name="Dialog" FullName="Microsoft.Office.Interop.Word.Dialog">
   <TypeSignature Language="C#" Value="public interface Dialog" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Dialog" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Dialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface Dialog" />
   <TypeSignature Language="C++ CLI" Value="public interface class Dialog" />
+  <TypeSignature Language="F#" Value="type Dialog = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Dialog.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Dialog.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Dialog.CommandBarId" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandBarId As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CommandBarId { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.CommandBarId : int" Usage="Microsoft.Office.Interop.Word.Dialog.CommandBarId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Dialog.CommandName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CommandName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CommandName : string" Usage="Microsoft.Office.Interop.Word.Dialog.CommandName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -119,6 +123,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Dialog.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Dialog.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -151,6 +156,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Dialog.DefaultTab" />
       <MemberSignature Language="VB.NET" Value="Public Property DefaultTab As WdWordDialogTab" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdWordDialogTab DefaultTab { Microsoft::Office::Interop::Word::WdWordDialogTab get(); void set(Microsoft::Office::Interop::Word::WdWordDialogTab value); };" />
+      <MemberSignature Language="F#" Value="member this.DefaultTab : Microsoft.Office.Interop.Word.WdWordDialogTab with get, set" Usage="Microsoft.Office.Interop.Word.Dialog.DefaultTab" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -181,6 +187,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Display([in]object&amp; TimeOut) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Dialog.Display(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Display (Optional ByRef TimeOut As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member Display : obj -&gt; int" Usage="dialog.Display TimeOut" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -195,7 +202,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="TimeOut" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="TimeOut" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="TimeOut">Optional <b>Object</b>. The amount of time that Word will wait before closing the dialog box automatically. One unit is approximately 0.001 second. Concurrent system activity may increase the effective time value. If this argument is omitted, the dialog box is closed when the user closes it.</param>
@@ -233,6 +240,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Dialog.Execute" />
       <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberSignature Language="F#" Value="abstract member Execute : unit -&gt; unit" Usage="dialog.Execute " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -258,6 +266,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Dialog.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Dialog.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -285,6 +294,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Show([in]object&amp; TimeOut) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Dialog.Show(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Show (Optional ByRef TimeOut As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member Show : obj -&gt; int" Usage="dialog.Show TimeOut" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -299,7 +309,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="TimeOut" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="TimeOut" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="TimeOut">Optional <b>Object</b>. The amount of time that Word will wait before closing the dialog box automatically. One unit is approximately 0.001 second. Concurrent system activity may increase the effective time value. If this argument is omitted, the dialog box is closed when the user dismisses it.</param>
@@ -343,6 +353,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Dialog.Type" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Type As WdWordDialog" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdWordDialog default { Microsoft::Office::Interop::Word::WdWordDialog get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdWordDialog" Usage="Microsoft.Office.Interop.Word.Dialog.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -371,6 +382,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Dialog.Update" />
       <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberSignature Language="F#" Value="abstract member Update : unit -&gt; unit" Usage="dialog.Update " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

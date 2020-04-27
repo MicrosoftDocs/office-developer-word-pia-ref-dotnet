@@ -1,9 +1,10 @@
-﻿<Type Name="OCXEvents_Event" FullName="Microsoft.Office.Interop.Word.OCXEvents_Event">
+<Type Name="OCXEvents_Event" FullName="Microsoft.Office.Interop.Word.OCXEvents_Event">
   <TypeSignature Language="C#" Value="public interface OCXEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OCXEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OCXEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OCXEvents_Event" />
   <TypeSignature Language="C++ CLI" Value="public interface class OCXEvents_Event" />
+  <TypeSignature Language="F#" Value="type OCXEvents_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -25,12 +26,61 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_GotFocus">
+      <MemberSignature Language="C#" Value="public void add_GotFocus (Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_GotFocus(class Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents_Event.add_GotFocus(Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_GotFocus ( As OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_GotFocus(Microsoft::Office::Interop::Word::OCXEvents_GotFocusEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler -&gt; unit" Usage="oCXEvents_Event.add_GotFocus " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_LostFocus">
+      <MemberSignature Language="C#" Value="public void add_LostFocus (Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_LostFocus(class Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents_Event.add_LostFocus(Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_LostFocus ( As OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_LostFocus(Microsoft::Office::Interop::Word::OCXEvents_LostFocusEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler -&gt; unit" Usage="oCXEvents_Event.add_LostFocus " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GotFocus">
       <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler GotFocus;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler GotFocus" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.OCXEvents_Event.GotFocus" />
       <MemberSignature Language="VB.NET" Value="Event GotFocus As OCXEvents_GotFocusEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::OCXEvents_GotFocusEventHandler ^ GotFocus;" />
+      <MemberSignature Language="F#" Value="member this.GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler " Usage="member this.GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -50,6 +100,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.OCXEvents_Event.LostFocus" />
       <MemberSignature Language="VB.NET" Value="Event LostFocus As OCXEvents_LostFocusEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::OCXEvents_LostFocusEventHandler ^ LostFocus;" />
+      <MemberSignature Language="F#" Value="member this.LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler " Usage="member this.LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +111,54 @@
       </ReturnValue>
       <Docs>
         <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_GotFocus">
+      <MemberSignature Language="C#" Value="public void remove_GotFocus (Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_GotFocus(class Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents_Event.remove_GotFocus(Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_GotFocus ( As OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_GotFocus(Microsoft::Office::Interop::Word::OCXEvents_GotFocusEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler -&gt; unit" Usage="oCXEvents_Event.remove_GotFocus " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_LostFocus">
+      <MemberSignature Language="C#" Value="public void remove_LostFocus (Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_LostFocus(class Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents_Event.remove_LostFocus(Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_LostFocus ( As OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_LostFocus(Microsoft::Office::Interop::Word::OCXEvents_LostFocusEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler -&gt; unit" Usage="oCXEvents_Event.remove_LostFocus " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

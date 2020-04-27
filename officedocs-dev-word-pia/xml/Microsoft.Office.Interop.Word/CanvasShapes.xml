@@ -1,9 +1,10 @@
-﻿<Type Name="CanvasShapes" FullName="Microsoft.Office.Interop.Word.CanvasShapes">
+<Type Name="CanvasShapes" FullName="Microsoft.Office.Interop.Word.CanvasShapes">
   <TypeSignature Language="C#" Value="public interface CanvasShapes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CanvasShapes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.CanvasShapes" />
   <TypeSignature Language="VB.NET" Value="Public Interface CanvasShapes&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class CanvasShapes : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type CanvasShapes = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddCallout(Microsoft.Office.Core.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddCallout (Type As MsoCalloutType, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddCallout(Microsoft::Office::Core::MsoCalloutType Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddCallout : Microsoft.Office.Core.MsoCalloutType * single * single * single * single -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddCallout (Type, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -77,6 +79,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddConnector(Microsoft.Office.Core.MsoConnectorType,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddConnector (Type As MsoConnectorType, BeginX As Single, BeginY As Single, EndX As Single, EndY As Single) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddConnector(Microsoft::Office::Core::MsoConnectorType Type, float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberSignature Language="F#" Value="abstract member AddConnector : Microsoft.Office.Core.MsoConnectorType * single * single * single * single -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddConnector (Type, BeginX, BeginY, EndX, EndY)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -114,6 +117,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddCurve(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddCurve (ByRef SafeArrayOfPoints As Object) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddCurve(System::Object ^ % SafeArrayOfPoints);" />
+      <MemberSignature Language="F#" Value="abstract member AddCurve : obj -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddCurve SafeArrayOfPoints" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -128,7 +132,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.Shape</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="SafeArrayOfPoints" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SafeArrayOfPoints" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="SafeArrayOfPoints">An array of coordinate pairs that specifies the vertices and control points of the curve. The first point you specify is the starting vertex, and the next two points are control points for the first Bézier segment. Then, for each additional segment of the curve, you specify a vertex and two control points. The last point you specify is the ending vertex for the curve. Note that you must always specify 3n + 1 points, where n is the number of segments in the curve.</param>
@@ -143,6 +147,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddLabel(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddLabel (Orientation As MsoTextOrientation, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddLabel(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddLabel : Microsoft.Office.Core.MsoTextOrientation * single * single * single * single -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddLabel (Orientation, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -180,6 +185,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddLine(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddLine (BeginX As Single, BeginY As Single, EndX As Single, EndY As Single) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddLine(float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberSignature Language="F#" Value="abstract member AddLine : single * single * single * single -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddLine (BeginX, BeginY, EndX, EndY)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -214,6 +220,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Shape AddPicture([in]string FileName, [in]object&amp; LinkToFile, [in]object&amp; SaveWithDocument, [in]object&amp; Left, [in]object&amp; Top, [in]object&amp; Width, [in]object&amp; Height) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddPicture(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddPicture (FileName As String, Optional ByRef LinkToFile As Object, Optional ByRef SaveWithDocument As Object, Optional ByRef Left As Object, Optional ByRef Top As Object, Optional ByRef Width As Object, Optional ByRef Height As Object) As Shape" />
+      <MemberSignature Language="F#" Value="abstract member AddPicture : string * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddPicture (FileName, LinkToFile, SaveWithDocument, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -229,12 +236,12 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="FileName" Type="System.String" />
-        <Parameter Name="LinkToFile" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SaveWithDocument" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Left" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Top" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Width" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Height" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LinkToFile" Type="System.Object" RefType="ref" />
+        <Parameter Name="SaveWithDocument" Type="System.Object" RefType="ref" />
+        <Parameter Name="Left" Type="System.Object" RefType="ref" />
+        <Parameter Name="Top" Type="System.Object" RefType="ref" />
+        <Parameter Name="Width" Type="System.Object" RefType="ref" />
+        <Parameter Name="Height" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="FileName">The path and file name of the picture.</param>
@@ -255,6 +262,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddPolyline(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddPolyline (ByRef SafeArrayOfPoints As Object) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddPolyline(System::Object ^ % SafeArrayOfPoints);" />
+      <MemberSignature Language="F#" Value="abstract member AddPolyline : obj -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddPolyline SafeArrayOfPoints" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -269,7 +277,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.Shape</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="SafeArrayOfPoints" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SafeArrayOfPoints" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="SafeArrayOfPoints">An array of coordinate pairs that specifies the polyline drawing's vertices.</param>
@@ -287,6 +295,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddShape(System.Int32,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddShape (Type As Integer, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddShape(int Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddShape : int * single * single * single * single -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddShape (Type, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -324,6 +333,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddTextbox(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddTextbox (Orientation As MsoTextOrientation, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddTextbox(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="F#" Value="abstract member AddTextbox : Microsoft.Office.Core.MsoTextOrientation * single * single * single * single -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddTextbox (Orientation, Left, Top, Width, Height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -361,6 +371,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.AddTextEffect(Microsoft.Office.Core.MsoPresetTextEffect,System.String,System.String,System.Single,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddTextEffect (PresetTextEffect As MsoPresetTextEffect, Text As String, FontName As String, FontSize As Single, FontBold As MsoTriState, FontItalic As MsoTriState, Left As Single, Top As Single) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Shape ^ AddTextEffect(Microsoft::Office::Core::MsoPresetTextEffect PresetTextEffect, System::String ^ Text, System::String ^ FontName, float FontSize, Microsoft::Office::Core::MsoTriState FontBold, Microsoft::Office::Core::MsoTriState FontItalic, float Left, float Top);" />
+      <MemberSignature Language="F#" Value="abstract member AddTextEffect : Microsoft.Office.Core.MsoPresetTextEffect * string * string * single * Microsoft.Office.Core.MsoTriState * Microsoft.Office.Core.MsoTriState * single * single -&gt; Microsoft.Office.Interop.Word.Shape" Usage="canvasShapes.AddTextEffect (PresetTextEffect, Text, FontName, FontSize, FontBold, FontItalic, Left, Top)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -404,6 +415,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CanvasShapes.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.CanvasShapes.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -432,6 +444,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.BuildFreeform(Microsoft.Office.Core.MsoEditingType,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function BuildFreeform (EditingType As MsoEditingType, X1 As Single, Y1 As Single) As FreeformBuilder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::FreeformBuilder ^ BuildFreeform(Microsoft::Office::Core::MsoEditingType EditingType, float X1, float Y1);" />
+      <MemberSignature Language="F#" Value="abstract member BuildFreeform : Microsoft.Office.Core.MsoEditingType * single * single -&gt; Microsoft.Office.Interop.Word.FreeformBuilder" Usage="canvasShapes.BuildFreeform (EditingType, X1, Y1)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -468,6 +481,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CanvasShapes.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.CanvasShapes.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -496,6 +510,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CanvasShapes.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.CanvasShapes.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -528,6 +543,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="canvasShapes.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -560,6 +576,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CanvasShapes.Item(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(ByRef Index As Object) As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shape ^ default[System::Object ^ %] { Microsoft::Office::Interop::Word::Shape ^ get(System::Object ^ % Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(obj) : Microsoft.Office.Interop.Word.Shape" Usage="Microsoft.Office.Interop.Word.CanvasShapes.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -577,7 +594,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.Shape</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Index" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Index" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Index">The ordinal position or a string representing the name of the individual object.</param>
@@ -592,6 +609,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CanvasShapes.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.CanvasShapes.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -620,6 +638,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.Range(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Range (ByRef Index As Object) As ShapeRange" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::ShapeRange ^ Range(System::Object ^ % Index);" />
+      <MemberSignature Language="F#" Value="abstract member Range : obj -&gt; Microsoft.Office.Interop.Word.ShapeRange" Usage="canvasShapes.Range Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -634,7 +653,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.ShapeRange</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Index" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Index" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Index">Specifies which shapes are to be included in the specified range. Can be an integer that specifies the index number of a shape within the <see cref="T:Microsoft.Office.Interop.Word.Shapes" /> collection, a string that specifies the name of a shape, or an array that contains integers or strings.</param>
@@ -655,6 +674,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CanvasShapes.SelectAll" />
       <MemberSignature Language="VB.NET" Value="Public Sub SelectAll ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectAll();" />
+      <MemberSignature Language="F#" Value="abstract member SelectAll : unit -&gt; unit" Usage="canvasShapes.SelectAll " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

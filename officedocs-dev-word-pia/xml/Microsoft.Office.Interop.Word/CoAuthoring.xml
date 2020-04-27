@@ -1,9 +1,10 @@
-﻿<Type Name="CoAuthoring" FullName="Microsoft.Office.Interop.Word.CoAuthoring">
+<Type Name="CoAuthoring" FullName="Microsoft.Office.Interop.Word.CoAuthoring">
   <TypeSignature Language="C#" Value="public interface CoAuthoring" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CoAuthoring" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.CoAuthoring" />
   <TypeSignature Language="VB.NET" Value="Public Interface CoAuthoring" />
   <TypeSignature Language="C++ CLI" Value="public interface class CoAuthoring" />
+  <TypeSignature Language="F#" Value="type CoAuthoring = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Authors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Authors As CoAuthors" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CoAuthors ^ Authors { Microsoft::Office::Interop::Word::CoAuthors ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Authors : Microsoft.Office.Interop.Word.CoAuthors" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Authors" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.CanMerge" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanMerge As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanMerge { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanMerge : bool" Usage="Microsoft.Office.Interop.Word.CoAuthoring.CanMerge" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -142,6 +146,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.CanShare" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanShare As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanShare { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanShare : bool" Usage="Microsoft.Office.Interop.Word.CoAuthoring.CanShare" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -174,6 +179,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Conflicts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conflicts As Conflicts" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Conflicts ^ Conflicts { Microsoft::Office::Interop::Word::Conflicts ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Conflicts : Microsoft.Office.Interop.Word.Conflicts" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Conflicts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -205,6 +211,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -238,6 +245,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Locks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locks As CoAuthLocks" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CoAuthLocks ^ Locks { Microsoft::Office::Interop::Word::CoAuthLocks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Locks : Microsoft.Office.Interop.Word.CoAuthLocks" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Locks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -269,6 +277,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Me" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Me As CoAuthor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CoAuthor ^ Me { Microsoft::Office::Interop::Word::CoAuthor ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Me : Microsoft.Office.Interop.Word.CoAuthor" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Me" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -300,6 +309,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -328,6 +338,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.PendingUpdates" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PendingUpdates As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PendingUpdates { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.PendingUpdates : bool" Usage="Microsoft.Office.Interop.Word.CoAuthoring.PendingUpdates" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -360,6 +371,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CoAuthoring.Updates" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Updates As CoAuthUpdates" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CoAuthUpdates ^ Updates { Microsoft::Office::Interop::Word::CoAuthUpdates ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Updates : Microsoft.Office.Interop.Word.CoAuthUpdates" Usage="Microsoft.Office.Interop.Word.CoAuthoring.Updates" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

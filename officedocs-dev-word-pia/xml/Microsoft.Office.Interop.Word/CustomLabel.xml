@@ -1,9 +1,10 @@
-﻿<Type Name="CustomLabel" FullName="Microsoft.Office.Interop.Word.CustomLabel">
+<Type Name="CustomLabel" FullName="Microsoft.Office.Interop.Word.CustomLabel">
   <TypeSignature Language="C#" Value="public interface CustomLabel" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomLabel" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.CustomLabel" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomLabel" />
   <TypeSignature Language="C++ CLI" Value="public interface class CustomLabel" />
+  <TypeSignature Language="F#" Value="type CustomLabel = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.CustomLabel.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.CustomLabel.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -96,6 +99,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CustomLabel.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="customLabel.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -121,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.DotMatrix" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DotMatrix As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DotMatrix { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.DotMatrix : bool" Usage="Microsoft.Office.Interop.Word.CustomLabel.DotMatrix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -150,6 +155,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Height : single with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -181,6 +187,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.HorizontalPitch" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalPitch As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float HorizontalPitch { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.HorizontalPitch : single with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.HorizontalPitch" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -215,6 +222,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Office.Interop.Word.CustomLabel.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -243,6 +251,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -274,6 +283,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.NumberAcross" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberAcross As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberAcross { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberAcross : int with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.NumberAcross" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -308,6 +318,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.NumberDown" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberDown As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberDown { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberDown : int with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.NumberDown" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -342,6 +353,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.PageSize" />
       <MemberSignature Language="VB.NET" Value="Public Property PageSize As WdCustomLabelPageSize" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCustomLabelPageSize PageSize { Microsoft::Office::Interop::Word::WdCustomLabelPageSize get(); void set(Microsoft::Office::Interop::Word::WdCustomLabelPageSize value); };" />
+      <MemberSignature Language="F#" Value="member this.PageSize : Microsoft.Office.Interop.Word.WdCustomLabelPageSize with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.PageSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -376,6 +388,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.CustomLabel.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -404,6 +417,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.SideMargin" />
       <MemberSignature Language="VB.NET" Value="Public Property SideMargin As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float SideMargin { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.SideMargin : single with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.SideMargin" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -438,6 +452,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.TopMargin" />
       <MemberSignature Language="VB.NET" Value="Public Property TopMargin As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float TopMargin { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.TopMargin : single with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.TopMargin" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -469,6 +484,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Valid" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Valid As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Valid { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Valid : bool" Usage="Microsoft.Office.Interop.Word.CustomLabel.Valid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -498,6 +514,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.VerticalPitch" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalPitch As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float VerticalPitch { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.VerticalPitch : single with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.VerticalPitch" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -532,6 +549,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CustomLabel.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : single with get, set" Usage="Microsoft.Office.Interop.Word.CustomLabel.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

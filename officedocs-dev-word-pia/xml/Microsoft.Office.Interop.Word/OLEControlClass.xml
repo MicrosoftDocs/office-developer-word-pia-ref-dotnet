@@ -1,9 +1,10 @@
-﻿<Type Name="OLEControlClass" FullName="Microsoft.Office.Interop.Word.OLEControlClass">
+<Type Name="OLEControlClass" FullName="Microsoft.Office.Interop.Word.OLEControlClass">
   <TypeSignature Language="C#" Value="public class OLEControlClass : Microsoft.Office.Interop.Word.OLEControl" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi OLEControlClass extends System.Object implements class Microsoft.Office.Interop.Word._OLEControl, class Microsoft.Office.Interop.Word.OCXEvents_Event, class Microsoft.Office.Interop.Word.OLEControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OLEControlClass" />
   <TypeSignature Language="VB.NET" Value="Public Class OLEControlClass&#xA;Implements OLEControl" />
   <TypeSignature Language="C++ CLI" Value="public ref class OLEControlClass : Microsoft::Office::Interop::Word::OLEControl" />
+  <TypeSignature Language="F#" Value="type OLEControlClass = class&#xA;    interface _OLEControl&#xA;    interface OLEControl&#xA;    interface OCXEvents_Event" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -12,6 +13,12 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word._OLEControl</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word.OCXEvents_Event</InterfaceName>
+    </Interface>
     <Interface>
       <InterfaceName>Microsoft.Office.Interop.Word.OLEControl</InterfaceName>
     </Interface>
@@ -58,6 +65,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.Activate" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Activate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Activate() = Microsoft::Office::Interop::Word::_OLEControl::Activate;" />
+      <MemberSignature Language="F#" Value="abstract member Activate : unit -&gt; unit&#xA;override this.Activate : unit -&gt; unit" Usage="oLEControlClass.Activate " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._OLEControl.Activate</InterfaceMember>
@@ -80,12 +88,67 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="add_GotFocus">
+      <MemberSignature Language="C#" Value="public virtual void add_GotFocus (Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_GotFocus(class Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.add_GotFocus(Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_GotFocus ( As OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void add_GotFocus(Microsoft::Office::Interop::Word::OCXEvents_GotFocusEventHandler ^ ) = Microsoft::Office::Interop::Word::OCXEvents_Event::add_GotFocus;" />
+      <MemberSignature Language="F#" Value="abstract member add_GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler -&gt; unit&#xA;override this.add_GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler -&gt; unit" Usage="oLEControlClass.add_GotFocus " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Word.OCXEvents_Event.add_GotFocus(Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_LostFocus">
+      <MemberSignature Language="C#" Value="public virtual void add_LostFocus (Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_LostFocus(class Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.add_LostFocus(Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub add_LostFocus ( As OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void add_LostFocus(Microsoft::Office::Interop::Word::OCXEvents_LostFocusEventHandler ^ ) = Microsoft::Office::Interop::Word::OCXEvents_Event::add_LostFocus;" />
+      <MemberSignature Language="F#" Value="abstract member add_LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler -&gt; unit&#xA;override this.add_LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler -&gt; unit" Usage="oLEControlClass.add_LostFocus " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Word.OCXEvents_Event.add_LostFocus(Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AltHTML">
       <MemberSignature Language="C#" Value="public virtual string AltHTML { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AltHTML" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OLEControlClass.AltHTML" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property AltHTML As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ AltHTML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.AltHTML : string with get, set" Usage="AltHTML" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._OLEControl.AltHTML</InterfaceMember>
@@ -126,6 +189,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OLEControlClass.Automation" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Automation As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Automation { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Automation : obj" Usage="Automation" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._OLEControl.Automation</InterfaceMember>
@@ -157,6 +221,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Copy ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Copy() = Microsoft::Office::Interop::Word::_OLEControl::Copy;" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; unit&#xA;override this.Copy : unit -&gt; unit" Usage="oLEControlClass.Copy " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._OLEControl.Copy</InterfaceMember>
@@ -185,6 +250,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.Cut" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Cut ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Cut() = Microsoft::Office::Interop::Word::_OLEControl::Cut;" />
+      <MemberSignature Language="F#" Value="abstract member Cut : unit -&gt; unit&#xA;override this.Cut : unit -&gt; unit" Usage="oLEControlClass.Cut " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._OLEControl.Cut</InterfaceMember>
@@ -213,6 +279,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Delete() = Microsoft::Office::Interop::Word::_OLEControl::Delete;" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit&#xA;override this.Delete : unit -&gt; unit" Usage="oLEControlClass.Delete " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._OLEControl.Delete</InterfaceMember>
@@ -241,6 +308,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.OLEControlClass.GotFocus" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event GotFocus As OCXEvents_GotFocusEventHandler Implements GotFocus" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Word::OCXEvents_GotFocusEventHandler ^ GotFocus;" />
+      <MemberSignature Language="F#" Value="member this.GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler " Usage="member this.GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Interop.Word.OCXEvents_Event.GotFocus</InterfaceMember>
@@ -263,6 +331,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OLEControlClass.Height" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Height As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float Height { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Height : single with get, set" Usage="Height" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._OLEControl.Height</InterfaceMember>
@@ -297,6 +366,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OLEControlClass.Left" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Left As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float Left { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Left : single with get, set" Usage="Left" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._OLEControl.Left</InterfaceMember>
@@ -331,6 +401,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.OLEControlClass.LostFocus" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event LostFocus As OCXEvents_LostFocusEventHandler Implements LostFocus" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Word::OCXEvents_LostFocusEventHandler ^ LostFocus;" />
+      <MemberSignature Language="F#" Value="member this.LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler " Usage="member this.LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Office.Interop.Word.OCXEvents_Event.LostFocus</InterfaceMember>
@@ -353,6 +424,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OLEControlClass.Name" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Name" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._OLEControl.Name</InterfaceMember>
@@ -381,12 +453,67 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="remove_GotFocus">
+      <MemberSignature Language="C#" Value="public virtual void remove_GotFocus (Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_GotFocus(class Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.remove_GotFocus(Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_GotFocus ( As OCXEvents_GotFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void remove_GotFocus(Microsoft::Office::Interop::Word::OCXEvents_GotFocusEventHandler ^ ) = Microsoft::Office::Interop::Word::OCXEvents_Event::remove_GotFocus;" />
+      <MemberSignature Language="F#" Value="abstract member remove_GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler -&gt; unit&#xA;override this.remove_GotFocus : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler -&gt; unit" Usage="oLEControlClass.remove_GotFocus " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Word.OCXEvents_Event.remove_GotFocus(Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_LostFocus">
+      <MemberSignature Language="C#" Value="public virtual void remove_LostFocus (Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_LostFocus(class Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.remove_LostFocus(Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub remove_LostFocus ( As OCXEvents_LostFocusEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void remove_LostFocus(Microsoft::Office::Interop::Word::OCXEvents_LostFocusEventHandler ^ ) = Microsoft::Office::Interop::Word::OCXEvents_Event::remove_LostFocus;" />
+      <MemberSignature Language="F#" Value="abstract member remove_LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler -&gt; unit&#xA;override this.remove_LostFocus : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler -&gt; unit" Usage="oLEControlClass.remove_LostFocus " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Word.OCXEvents_Event.remove_LostFocus(Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Select">
       <MemberSignature Language="C#" Value="public virtual void Select ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OLEControlClass.Select" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Select ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Select() = Microsoft::Office::Interop::Word::_OLEControl::Select;" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit&#xA;override this.Select : unit -&gt; unit" Usage="oLEControlClass.Select " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._OLEControl.Select</InterfaceMember>
@@ -415,6 +542,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OLEControlClass.Top" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Top As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float Top { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Top : single with get, set" Usage="Top" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._OLEControl.Top</InterfaceMember>
@@ -449,6 +577,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OLEControlClass.Width" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Width As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float Width { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : single with get, set" Usage="Width" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._OLEControl.Width</InterfaceMember>

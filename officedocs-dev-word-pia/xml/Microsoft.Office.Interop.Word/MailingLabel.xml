@@ -1,9 +1,10 @@
-﻿<Type Name="MailingLabel" FullName="Microsoft.Office.Interop.Word.MailingLabel">
+<Type Name="MailingLabel" FullName="Microsoft.Office.Interop.Word.MailingLabel">
   <TypeSignature Language="C#" Value="public interface MailingLabel" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MailingLabel" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.MailingLabel" />
   <TypeSignature Language="VB.NET" Value="Public Interface MailingLabel" />
   <TypeSignature Language="C++ CLI" Value="public interface class MailingLabel" />
+  <TypeSignature Language="F#" Value="type MailingLabel = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.MailingLabel.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Document CreateNewDocument([in]object&amp; Name, [in]object&amp; Address, [in]object&amp; AutoText, [in]object&amp; ExtractAddress, [in]object&amp; LaserTray, [in]object&amp; PrintEPostageLabel, [in]object&amp; Vertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailingLabel.CreateNewDocument(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateNewDocument (Optional ByRef Name As Object, Optional ByRef Address As Object, Optional ByRef AutoText As Object, Optional ByRef ExtractAddress As Object, Optional ByRef LaserTray As Object, Optional ByRef PrintEPostageLabel As Object, Optional ByRef Vertical As Object) As Document" />
+      <MemberSignature Language="F#" Value="abstract member CreateNewDocument : obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Document" Usage="mailingLabel.CreateNewDocument (Name, Address, AutoText, ExtractAddress, LaserTray, PrintEPostageLabel, Vertical)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -74,13 +77,13 @@
         <ReturnType>Microsoft.Office.Interop.Word.Document</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Name" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Address" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ExtractAddress" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LaserTray" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintEPostageLabel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Vertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Name" Type="System.Object" RefType="ref" />
+        <Parameter Name="Address" Type="System.Object" RefType="ref" />
+        <Parameter Name="AutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="ExtractAddress" Type="System.Object" RefType="ref" />
+        <Parameter Name="LaserTray" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintEPostageLabel" Type="System.Object" RefType="ref" />
+        <Parameter Name="Vertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Name">Optional <b>Object</b>. The mailing label name.</param>
@@ -100,6 +103,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Document CreateNewDocument2000([in]object&amp; Name, [in]object&amp; Address, [in]object&amp; AutoText, [in]object&amp; ExtractAddress, [in]object&amp; LaserTray) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailingLabel.CreateNewDocument2000(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateNewDocument2000 (Optional ByRef Name As Object, Optional ByRef Address As Object, Optional ByRef AutoText As Object, Optional ByRef ExtractAddress As Object, Optional ByRef LaserTray As Object) As Document" />
+      <MemberSignature Language="F#" Value="abstract member CreateNewDocument2000 : obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Document" Usage="mailingLabel.CreateNewDocument2000 (Name, Address, AutoText, ExtractAddress, LaserTray)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -117,11 +121,11 @@
         <ReturnType>Microsoft.Office.Interop.Word.Document</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Name" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Address" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ExtractAddress" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LaserTray" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Name" Type="System.Object" RefType="ref" />
+        <Parameter Name="Address" Type="System.Object" RefType="ref" />
+        <Parameter Name="AutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="ExtractAddress" Type="System.Object" RefType="ref" />
+        <Parameter Name="LaserTray" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Name">To be added.</param>
@@ -139,6 +143,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Document CreateNewDocumentByID([in]object&amp; LabelID, [in]object&amp; Address, [in]object&amp; AutoText, [in]object&amp; ExtractAddress, [in]object&amp; LaserTray, [in]object&amp; PrintEPostageLabel, [in]object&amp; Vertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailingLabel.CreateNewDocumentByID(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateNewDocumentByID (Optional ByRef LabelID As Object, Optional ByRef Address As Object, Optional ByRef AutoText As Object, Optional ByRef ExtractAddress As Object, Optional ByRef LaserTray As Object, Optional ByRef PrintEPostageLabel As Object, Optional ByRef Vertical As Object) As Document" />
+      <MemberSignature Language="F#" Value="abstract member CreateNewDocumentByID : obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Document" Usage="mailingLabel.CreateNewDocumentByID (LabelID, Address, AutoText, ExtractAddress, LaserTray, PrintEPostageLabel, Vertical)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -153,13 +158,13 @@
         <ReturnType>Microsoft.Office.Interop.Word.Document</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="LabelID" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Address" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ExtractAddress" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LaserTray" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintEPostageLabel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Vertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LabelID" Type="System.Object" RefType="ref" />
+        <Parameter Name="Address" Type="System.Object" RefType="ref" />
+        <Parameter Name="AutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="ExtractAddress" Type="System.Object" RefType="ref" />
+        <Parameter Name="LaserTray" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintEPostageLabel" Type="System.Object" RefType="ref" />
+        <Parameter Name="Vertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="LabelID">The mailing label identification.</param>
@@ -185,6 +190,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.MailingLabel.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -217,6 +223,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.CustomLabels" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomLabels As CustomLabels" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CustomLabels ^ CustomLabels { Microsoft::Office::Interop::Word::CustomLabels ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CustomLabels : Microsoft.Office.Interop.Word.CustomLabels" Usage="Microsoft.Office.Interop.Word.MailingLabel.CustomLabels" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -245,6 +252,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.DefaultLabelName" />
       <MemberSignature Language="VB.NET" Value="Public Property DefaultLabelName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DefaultLabelName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DefaultLabelName : string with get, set" Usage="Microsoft.Office.Interop.Word.MailingLabel.DefaultLabelName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -280,6 +288,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.DefaultLaserTray" />
       <MemberSignature Language="VB.NET" Value="Public Property DefaultLaserTray As WdPaperTray" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdPaperTray DefaultLaserTray { Microsoft::Office::Interop::Word::WdPaperTray get(); void set(Microsoft::Office::Interop::Word::WdPaperTray value); };" />
+      <MemberSignature Language="F#" Value="member this.DefaultLaserTray : Microsoft.Office.Interop.Word.WdPaperTray with get, set" Usage="Microsoft.Office.Interop.Word.MailingLabel.DefaultLaserTray" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -314,6 +323,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.DefaultPrintBarCode" />
       <MemberSignature Language="VB.NET" Value="Public Property DefaultPrintBarCode As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DefaultPrintBarCode { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DefaultPrintBarCode : bool with get, set" Usage="Microsoft.Office.Interop.Word.MailingLabel.DefaultPrintBarCode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -355,6 +365,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailingLabel.LabelOptions" />
       <MemberSignature Language="VB.NET" Value="Public Sub LabelOptions ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void LabelOptions();" />
+      <MemberSignature Language="F#" Value="abstract member LabelOptions : unit -&gt; unit" Usage="mailingLabel.LabelOptions " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -383,6 +394,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.MailingLabel.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -410,6 +422,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut([in]object&amp; Name, [in]object&amp; Address, [in]object&amp; ExtractAddress, [in]object&amp; LaserTray, [in]object&amp; SingleLabel, [in]object&amp; Row, [in]object&amp; Column, [in]object&amp; PrintEPostageLabel, [in]object&amp; Vertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailingLabel.PrintOut(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PrintOut (Optional ByRef Name As Object, Optional ByRef Address As Object, Optional ByRef ExtractAddress As Object, Optional ByRef LaserTray As Object, Optional ByRef SingleLabel As Object, Optional ByRef Row As Object, Optional ByRef Column As Object, Optional ByRef PrintEPostageLabel As Object, Optional ByRef Vertical As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PrintOut : obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="mailingLabel.PrintOut (Name, Address, ExtractAddress, LaserTray, SingleLabel, Row, Column, PrintEPostageLabel, Vertical)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -424,15 +437,15 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Name" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Address" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ExtractAddress" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LaserTray" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SingleLabel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Row" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Column" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintEPostageLabel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Vertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Name" Type="System.Object" RefType="ref" />
+        <Parameter Name="Address" Type="System.Object" RefType="ref" />
+        <Parameter Name="ExtractAddress" Type="System.Object" RefType="ref" />
+        <Parameter Name="LaserTray" Type="System.Object" RefType="ref" />
+        <Parameter Name="SingleLabel" Type="System.Object" RefType="ref" />
+        <Parameter Name="Row" Type="System.Object" RefType="ref" />
+        <Parameter Name="Column" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintEPostageLabel" Type="System.Object" RefType="ref" />
+        <Parameter Name="Vertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Name">Optional <b>Object</b>. The mailing label name.</param>
@@ -453,6 +466,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut2000([in]object&amp; Name, [in]object&amp; Address, [in]object&amp; ExtractAddress, [in]object&amp; LaserTray, [in]object&amp; SingleLabel, [in]object&amp; Row, [in]object&amp; Column) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailingLabel.PrintOut2000(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PrintOut2000 (Optional ByRef Name As Object, Optional ByRef Address As Object, Optional ByRef ExtractAddress As Object, Optional ByRef LaserTray As Object, Optional ByRef SingleLabel As Object, Optional ByRef Row As Object, Optional ByRef Column As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PrintOut2000 : obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="mailingLabel.PrintOut2000 (Name, Address, ExtractAddress, LaserTray, SingleLabel, Row, Column)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -470,13 +484,13 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Name" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Address" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ExtractAddress" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LaserTray" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SingleLabel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Row" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Column" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Name" Type="System.Object" RefType="ref" />
+        <Parameter Name="Address" Type="System.Object" RefType="ref" />
+        <Parameter Name="ExtractAddress" Type="System.Object" RefType="ref" />
+        <Parameter Name="LaserTray" Type="System.Object" RefType="ref" />
+        <Parameter Name="SingleLabel" Type="System.Object" RefType="ref" />
+        <Parameter Name="Row" Type="System.Object" RefType="ref" />
+        <Parameter Name="Column" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Name">To be added.</param>
@@ -495,6 +509,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOutByID([in]object&amp; LabelID, [in]object&amp; Address, [in]object&amp; ExtractAddress, [in]object&amp; LaserTray, [in]object&amp; SingleLabel, [in]object&amp; Row, [in]object&amp; Column, [in]object&amp; PrintEPostageLabel, [in]object&amp; Vertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailingLabel.PrintOutByID(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PrintOutByID (Optional ByRef LabelID As Object, Optional ByRef Address As Object, Optional ByRef ExtractAddress As Object, Optional ByRef LaserTray As Object, Optional ByRef SingleLabel As Object, Optional ByRef Row As Object, Optional ByRef Column As Object, Optional ByRef PrintEPostageLabel As Object, Optional ByRef Vertical As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PrintOutByID : obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="mailingLabel.PrintOutByID (LabelID, Address, ExtractAddress, LaserTray, SingleLabel, Row, Column, PrintEPostageLabel, Vertical)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -509,15 +524,15 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="LabelID" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Address" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ExtractAddress" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LaserTray" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SingleLabel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Row" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Column" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintEPostageLabel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Vertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LabelID" Type="System.Object" RefType="ref" />
+        <Parameter Name="Address" Type="System.Object" RefType="ref" />
+        <Parameter Name="ExtractAddress" Type="System.Object" RefType="ref" />
+        <Parameter Name="LaserTray" Type="System.Object" RefType="ref" />
+        <Parameter Name="SingleLabel" Type="System.Object" RefType="ref" />
+        <Parameter Name="Row" Type="System.Object" RefType="ref" />
+        <Parameter Name="Column" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintEPostageLabel" Type="System.Object" RefType="ref" />
+        <Parameter Name="Vertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="LabelID">The mailing label identification.</param>
@@ -543,6 +558,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailingLabel.Vertical" />
       <MemberSignature Language="VB.NET" Value="Public Property Vertical As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Vertical { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Vertical : bool with get, set" Usage="Microsoft.Office.Interop.Word.MailingLabel.Vertical" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

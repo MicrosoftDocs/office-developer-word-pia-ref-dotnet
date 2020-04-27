@@ -1,9 +1,10 @@
-﻿<Type Name="OMathRad" FullName="Microsoft.Office.Interop.Word.OMathRad">
+<Type Name="OMathRad" FullName="Microsoft.Office.Interop.Word.OMathRad">
   <TypeSignature Language="C#" Value="public interface OMathRad" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathRad" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathRad" />
   <TypeSignature Language="VB.NET" Value="Public Interface OMathRad" />
   <TypeSignature Language="C++ CLI" Value="public interface class OMathRad" />
+  <TypeSignature Language="F#" Value="type OMathRad = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathRad.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.OMathRad.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -58,6 +60,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathRad.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.OMathRad.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathRad.Deg" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Deg As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ Deg { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Deg : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathRad.Deg" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathRad.E" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property E As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ E { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.E : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathRad.E" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -152,6 +157,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathRad.HideDeg" />
       <MemberSignature Language="VB.NET" Value="Public Property HideDeg As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideDeg { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideDeg : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathRad.HideDeg" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -185,6 +191,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathRad.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.OMathRad.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

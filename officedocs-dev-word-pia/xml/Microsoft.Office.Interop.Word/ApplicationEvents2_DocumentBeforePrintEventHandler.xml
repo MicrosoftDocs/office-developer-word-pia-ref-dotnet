@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents2_DocumentBeforePrintEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler">
+<Type Name="ApplicationEvents2_DocumentBeforePrintEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents2_DocumentBeforePrintEventHandler(Document Doc, ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents2_DocumentBeforePrintEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents2_DocumentBeforePrintEventHandler(Doc As Document, ByRef Cancel As Boolean)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents2_DocumentBeforePrintEventHandler(Document ^ Doc, bool % Cancel);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents2_DocumentBeforePrintEventHandler = delegate of Document * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,7 +22,7 @@
   </Attributes>
   <Parameters>
     <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+    <Parameter Name="Cancel" Type="System.Boolean" RefType="ref" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

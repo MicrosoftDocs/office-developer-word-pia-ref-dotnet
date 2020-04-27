@@ -1,9 +1,10 @@
-﻿<Type Name="ListFormat" FullName="Microsoft.Office.Interop.Word.ListFormat">
+<Type Name="ListFormat" FullName="Microsoft.Office.Interop.Word.ListFormat">
   <TypeSignature Language="C#" Value="public interface ListFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ListFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ListFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ListFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class ListFormat" />
+  <TypeSignature Language="F#" Value="type ListFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.ListFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyBulletDefault([in]object&amp; DefaultListBehavior) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyBulletDefault(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyBulletDefault (Optional ByRef DefaultListBehavior As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ApplyBulletDefault : obj -&gt; unit" Usage="listFormat.ApplyBulletDefault DefaultListBehavior" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -77,7 +80,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="DefaultListBehavior" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="DefaultListBehavior" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="DefaultListBehavior">Optional <b>Object</b>. Sets a value that specifies whether Microsoft Word uses new Web-oriented formatting for better list display. Can be either of the following constants: <b>wdWord8ListBehavior</b> (use formatting compatible with Microsoft Word 97) or <b>wdWord9ListBehavior</b> (use Web-oriented formatting). For compatibility reasons, the default constant is <b>wdWord8ListBehavior</b>, but in new procedures you should use <b>wdWord9ListBehavior</b> to take advantage of improved Web-oriented formatting with respect to indenting and multilevel lists.</param>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyBulletDefaultOld" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyBulletDefaultOld ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyBulletDefaultOld();" />
+      <MemberSignature Language="F#" Value="abstract member ApplyBulletDefaultOld : unit -&gt; unit" Usage="listFormat.ApplyBulletDefaultOld " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -117,6 +121,8 @@
       <MemberSignature Language="C#" Value="public void ApplyListTemplate (Microsoft.Office.Interop.Word.ListTemplate ListTemplate, ref object ContinuePreviousList, ref object ApplyTo, ref object DefaultListBehavior);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyListTemplate([in]class Microsoft.Office.Interop.Word.ListTemplate ListTemplate, [in]object&amp; ContinuePreviousList, [in]object&amp; ApplyTo, [in]object&amp; DefaultListBehavior) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyListTemplate(Microsoft.Office.Interop.Word.ListTemplate,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ApplyListTemplate (ListTemplate As ListTemplate, Optional ByRef ContinuePreviousList As Object, Optional ByRef ApplyTo As Object, Optional ByRef DefaultListBehavior As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ApplyListTemplate : Microsoft.Office.Interop.Word.ListTemplate * obj * obj * obj -&gt; unit" Usage="listFormat.ApplyListTemplate (ListTemplate, ContinuePreviousList, ApplyTo, DefaultListBehavior)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -132,9 +138,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="ListTemplate" Type="Microsoft.Office.Interop.Word.ListTemplate" />
-        <Parameter Name="ContinuePreviousList" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyTo" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DefaultListBehavior" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ContinuePreviousList" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyTo" Type="System.Object" RefType="ref" />
+        <Parameter Name="DefaultListBehavior" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ListTemplate">Required <see cref="T:Microsoft.Office.Interop.Word.ListTemplate" /> object. The list template to be applied.</param>
@@ -149,6 +155,8 @@
       <MemberSignature Language="C#" Value="public void ApplyListTemplateOld (Microsoft.Office.Interop.Word.ListTemplate ListTemplate, ref object ContinuePreviousList, ref object ApplyTo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyListTemplateOld([in]class Microsoft.Office.Interop.Word.ListTemplate ListTemplate, [in]object&amp; ContinuePreviousList, [in]object&amp; ApplyTo) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyListTemplateOld(Microsoft.Office.Interop.Word.ListTemplate,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ApplyListTemplateOld (ListTemplate As ListTemplate, Optional ByRef ContinuePreviousList As Object, Optional ByRef ApplyTo As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ApplyListTemplateOld : Microsoft.Office.Interop.Word.ListTemplate * obj * obj -&gt; unit" Usage="listFormat.ApplyListTemplateOld (ListTemplate, ContinuePreviousList, ApplyTo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -167,8 +175,8 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="ListTemplate" Type="Microsoft.Office.Interop.Word.ListTemplate" />
-        <Parameter Name="ContinuePreviousList" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyTo" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ContinuePreviousList" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyTo" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ListTemplate">To be added.</param>
@@ -182,6 +190,8 @@
       <MemberSignature Language="C#" Value="public void ApplyListTemplateWithLevel (Microsoft.Office.Interop.Word.ListTemplate ListTemplate, ref object ContinuePreviousList, ref object ApplyTo, ref object DefaultListBehavior, ref object ApplyLevel);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyListTemplateWithLevel([in]class Microsoft.Office.Interop.Word.ListTemplate ListTemplate, [in]object&amp; ContinuePreviousList, [in]object&amp; ApplyTo, [in]object&amp; DefaultListBehavior, [in]object&amp; ApplyLevel) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyListTemplateWithLevel(Microsoft.Office.Interop.Word.ListTemplate,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ApplyListTemplateWithLevel (ListTemplate As ListTemplate, Optional ByRef ContinuePreviousList As Object, Optional ByRef ApplyTo As Object, Optional ByRef DefaultListBehavior As Object, Optional ByRef ApplyLevel As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ApplyListTemplateWithLevel : Microsoft.Office.Interop.Word.ListTemplate * obj * obj * obj * obj -&gt; unit" Usage="listFormat.ApplyListTemplateWithLevel (ListTemplate, ContinuePreviousList, ApplyTo, DefaultListBehavior, ApplyLevel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -197,10 +207,10 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="ListTemplate" Type="Microsoft.Office.Interop.Word.ListTemplate" />
-        <Parameter Name="ContinuePreviousList" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyTo" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DefaultListBehavior" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyLevel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ContinuePreviousList" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyTo" Type="System.Object" RefType="ref" />
+        <Parameter Name="DefaultListBehavior" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyLevel" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ListTemplate">The list template to be applied.</param>
@@ -218,6 +228,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyNumberDefault([in]object&amp; DefaultListBehavior) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyNumberDefault(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyNumberDefault (Optional ByRef DefaultListBehavior As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ApplyNumberDefault : obj -&gt; unit" Usage="listFormat.ApplyNumberDefault DefaultListBehavior" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -232,7 +243,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="DefaultListBehavior" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="DefaultListBehavior" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="DefaultListBehavior">Optional <b>Object</b>. Sets a value that specifies whether Microsoft Word uses new Web-oriented formatting for better list display. Can be either of the following constants: <b>wdWord8ListBehavior</b> (use formatting compatible with Microsoft Word 97) or <b>wdWord9ListBehavior</b> (use Web-oriented formatting). For compatibility reasons, the default constant is <b>wdWord8ListBehavior</b>, but in new procedures you should use <b>wdWord9ListBehavior</b> to take advantage of improved Web-oriented formatting with respect to indenting and multilevel lists.</param>
@@ -246,6 +257,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyNumberDefaultOld" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyNumberDefaultOld ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyNumberDefaultOld();" />
+      <MemberSignature Language="F#" Value="abstract member ApplyNumberDefaultOld : unit -&gt; unit" Usage="listFormat.ApplyNumberDefaultOld " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -273,6 +285,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyOutlineNumberDefault([in]object&amp; DefaultListBehavior) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyOutlineNumberDefault(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyOutlineNumberDefault (Optional ByRef DefaultListBehavior As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ApplyOutlineNumberDefault : obj -&gt; unit" Usage="listFormat.ApplyOutlineNumberDefault DefaultListBehavior" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -287,7 +300,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="DefaultListBehavior" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="DefaultListBehavior" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="DefaultListBehavior">Optional <b>Object</b>. Sets a value that specifies whether Microsoft Word uses new Web-oriented formatting for better list display. Can be either of the following constants: <b>wdWord8ListBehavior</b> (use formatting compatible with Microsoft Word 97) or <b>wdWord9ListBehavior</b> (use Web-oriented formatting). For compatibility reasons, the default constant is <b>wdWord8ListBehavior</b>, but in new procedures you should use <b>wdWord9ListBehavior</b> to take advantage of improved Web-oriented formatting with respect to indenting and multilevel lists.</param>
@@ -304,6 +317,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ApplyOutlineNumberDefaultOld" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyOutlineNumberDefaultOld ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyOutlineNumberDefaultOld();" />
+      <MemberSignature Language="F#" Value="abstract member ApplyOutlineNumberDefaultOld : unit -&gt; unit" Usage="listFormat.ApplyOutlineNumberDefaultOld " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -330,7 +344,9 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.WdContinue CanContinuePreviousList (Microsoft.Office.Interop.Word.ListTemplate ListTemplate);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Interop.Word.WdContinue CanContinuePreviousList([in]class Microsoft.Office.Interop.Word.ListTemplate ListTemplate) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.CanContinuePreviousList(Microsoft.Office.Interop.Word.ListTemplate)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanContinuePreviousList (ListTemplate As ListTemplate) As WdContinue" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::WdContinue CanContinuePreviousList(Microsoft::Office::Interop::Word::ListTemplate ^ ListTemplate);" />
+      <MemberSignature Language="F#" Value="abstract member CanContinuePreviousList : Microsoft.Office.Interop.Word.ListTemplate -&gt; Microsoft.Office.Interop.Word.WdContinue" Usage="listFormat.CanContinuePreviousList ListTemplate" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -362,6 +378,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConvertNumbersToText([in]object&amp; NumberType) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ConvertNumbersToText(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ConvertNumbersToText (Optional ByRef NumberType As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ConvertNumbersToText : obj -&gt; unit" Usage="listFormat.ConvertNumbersToText NumberType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -376,7 +393,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="NumberType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="NumberType" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="NumberType">Optional <b>Object</b>. The type of number to be converted. Can be any of the <see cref="T:Microsoft.Office.Interop.Word.WdNumberType" /> constants.</param>
@@ -394,6 +411,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CountNumberedItems([in]object&amp; NumberType, [in]object&amp; Level) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.CountNumberedItems(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CountNumberedItems (Optional ByRef NumberType As Object, Optional ByRef Level As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CountNumberedItems : obj * obj -&gt; int" Usage="listFormat.CountNumberedItems (NumberType, Level)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -408,8 +426,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="NumberType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Level" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="NumberType" Type="System.Object" RefType="ref" />
+        <Parameter Name="Level" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="NumberType">Optional <b>Object</b>. The type of numbers to be counted. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdNumberType" /> constants: <b>wdNumberParagraph</b>, <b>wdNumberListNum</b>, or <b>wdNumberAllNumbers</b>. The default value is <b>wdNumberAllNumbers</b>.</param>
@@ -429,6 +447,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.ListFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -461,6 +480,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.List" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property List As List" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::List ^ List { Microsoft::Office::Interop::Word::List ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.List : Microsoft.Office.Interop.Word.List" Usage="Microsoft.Office.Interop.Word.ListFormat.List" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -492,6 +512,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ListIndent" />
       <MemberSignature Language="VB.NET" Value="Public Sub ListIndent ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ListIndent();" />
+      <MemberSignature Language="F#" Value="abstract member ListIndent : unit -&gt; unit" Usage="listFormat.ListIndent " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -517,6 +538,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.ListLevelNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property ListLevelNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ListLevelNumber { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.ListLevelNumber : int with get, set" Usage="Microsoft.Office.Interop.Word.ListFormat.ListLevelNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -548,6 +570,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.ListOutdent" />
       <MemberSignature Language="VB.NET" Value="Public Sub ListOutdent ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ListOutdent();" />
+      <MemberSignature Language="F#" Value="abstract member ListOutdent : unit -&gt; unit" Usage="listFormat.ListOutdent " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -573,6 +596,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.ListPictureBullet" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListPictureBullet As InlineShape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::InlineShape ^ ListPictureBullet { Microsoft::Office::Interop::Word::InlineShape ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListPictureBullet : Microsoft.Office.Interop.Word.InlineShape" Usage="Microsoft.Office.Interop.Word.ListFormat.ListPictureBullet" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -601,6 +625,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.ListString" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListString As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ListString { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListString : string" Usage="Microsoft.Office.Interop.Word.ListFormat.ListString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -633,6 +658,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.ListTemplate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListTemplate As ListTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListTemplate ^ ListTemplate { Microsoft::Office::Interop::Word::ListTemplate ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListTemplate : Microsoft.Office.Interop.Word.ListTemplate" Usage="Microsoft.Office.Interop.Word.ListFormat.ListTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -665,6 +691,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.ListType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListType As WdListType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdListType ListType { Microsoft::Office::Interop::Word::WdListType get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListType : Microsoft.Office.Interop.Word.WdListType" Usage="Microsoft.Office.Interop.Word.ListFormat.ListType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -696,6 +723,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.ListValue" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListValue As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ListValue { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListValue : int" Usage="Microsoft.Office.Interop.Word.ListFormat.ListValue" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -730,6 +758,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.ListFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -757,6 +786,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveNumbers([in]object&amp; NumberType) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListFormat.RemoveNumbers(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveNumbers (Optional ByRef NumberType As Object)" />
+      <MemberSignature Language="F#" Value="abstract member RemoveNumbers : obj -&gt; unit" Usage="listFormat.RemoveNumbers NumberType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -771,7 +801,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="NumberType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="NumberType" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="NumberType">Optional <see cref="T:Microsoft.Office.Interop.Word.WdNumberType" />. The type of number to be removed.</param>
@@ -788,6 +818,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.SingleList" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SingleList As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SingleList { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.SingleList : bool" Usage="Microsoft.Office.Interop.Word.ListFormat.SingleList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -817,6 +848,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListFormat.SingleListTemplate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SingleListTemplate As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SingleListTemplate { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.SingleListTemplate : bool" Usage="Microsoft.Office.Interop.Word.ListFormat.SingleListTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

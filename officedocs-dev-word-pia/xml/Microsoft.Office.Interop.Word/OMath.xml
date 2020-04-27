@@ -1,9 +1,10 @@
-﻿<Type Name="OMath" FullName="Microsoft.Office.Interop.Word.OMath">
+<Type Name="OMath" FullName="Microsoft.Office.Interop.Word.OMath">
   <TypeSignature Language="C#" Value="public interface OMath" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMath" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMath" />
   <TypeSignature Language="VB.NET" Value="Public Interface OMath" />
   <TypeSignature Language="C++ CLI" Value="public interface class OMath" />
+  <TypeSignature Language="F#" Value="type OMath = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -20,7 +21,7 @@
   <Docs>
     <summary>Represents an equation. <see cref="T:Microsoft.Office.Interop.Word.OMath" /> objects are members of the <see cref="T:Microsoft.Office.Interop.Word.OMaths" /> collection.</summary>
     <remarks>
-      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.OMaths.Add(Microsoft.Office.Interop.Word.Range)" /> method of the <see cref="T:Microsoft.Office.Interop.Word.OMaths" /> collection to create an equation and add it to a document, selection, or range.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Word.OMaths.Add(Microsoft.Office.Interop.Word.Range)" /> method of the <see cref="T:Microsoft.Office.Interop.Word.OMaths" /> collection to create an equation and add it to a document, selection, or range.  The following example creates an equation and uses the <see cref="M:Microsoft.Office.Interop.Word.OMaths.Buildup" /> method to convert the equation to professional format.</para>
       <para />
     </remarks>
   </Docs>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.AlignPoint" />
       <MemberSignature Language="VB.NET" Value="Public Property AlignPoint As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AlignPoint { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.AlignPoint : int with get, set" Usage="Microsoft.Office.Interop.Word.OMath.AlignPoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.OMath.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -94,6 +97,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.ArgIndex" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ArgIndex As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ArgIndex { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.ArgIndex : int" Usage="Microsoft.Office.Interop.Word.OMath.ArgIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -124,6 +128,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.ArgSize" />
       <MemberSignature Language="VB.NET" Value="Public Property ArgSize As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ArgSize { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.ArgSize : int with get, set" Usage="Microsoft.Office.Interop.Word.OMath.ArgSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -157,6 +162,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Breaks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Breaks As OMathBreaks" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathBreaks ^ Breaks { Microsoft::Office::Interop::Word::OMathBreaks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Breaks : Microsoft.Office.Interop.Word.OMathBreaks" Usage="Microsoft.Office.Interop.Word.OMath.Breaks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -187,6 +193,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMath.BuildUp" />
       <MemberSignature Language="VB.NET" Value="Public Sub BuildUp ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void BuildUp();" />
+      <MemberSignature Language="F#" Value="abstract member BuildUp : unit -&gt; unit" Usage="oMath.BuildUp " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -215,6 +222,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMath.ConvertToLiteralText" />
       <MemberSignature Language="VB.NET" Value="Public Sub ConvertToLiteralText ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ConvertToLiteralText();" />
+      <MemberSignature Language="F#" Value="abstract member ConvertToLiteralText : unit -&gt; unit" Usage="oMath.ConvertToLiteralText " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -240,6 +248,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMath.ConvertToMathText" />
       <MemberSignature Language="VB.NET" Value="Public Sub ConvertToMathText ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ConvertToMathText();" />
+      <MemberSignature Language="F#" Value="abstract member ConvertToMathText : unit -&gt; unit" Usage="oMath.ConvertToMathText " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -265,6 +274,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMath.ConvertToNormalText" />
       <MemberSignature Language="VB.NET" Value="Public Sub ConvertToNormalText ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ConvertToNormalText();" />
+      <MemberSignature Language="F#" Value="abstract member ConvertToNormalText : unit -&gt; unit" Usage="oMath.ConvertToNormalText " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -290,6 +300,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.OMath.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -326,6 +337,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Functions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Functions As OMathFunctions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathFunctions ^ Functions { Microsoft::Office::Interop::Word::OMathFunctions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Functions : Microsoft.Office.Interop.Word.OMathFunctions" Usage="Microsoft.Office.Interop.Word.OMath.Functions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -356,6 +368,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Justification" />
       <MemberSignature Language="VB.NET" Value="Public Property Justification As WdOMathJc" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdOMathJc Justification { Microsoft::Office::Interop::Word::WdOMathJc get(); void set(Microsoft::Office::Interop::Word::WdOMathJc value); };" />
+      <MemberSignature Language="F#" Value="member this.Justification : Microsoft.Office.Interop.Word.WdOMathJc with get, set" Usage="Microsoft.Office.Interop.Word.OMath.Justification" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -389,6 +402,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMath.Linearize" />
       <MemberSignature Language="VB.NET" Value="Public Sub Linearize ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Linearize();" />
+      <MemberSignature Language="F#" Value="abstract member Linearize : unit -&gt; unit" Usage="oMath.Linearize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -417,6 +431,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.NestingLevel" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NestingLevel As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NestingLevel { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.NestingLevel : int" Usage="Microsoft.Office.Interop.Word.OMath.NestingLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -447,6 +462,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.OMath.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -477,6 +493,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.ParentArg" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentArg As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ ParentArg { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParentArg : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMath.ParentArg" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -507,6 +524,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.ParentCol" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentCol As OMathMatCol" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathMatCol ^ ParentCol { Microsoft::Office::Interop::Word::OMathMatCol ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParentCol : Microsoft.Office.Interop.Word.OMathMatCol" Usage="Microsoft.Office.Interop.Word.OMath.ParentCol" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -537,6 +555,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.ParentFunction" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFunction As OMathFunction" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathFunction ^ ParentFunction { Microsoft::Office::Interop::Word::OMathFunction ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParentFunction : Microsoft.Office.Interop.Word.OMathFunction" Usage="Microsoft.Office.Interop.Word.OMath.ParentFunction" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -567,6 +586,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.ParentOMath" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentOMath As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ ParentOMath { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParentOMath : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMath.ParentOMath" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -597,6 +617,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.ParentRow" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentRow As OMathMatRow" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathMatRow ^ ParentRow { Microsoft::Office::Interop::Word::OMathMatRow ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParentRow : Microsoft.Office.Interop.Word.OMathMatRow" Usage="Microsoft.Office.Interop.Word.OMath.ParentRow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -627,6 +648,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Range" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.OMath.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -657,6 +679,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMath.Remove" />
       <MemberSignature Language="VB.NET" Value="Public Sub Remove ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove();" />
+      <MemberSignature Language="F#" Value="abstract member Remove : unit -&gt; unit" Usage="oMath.Remove " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -682,6 +705,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMath.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As WdOMathType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdOMathType Type { Microsoft::Office::Interop::Word::WdOMathType get(); void set(Microsoft::Office::Interop::Word::WdOMathType value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdOMathType with get, set" Usage="Microsoft.Office.Interop.Word.OMath.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

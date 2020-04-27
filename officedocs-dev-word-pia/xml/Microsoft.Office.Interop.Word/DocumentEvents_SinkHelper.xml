@@ -1,9 +1,10 @@
-﻿<Type Name="DocumentEvents_SinkHelper" FullName="Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper">
+<Type Name="DocumentEvents_SinkHelper" FullName="Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper">
   <TypeSignature Language="C#" Value="public sealed class DocumentEvents_SinkHelper : Microsoft.Office.Interop.Word.DocumentEvents" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DocumentEvents_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Word.DocumentEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentEvents_SinkHelper&#xA;Implements DocumentEvents" />
   <TypeSignature Language="C++ CLI" Value="public ref class DocumentEvents_SinkHelper sealed : Microsoft::Office::Interop::Word::DocumentEvents" />
+  <TypeSignature Language="F#" Value="type DocumentEvents_SinkHelper = class&#xA;    interface DocumentEvents" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.Close" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Close();" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit&#xA;override this.Close : unit -&gt; unit" Usage="documentEvents_SinkHelper.Close " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents.Close</InterfaceMember>
@@ -58,6 +60,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_CloseDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_CloseDelegate As DocumentEvents_CloseEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents_CloseEventHandler ^ m_CloseDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_CloseDelegate : Microsoft.Office.Interop.Word.DocumentEvents_CloseEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_CloseDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -77,6 +80,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_dwCookie" />
       <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
       <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_dwCookie" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -96,6 +100,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_NewDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_NewDelegate As DocumentEvents_NewEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents_NewEventHandler ^ m_NewDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_NewDelegate : Microsoft.Office.Interop.Word.DocumentEvents_NewEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_NewDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -115,6 +120,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_OpenDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_OpenDelegate As DocumentEvents_OpenEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents_OpenEventHandler ^ m_OpenDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_OpenDelegate : Microsoft.Office.Interop.Word.DocumentEvents_OpenEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.m_OpenDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -134,6 +140,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.New" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void New();" />
+      <MemberSignature Language="F#" Value="abstract member New : unit -&gt; unit&#xA;override this.New : unit -&gt; unit" Usage="documentEvents_SinkHelper.New " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents.New</InterfaceMember>
@@ -157,6 +164,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents_SinkHelper.Open" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Open ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Open();" />
+      <MemberSignature Language="F#" Value="abstract member Open : unit -&gt; unit&#xA;override this.Open : unit -&gt; unit" Usage="documentEvents_SinkHelper.Open " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents.Open</InterfaceMember>

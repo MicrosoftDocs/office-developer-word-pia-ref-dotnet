@@ -1,9 +1,10 @@
-﻿<Type Name="TextRetrievalMode" FullName="Microsoft.Office.Interop.Word.TextRetrievalMode">
+<Type Name="TextRetrievalMode" FullName="Microsoft.Office.Interop.Word.TextRetrievalMode">
   <TypeSignature Language="C#" Value="public interface TextRetrievalMode" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextRetrievalMode" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TextRetrievalMode" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextRetrievalMode" />
   <TypeSignature Language="C++ CLI" Value="public interface class TextRetrievalMode" />
+  <TypeSignature Language="F#" Value="type TextRetrievalMode = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextRetrievalMode.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.TextRetrievalMode.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextRetrievalMode.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.TextRetrievalMode.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextRetrievalMode.Duplicate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duplicate As TextRetrievalMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TextRetrievalMode ^ Duplicate { Microsoft::Office::Interop::Word::TextRetrievalMode ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Duplicate : Microsoft.Office.Interop.Word.TextRetrievalMode" Usage="Microsoft.Office.Interop.Word.TextRetrievalMode.Duplicate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -124,6 +128,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextRetrievalMode.IncludeFieldCodes" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludeFieldCodes As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeFieldCodes { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IncludeFieldCodes : bool with get, set" Usage="Microsoft.Office.Interop.Word.TextRetrievalMode.IncludeFieldCodes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -160,6 +165,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextRetrievalMode.IncludeHiddenText" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludeHiddenText As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeHiddenText { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IncludeHiddenText : bool with get, set" Usage="Microsoft.Office.Interop.Word.TextRetrievalMode.IncludeHiddenText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -196,6 +202,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextRetrievalMode.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.TextRetrievalMode.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -224,6 +231,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextRetrievalMode.ViewType" />
       <MemberSignature Language="VB.NET" Value="Default Public Property ViewType As WdViewType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdViewType default { Microsoft::Office::Interop::Word::WdViewType get(); void set(Microsoft::Office::Interop::Word::WdViewType value); };" />
+      <MemberSignature Language="F#" Value="member this.ViewType : Microsoft.Office.Interop.Word.WdViewType with get, set" Usage="Microsoft.Office.Interop.Word.TextRetrievalMode.ViewType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

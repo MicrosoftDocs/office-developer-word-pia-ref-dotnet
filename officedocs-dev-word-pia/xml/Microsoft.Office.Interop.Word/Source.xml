@@ -1,9 +1,10 @@
-﻿<Type Name="Source" FullName="Microsoft.Office.Interop.Word.Source">
+<Type Name="Source" FullName="Microsoft.Office.Interop.Word.Source">
   <TypeSignature Language="C#" Value="public interface Source" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Source" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Source" />
   <TypeSignature Language="VB.NET" Value="Public Interface Source" />
   <TypeSignature Language="C++ CLI" Value="public interface class Source" />
+  <TypeSignature Language="F#" Value="type Source = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Source.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Source.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Source.Cited" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cited As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Cited { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Cited : bool" Usage="Microsoft.Office.Interop.Word.Source.Cited" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Source.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Source.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -126,6 +130,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Source.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="source.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -151,6 +156,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Source.Field(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Property Field(Name As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Field[System::String ^] { System::String ^ get(System::String ^ Name); void set(System::String ^ Name, System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Field(string) : string with get, set" Usage="Microsoft.Office.Interop.Word.Source.Field" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -191,6 +197,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Source.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Source.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -221,6 +228,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Source.Tag" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Tag { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Tag : string" Usage="Microsoft.Office.Interop.Word.Source.Tag" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -251,6 +259,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Source.XML" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XML As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ XML { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.XML : string" Usage="Microsoft.Office.Interop.Word.Source.XML" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="HorizontalLineFormat" FullName="Microsoft.Office.Interop.Word.HorizontalLineFormat">
+<Type Name="HorizontalLineFormat" FullName="Microsoft.Office.Interop.Word.HorizontalLineFormat">
   <TypeSignature Language="C#" Value="public interface HorizontalLineFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract HorizontalLineFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.HorizontalLineFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface HorizontalLineFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class HorizontalLineFormat" />
+  <TypeSignature Language="F#" Value="type HorizontalLineFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HorizontalLineFormat.Alignment" />
       <MemberSignature Language="VB.NET" Value="Public Property Alignment As WdHorizontalLineAlignment" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdHorizontalLineAlignment Alignment { Microsoft::Office::Interop::Word::WdHorizontalLineAlignment get(); void set(Microsoft::Office::Interop::Word::WdHorizontalLineAlignment value); };" />
+      <MemberSignature Language="F#" Value="member this.Alignment : Microsoft.Office.Interop.Word.WdHorizontalLineAlignment with get, set" Usage="Microsoft.Office.Interop.Word.HorizontalLineFormat.Alignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HorizontalLineFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.HorizontalLineFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HorizontalLineFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.HorizontalLineFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HorizontalLineFormat.NoShade" />
       <MemberSignature Language="VB.NET" Value="Public Property NoShade As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoShade { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.NoShade : bool with get, set" Usage="Microsoft.Office.Interop.Word.HorizontalLineFormat.NoShade" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -157,6 +162,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HorizontalLineFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.HorizontalLineFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -185,6 +191,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HorizontalLineFormat.PercentWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property PercentWidth As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PercentWidth { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.PercentWidth : single with get, set" Usage="Microsoft.Office.Interop.Word.HorizontalLineFormat.PercentWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -219,6 +226,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HorizontalLineFormat.WidthType" />
       <MemberSignature Language="VB.NET" Value="Public Property WidthType As WdHorizontalLineWidthType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdHorizontalLineWidthType WidthType { Microsoft::Office::Interop::Word::WdHorizontalLineWidthType get(); void set(Microsoft::Office::Interop::Word::WdHorizontalLineWidthType value); };" />
+      <MemberSignature Language="F#" Value="member this.WidthType : Microsoft.Office.Interop.Word.WdHorizontalLineWidthType with get, set" Usage="Microsoft.Office.Interop.Word.HorizontalLineFormat.WidthType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

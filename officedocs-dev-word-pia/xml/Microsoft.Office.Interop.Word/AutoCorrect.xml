@@ -1,9 +1,10 @@
-﻿<Type Name="AutoCorrect" FullName="Microsoft.Office.Interop.Word.AutoCorrect">
+<Type Name="AutoCorrect" FullName="Microsoft.Office.Interop.Word.AutoCorrect">
   <TypeSignature Language="C#" Value="public interface AutoCorrect" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AutoCorrect" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.AutoCorrect" />
   <TypeSignature Language="VB.NET" Value="Public Interface AutoCorrect" />
   <TypeSignature Language="C++ CLI" Value="public interface class AutoCorrect" />
+  <TypeSignature Language="F#" Value="type AutoCorrect = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.AutoCorrect.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.CorrectCapsLock" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectCapsLock As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectCapsLock { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectCapsLock : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.CorrectCapsLock" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.CorrectDays" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectDays As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectDays { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectDays : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.CorrectDays" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.CorrectHangulAndAlphabet" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectHangulAndAlphabet As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectHangulAndAlphabet { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectHangulAndAlphabet : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.CorrectHangulAndAlphabet" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -156,6 +161,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.CorrectInitialCaps" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectInitialCaps As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectInitialCaps { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectInitialCaps : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.CorrectInitialCaps" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -187,6 +193,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.CorrectKeyboardSetting" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectKeyboardSetting As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectKeyboardSetting { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectKeyboardSetting : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.CorrectKeyboardSetting" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -222,6 +229,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.CorrectSentenceCaps" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectSentenceCaps As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectSentenceCaps { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectSentenceCaps : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.CorrectSentenceCaps" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -253,6 +261,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.CorrectTableCells" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectTableCells As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectTableCells { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectTableCells : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.CorrectTableCells" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -284,6 +293,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.AutoCorrect.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -316,6 +326,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.DisplayAutoCorrectOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayAutoCorrectOptions As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayAutoCorrectOptions { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayAutoCorrectOptions : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.DisplayAutoCorrectOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -347,6 +358,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.Entries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Entries As AutoCorrectEntries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoCorrectEntries ^ Entries { Microsoft::Office::Interop::Word::AutoCorrectEntries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Entries : Microsoft.Office.Interop.Word.AutoCorrectEntries" Usage="Microsoft.Office.Interop.Word.AutoCorrect.Entries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -378,6 +390,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.FirstLetterAutoAdd" />
       <MemberSignature Language="VB.NET" Value="Public Property FirstLetterAutoAdd As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FirstLetterAutoAdd { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.FirstLetterAutoAdd : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.FirstLetterAutoAdd" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -412,6 +425,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.FirstLetterExceptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstLetterExceptions As FirstLetterExceptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FirstLetterExceptions ^ FirstLetterExceptions { Microsoft::Office::Interop::Word::FirstLetterExceptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FirstLetterExceptions : Microsoft.Office.Interop.Word.FirstLetterExceptions" Usage="Microsoft.Office.Interop.Word.AutoCorrect.FirstLetterExceptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -443,6 +457,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.HangulAndAlphabetAutoAdd" />
       <MemberSignature Language="VB.NET" Value="Public Property HangulAndAlphabetAutoAdd As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HangulAndAlphabetAutoAdd { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HangulAndAlphabetAutoAdd : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.HangulAndAlphabetAutoAdd" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -479,6 +494,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.HangulAndAlphabetExceptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HangulAndAlphabetExceptions As HangulAndAlphabetExceptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HangulAndAlphabetExceptions ^ HangulAndAlphabetExceptions { Microsoft::Office::Interop::Word::HangulAndAlphabetExceptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HangulAndAlphabetExceptions : Microsoft.Office.Interop.Word.HangulAndAlphabetExceptions" Usage="Microsoft.Office.Interop.Word.AutoCorrect.HangulAndAlphabetExceptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -512,6 +528,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.OtherCorrectionsAutoAdd" />
       <MemberSignature Language="VB.NET" Value="Public Property OtherCorrectionsAutoAdd As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OtherCorrectionsAutoAdd { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.OtherCorrectionsAutoAdd : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.OtherCorrectionsAutoAdd" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -547,6 +564,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.OtherCorrectionsExceptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OtherCorrectionsExceptions As OtherCorrectionsExceptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OtherCorrectionsExceptions ^ OtherCorrectionsExceptions { Microsoft::Office::Interop::Word::OtherCorrectionsExceptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OtherCorrectionsExceptions : Microsoft.Office.Interop.Word.OtherCorrectionsExceptions" Usage="Microsoft.Office.Interop.Word.AutoCorrect.OtherCorrectionsExceptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -578,6 +596,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.AutoCorrect.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -606,6 +625,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.ReplaceText" />
       <MemberSignature Language="VB.NET" Value="Public Property ReplaceText As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplaceText { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ReplaceText : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.ReplaceText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -637,6 +657,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.ReplaceTextFromSpellingChecker" />
       <MemberSignature Language="VB.NET" Value="Public Property ReplaceTextFromSpellingChecker As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplaceTextFromSpellingChecker { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ReplaceTextFromSpellingChecker : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.ReplaceTextFromSpellingChecker" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -671,6 +692,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.TwoInitialCapsAutoAdd" />
       <MemberSignature Language="VB.NET" Value="Public Property TwoInitialCapsAutoAdd As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TwoInitialCapsAutoAdd { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.TwoInitialCapsAutoAdd : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCorrect.TwoInitialCapsAutoAdd" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -705,6 +727,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCorrect.TwoInitialCapsExceptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TwoInitialCapsExceptions As TwoInitialCapsExceptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TwoInitialCapsExceptions ^ TwoInitialCapsExceptions { Microsoft::Office::Interop::Word::TwoInitialCapsExceptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TwoInitialCapsExceptions : Microsoft.Office.Interop.Word.TwoInitialCapsExceptions" Usage="Microsoft.Office.Interop.Word.AutoCorrect.TwoInitialCapsExceptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

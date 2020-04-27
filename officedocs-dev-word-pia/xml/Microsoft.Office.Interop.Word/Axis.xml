@@ -1,9 +1,10 @@
-﻿<Type Name="Axis" FullName="Microsoft.Office.Interop.Word.Axis">
+<Type Name="Axis" FullName="Microsoft.Office.Interop.Word.Axis">
   <TypeSignature Language="C#" Value="public interface Axis" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Axis" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Axis" />
   <TypeSignature Language="VB.NET" Value="Public Interface Axis" />
   <TypeSignature Language="C++ CLI" Value="public interface class Axis" />
+  <TypeSignature Language="F#" Value="type Axis = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.Axis.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.AxisBetweenCategories" />
       <MemberSignature Language="VB.NET" Value="Public Property AxisBetweenCategories As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AxisBetweenCategories { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AxisBetweenCategories : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.AxisBetweenCategories" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -101,6 +104,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.AxisGroup" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AxisGroup As XlAxisGroup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlAxisGroup AxisGroup { Microsoft::Office::Interop::Word::XlAxisGroup get(); };" />
+      <MemberSignature Language="F#" Value="member this.AxisGroup : Microsoft.Office.Interop.Word.XlAxisGroup" Usage="Microsoft.Office.Interop.Word.Axis.AxisGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -131,6 +135,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.AxisTitle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AxisTitle As AxisTitle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AxisTitle ^ AxisTitle { Microsoft::Office::Interop::Word::AxisTitle ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AxisTitle : Microsoft.Office.Interop.Word.AxisTitle" Usage="Microsoft.Office.Interop.Word.Axis.AxisTitle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -161,6 +166,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.BaseUnit" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseUnit As XlTimeUnit" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlTimeUnit BaseUnit { Microsoft::Office::Interop::Word::XlTimeUnit get(); void set(Microsoft::Office::Interop::Word::XlTimeUnit value); };" />
+      <MemberSignature Language="F#" Value="member this.BaseUnit : Microsoft.Office.Interop.Word.XlTimeUnit with get, set" Usage="Microsoft.Office.Interop.Word.Axis.BaseUnit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -198,6 +204,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.BaseUnitIsAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseUnitIsAuto As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BaseUnitIsAuto { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.BaseUnitIsAuto : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.BaseUnitIsAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -235,6 +242,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Border" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As ChartBorder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartBorder ^ Border { Microsoft::Office::Interop::Word::ChartBorder ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Border : Microsoft.Office.Interop.Word.ChartBorder" Usage="Microsoft.Office.Interop.Word.Axis.Border" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -265,6 +273,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.CategoryNames" />
       <MemberSignature Language="VB.NET" Value="Public Property CategoryNames As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CategoryNames { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CategoryNames : obj with get, set" Usage="Microsoft.Office.Interop.Word.Axis.CategoryNames" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -298,6 +307,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.CategoryType" />
       <MemberSignature Language="VB.NET" Value="Public Property CategoryType As XlCategoryType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlCategoryType CategoryType { Microsoft::Office::Interop::Word::XlCategoryType get(); void set(Microsoft::Office::Interop::Word::XlCategoryType value); };" />
+      <MemberSignature Language="F#" Value="member this.CategoryType : Microsoft.Office.Interop.Word.XlCategoryType with get, set" Usage="Microsoft.Office.Interop.Word.Axis.CategoryType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -334,6 +344,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Axis.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -367,6 +378,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Crosses" />
       <MemberSignature Language="VB.NET" Value="Public Property Crosses As XlAxisCrosses" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlAxisCrosses Crosses { Microsoft::Office::Interop::Word::XlAxisCrosses get(); void set(Microsoft::Office::Interop::Word::XlAxisCrosses value); };" />
+      <MemberSignature Language="F#" Value="member this.Crosses : Microsoft.Office.Interop.Word.XlAxisCrosses with get, set" Usage="Microsoft.Office.Interop.Word.Axis.Crosses" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -405,6 +417,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.CrossesAt" />
       <MemberSignature Language="VB.NET" Value="Public Property CrossesAt As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CrossesAt { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.CrossesAt : double with get, set" Usage="Microsoft.Office.Interop.Word.Axis.CrossesAt" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -443,6 +456,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Axis.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; obj" Usage="axis.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -471,6 +485,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.DisplayUnit" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayUnit As XlDisplayUnit" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlDisplayUnit DisplayUnit { Microsoft::Office::Interop::Word::XlDisplayUnit get(); void set(Microsoft::Office::Interop::Word::XlDisplayUnit value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayUnit : Microsoft.Office.Interop.Word.XlDisplayUnit with get, set" Usage="Microsoft.Office.Interop.Word.Axis.DisplayUnit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -507,6 +522,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.DisplayUnitCustom" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayUnitCustom As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double DisplayUnitCustom { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayUnitCustom : double with get, set" Usage="Microsoft.Office.Interop.Word.Axis.DisplayUnitCustom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -544,6 +560,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.DisplayUnitLabel" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayUnitLabel As DisplayUnitLabel" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::DisplayUnitLabel ^ DisplayUnitLabel { Microsoft::Office::Interop::Word::DisplayUnitLabel ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayUnitLabel : Microsoft.Office.Interop.Word.DisplayUnitLabel" Usage="Microsoft.Office.Interop.Word.Axis.DisplayUnitLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -576,6 +593,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Format" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As ChartFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFormat ^ Format { Microsoft::Office::Interop::Word::ChartFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Format : Microsoft.Office.Interop.Word.ChartFormat" Usage="Microsoft.Office.Interop.Word.Axis.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -607,6 +625,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.HasDisplayUnitLabel" />
       <MemberSignature Language="VB.NET" Value="Public Property HasDisplayUnitLabel As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDisplayUnitLabel { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasDisplayUnitLabel : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.HasDisplayUnitLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -643,6 +662,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.HasMajorGridlines" />
       <MemberSignature Language="VB.NET" Value="Public Property HasMajorGridlines As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasMajorGridlines { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasMajorGridlines : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.HasMajorGridlines" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -677,6 +697,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.HasMinorGridlines" />
       <MemberSignature Language="VB.NET" Value="Public Property HasMinorGridlines As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasMinorGridlines { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasMinorGridlines : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.HasMinorGridlines" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -711,6 +732,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.HasTitle" />
       <MemberSignature Language="VB.NET" Value="Public Property HasTitle As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasTitle { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasTitle : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.HasTitle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -748,6 +770,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Height : double" Usage="Microsoft.Office.Interop.Word.Axis.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -778,6 +801,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Left" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Left : double" Usage="Microsoft.Office.Interop.Word.Axis.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -808,6 +832,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.LogBase" />
       <MemberSignature Language="VB.NET" Value="Public Property LogBase As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double LogBase { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.LogBase : double with get, set" Usage="Microsoft.Office.Interop.Word.Axis.LogBase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -844,6 +869,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MajorGridlines" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MajorGridlines As Gridlines" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Gridlines ^ MajorGridlines { Microsoft::Office::Interop::Word::Gridlines ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MajorGridlines : Microsoft.Office.Interop.Word.Gridlines" Usage="Microsoft.Office.Interop.Word.Axis.MajorGridlines" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -874,6 +900,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MajorTickMark" />
       <MemberSignature Language="VB.NET" Value="Public Property MajorTickMark As XlTickMark" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlTickMark MajorTickMark { Microsoft::Office::Interop::Word::XlTickMark get(); void set(Microsoft::Office::Interop::Word::XlTickMark value); };" />
+      <MemberSignature Language="F#" Value="member this.MajorTickMark : Microsoft.Office.Interop.Word.XlTickMark with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MajorTickMark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -905,6 +932,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MajorUnit" />
       <MemberSignature Language="VB.NET" Value="Public Property MajorUnit As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MajorUnit { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.MajorUnit : double with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MajorUnit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -944,6 +972,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MajorUnitIsAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property MajorUnitIsAuto As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MajorUnitIsAuto { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MajorUnitIsAuto : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MajorUnitIsAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -982,6 +1011,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MajorUnitScale" />
       <MemberSignature Language="VB.NET" Value="Public Property MajorUnitScale As XlTimeUnit" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlTimeUnit MajorUnitScale { Microsoft::Office::Interop::Word::XlTimeUnit get(); void set(Microsoft::Office::Interop::Word::XlTimeUnit value); };" />
+      <MemberSignature Language="F#" Value="member this.MajorUnitScale : Microsoft.Office.Interop.Word.XlTimeUnit with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MajorUnitScale" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1015,6 +1045,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MaximumScale" />
       <MemberSignature Language="VB.NET" Value="Public Property MaximumScale As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MaximumScale { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.MaximumScale : double with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MaximumScale" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1052,6 +1083,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MaximumScaleIsAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property MaximumScaleIsAuto As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MaximumScaleIsAuto { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MaximumScaleIsAuto : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MaximumScaleIsAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1090,6 +1122,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MinimumScale" />
       <MemberSignature Language="VB.NET" Value="Public Property MinimumScale As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinimumScale { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.MinimumScale : double with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MinimumScale" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1127,6 +1160,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MinimumScaleIsAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property MinimumScaleIsAuto As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MinimumScaleIsAuto { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MinimumScaleIsAuto : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MinimumScaleIsAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1165,6 +1199,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MinorGridlines" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinorGridlines As Gridlines" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Gridlines ^ MinorGridlines { Microsoft::Office::Interop::Word::Gridlines ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MinorGridlines : Microsoft.Office.Interop.Word.Gridlines" Usage="Microsoft.Office.Interop.Word.Axis.MinorGridlines" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1195,6 +1230,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MinorTickMark" />
       <MemberSignature Language="VB.NET" Value="Public Property MinorTickMark As XlTickMark" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlTickMark MinorTickMark { Microsoft::Office::Interop::Word::XlTickMark get(); void set(Microsoft::Office::Interop::Word::XlTickMark value); };" />
+      <MemberSignature Language="F#" Value="member this.MinorTickMark : Microsoft.Office.Interop.Word.XlTickMark with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MinorTickMark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1228,6 +1264,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MinorUnit" />
       <MemberSignature Language="VB.NET" Value="Public Property MinorUnit As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinorUnit { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.MinorUnit : double with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MinorUnit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1267,6 +1304,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MinorUnitIsAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property MinorUnitIsAuto As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MinorUnitIsAuto { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MinorUnitIsAuto : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MinorUnitIsAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1305,6 +1343,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.MinorUnitScale" />
       <MemberSignature Language="VB.NET" Value="Public Property MinorUnitScale As XlTimeUnit" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlTimeUnit MinorUnitScale { Microsoft::Office::Interop::Word::XlTimeUnit get(); void set(Microsoft::Office::Interop::Word::XlTimeUnit value); };" />
+      <MemberSignature Language="F#" Value="member this.MinorUnitScale : Microsoft.Office.Interop.Word.XlTimeUnit with get, set" Usage="Microsoft.Office.Interop.Word.Axis.MinorUnitScale" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1338,6 +1377,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Axis.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1368,6 +1408,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.ReversePlotOrder" />
       <MemberSignature Language="VB.NET" Value="Public Property ReversePlotOrder As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReversePlotOrder { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ReversePlotOrder : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.ReversePlotOrder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1405,6 +1446,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.ScaleType" />
       <MemberSignature Language="VB.NET" Value="Public Property ScaleType As XlScaleType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlScaleType ScaleType { Microsoft::Office::Interop::Word::XlScaleType get(); void set(Microsoft::Office::Interop::Word::XlScaleType value); };" />
+      <MemberSignature Language="F#" Value="member this.ScaleType : Microsoft.Office.Interop.Word.XlScaleType with get, set" Usage="Microsoft.Office.Interop.Word.Axis.ScaleType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1438,6 +1480,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Axis.Select" />
       <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; obj" Usage="axis.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1466,6 +1509,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.TickLabelPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property TickLabelPosition As XlTickLabelPosition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlTickLabelPosition TickLabelPosition { Microsoft::Office::Interop::Word::XlTickLabelPosition get(); void set(Microsoft::Office::Interop::Word::XlTickLabelPosition value); };" />
+      <MemberSignature Language="F#" Value="member this.TickLabelPosition : Microsoft.Office.Interop.Word.XlTickLabelPosition with get, set" Usage="Microsoft.Office.Interop.Word.Axis.TickLabelPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1499,6 +1543,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.TickLabels" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TickLabels As TickLabels" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TickLabels ^ TickLabels { Microsoft::Office::Interop::Word::TickLabels ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TickLabels : Microsoft.Office.Interop.Word.TickLabels" Usage="Microsoft.Office.Interop.Word.Axis.TickLabels" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1529,6 +1574,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.TickLabelSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property TickLabelSpacing As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TickLabelSpacing { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.TickLabelSpacing : int with get, set" Usage="Microsoft.Office.Interop.Word.Axis.TickLabelSpacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1565,6 +1611,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.TickLabelSpacingIsAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property TickLabelSpacingIsAuto As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TickLabelSpacingIsAuto { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.TickLabelSpacingIsAuto : bool with get, set" Usage="Microsoft.Office.Interop.Word.Axis.TickLabelSpacingIsAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1601,6 +1648,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.TickMarkSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property TickMarkSpacing As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TickMarkSpacing { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.TickMarkSpacing : int with get, set" Usage="Microsoft.Office.Interop.Word.Axis.TickMarkSpacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1639,6 +1687,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Top" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Top : double" Usage="Microsoft.Office.Interop.Word.Axis.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1669,6 +1718,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As XlAxisType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlAxisType Type { Microsoft::Office::Interop::Word::XlAxisType get(); void set(Microsoft::Office::Interop::Word::XlAxisType value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.XlAxisType with get, set" Usage="Microsoft.Office.Interop.Word.Axis.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1705,6 +1755,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axis.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Width : double" Usage="Microsoft.Office.Interop.Word.Axis.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

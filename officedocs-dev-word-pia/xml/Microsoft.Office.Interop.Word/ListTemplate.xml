@@ -1,9 +1,10 @@
-﻿<Type Name="ListTemplate" FullName="Microsoft.Office.Interop.Word.ListTemplate">
+<Type Name="ListTemplate" FullName="Microsoft.Office.Interop.Word.ListTemplate">
   <TypeSignature Language="C#" Value="public interface ListTemplate" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ListTemplate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ListTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Interface ListTemplate" />
   <TypeSignature Language="C++ CLI" Value="public interface class ListTemplate" />
+  <TypeSignature Language="F#" Value="type ListTemplate = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -38,6 +39,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListTemplate.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.ListTemplate.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -65,6 +67,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.ListTemplate Convert([in]object&amp; Level) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ListTemplate.Convert(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Convert (Optional ByRef Level As Object) As ListTemplate" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj -&gt; Microsoft.Office.Interop.Word.ListTemplate" Usage="listTemplate.Convert Level" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -79,7 +82,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.ListTemplate</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Level" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Level" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Level">Optional <b>Object</b>. The level to use for formatting the new list. When converting a multiple-level list to a single-level list, this argument can be a number from 1 through 9. When converting a single-level list to a multiple-level list, 1 is the only valid value. If this argument is omitted, 1 is the default value.</param>
@@ -97,6 +100,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListTemplate.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.ListTemplate.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -129,6 +133,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListTemplate.ListLevels" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListLevels As ListLevels" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListLevels ^ ListLevels { Microsoft::Office::Interop::Word::ListLevels ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListLevels : Microsoft.Office.Interop.Word.ListLevels" Usage="Microsoft.Office.Interop.Word.ListTemplate.ListLevels" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -157,6 +162,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListTemplate.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Office.Interop.Word.ListTemplate.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -188,6 +194,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListTemplate.OutlineNumbered" />
       <MemberSignature Language="VB.NET" Value="Public Property OutlineNumbered As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OutlineNumbered { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.OutlineNumbered : bool with get, set" Usage="Microsoft.Office.Interop.Word.ListTemplate.OutlineNumbered" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -224,6 +231,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ListTemplate.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.ListTemplate.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="Find" FullName="Microsoft.Office.Interop.Word.Find">
+<Type Name="Find" FullName="Microsoft.Office.Interop.Word.Find">
   <TypeSignature Language="C#" Value="public interface Find" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Find" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Find" />
   <TypeSignature Language="VB.NET" Value="Public Interface Find" />
   <TypeSignature Language="C++ CLI" Value="public interface class Find" />
+  <TypeSignature Language="F#" Value="type Find = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -34,6 +35,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Find.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.ClearAllFuzzyOptions" />
       <MemberSignature Language="VB.NET" Value="Public Sub ClearAllFuzzyOptions ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearAllFuzzyOptions();" />
+      <MemberSignature Language="F#" Value="abstract member ClearAllFuzzyOptions : unit -&gt; unit" Usage="find.ClearAllFuzzyOptions " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -144,6 +147,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.ClearFormatting" />
       <MemberSignature Language="VB.NET" Value="Public Sub ClearFormatting ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearFormatting();" />
+      <MemberSignature Language="F#" Value="abstract member ClearFormatting : unit -&gt; unit" Usage="find.ClearFormatting " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -172,6 +176,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.ClearHitHighlight" />
       <MemberSignature Language="VB.NET" Value="Public Function ClearHitHighlight () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ClearHitHighlight();" />
+      <MemberSignature Language="F#" Value="abstract member ClearHitHighlight : unit -&gt; bool" Usage="find.ClearHitHighlight " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -203,6 +208,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.CorrectHangulEndings" />
       <MemberSignature Language="VB.NET" Value="Public Property CorrectHangulEndings As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectHangulEndings { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CorrectHangulEndings : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.CorrectHangulEndings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -237,6 +243,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Find.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -268,6 +275,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Execute([in]object&amp; FindText, [in]object&amp; MatchCase, [in]object&amp; MatchWholeWord, [in]object&amp; MatchWildcards, [in]object&amp; MatchSoundsLike, [in]object&amp; MatchAllWordForms, [in]object&amp; Forward, [in]object&amp; Wrap, [in]object&amp; Format, [in]object&amp; ReplaceWith, [in]object&amp; Replace, [in]object&amp; MatchKashida, [in]object&amp; MatchDiacritics, [in]object&amp; MatchAlefHamza, [in]object&amp; MatchControl) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.Execute(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Execute (Optional ByRef FindText As Object, Optional ByRef MatchCase As Object, Optional ByRef MatchWholeWord As Object, Optional ByRef MatchWildcards As Object, Optional ByRef MatchSoundsLike As Object, Optional ByRef MatchAllWordForms As Object, Optional ByRef Forward As Object, Optional ByRef Wrap As Object, Optional ByRef Format As Object, Optional ByRef ReplaceWith As Object, Optional ByRef Replace As Object, Optional ByRef MatchKashida As Object, Optional ByRef MatchDiacritics As Object, Optional ByRef MatchAlefHamza As Object, Optional ByRef MatchControl As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Execute : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; bool" Usage="find.Execute (FindText, MatchCase, MatchWholeWord, MatchWildcards, MatchSoundsLike, MatchAllWordForms, Forward, Wrap, Format, ReplaceWith, Replace, MatchKashida, MatchDiacritics, MatchAlefHamza, MatchControl)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -282,21 +290,21 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="FindText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchCase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWholeWord" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWildcards" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchSoundsLike" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchAllWordForms" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Forward" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Wrap" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ReplaceWith" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Replace" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchKashida" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchDiacritics" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchAlefHamza" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchControl" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="FindText" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchCase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWholeWord" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWildcards" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchSoundsLike" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchAllWordForms" Type="System.Object" RefType="ref" />
+        <Parameter Name="Forward" Type="System.Object" RefType="ref" />
+        <Parameter Name="Wrap" Type="System.Object" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
+        <Parameter Name="ReplaceWith" Type="System.Object" RefType="ref" />
+        <Parameter Name="Replace" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchKashida" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchDiacritics" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchAlefHamza" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchControl" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="FindText">Optional <b>Object</b>. The text to be searched for. Use an empty string ("") to search for formatting only. You can search for special characters by specifying appropriate character codes. For example, "^p" corresponds to a paragraph mark and "^t" corresponds to a tab character.</param>
@@ -331,6 +339,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Execute2007([in]object&amp; FindText, [in]object&amp; MatchCase, [in]object&amp; MatchWholeWord, [in]object&amp; MatchWildcards, [in]object&amp; MatchSoundsLike, [in]object&amp; MatchAllWordForms, [in]object&amp; Forward, [in]object&amp; Wrap, [in]object&amp; Format, [in]object&amp; ReplaceWith, [in]object&amp; Replace, [in]object&amp; MatchKashida, [in]object&amp; MatchDiacritics, [in]object&amp; MatchAlefHamza, [in]object&amp; MatchControl, [in]object&amp; MatchPrefix, [in]object&amp; MatchSuffix, [in]object&amp; MatchPhrase, [in]object&amp; IgnoreSpace, [in]object&amp; IgnorePunct) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.Execute2007(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Execute2007 (Optional ByRef FindText As Object, Optional ByRef MatchCase As Object, Optional ByRef MatchWholeWord As Object, Optional ByRef MatchWildcards As Object, Optional ByRef MatchSoundsLike As Object, Optional ByRef MatchAllWordForms As Object, Optional ByRef Forward As Object, Optional ByRef Wrap As Object, Optional ByRef Format As Object, Optional ByRef ReplaceWith As Object, Optional ByRef Replace As Object, Optional ByRef MatchKashida As Object, Optional ByRef MatchDiacritics As Object, Optional ByRef MatchAlefHamza As Object, Optional ByRef MatchControl As Object, Optional ByRef MatchPrefix As Object, Optional ByRef MatchSuffix As Object, Optional ByRef MatchPhrase As Object, Optional ByRef IgnoreSpace As Object, Optional ByRef IgnorePunct As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Execute2007 : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; bool" Usage="find.Execute2007 (FindText, MatchCase, MatchWholeWord, MatchWildcards, MatchSoundsLike, MatchAllWordForms, Forward, Wrap, Format, ReplaceWith, Replace, MatchKashida, MatchDiacritics, MatchAlefHamza, MatchControl, MatchPrefix, MatchSuffix, MatchPhrase, IgnoreSpace, IgnorePunct)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -345,26 +354,26 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="FindText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchCase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWholeWord" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWildcards" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchSoundsLike" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchAllWordForms" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Forward" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Wrap" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ReplaceWith" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Replace" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchKashida" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchDiacritics" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchAlefHamza" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchControl" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchPrefix" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchSuffix" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchPhrase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreSpace" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnorePunct" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="FindText" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchCase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWholeWord" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWildcards" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchSoundsLike" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchAllWordForms" Type="System.Object" RefType="ref" />
+        <Parameter Name="Forward" Type="System.Object" RefType="ref" />
+        <Parameter Name="Wrap" Type="System.Object" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
+        <Parameter Name="ReplaceWith" Type="System.Object" RefType="ref" />
+        <Parameter Name="Replace" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchKashida" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchDiacritics" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchAlefHamza" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchControl" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchPrefix" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchSuffix" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchPhrase" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreSpace" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnorePunct" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="FindText">The text to be searched for. Use an empty string ("") to search for formatting only. You can search for special characters by specifying appropriate character codes. For example, "^p" corresponds to a paragraph mark and "^t" corresponds to a tab character.</param>
@@ -419,6 +428,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ExecuteOld([in]object&amp; FindText, [in]object&amp; MatchCase, [in]object&amp; MatchWholeWord, [in]object&amp; MatchWildcards, [in]object&amp; MatchSoundsLike, [in]object&amp; MatchAllWordForms, [in]object&amp; Forward, [in]object&amp; Wrap, [in]object&amp; Format, [in]object&amp; ReplaceWith, [in]object&amp; Replace) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.ExecuteOld(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function ExecuteOld (Optional ByRef FindText As Object, Optional ByRef MatchCase As Object, Optional ByRef MatchWholeWord As Object, Optional ByRef MatchWildcards As Object, Optional ByRef MatchSoundsLike As Object, Optional ByRef MatchAllWordForms As Object, Optional ByRef Forward As Object, Optional ByRef Wrap As Object, Optional ByRef Format As Object, Optional ByRef ReplaceWith As Object, Optional ByRef Replace As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteOld : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; bool" Usage="find.ExecuteOld (FindText, MatchCase, MatchWholeWord, MatchWildcards, MatchSoundsLike, MatchAllWordForms, Forward, Wrap, Format, ReplaceWith, Replace)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -436,17 +446,17 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="FindText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchCase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWholeWord" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWildcards" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchSoundsLike" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchAllWordForms" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Forward" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Wrap" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ReplaceWith" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Replace" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="FindText" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchCase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWholeWord" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWildcards" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchSoundsLike" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchAllWordForms" Type="System.Object" RefType="ref" />
+        <Parameter Name="Forward" Type="System.Object" RefType="ref" />
+        <Parameter Name="Wrap" Type="System.Object" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
+        <Parameter Name="ReplaceWith" Type="System.Object" RefType="ref" />
+        <Parameter Name="Replace" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="FindText">To be added.</param>
@@ -471,6 +481,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Font" />
       <MemberSignature Language="VB.NET" Value="Public Property Font As Font" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Font ^ Font { Microsoft::Office::Interop::Word::Font ^ get(); void set(Microsoft::Office::Interop::Word::Font ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Office.Interop.Word.Font with get, set" Usage="Microsoft.Office.Interop.Word.Find.Font" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -502,6 +513,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Format" />
       <MemberSignature Language="VB.NET" Value="Public Property Format As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Format { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Format : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -536,6 +548,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Forward" />
       <MemberSignature Language="VB.NET" Value="Public Property Forward As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Forward { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Forward : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.Forward" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -570,6 +583,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Found" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Found As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Found { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Found : bool" Usage="Microsoft.Office.Interop.Word.Find.Found" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -601,6 +615,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Frame" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Frame As Frame" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Frame ^ Frame { Microsoft::Office::Interop::Word::Frame ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Frame : Microsoft.Office.Interop.Word.Frame" Usage="Microsoft.Office.Interop.Word.Find.Frame" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -629,6 +644,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.HanjaPhoneticHangul" />
       <MemberSignature Language="VB.NET" Value="Public Property HanjaPhoneticHangul As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HanjaPhoneticHangul { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HanjaPhoneticHangul : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.HanjaPhoneticHangul" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -662,6 +678,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Highlight" />
       <MemberSignature Language="VB.NET" Value="Public Property Highlight As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Highlight { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Highlight : int with get, set" Usage="Microsoft.Office.Interop.Word.Find.Highlight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -696,6 +713,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool HitHighlight([in]object&amp; FindText, [in]object&amp; HighlightColor, [in]object&amp; TextColor, [in]object&amp; MatchCase, [in]object&amp; MatchWholeWord, [in]object&amp; MatchPrefix, [in]object&amp; MatchSuffix, [in]object&amp; MatchPhrase, [in]object&amp; MatchWildcards, [in]object&amp; MatchSoundsLike, [in]object&amp; MatchAllWordForms, [in]object&amp; MatchByte, [in]object&amp; MatchFuzzy, [in]object&amp; MatchKashida, [in]object&amp; MatchDiacritics, [in]object&amp; MatchAlefHamza, [in]object&amp; MatchControl, [in]object&amp; IgnoreSpace, [in]object&amp; IgnorePunct, [in]object&amp; HanjaPhoneticHangul) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.HitHighlight(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function HitHighlight (ByRef FindText As Object, Optional ByRef HighlightColor As Object, Optional ByRef TextColor As Object, Optional ByRef MatchCase As Object, Optional ByRef MatchWholeWord As Object, Optional ByRef MatchPrefix As Object, Optional ByRef MatchSuffix As Object, Optional ByRef MatchPhrase As Object, Optional ByRef MatchWildcards As Object, Optional ByRef MatchSoundsLike As Object, Optional ByRef MatchAllWordForms As Object, Optional ByRef MatchByte As Object, Optional ByRef MatchFuzzy As Object, Optional ByRef MatchKashida As Object, Optional ByRef MatchDiacritics As Object, Optional ByRef MatchAlefHamza As Object, Optional ByRef MatchControl As Object, Optional ByRef IgnoreSpace As Object, Optional ByRef IgnorePunct As Object, Optional ByRef HanjaPhoneticHangul As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member HitHighlight : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; bool" Usage="find.HitHighlight (FindText, HighlightColor, TextColor, MatchCase, MatchWholeWord, MatchPrefix, MatchSuffix, MatchPhrase, MatchWildcards, MatchSoundsLike, MatchAllWordForms, MatchByte, MatchFuzzy, MatchKashida, MatchDiacritics, MatchAlefHamza, MatchControl, IgnoreSpace, IgnorePunct, HanjaPhoneticHangul)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -710,26 +728,26 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="FindText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="HighlightColor" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TextColor" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchCase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWholeWord" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchPrefix" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchSuffix" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchPhrase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchWildcards" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchSoundsLike" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchAllWordForms" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchByte" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchFuzzy" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchKashida" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchDiacritics" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchAlefHamza" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MatchControl" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreSpace" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnorePunct" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="HanjaPhoneticHangul" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="FindText" Type="System.Object" RefType="ref" />
+        <Parameter Name="HighlightColor" Type="System.Object" RefType="ref" />
+        <Parameter Name="TextColor" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchCase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWholeWord" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchPrefix" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchSuffix" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchPhrase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchWildcards" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchSoundsLike" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchAllWordForms" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchByte" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchFuzzy" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchKashida" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchDiacritics" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchAlefHamza" Type="System.Object" RefType="ref" />
+        <Parameter Name="MatchControl" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreSpace" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnorePunct" Type="System.Object" RefType="ref" />
+        <Parameter Name="HanjaPhoneticHangul" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="FindText">Specifies the text to find. Use an empty string ("") to search for formatting only. You can search for special characters by specifying appropriate character codes. For example, "^p" corresponds to a paragraph mark and "^t" corresponds to a tab character.</param>
@@ -783,6 +801,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.IgnorePunct" />
       <MemberSignature Language="VB.NET" Value="Public Property IgnorePunct As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnorePunct { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IgnorePunct : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.IgnorePunct" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -819,6 +838,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.IgnoreSpace" />
       <MemberSignature Language="VB.NET" Value="Public Property IgnoreSpace As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnoreSpace { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IgnoreSpace : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.IgnoreSpace" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -855,6 +875,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.LanguageID" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageID As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageID { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageID : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Find.LanguageID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -889,6 +910,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.LanguageIDFarEast" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageIDFarEast As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageIDFarEast { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageIDFarEast : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Find.LanguageIDFarEast" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -923,6 +945,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.LanguageIDOther" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageIDOther As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageIDOther { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageIDOther : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Find.LanguageIDOther" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -954,6 +977,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchAlefHamza" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchAlefHamza As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchAlefHamza { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchAlefHamza : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchAlefHamza" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -988,6 +1012,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchAllWordForms" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchAllWordForms As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchAllWordForms { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchAllWordForms : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchAllWordForms" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1023,6 +1048,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchByte" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchByte As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchByte { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchByte : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchByte" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1057,6 +1083,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchCase" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchCase As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchCase { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchCase : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchCase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1092,6 +1119,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchControl" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchControl As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchControl { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchControl : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchControl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1126,6 +1154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchDiacritics" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchDiacritics As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchDiacritics { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchDiacritics : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchDiacritics" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1160,6 +1189,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchFuzzy" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchFuzzy As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchFuzzy { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchFuzzy : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchFuzzy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1194,6 +1224,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchKashida" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchKashida As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchKashida { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchKashida : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchKashida" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1228,6 +1259,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchPhrase" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchPhrase As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchPhrase { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchPhrase : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchPhrase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1262,6 +1294,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchPrefix As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchPrefix { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchPrefix : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1299,6 +1332,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchSoundsLike" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchSoundsLike As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchSoundsLike { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchSoundsLike : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchSoundsLike" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1334,6 +1368,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchSuffix" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchSuffix As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchSuffix { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchSuffix : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchSuffix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1371,6 +1406,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchWholeWord" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchWholeWord As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchWholeWord { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchWholeWord : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchWholeWord" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1406,6 +1442,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.MatchWildcards" />
       <MemberSignature Language="VB.NET" Value="Public Property MatchWildcards As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchWildcards { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.MatchWildcards : bool with get, set" Usage="Microsoft.Office.Interop.Word.Find.MatchWildcards" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1442,6 +1479,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.NoProofing" />
       <MemberSignature Language="VB.NET" Value="Public Property NoProofing As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NoProofing { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.NoProofing : int with get, set" Usage="Microsoft.Office.Interop.Word.Find.NoProofing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1476,6 +1514,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.ParagraphFormat" />
       <MemberSignature Language="VB.NET" Value="Public Property ParagraphFormat As ParagraphFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ParagraphFormat ^ ParagraphFormat { Microsoft::Office::Interop::Word::ParagraphFormat ^ get(); void set(Microsoft::Office::Interop::Word::ParagraphFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ParagraphFormat : Microsoft.Office.Interop.Word.ParagraphFormat with get, set" Usage="Microsoft.Office.Interop.Word.Find.ParagraphFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1507,6 +1546,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Find.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1535,6 +1575,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Replacement" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Replacement As Replacement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Replacement ^ Replacement { Microsoft::Office::Interop::Word::Replacement ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Replacement : Microsoft.Office.Interop.Word.Replacement" Usage="Microsoft.Office.Interop.Word.Find.Replacement" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1563,6 +1604,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Find.SetAllFuzzyOptions" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAllFuzzyOptions ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAllFuzzyOptions();" />
+      <MemberSignature Language="F#" Value="abstract member SetAllFuzzyOptions : unit -&gt; unit" Usage="find.SetAllFuzzyOptions " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1645,6 +1687,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Style" />
       <MemberSignature Language="VB.NET" Value="Public Property Style As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Style { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Style : obj with get, set" Usage="Microsoft.Office.Interop.Word.Find.Style" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1680,6 +1723,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Office.Interop.Word.Find.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1714,6 +1758,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Find.Wrap" />
       <MemberSignature Language="VB.NET" Value="Public Property Wrap As WdFindWrap" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFindWrap Wrap { Microsoft::Office::Interop::Word::WdFindWrap get(); void set(Microsoft::Office::Interop::Word::WdFindWrap value); };" />
+      <MemberSignature Language="F#" Value="member this.Wrap : Microsoft.Office.Interop.Word.WdFindWrap with get, set" Usage="Microsoft.Office.Interop.Word.Find.Wrap" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

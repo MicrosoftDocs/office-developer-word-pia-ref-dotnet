@@ -1,9 +1,10 @@
-﻿<Type Name="AutoCaption" FullName="Microsoft.Office.Interop.Word.AutoCaption">
+<Type Name="AutoCaption" FullName="Microsoft.Office.Interop.Word.AutoCaption">
   <TypeSignature Language="C#" Value="public interface AutoCaption" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AutoCaption" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.AutoCaption" />
   <TypeSignature Language="VB.NET" Value="Public Interface AutoCaption" />
   <TypeSignature Language="C++ CLI" Value="public interface class AutoCaption" />
+  <TypeSignature Language="F#" Value="type AutoCaption = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCaption.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.AutoCaption.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCaption.AutoInsert" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoInsert As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoInsert { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AutoInsert : bool with get, set" Usage="Microsoft.Office.Interop.Word.AutoCaption.AutoInsert" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -94,6 +97,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCaption.CaptionLabel" />
       <MemberSignature Language="VB.NET" Value="Public Property CaptionLabel As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CaptionLabel { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CaptionLabel : obj with get, set" Usage="Microsoft.Office.Interop.Word.AutoCaption.CaptionLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -128,6 +132,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCaption.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.AutoCaption.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -160,6 +165,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCaption.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Office.Interop.Word.AutoCaption.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -188,6 +194,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCaption.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word.AutoCaption.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -216,6 +223,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.AutoCaption.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.AutoCaption.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="DataTable" FullName="Microsoft.Office.Interop.Word.DataTable">
+<Type Name="DataTable" FullName="Microsoft.Office.Interop.Word.DataTable">
   <TypeSignature Language="C#" Value="public interface DataTable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DataTable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DataTable" />
   <TypeSignature Language="VB.NET" Value="Public Interface DataTable" />
   <TypeSignature Language="C++ CLI" Value="public interface class DataTable" />
+  <TypeSignature Language="F#" Value="type DataTable = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.DataTable.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.AutoScaleFont" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoScaleFont As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ AutoScaleFont { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.AutoScaleFont : obj with get, set" Usage="Microsoft.Office.Interop.Word.DataTable.AutoScaleFont" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -102,6 +105,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.Border" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As ChartBorder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartBorder ^ Border { Microsoft::Office::Interop::Word::ChartBorder ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Border : Microsoft.Office.Interop.Word.ChartBorder" Usage="Microsoft.Office.Interop.Word.DataTable.Border" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -132,6 +136,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.DataTable.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -165,6 +170,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DataTable.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="dataTable.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -190,6 +196,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.Font" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As ChartFont" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFont ^ Font { Microsoft::Office::Interop::Word::ChartFont ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Office.Interop.Word.ChartFont" Usage="Microsoft.Office.Interop.Word.DataTable.Font" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -220,6 +227,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.Format" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As ChartFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFormat ^ Format { Microsoft::Office::Interop::Word::ChartFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Format : Microsoft.Office.Interop.Word.ChartFormat" Usage="Microsoft.Office.Interop.Word.DataTable.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -251,6 +259,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.HasBorderHorizontal" />
       <MemberSignature Language="VB.NET" Value="Public Property HasBorderHorizontal As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBorderHorizontal { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasBorderHorizontal : bool with get, set" Usage="Microsoft.Office.Interop.Word.DataTable.HasBorderHorizontal" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -282,6 +291,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.HasBorderOutline" />
       <MemberSignature Language="VB.NET" Value="Public Property HasBorderOutline As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBorderOutline { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasBorderOutline : bool with get, set" Usage="Microsoft.Office.Interop.Word.DataTable.HasBorderOutline" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -313,6 +323,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.HasBorderVertical" />
       <MemberSignature Language="VB.NET" Value="Public Property HasBorderVertical As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBorderVertical { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasBorderVertical : bool with get, set" Usage="Microsoft.Office.Interop.Word.DataTable.HasBorderVertical" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -344,6 +355,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.DataTable.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -374,6 +386,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DataTable.Select" />
       <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit" Usage="dataTable.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -399,6 +412,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DataTable.ShowLegendKey" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowLegendKey As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowLegendKey { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowLegendKey : bool with get, set" Usage="Microsoft.Office.Interop.Word.DataTable.ShowLegendKey" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

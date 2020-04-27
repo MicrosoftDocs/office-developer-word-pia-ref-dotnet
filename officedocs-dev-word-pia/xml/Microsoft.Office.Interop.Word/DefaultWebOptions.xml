@@ -1,9 +1,10 @@
-﻿<Type Name="DefaultWebOptions" FullName="Microsoft.Office.Interop.Word.DefaultWebOptions">
+<Type Name="DefaultWebOptions" FullName="Microsoft.Office.Interop.Word.DefaultWebOptions">
   <TypeSignature Language="C#" Value="public interface DefaultWebOptions" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DefaultWebOptions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DefaultWebOptions" />
   <TypeSignature Language="VB.NET" Value="Public Interface DefaultWebOptions" />
   <TypeSignature Language="C++ CLI" Value="public interface class DefaultWebOptions" />
+  <TypeSignature Language="F#" Value="type DefaultWebOptions = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.AllowPNG" />
       <MemberSignature Language="VB.NET" Value="Public Property AllowPNG As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowPNG { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AllowPNG : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.AllowPNG" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -67,6 +69,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.AlwaysSaveInDefaultEncoding" />
       <MemberSignature Language="VB.NET" Value="Public Property AlwaysSaveInDefaultEncoding As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AlwaysSaveInDefaultEncoding { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AlwaysSaveInDefaultEncoding : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.AlwaysSaveInDefaultEncoding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -102,6 +105,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -130,6 +134,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.BrowserLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property BrowserLevel As WdBrowserLevel" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdBrowserLevel BrowserLevel { Microsoft::Office::Interop::Word::WdBrowserLevel get(); void set(Microsoft::Office::Interop::Word::WdBrowserLevel value); };" />
+      <MemberSignature Language="F#" Value="member this.BrowserLevel : Microsoft.Office.Interop.Word.WdBrowserLevel with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.BrowserLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -164,6 +169,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.CheckIfOfficeIsHTMLEditor" />
       <MemberSignature Language="VB.NET" Value="Public Property CheckIfOfficeIsHTMLEditor As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CheckIfOfficeIsHTMLEditor { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CheckIfOfficeIsHTMLEditor : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.CheckIfOfficeIsHTMLEditor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -200,6 +206,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.CheckIfWordIsDefaultHTMLEditor" />
       <MemberSignature Language="VB.NET" Value="Public Property CheckIfWordIsDefaultHTMLEditor As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CheckIfWordIsDefaultHTMLEditor { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CheckIfWordIsDefaultHTMLEditor : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.CheckIfWordIsDefaultHTMLEditor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -236,6 +243,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -268,6 +276,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Encoding" />
       <MemberSignature Language="VB.NET" Value="Public Property Encoding As MsoEncoding" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoEncoding Encoding { Microsoft::Office::Core::MsoEncoding get(); void set(Microsoft::Office::Core::MsoEncoding value); };" />
+      <MemberSignature Language="F#" Value="member this.Encoding : Microsoft.Office.Core.MsoEncoding with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.Encoding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -299,6 +308,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.FolderSuffix" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderSuffix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderSuffix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FolderSuffix : string" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.FolderSuffix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -534,6 +544,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Fonts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fonts As WebPageFonts" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::WebPageFonts ^ Fonts { Microsoft::Office::Core::WebPageFonts ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Fonts : Microsoft.Office.Core.WebPageFonts" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.Fonts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -562,6 +573,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.OptimizeForBrowser" />
       <MemberSignature Language="VB.NET" Value="Public Property OptimizeForBrowser As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OptimizeForBrowser { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.OptimizeForBrowser : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.OptimizeForBrowser" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -594,6 +606,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.OrganizeInFolder" />
       <MemberSignature Language="VB.NET" Value="Public Property OrganizeInFolder As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OrganizeInFolder { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.OrganizeInFolder : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.OrganizeInFolder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -631,6 +644,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -659,6 +673,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.PixelsPerInch" />
       <MemberSignature Language="VB.NET" Value="Public Property PixelsPerInch As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PixelsPerInch { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.PixelsPerInch : int with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.PixelsPerInch" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -694,6 +709,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.RelyOnCSS" />
       <MemberSignature Language="VB.NET" Value="Public Property RelyOnCSS As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelyOnCSS { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.RelyOnCSS : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.RelyOnCSS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -729,6 +745,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.RelyOnVML" />
       <MemberSignature Language="VB.NET" Value="Public Property RelyOnVML As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelyOnVML { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.RelyOnVML : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.RelyOnVML" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -765,6 +782,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.SaveNewWebPagesAsWebArchives" />
       <MemberSignature Language="VB.NET" Value="Public Property SaveNewWebPagesAsWebArchives As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SaveNewWebPagesAsWebArchives { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SaveNewWebPagesAsWebArchives : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.SaveNewWebPagesAsWebArchives" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -800,6 +818,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.ScreenSize" />
       <MemberSignature Language="VB.NET" Value="Public Property ScreenSize As MsoScreenSize" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoScreenSize ScreenSize { Microsoft::Office::Core::MsoScreenSize get(); void set(Microsoft::Office::Core::MsoScreenSize value); };" />
+      <MemberSignature Language="F#" Value="member this.ScreenSize : Microsoft.Office.Core.MsoScreenSize with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.ScreenSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -831,6 +850,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.TargetBrowser" />
       <MemberSignature Language="VB.NET" Value="Public Property TargetBrowser As MsoTargetBrowser" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTargetBrowser TargetBrowser { Microsoft::Office::Core::MsoTargetBrowser get(); void set(Microsoft::Office::Core::MsoTargetBrowser value); };" />
+      <MemberSignature Language="F#" Value="member this.TargetBrowser : Microsoft.Office.Core.MsoTargetBrowser with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.TargetBrowser" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -865,6 +885,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.UpdateLinksOnSave" />
       <MemberSignature Language="VB.NET" Value="Public Property UpdateLinksOnSave As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UpdateLinksOnSave { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.UpdateLinksOnSave : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.UpdateLinksOnSave" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -900,6 +921,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DefaultWebOptions.UseLongFileNames" />
       <MemberSignature Language="VB.NET" Value="Public Property UseLongFileNames As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseLongFileNames { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.UseLongFileNames : bool with get, set" Usage="Microsoft.Office.Interop.Word.DefaultWebOptions.UseLongFileNames" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

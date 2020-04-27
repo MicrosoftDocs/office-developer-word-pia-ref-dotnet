@@ -1,9 +1,10 @@
-﻿<Type Name="XMLChildNodeSuggestion" FullName="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion">
+<Type Name="XMLChildNodeSuggestion" FullName="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion">
   <TypeSignature Language="C#" Value="public interface XMLChildNodeSuggestion" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XMLChildNodeSuggestion" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion" />
   <TypeSignature Language="VB.NET" Value="Public Interface XMLChildNodeSuggestion" />
   <TypeSignature Language="C++ CLI" Value="public interface class XMLChildNodeSuggestion" />
+  <TypeSignature Language="F#" Value="type XMLChildNodeSuggestion = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.BaseName" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property BaseName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BaseName : string" Usage="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.BaseName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -120,6 +124,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.XMLNode Insert([in]object&amp; Range) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.Insert(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Insert (Optional ByRef Range As Object) As XMLNode" />
+      <MemberSignature Language="F#" Value="abstract member Insert : obj -&gt; Microsoft.Office.Interop.Word.XMLNode" Usage="xMLChildNodeSuggestion.Insert Range" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -137,7 +142,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.XMLNode</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">To be added.</param>
@@ -152,6 +157,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.NamespaceURI" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamespaceURI As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NamespaceURI { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NamespaceURI : string" Usage="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.NamespaceURI" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -183,6 +189,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -214,6 +221,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.XMLSchemaReference" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XMLSchemaReference As XMLSchemaReference" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XMLSchemaReference ^ XMLSchemaReference { Microsoft::Office::Interop::Word::XMLSchemaReference ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.XMLSchemaReference : Microsoft.Office.Interop.Word.XMLSchemaReference" Usage="Microsoft.Office.Interop.Word.XMLChildNodeSuggestion.XMLSchemaReference" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

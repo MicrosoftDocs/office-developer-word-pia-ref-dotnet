@@ -1,9 +1,10 @@
-﻿<Type Name="LineNumbering" FullName="Microsoft.Office.Interop.Word.LineNumbering">
+<Type Name="LineNumbering" FullName="Microsoft.Office.Interop.Word.LineNumbering">
   <TypeSignature Language="C#" Value="public interface LineNumbering" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LineNumbering" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.LineNumbering" />
   <TypeSignature Language="VB.NET" Value="Public Interface LineNumbering" />
   <TypeSignature Language="C++ CLI" Value="public interface class LineNumbering" />
+  <TypeSignature Language="F#" Value="type LineNumbering = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.Active" />
       <MemberSignature Language="VB.NET" Value="Public Property Active As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Active { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Active : int with get, set" Usage="Microsoft.Office.Interop.Word.LineNumbering.Active" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.LineNumbering.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.CountBy" />
       <MemberSignature Language="VB.NET" Value="Public Property CountBy As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CountBy { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.CountBy : int with get, set" Usage="Microsoft.Office.Interop.Word.LineNumbering.CountBy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -126,6 +130,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.LineNumbering.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -158,6 +163,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.DistanceFromText" />
       <MemberSignature Language="VB.NET" Value="Public Property DistanceFromText As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float DistanceFromText { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.DistanceFromText : single with get, set" Usage="Microsoft.Office.Interop.Word.LineNumbering.DistanceFromText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -189,6 +195,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.LineNumbering.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -217,6 +224,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.RestartMode" />
       <MemberSignature Language="VB.NET" Value="Public Property RestartMode As WdNumberingRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdNumberingRule RestartMode { Microsoft::Office::Interop::Word::WdNumberingRule get(); void set(Microsoft::Office::Interop::Word::WdNumberingRule value); };" />
+      <MemberSignature Language="F#" Value="member this.RestartMode : Microsoft.Office.Interop.Word.WdNumberingRule with get, set" Usage="Microsoft.Office.Interop.Word.LineNumbering.RestartMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -251,6 +259,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineNumbering.StartingNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property StartingNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartingNumber { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.StartingNumber : int with get, set" Usage="Microsoft.Office.Interop.Word.LineNumbering.StartingNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

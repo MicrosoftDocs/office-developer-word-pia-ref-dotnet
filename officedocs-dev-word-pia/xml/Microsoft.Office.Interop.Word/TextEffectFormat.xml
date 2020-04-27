@@ -1,9 +1,10 @@
-﻿<Type Name="TextEffectFormat" FullName="Microsoft.Office.Interop.Word.TextEffectFormat">
+<Type Name="TextEffectFormat" FullName="Microsoft.Office.Interop.Word.TextEffectFormat">
   <TypeSignature Language="C#" Value="public interface TextEffectFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextEffectFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TextEffectFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextEffectFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class TextEffectFormat" />
+  <TypeSignature Language="F#" Value="type TextEffectFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.Alignment" />
       <MemberSignature Language="VB.NET" Value="Public Property Alignment As MsoTextEffectAlignment" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextEffectAlignment Alignment { Microsoft::Office::Core::MsoTextEffectAlignment get(); void set(Microsoft::Office::Core::MsoTextEffectAlignment value); };" />
+      <MemberSignature Language="F#" Value="member this.Alignment : Microsoft.Office.Core.MsoTextEffectAlignment with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.Alignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -87,6 +89,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -115,6 +118,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -147,6 +151,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.FontBold" />
       <MemberSignature Language="VB.NET" Value="Public Property FontBold As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState FontBold { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.FontBold : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.FontBold" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -196,6 +201,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.FontItalic" />
       <MemberSignature Language="VB.NET" Value="Public Property FontItalic As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState FontItalic { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.FontItalic : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.FontItalic" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -246,6 +252,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.FontName" />
       <MemberSignature Language="VB.NET" Value="Public Property FontName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FontName : string with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.FontName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -277,6 +284,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FontSize { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.FontSize : single with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.FontSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -308,6 +316,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.KernedPairs" />
       <MemberSignature Language="VB.NET" Value="Public Property KernedPairs As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState KernedPairs { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.KernedPairs : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.KernedPairs" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -358,6 +367,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.NormalizedHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property NormalizedHeight As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState NormalizedHeight { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.NormalizedHeight : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.NormalizedHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -409,6 +419,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -437,6 +448,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.PresetShape" />
       <MemberSignature Language="VB.NET" Value="Public Property PresetShape As MsoPresetTextEffectShape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetTextEffectShape PresetShape { Microsoft::Office::Core::MsoPresetTextEffectShape get(); void set(Microsoft::Office::Core::MsoPresetTextEffectShape value); };" />
+      <MemberSignature Language="F#" Value="member this.PresetShape : Microsoft.Office.Core.MsoPresetTextEffectShape with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.PresetShape" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -471,6 +483,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.PresetTextEffect" />
       <MemberSignature Language="VB.NET" Value="Public Property PresetTextEffect As MsoPresetTextEffect" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetTextEffect PresetTextEffect { Microsoft::Office::Core::MsoPresetTextEffect get(); void set(Microsoft::Office::Core::MsoPresetTextEffect value); };" />
+      <MemberSignature Language="F#" Value="member this.PresetTextEffect : Microsoft.Office.Core.MsoPresetTextEffect with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.PresetTextEffect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -506,6 +519,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.RotatedChars" />
       <MemberSignature Language="VB.NET" Value="Public Property RotatedChars As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState RotatedChars { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.RotatedChars : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.RotatedChars" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -559,6 +573,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -590,6 +605,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextEffectFormat.ToggleVerticalText" />
       <MemberSignature Language="VB.NET" Value="Public Sub ToggleVerticalText ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToggleVerticalText();" />
+      <MemberSignature Language="F#" Value="abstract member ToggleVerticalText : unit -&gt; unit" Usage="textEffectFormat.ToggleVerticalText " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -619,6 +635,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextEffectFormat.Tracking" />
       <MemberSignature Language="VB.NET" Value="Public Property Tracking As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Tracking { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Tracking : single with get, set" Usage="Microsoft.Office.Interop.Word.TextEffectFormat.Tracking" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

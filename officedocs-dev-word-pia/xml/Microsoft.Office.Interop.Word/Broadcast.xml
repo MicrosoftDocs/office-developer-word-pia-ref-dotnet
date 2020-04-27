@@ -1,9 +1,10 @@
-﻿<Type Name="Broadcast" FullName="Microsoft.Office.Interop.Word.Broadcast">
+<Type Name="Broadcast" FullName="Microsoft.Office.Interop.Word.Broadcast">
   <TypeSignature Language="C#" Value="public interface Broadcast" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Broadcast" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Broadcast" />
   <TypeSignature Language="VB.NET" Value="Public Interface Broadcast" />
   <TypeSignature Language="C++ CLI" Value="public interface class Broadcast" />
+  <TypeSignature Language="F#" Value="type Broadcast = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Broadcast.AddMeetingNotes(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddMeetingNotes (notesUrl As String, notesWacUrl As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddMeetingNotes(System::String ^ notesUrl, System::String ^ notesWacUrl);" />
+      <MemberSignature Language="F#" Value="abstract member AddMeetingNotes : string * string -&gt; unit" Usage="broadcast.AddMeetingNotes (notesUrl, notesWacUrl)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Broadcast.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Broadcast.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -89,6 +92,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Broadcast.AttendeeUrl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AttendeeUrl As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AttendeeUrl { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AttendeeUrl : string" Usage="Microsoft.Office.Interop.Word.Broadcast.AttendeeUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -120,6 +124,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Broadcast.Capabilities" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Capabilities { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Capabilities : int" Usage="Microsoft.Office.Interop.Word.Broadcast.Capabilities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -175,6 +180,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Broadcast.End" />
       <MemberSignature Language="VB.NET" Value="Public Sub End ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void End();" />
+      <MemberSignature Language="F#" Value="abstract member End : unit -&gt; unit" Usage="broadcast.End " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -204,6 +210,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Broadcast.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Broadcast.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -232,6 +239,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Broadcast.Pause" />
       <MemberSignature Language="VB.NET" Value="Public Sub Pause ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Pause();" />
+      <MemberSignature Language="F#" Value="abstract member Pause : unit -&gt; unit" Usage="broadcast.Pause " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -260,6 +268,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Broadcast.PresenterServiceUrl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresenterServiceUrl As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PresenterServiceUrl { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PresenterServiceUrl : string" Usage="Microsoft.Office.Interop.Word.Broadcast.PresenterServiceUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -291,6 +300,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Broadcast.Resume" />
       <MemberSignature Language="VB.NET" Value="Public Sub Resume ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Resume();" />
+      <MemberSignature Language="F#" Value="abstract member Resume : unit -&gt; unit" Usage="broadcast.Resume " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -319,6 +329,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Broadcast.SessionID" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionID As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SessionID { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SessionID : string" Usage="Microsoft.Office.Interop.Word.Broadcast.SessionID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -350,6 +361,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Broadcast.Start(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Start (serverUrl As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Start(System::String ^ serverUrl);" />
+      <MemberSignature Language="F#" Value="abstract member Start : string -&gt; unit" Usage="broadcast.Start serverUrl" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -382,6 +394,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Broadcast.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As MsoBroadcastState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBroadcastState State { Microsoft::Office::Core::MsoBroadcastState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Office.Core.MsoBroadcastState" Usage="Microsoft.Office.Interop.Word.Broadcast.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

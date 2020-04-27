@@ -1,9 +1,10 @@
-﻿<Type Name="OMathBar" FullName="Microsoft.Office.Interop.Word.OMathBar">
+<Type Name="OMathBar" FullName="Microsoft.Office.Interop.Word.OMathBar">
   <TypeSignature Language="C#" Value="public interface OMathBar" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathBar" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathBar" />
   <TypeSignature Language="VB.NET" Value="Public Interface OMathBar" />
   <TypeSignature Language="C++ CLI" Value="public interface class OMathBar" />
+  <TypeSignature Language="F#" Value="type OMathBar = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -29,6 +30,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBar.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.OMathBar.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBar.BarTop" />
       <MemberSignature Language="VB.NET" Value="Public Property BarTop As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BarTop { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.BarTop : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBar.BarTop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBar.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.OMathBar.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -128,6 +132,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBar.E" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property E As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ E { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.E : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathBar.E" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -158,6 +163,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBar.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.OMathBar.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

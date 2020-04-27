@@ -1,9 +1,10 @@
-﻿<Type Name="OMathAutoCorrect" FullName="Microsoft.Office.Interop.Word.OMathAutoCorrect">
+<Type Name="OMathAutoCorrect" FullName="Microsoft.Office.Interop.Word.OMathAutoCorrect">
   <TypeSignature Language="C#" Value="public interface OMathAutoCorrect" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathAutoCorrect" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathAutoCorrect" />
   <TypeSignature Language="VB.NET" Value="Public Interface OMathAutoCorrect" />
   <TypeSignature Language="C++ CLI" Value="public interface class OMathAutoCorrect" />
+  <TypeSignature Language="F#" Value="type OMathAutoCorrect = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathAutoCorrect.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.OMathAutoCorrect.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -58,6 +60,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathAutoCorrect.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.OMathAutoCorrect.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathAutoCorrect.Entries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Entries As OMathAutoCorrectEntries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathAutoCorrectEntries ^ Entries { Microsoft::Office::Interop::Word::OMathAutoCorrectEntries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Entries : Microsoft.Office.Interop.Word.OMathAutoCorrectEntries" Usage="Microsoft.Office.Interop.Word.OMathAutoCorrect.Entries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathAutoCorrect.Functions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Functions As OMathRecognizedFunctions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMathRecognizedFunctions ^ Functions { Microsoft::Office::Interop::Word::OMathRecognizedFunctions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Functions : Microsoft.Office.Interop.Word.OMathRecognizedFunctions" Usage="Microsoft.Office.Interop.Word.OMathAutoCorrect.Functions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -152,6 +157,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathAutoCorrect.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.OMathAutoCorrect.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -182,6 +188,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathAutoCorrect.ReplaceText" />
       <MemberSignature Language="VB.NET" Value="Public Property ReplaceText As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplaceText { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ReplaceText : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathAutoCorrect.ReplaceText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -215,6 +222,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathAutoCorrect.UseOutsideOMath" />
       <MemberSignature Language="VB.NET" Value="Public Property UseOutsideOMath As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseOutsideOMath { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.UseOutsideOMath : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathAutoCorrect.UseOutsideOMath" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

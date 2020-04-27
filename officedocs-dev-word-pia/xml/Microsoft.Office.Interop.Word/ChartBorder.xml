@@ -1,9 +1,10 @@
-﻿<Type Name="ChartBorder" FullName="Microsoft.Office.Interop.Word.ChartBorder">
+<Type Name="ChartBorder" FullName="Microsoft.Office.Interop.Word.ChartBorder">
   <TypeSignature Language="C#" Value="public interface ChartBorder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartBorder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ChartBorder" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartBorder" />
   <TypeSignature Language="C++ CLI" Value="public interface class ChartBorder" />
+  <TypeSignature Language="F#" Value="type ChartBorder = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartBorder.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.ChartBorder.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartBorder.Color" />
       <MemberSignature Language="VB.NET" Value="Public Property Color As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Color { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Color : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartBorder.Color" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -95,6 +98,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartBorder.ColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ColorIndex : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartBorder.ColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -143,6 +147,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartBorder.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.ChartBorder.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -176,6 +181,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartBorder.LineStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property LineStyle As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ LineStyle { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.LineStyle : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartBorder.LineStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -213,6 +219,7 @@ and <see cref="F:Microsoft.Office.Interop.Word.XlLineStyle.xlSlantDashDot" /> do
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartBorder.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.ChartBorder.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -243,6 +250,7 @@ and <see cref="F:Microsoft.Office.Interop.Word.XlLineStyle.xlSlantDashDot" /> do
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartBorder.Weight" />
       <MemberSignature Language="VB.NET" Value="Public Property Weight As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Weight { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Weight : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartBorder.Weight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

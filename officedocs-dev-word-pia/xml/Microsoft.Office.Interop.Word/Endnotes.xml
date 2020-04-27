@@ -1,9 +1,10 @@
-﻿<Type Name="Endnotes" FullName="Microsoft.Office.Interop.Word.Endnotes">
+<Type Name="Endnotes" FullName="Microsoft.Office.Interop.Word.Endnotes">
   <TypeSignature Language="C#" Value="public interface Endnotes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Endnotes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Endnotes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Endnotes&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class Endnotes : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type Endnotes = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Endnote Add (Microsoft.Office.Interop.Word.Range Range, ref object Reference, ref object Text);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Endnote Add([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; Reference, [in]object&amp; Text) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Endnotes.Add(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Range As Range, Optional ByRef Reference As Object, Optional ByRef Text As Object) As Endnote" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Office.Interop.Word.Range * obj * obj -&gt; Microsoft.Office.Interop.Word.Endnote" Usage="endnotes.Add (Range, Reference, Text)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -50,8 +53,8 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
-        <Parameter Name="Reference" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Text" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Reference" Type="System.Object" RefType="ref" />
+        <Parameter Name="Text" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <b>Range</b> object. The range marked for the endnote. This can be a collapsed range.</param>
@@ -71,6 +74,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Endnotes.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -99,6 +103,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.ContinuationNotice" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContinuationNotice As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ ContinuationNotice { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContinuationNotice : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Endnotes.ContinuationNotice" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -127,6 +132,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.ContinuationSeparator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContinuationSeparator As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ ContinuationSeparator { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContinuationSeparator : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Endnotes.ContinuationSeparator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -155,6 +161,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Endnotes.Convert" />
       <MemberSignature Language="VB.NET" Value="Public Sub Convert ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Convert();" />
+      <MemberSignature Language="F#" Value="abstract member Convert : unit -&gt; unit" Usage="endnotes.Convert " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -180,6 +187,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.Endnotes.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -208,6 +216,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Endnotes.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -240,6 +249,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Endnotes.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="endnotes.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -272,6 +282,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As Endnote" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Endnote ^ default[int] { Microsoft::Office::Interop::Word::Endnote ^ get(int Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Office.Interop.Word.Endnote" Usage="Microsoft.Office.Interop.Word.Endnotes.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -304,6 +315,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.Location" />
       <MemberSignature Language="VB.NET" Value="Public Property Location As WdEndnoteLocation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdEndnoteLocation Location { Microsoft::Office::Interop::Word::WdEndnoteLocation get(); void set(Microsoft::Office::Interop::Word::WdEndnoteLocation value); };" />
+      <MemberSignature Language="F#" Value="member this.Location : Microsoft.Office.Interop.Word.WdEndnoteLocation with get, set" Usage="Microsoft.Office.Interop.Word.Endnotes.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -335,6 +347,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.NumberingRule" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberingRule As WdNumberingRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdNumberingRule NumberingRule { Microsoft::Office::Interop::Word::WdNumberingRule get(); void set(Microsoft::Office::Interop::Word::WdNumberingRule value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberingRule : Microsoft.Office.Interop.Word.WdNumberingRule with get, set" Usage="Microsoft.Office.Interop.Word.Endnotes.NumberingRule" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -366,6 +379,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.NumberStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberStyle As WdNoteNumberStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdNoteNumberStyle NumberStyle { Microsoft::Office::Interop::Word::WdNoteNumberStyle get(); void set(Microsoft::Office::Interop::Word::WdNoteNumberStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberStyle : Microsoft.Office.Interop.Word.WdNoteNumberStyle with get, set" Usage="Microsoft.Office.Interop.Word.Endnotes.NumberStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -397,6 +411,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Endnotes.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -425,6 +440,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Endnotes.ResetContinuationNotice" />
       <MemberSignature Language="VB.NET" Value="Public Sub ResetContinuationNotice ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetContinuationNotice();" />
+      <MemberSignature Language="F#" Value="abstract member ResetContinuationNotice : unit -&gt; unit" Usage="endnotes.ResetContinuationNotice " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -453,6 +469,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Endnotes.ResetContinuationSeparator" />
       <MemberSignature Language="VB.NET" Value="Public Sub ResetContinuationSeparator ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetContinuationSeparator();" />
+      <MemberSignature Language="F#" Value="abstract member ResetContinuationSeparator : unit -&gt; unit" Usage="endnotes.ResetContinuationSeparator " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -481,6 +498,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Endnotes.ResetSeparator" />
       <MemberSignature Language="VB.NET" Value="Public Sub ResetSeparator ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetSeparator();" />
+      <MemberSignature Language="F#" Value="abstract member ResetSeparator : unit -&gt; unit" Usage="endnotes.ResetSeparator " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -509,6 +527,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.Separator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Separator As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Separator { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Separator : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Endnotes.Separator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -537,6 +556,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Endnotes.StartingNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property StartingNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartingNumber { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.StartingNumber : int with get, set" Usage="Microsoft.Office.Interop.Word.Endnotes.StartingNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -568,6 +588,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Endnotes.SwapWithFootnotes" />
       <MemberSignature Language="VB.NET" Value="Public Sub SwapWithFootnotes ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SwapWithFootnotes();" />
+      <MemberSignature Language="F#" Value="abstract member SwapWithFootnotes : unit -&gt; unit" Usage="endnotes.SwapWithFootnotes " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

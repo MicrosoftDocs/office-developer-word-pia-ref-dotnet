@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler">
+<Type Name="ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler(Document Doc, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler(Doc As Document, ByRef Cancel As Boolean)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler(Document ^ Doc, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents4_MailMergeBeforeRecordMergeEventHandler = delegate of Document * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,7 +22,7 @@
   </Attributes>
   <Parameters>
     <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+    <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

@@ -1,9 +1,10 @@
-﻿<Type Name="SynonymInfo" FullName="Microsoft.Office.Interop.Word.SynonymInfo">
+<Type Name="SynonymInfo" FullName="Microsoft.Office.Interop.Word.SynonymInfo">
   <TypeSignature Language="C#" Value="public interface SynonymInfo" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SynonymInfo" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.SynonymInfo" />
   <TypeSignature Language="VB.NET" Value="Public Interface SynonymInfo" />
   <TypeSignature Language="C++ CLI" Value="public interface class SynonymInfo" />
+  <TypeSignature Language="F#" Value="type SynonymInfo = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.AntonymList" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AntonymList As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ AntonymList { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AntonymList : obj" Usage="Microsoft.Office.Interop.Word.SynonymInfo.AntonymList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.SynonymInfo.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.SynonymInfo.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -124,6 +128,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.Found" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Found As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Found { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Found : bool" Usage="Microsoft.Office.Interop.Word.SynonymInfo.Found" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -153,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.MeaningCount" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeaningCount As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MeaningCount { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.MeaningCount : int" Usage="Microsoft.Office.Interop.Word.SynonymInfo.MeaningCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -185,6 +191,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.MeaningList" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeaningList As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MeaningList { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MeaningList : obj" Usage="Microsoft.Office.Interop.Word.SynonymInfo.MeaningList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -216,6 +223,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.SynonymInfo.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -244,6 +252,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.PartOfSpeechList" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PartOfSpeechList As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PartOfSpeechList { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PartOfSpeechList : obj" Usage="Microsoft.Office.Interop.Word.SynonymInfo.PartOfSpeechList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -275,6 +284,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.RelatedExpressionList" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RelatedExpressionList As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RelatedExpressionList { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.RelatedExpressionList : obj" Usage="Microsoft.Office.Interop.Word.SynonymInfo.RelatedExpressionList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -306,6 +316,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.RelatedWordList" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RelatedWordList As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RelatedWordList { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.RelatedWordList : obj" Usage="Microsoft.Office.Interop.Word.SynonymInfo.RelatedWordList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -334,6 +345,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.SynonymList(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SynonymList(ByRef Meaning As Object) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SynonymList[System::Object ^ %] { System::Object ^ get(System::Object ^ % Meaning); };" />
+      <MemberSignature Language="F#" Value="member this.SynonymList(obj) : obj" Usage="Microsoft.Office.Interop.Word.SynonymInfo.SynonymList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -351,7 +363,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Meaning" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Meaning" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Meaning">Required <b>Object</b>. The meaning as a string or an index number in the array of possible meanings.</param>
@@ -366,6 +378,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.SynonymInfo.Word" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Word As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Word { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Word : string" Usage="Microsoft.Office.Interop.Word.SynonymInfo.Word" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

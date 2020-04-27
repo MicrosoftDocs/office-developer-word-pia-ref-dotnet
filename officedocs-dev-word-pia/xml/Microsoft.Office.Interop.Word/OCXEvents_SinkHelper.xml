@@ -1,9 +1,10 @@
-﻿<Type Name="OCXEvents_SinkHelper" FullName="Microsoft.Office.Interop.Word.OCXEvents_SinkHelper">
+<Type Name="OCXEvents_SinkHelper" FullName="Microsoft.Office.Interop.Word.OCXEvents_SinkHelper">
   <TypeSignature Language="C#" Value="public sealed class OCXEvents_SinkHelper : Microsoft.Office.Interop.Word.OCXEvents" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OCXEvents_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Word.OCXEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OCXEvents_SinkHelper" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OCXEvents_SinkHelper&#xA;Implements OCXEvents" />
   <TypeSignature Language="C++ CLI" Value="public ref class OCXEvents_SinkHelper sealed : Microsoft::Office::Interop::Word::OCXEvents" />
+  <TypeSignature Language="F#" Value="type OCXEvents_SinkHelper = class&#xA;    interface OCXEvents" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.GotFocus" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub GotFocus ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void GotFocus();" />
+      <MemberSignature Language="F#" Value="abstract member GotFocus : unit -&gt; unit&#xA;override this.GotFocus : unit -&gt; unit" Usage="oCXEvents_SinkHelper.GotFocus " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.OCXEvents.GotFocus</InterfaceMember>
@@ -58,6 +60,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.LostFocus" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub LostFocus ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void LostFocus();" />
+      <MemberSignature Language="F#" Value="abstract member LostFocus : unit -&gt; unit&#xA;override this.LostFocus : unit -&gt; unit" Usage="oCXEvents_SinkHelper.LostFocus " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.OCXEvents.LostFocus</InterfaceMember>
@@ -81,6 +84,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.m_dwCookie" />
       <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
       <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.m_dwCookie" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -100,6 +104,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.m_GotFocusDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_GotFocusDelegate As OCXEvents_GotFocusEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::OCXEvents_GotFocusEventHandler ^ m_GotFocusDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_GotFocusDelegate : Microsoft.Office.Interop.Word.OCXEvents_GotFocusEventHandler" Usage="Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.m_GotFocusDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -119,6 +124,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.m_LostFocusDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_LostFocusDelegate As OCXEvents_LostFocusEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::OCXEvents_LostFocusEventHandler ^ m_LostFocusDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_LostFocusDelegate : Microsoft.Office.Interop.Word.OCXEvents_LostFocusEventHandler" Usage="Microsoft.Office.Interop.Word.OCXEvents_SinkHelper.m_LostFocusDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

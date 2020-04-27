@@ -1,9 +1,10 @@
-﻿<Type Name="Interior" FullName="Microsoft.Office.Interop.Word.Interior">
+<Type Name="Interior" FullName="Microsoft.Office.Interop.Word.Interior">
   <TypeSignature Language="C#" Value="public interface Interior" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Interior" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Interior" />
   <TypeSignature Language="VB.NET" Value="Public Interface Interior" />
   <TypeSignature Language="C++ CLI" Value="public interface class Interior" />
+  <TypeSignature Language="F#" Value="type Interior = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.Interior.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Color" />
       <MemberSignature Language="VB.NET" Value="Public Property Color As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Color { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Color : obj with get, set" Usage="Microsoft.Office.Interop.Word.Interior.Color" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.ColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ColorIndex : obj with get, set" Usage="Microsoft.Office.Interop.Word.Interior.ColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -140,6 +144,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Interior.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -173,6 +178,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.InvertIfNegative" />
       <MemberSignature Language="VB.NET" Value="Public Property InvertIfNegative As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ InvertIfNegative { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.InvertIfNegative : obj with get, set" Usage="Microsoft.Office.Interop.Word.Interior.InvertIfNegative" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -204,6 +210,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Interior.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -234,6 +241,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.Pattern" />
       <MemberSignature Language="VB.NET" Value="Public Property Pattern As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Pattern { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Pattern : obj with get, set" Usage="Microsoft.Office.Interop.Word.Interior.Pattern" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -267,6 +275,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.PatternColor" />
       <MemberSignature Language="VB.NET" Value="Public Property PatternColor As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternColor { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PatternColor : obj with get, set" Usage="Microsoft.Office.Interop.Word.Interior.PatternColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -300,6 +309,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Interior.PatternColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property PatternColorIndex As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PatternColorIndex : obj with get, set" Usage="Microsoft.Office.Interop.Word.Interior.PatternColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

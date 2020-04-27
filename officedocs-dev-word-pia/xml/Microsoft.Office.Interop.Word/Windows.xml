@@ -1,9 +1,10 @@
-﻿<Type Name="Windows" FullName="Microsoft.Office.Interop.Word.Windows">
+<Type Name="Windows" FullName="Microsoft.Office.Interop.Word.Windows">
   <TypeSignature Language="C#" Value="public interface Windows : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Windows implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Windows" />
   <TypeSignature Language="VB.NET" Value="Public Interface Windows&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class Windows : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type Windows = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -38,6 +39,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Window Add (ref object Window);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Window Add([in]object&amp; Window) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Windows.Add(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional ByRef Window As Object) As Window" />
+      <MemberSignature Language="F#" Value="abstract member Add : obj -&gt; Microsoft.Office.Interop.Word.Window" Usage="windows.Add Window" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -52,7 +55,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.Window</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Window" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Window" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Window">Optional <b>Object</b>. The <b>Window</b> object you want to open another window for. If this argument is omitted, a new window is opened for the active document.</param>
@@ -70,6 +73,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Windows.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Windows.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -97,6 +101,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Arrange([in]object&amp; ArrangeStyle) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Windows.Arrange(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Arrange (Optional ByRef ArrangeStyle As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Arrange : obj -&gt; unit" Usage="windows.Arrange ArrangeStyle" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -111,7 +116,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ArrangeStyle" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ArrangeStyle" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ArrangeStyle">Optional <b>Object</b>. The window arrangement. Can be either of the following <see cref="T:Microsoft.Office.Interop.Word.WdArrangeStyle" /> constants: <b>wdIcons</b> or <b>wdTiled</b>.</param>
@@ -125,6 +130,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Windows.BreakSideBySide" />
       <MemberSignature Language="VB.NET" Value="Public Function BreakSideBySide () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool BreakSideBySide();" />
+      <MemberSignature Language="F#" Value="abstract member BreakSideBySide : unit -&gt; bool" Usage="windows.BreakSideBySide " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -151,6 +157,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Windows.CompareSideBySideWith(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CompareSideBySideWith (ByRef Document As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CompareSideBySideWith(System::Object ^ % Document);" />
+      <MemberSignature Language="F#" Value="abstract member CompareSideBySideWith : obj -&gt; bool" Usage="windows.CompareSideBySideWith Document" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -165,7 +172,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Document" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Document" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Document">Required <b>Object</b>. The document to view in side-by-side windows.</param>
@@ -183,6 +190,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Windows.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.Windows.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -211,6 +219,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Windows.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Windows.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -243,6 +252,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Windows.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="windows.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -275,6 +285,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Windows.Item(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(ByRef Index As Object) As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Window ^ default[System::Object ^ %] { Microsoft::Office::Interop::Word::Window ^ get(System::Object ^ % Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(obj) : Microsoft.Office.Interop.Word.Window" Usage="Microsoft.Office.Interop.Word.Windows.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -292,7 +303,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.Window</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Index" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Index" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Index">An <b>Object</b> indicating the ordinal position or a string representing the name of the individual object.</param>
@@ -307,6 +318,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Windows.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Windows.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -335,6 +347,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Windows.ResetPositionsSideBySide" />
       <MemberSignature Language="VB.NET" Value="Public Sub ResetPositionsSideBySide ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetPositionsSideBySide();" />
+      <MemberSignature Language="F#" Value="abstract member ResetPositionsSideBySide : unit -&gt; unit" Usage="windows.ResetPositionsSideBySide " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -364,6 +377,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Windows.SyncScrollingSideBySide" />
       <MemberSignature Language="VB.NET" Value="Public Property SyncScrollingSideBySide As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SyncScrollingSideBySide { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SyncScrollingSideBySide : bool with get, set" Usage="Microsoft.Office.Interop.Word.Windows.SyncScrollingSideBySide" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

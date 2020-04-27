@@ -1,9 +1,10 @@
-﻿<Type Name="OCXEvents" FullName="Microsoft.Office.Interop.Word.OCXEvents">
+<Type Name="OCXEvents" FullName="Microsoft.Office.Interop.Word.OCXEvents">
   <TypeSignature Language="C#" Value="public interface OCXEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OCXEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OCXEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface OCXEvents" />
   <TypeSignature Language="C++ CLI" Value="public interface class OCXEvents" />
+  <TypeSignature Language="F#" Value="type OCXEvents = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents.GotFocus" />
       <MemberSignature Language="VB.NET" Value="Public Sub GotFocus ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GotFocus();" />
+      <MemberSignature Language="F#" Value="abstract member GotFocus : unit -&gt; unit" Usage="oCXEvents.GotFocus " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OCXEvents.LostFocus" />
       <MemberSignature Language="VB.NET" Value="Public Sub LostFocus ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void LostFocus();" />
+      <MemberSignature Language="F#" Value="abstract member LostFocus : unit -&gt; unit" Usage="oCXEvents.LostFocus " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="GlowFormat" FullName="Microsoft.Office.Interop.Word.GlowFormat">
+<Type Name="GlowFormat" FullName="Microsoft.Office.Interop.Word.GlowFormat">
   <TypeSignature Language="C#" Value="public interface GlowFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract GlowFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.GlowFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface GlowFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class GlowFormat" />
+  <TypeSignature Language="F#" Value="type GlowFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlowFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.GlowFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlowFormat.Color" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Color As ColorFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ColorFormat ^ Color { Microsoft::Office::Interop::Word::ColorFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Color : Microsoft.Office.Interop.Word.ColorFormat" Usage="Microsoft.Office.Interop.Word.GlowFormat.Color" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -89,6 +92,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlowFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.GlowFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -120,6 +124,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlowFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.GlowFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -148,6 +153,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlowFormat.Radius" />
       <MemberSignature Language="VB.NET" Value="Public Property Radius As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Radius { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Radius : single with get, set" Usage="Microsoft.Office.Interop.Word.GlowFormat.Radius" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -181,6 +187,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlowFormat.Transparency" />
       <MemberSignature Language="VB.NET" Value="Public Property Transparency As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Transparency { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Transparency : single with get, set" Usage="Microsoft.Office.Interop.Word.GlowFormat.Transparency" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

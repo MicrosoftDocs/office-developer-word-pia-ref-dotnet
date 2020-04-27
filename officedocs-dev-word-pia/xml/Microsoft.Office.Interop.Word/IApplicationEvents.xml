@@ -1,9 +1,10 @@
-﻿<Type Name="IApplicationEvents" FullName="Microsoft.Office.Interop.Word.IApplicationEvents">
+<Type Name="IApplicationEvents" FullName="Microsoft.Office.Interop.Word.IApplicationEvents">
   <TypeSignature Language="C#" Value="public interface IApplicationEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IApplicationEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.IApplicationEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface IApplicationEvents" />
   <TypeSignature Language="C++ CLI" Value="public interface class IApplicationEvents" />
+  <TypeSignature Language="F#" Value="type IApplicationEvents = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.IApplicationEvents.DocumentChange" />
       <MemberSignature Language="VB.NET" Value="Public Sub DocumentChange ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentChange();" />
+      <MemberSignature Language="F#" Value="abstract member DocumentChange : unit -&gt; unit" Usage="iApplicationEvents.DocumentChange " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.IApplicationEvents.Quit" />
       <MemberSignature Language="VB.NET" Value="Public Sub Quit ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Quit();" />
+      <MemberSignature Language="F#" Value="abstract member Quit : unit -&gt; unit" Usage="iApplicationEvents.Quit " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -78,6 +81,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.IApplicationEvents.Startup" />
       <MemberSignature Language="VB.NET" Value="Public Sub Startup ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Startup();" />
+      <MemberSignature Language="F#" Value="abstract member Startup : unit -&gt; unit" Usage="iApplicationEvents.Startup " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

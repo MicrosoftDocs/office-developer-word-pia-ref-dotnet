@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word._ParagraphFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ParagraphFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class _ParagraphFormat" />
+  <TypeSignature Language="F#" Value="type _ParagraphFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.AddSpaceBetweenFarEastAndAlpha" />
       <MemberSignature Language="VB.NET" Value="Public Property AddSpaceBetweenFarEastAndAlpha As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AddSpaceBetweenFarEastAndAlpha { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.AddSpaceBetweenFarEastAndAlpha : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.AddSpaceBetweenFarEastAndAlpha" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.AddSpaceBetweenFarEastAndDigit" />
       <MemberSignature Language="VB.NET" Value="Public Property AddSpaceBetweenFarEastAndDigit As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AddSpaceBetweenFarEastAndDigit { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.AddSpaceBetweenFarEastAndDigit : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.AddSpaceBetweenFarEastAndDigit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -98,6 +101,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Alignment" />
       <MemberSignature Language="VB.NET" Value="Public Property Alignment As WdParagraphAlignment" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdParagraphAlignment Alignment { Microsoft::Office::Interop::Word::WdParagraphAlignment get(); void set(Microsoft::Office::Interop::Word::WdParagraphAlignment value); };" />
+      <MemberSignature Language="F#" Value="member this.Alignment : Microsoft.Office.Interop.Word.WdParagraphAlignment with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Alignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -132,6 +136,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -160,6 +165,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.AutoAdjustRightIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoAdjustRightIndent As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoAdjustRightIndent { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.AutoAdjustRightIndent : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.AutoAdjustRightIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -195,6 +201,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.BaseLineAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseLineAlignment As WdBaselineAlignment" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdBaselineAlignment BaseLineAlignment { Microsoft::Office::Interop::Word::WdBaselineAlignment get(); void set(Microsoft::Office::Interop::Word::WdBaselineAlignment value); };" />
+      <MemberSignature Language="F#" Value="member this.BaseLineAlignment : Microsoft.Office.Interop.Word.WdBaselineAlignment with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.BaseLineAlignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -226,6 +233,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Borders" />
       <MemberSignature Language="VB.NET" Value="Public Property Borders As Borders" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Borders ^ Borders { Microsoft::Office::Interop::Word::Borders ^ get(); void set(Microsoft::Office::Interop::Word::Borders ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Borders : Microsoft.Office.Interop.Word.Borders with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Borders" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -257,6 +265,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.CharacterUnitFirstLineIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property CharacterUnitFirstLineIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CharacterUnitFirstLineIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.CharacterUnitFirstLineIndent : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.CharacterUnitFirstLineIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -288,6 +297,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.CharacterUnitLeftIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property CharacterUnitLeftIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CharacterUnitLeftIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.CharacterUnitLeftIndent : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.CharacterUnitLeftIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -319,6 +329,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.CharacterUnitRightIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property CharacterUnitRightIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CharacterUnitRightIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.CharacterUnitRightIndent : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.CharacterUnitRightIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -350,6 +361,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.CloseUp" />
       <MemberSignature Language="VB.NET" Value="Public Sub CloseUp ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CloseUp();" />
+      <MemberSignature Language="F#" Value="abstract member CloseUp : unit -&gt; unit" Usage="_ParagraphFormat.CloseUp " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -375,6 +387,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.CollapsedByDefault" />
       <MemberSignature Language="VB.NET" Value="Public Property CollapsedByDefault As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CollapsedByDefault { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.CollapsedByDefault : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.CollapsedByDefault" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -406,6 +419,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -438,6 +452,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.DisableLineHeightGrid" />
       <MemberSignature Language="VB.NET" Value="Public Property DisableLineHeightGrid As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DisableLineHeightGrid { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.DisableLineHeightGrid : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.DisableLineHeightGrid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -473,6 +488,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Duplicate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duplicate As ParagraphFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ParagraphFormat ^ Duplicate { Microsoft::Office::Interop::Word::ParagraphFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Duplicate : Microsoft.Office.Interop.Word.ParagraphFormat" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Duplicate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -504,6 +520,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.FarEastLineBreakControl" />
       <MemberSignature Language="VB.NET" Value="Public Property FarEastLineBreakControl As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FarEastLineBreakControl { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.FarEastLineBreakControl : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.FarEastLineBreakControl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -539,6 +556,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.FirstLineIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property FirstLineIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FirstLineIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.FirstLineIndent : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.FirstLineIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -570,6 +588,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.HalfWidthPunctuationOnTopOfLine" />
       <MemberSignature Language="VB.NET" Value="Public Property HalfWidthPunctuationOnTopOfLine As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HalfWidthPunctuationOnTopOfLine { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.HalfWidthPunctuationOnTopOfLine : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.HalfWidthPunctuationOnTopOfLine" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -605,6 +624,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.HangingPunctuation" />
       <MemberSignature Language="VB.NET" Value="Public Property HangingPunctuation As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HangingPunctuation { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.HangingPunctuation : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.HangingPunctuation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -640,6 +660,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Hyphenation" />
       <MemberSignature Language="VB.NET" Value="Public Property Hyphenation As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Hyphenation { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Hyphenation : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Hyphenation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -672,6 +693,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.IndentCharWidth(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Sub IndentCharWidth (Count As Short)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void IndentCharWidth(short Count);" />
+      <MemberSignature Language="F#" Value="abstract member IndentCharWidth : int16 -&gt; unit" Usage="_ParagraphFormat.IndentCharWidth Count" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -703,6 +725,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.IndentFirstLineCharWidth(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Sub IndentFirstLineCharWidth (Count As Short)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void IndentFirstLineCharWidth(short Count);" />
+      <MemberSignature Language="F#" Value="abstract member IndentFirstLineCharWidth : int16 -&gt; unit" Usage="_ParagraphFormat.IndentFirstLineCharWidth Count" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -731,6 +754,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.KeepTogether" />
       <MemberSignature Language="VB.NET" Value="Public Property KeepTogether As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int KeepTogether { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.KeepTogether : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.KeepTogether" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -763,6 +787,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.KeepWithNext" />
       <MemberSignature Language="VB.NET" Value="Public Property KeepWithNext As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int KeepWithNext { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.KeepWithNext : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.KeepWithNext" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -795,6 +820,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.LeftIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property LeftIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LeftIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.LeftIndent : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.LeftIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -826,6 +852,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.LineSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property LineSpacing As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LineSpacing { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.LineSpacing : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.LineSpacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -868,6 +895,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.LineSpacingRule" />
       <MemberSignature Language="VB.NET" Value="Public Property LineSpacingRule As WdLineSpacing" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLineSpacing LineSpacingRule { Microsoft::Office::Interop::Word::WdLineSpacing get(); void set(Microsoft::Office::Interop::Word::WdLineSpacing value); };" />
+      <MemberSignature Language="F#" Value="member this.LineSpacingRule : Microsoft.Office.Interop.Word.WdLineSpacing with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.LineSpacingRule" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -904,6 +932,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.LineUnitAfter" />
       <MemberSignature Language="VB.NET" Value="Public Property LineUnitAfter As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LineUnitAfter { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.LineUnitAfter : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.LineUnitAfter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -935,6 +964,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.LineUnitBefore" />
       <MemberSignature Language="VB.NET" Value="Public Property LineUnitBefore As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LineUnitBefore { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.LineUnitBefore : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.LineUnitBefore" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -966,6 +996,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.MirrorIndents" />
       <MemberSignature Language="VB.NET" Value="Public Property MirrorIndents As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MirrorIndents { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MirrorIndents : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.MirrorIndents" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -999,6 +1030,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.NoLineNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property NoLineNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NoLineNumber { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.NoLineNumber : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.NoLineNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1034,6 +1066,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.OpenOrCloseUp" />
       <MemberSignature Language="VB.NET" Value="Public Sub OpenOrCloseUp ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void OpenOrCloseUp();" />
+      <MemberSignature Language="F#" Value="abstract member OpenOrCloseUp : unit -&gt; unit" Usage="_ParagraphFormat.OpenOrCloseUp " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1059,6 +1092,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.OpenUp" />
       <MemberSignature Language="VB.NET" Value="Public Sub OpenUp ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void OpenUp();" />
+      <MemberSignature Language="F#" Value="abstract member OpenUp : unit -&gt; unit" Usage="_ParagraphFormat.OpenUp " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1084,6 +1118,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.OutlineLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property OutlineLevel As WdOutlineLevel" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdOutlineLevel OutlineLevel { Microsoft::Office::Interop::Word::WdOutlineLevel get(); void set(Microsoft::Office::Interop::Word::WdOutlineLevel value); };" />
+      <MemberSignature Language="F#" Value="member this.OutlineLevel : Microsoft.Office.Interop.Word.WdOutlineLevel with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.OutlineLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1119,6 +1154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.PageBreakBefore" />
       <MemberSignature Language="VB.NET" Value="Public Property PageBreakBefore As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageBreakBefore { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.PageBreakBefore : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.PageBreakBefore" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1151,6 +1187,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1179,6 +1216,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.ReadingOrder" />
       <MemberSignature Language="VB.NET" Value="Public Property ReadingOrder As WdReadingOrder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdReadingOrder ReadingOrder { Microsoft::Office::Interop::Word::WdReadingOrder get(); void set(Microsoft::Office::Interop::Word::WdReadingOrder value); };" />
+      <MemberSignature Language="F#" Value="member this.ReadingOrder : Microsoft.Office.Interop.Word.WdReadingOrder with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.ReadingOrder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1213,6 +1251,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.Reset" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberSignature Language="F#" Value="abstract member Reset : unit -&gt; unit" Usage="_ParagraphFormat.Reset " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1238,6 +1277,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.RightIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property RightIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RightIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.RightIndent : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.RightIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1269,6 +1309,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Shading" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shading As Shading" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shading ^ Shading { Microsoft::Office::Interop::Word::Shading ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Shading : Microsoft.Office.Interop.Word.Shading" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Shading" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1297,6 +1338,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.Space1" />
       <MemberSignature Language="VB.NET" Value="Public Sub Space1 ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Space1();" />
+      <MemberSignature Language="F#" Value="abstract member Space1 : unit -&gt; unit" Usage="_ParagraphFormat.Space1 " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1322,6 +1364,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.Space15" />
       <MemberSignature Language="VB.NET" Value="Public Sub Space15 ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Space15();" />
+      <MemberSignature Language="F#" Value="abstract member Space15 : unit -&gt; unit" Usage="_ParagraphFormat.Space15 " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1347,6 +1390,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.Space2" />
       <MemberSignature Language="VB.NET" Value="Public Sub Space2 ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Space2();" />
+      <MemberSignature Language="F#" Value="abstract member Space2 : unit -&gt; unit" Usage="_ParagraphFormat.Space2 " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1372,6 +1416,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.SpaceAfter" />
       <MemberSignature Language="VB.NET" Value="Public Property SpaceAfter As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float SpaceAfter { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.SpaceAfter : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.SpaceAfter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1403,6 +1448,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.SpaceAfterAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property SpaceAfterAuto As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SpaceAfterAuto { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.SpaceAfterAuto : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.SpaceAfterAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1440,6 +1486,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.SpaceBefore" />
       <MemberSignature Language="VB.NET" Value="Public Property SpaceBefore As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float SpaceBefore { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.SpaceBefore : single with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.SpaceBefore" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1471,6 +1518,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.SpaceBeforeAuto" />
       <MemberSignature Language="VB.NET" Value="Public Property SpaceBeforeAuto As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SpaceBeforeAuto { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.SpaceBeforeAuto : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.SpaceBeforeAuto" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1508,6 +1556,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.Style" />
       <MemberSignature Language="VB.NET" Value="Public Property Style As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Style { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Style : obj with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.Style" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1542,6 +1591,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.TabHangingIndent(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Sub TabHangingIndent (Count As Short)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void TabHangingIndent(short Count);" />
+      <MemberSignature Language="F#" Value="abstract member TabHangingIndent : int16 -&gt; unit" Usage="_ParagraphFormat.TabHangingIndent Count" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1573,6 +1623,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._ParagraphFormat.TabIndent(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Sub TabIndent (Count As Short)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void TabIndent(short Count);" />
+      <MemberSignature Language="F#" Value="abstract member TabIndent : int16 -&gt; unit" Usage="_ParagraphFormat.TabIndent Count" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1604,6 +1655,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.TabStops" />
       <MemberSignature Language="VB.NET" Value="Public Property TabStops As TabStops" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TabStops ^ TabStops { Microsoft::Office::Interop::Word::TabStops ^ get(); void set(Microsoft::Office::Interop::Word::TabStops ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TabStops : Microsoft.Office.Interop.Word.TabStops with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.TabStops" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1635,6 +1687,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.TextboxTightWrap" />
       <MemberSignature Language="VB.NET" Value="Public Property TextboxTightWrap As WdTextboxTightWrap" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTextboxTightWrap TextboxTightWrap { Microsoft::Office::Interop::Word::WdTextboxTightWrap get(); void set(Microsoft::Office::Interop::Word::WdTextboxTightWrap value); };" />
+      <MemberSignature Language="F#" Value="member this.TextboxTightWrap : Microsoft.Office.Interop.Word.WdTextboxTightWrap with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.TextboxTightWrap" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1668,6 +1721,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.WidowControl" />
       <MemberSignature Language="VB.NET" Value="Public Property WidowControl As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WidowControl { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.WidowControl : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.WidowControl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1700,6 +1754,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._ParagraphFormat.WordWrap" />
       <MemberSignature Language="VB.NET" Value="Public Property WordWrap As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WordWrap { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.WordWrap : int with get, set" Usage="Microsoft.Office.Interop.Word._ParagraphFormat.WordWrap" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

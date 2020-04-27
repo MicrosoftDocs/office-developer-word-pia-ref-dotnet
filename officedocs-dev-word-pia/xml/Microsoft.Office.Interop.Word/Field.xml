@@ -1,9 +1,10 @@
-﻿<Type Name="Field" FullName="Microsoft.Office.Interop.Word.Field">
+<Type Name="Field" FullName="Microsoft.Office.Interop.Word.Field">
   <TypeSignature Language="C#" Value="public interface Field" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Field" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Field" />
   <TypeSignature Language="VB.NET" Value="Public Interface Field" />
   <TypeSignature Language="C++ CLI" Value="public interface class Field" />
+  <TypeSignature Language="F#" Value="type Field = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Field.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Code" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Code As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ default { Microsoft::Office::Interop::Word::Range ^ get(); void set(Microsoft::Office::Interop::Word::Range ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Code : Microsoft.Office.Interop.Word.Range with get, set" Usage="Microsoft.Office.Interop.Word.Field.Code" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -94,6 +97,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; unit" Usage="field.Copy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -119,6 +123,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Field.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -151,6 +156,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.Cut" />
       <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberSignature Language="F#" Value="abstract member Cut : unit -&gt; unit" Usage="field.Cut " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -176,6 +182,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Data" />
       <MemberSignature Language="VB.NET" Value="Public Property Data As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Data { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Data : string with get, set" Usage="Microsoft.Office.Interop.Word.Field.Data" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -210,6 +217,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="field.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -235,6 +243,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.DoClick" />
       <MemberSignature Language="VB.NET" Value="Public Sub DoClick ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DoClick();" />
+      <MemberSignature Language="F#" Value="abstract member DoClick : unit -&gt; unit" Usage="field.DoClick " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -263,6 +272,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Office.Interop.Word.Field.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -291,6 +301,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.InlineShape" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InlineShape As InlineShape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::InlineShape ^ InlineShape { Microsoft::Office::Interop::Word::InlineShape ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.InlineShape : Microsoft.Office.Interop.Word.InlineShape" Usage="Microsoft.Office.Interop.Word.Field.InlineShape" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -322,6 +333,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Kind" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Kind As WdFieldKind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFieldKind Kind { Microsoft::Office::Interop::Word::WdFieldKind get(); };" />
+      <MemberSignature Language="F#" Value="member this.Kind : Microsoft.Office.Interop.Word.WdFieldKind" Usage="Microsoft.Office.Interop.Word.Field.Kind" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -361,6 +373,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.LinkFormat" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LinkFormat As LinkFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::LinkFormat ^ LinkFormat { Microsoft::Office::Interop::Word::LinkFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LinkFormat : Microsoft.Office.Interop.Word.LinkFormat" Usage="Microsoft.Office.Interop.Word.Field.LinkFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -389,6 +402,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Locked" />
       <MemberSignature Language="VB.NET" Value="Public Property Locked As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Locked { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Locked : bool with get, set" Usage="Microsoft.Office.Interop.Word.Field.Locked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -423,6 +437,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Next" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As Field" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Field ^ Next { Microsoft::Office::Interop::Word::Field ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Next : Microsoft.Office.Interop.Word.Field" Usage="Microsoft.Office.Interop.Word.Field.Next" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -451,6 +466,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.OLEFormat" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OLEFormat As OLEFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OLEFormat ^ OLEFormat { Microsoft::Office::Interop::Word::OLEFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OLEFormat : Microsoft.Office.Interop.Word.OLEFormat" Usage="Microsoft.Office.Interop.Word.Field.OLEFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -479,6 +495,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Field.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -507,6 +524,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Previous" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As Field" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Field ^ Previous { Microsoft::Office::Interop::Word::Field ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Previous : Microsoft.Office.Interop.Word.Field" Usage="Microsoft.Office.Interop.Word.Field.Previous" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -535,6 +553,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Result" />
       <MemberSignature Language="VB.NET" Value="Public Property Result As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Result { Microsoft::Office::Interop::Word::Range ^ get(); void set(Microsoft::Office::Interop::Word::Range ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Result : Microsoft.Office.Interop.Word.Range with get, set" Usage="Microsoft.Office.Interop.Word.Field.Result" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -569,6 +588,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.Select" />
       <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit" Usage="field.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -597,6 +617,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.ShowCodes" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowCodes As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowCodes { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowCodes : bool with get, set" Usage="Microsoft.Office.Interop.Word.Field.ShowCodes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -631,6 +652,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Field.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdFieldType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFieldType Type { Microsoft::Office::Interop::Word::WdFieldType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdFieldType" Usage="Microsoft.Office.Interop.Word.Field.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -662,6 +684,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.Unlink" />
       <MemberSignature Language="VB.NET" Value="Public Sub Unlink ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unlink();" />
+      <MemberSignature Language="F#" Value="abstract member Unlink : unit -&gt; unit" Usage="field.Unlink " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -690,6 +713,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.Update" />
       <MemberSignature Language="VB.NET" Value="Public Function Update () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Update();" />
+      <MemberSignature Language="F#" Value="abstract member Update : unit -&gt; bool" Usage="field.Update " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -716,6 +740,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Field.UpdateSource" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdateSource ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void UpdateSource();" />
+      <MemberSignature Language="F#" Value="abstract member UpdateSource : unit -&gt; unit" Usage="field.UpdateSource " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

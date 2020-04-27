@@ -1,9 +1,10 @@
-﻿<Type Name="LetterContentClass" FullName="Microsoft.Office.Interop.Word.LetterContentClass">
+<Type Name="LetterContentClass" FullName="Microsoft.Office.Interop.Word.LetterContentClass">
   <TypeSignature Language="C#" Value="public class LetterContentClass : Microsoft.Office.Interop.Word.LetterContent" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi LetterContentClass extends System.Object implements class Microsoft.Office.Interop.Word._LetterContent, class Microsoft.Office.Interop.Word.LetterContent" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.LetterContentClass" />
   <TypeSignature Language="VB.NET" Value="Public Class LetterContentClass&#xA;Implements LetterContent" />
   <TypeSignature Language="C++ CLI" Value="public ref class LetterContentClass : Microsoft::Office::Interop::Word::LetterContent" />
+  <TypeSignature Language="F#" Value="type LetterContentClass = class&#xA;    interface _LetterContent&#xA;    interface LetterContent" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -12,6 +13,9 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word._LetterContent</InterfaceName>
+    </Interface>
     <Interface>
       <InterfaceName>Microsoft.Office.Interop.Word.LetterContent</InterfaceName>
     </Interface>
@@ -55,6 +59,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Application" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Application</InterfaceMember>
@@ -86,6 +91,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.AttentionLine" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property AttentionLine As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ AttentionLine { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.AttentionLine : string with get, set" Usage="AttentionLine" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.AttentionLine</InterfaceMember>
@@ -120,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.CCList" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property CCList As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ CCList { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CCList : string with get, set" Usage="CCList" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.CCList</InterfaceMember>
@@ -154,6 +161,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Closing" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Closing As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Closing { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Closing : string with get, set" Usage="Closing" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Closing</InterfaceMember>
@@ -188,6 +196,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Creator" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Creator</InterfaceMember>
@@ -219,6 +228,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.DateFormat" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DateFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ DateFormat { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DateFormat : string with get, set" Usage="DateFormat" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.DateFormat</InterfaceMember>
@@ -253,6 +263,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Duplicate" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Duplicate As LetterContent" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::LetterContent ^ Duplicate { Microsoft::Office::Interop::Word::LetterContent ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Duplicate : Microsoft.Office.Interop.Word.LetterContent" Usage="Duplicate" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Duplicate</InterfaceMember>
@@ -284,6 +295,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.EnclosureNumber" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property EnclosureNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int EnclosureNumber { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.EnclosureNumber : int with get, set" Usage="EnclosureNumber" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.EnclosureNumber</InterfaceMember>
@@ -318,6 +330,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.IncludeHeaderFooter" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property IncludeHeaderFooter As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IncludeHeaderFooter { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IncludeHeaderFooter : bool with get, set" Usage="IncludeHeaderFooter" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.IncludeHeaderFooter</InterfaceMember>
@@ -352,6 +365,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.InfoBlock" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property InfoBlock As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool InfoBlock { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.InfoBlock : bool with get, set" Usage="InfoBlock" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.InfoBlock</InterfaceMember>
@@ -386,6 +400,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Letterhead" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Letterhead As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Letterhead { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Letterhead : bool with get, set" Usage="Letterhead" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Letterhead</InterfaceMember>
@@ -420,6 +435,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.LetterheadLocation" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property LetterheadLocation As WdLetterheadLocation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::WdLetterheadLocation LetterheadLocation { Microsoft::Office::Interop::Word::WdLetterheadLocation get(); void set(Microsoft::Office::Interop::Word::WdLetterheadLocation value); };" />
+      <MemberSignature Language="F#" Value="member this.LetterheadLocation : Microsoft.Office.Interop.Word.WdLetterheadLocation with get, set" Usage="LetterheadLocation" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.LetterheadLocation</InterfaceMember>
@@ -454,6 +470,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.LetterheadSize" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property LetterheadSize As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float LetterheadSize { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.LetterheadSize : single with get, set" Usage="LetterheadSize" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.LetterheadSize</InterfaceMember>
@@ -488,6 +505,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.LetterStyle" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property LetterStyle As WdLetterStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::WdLetterStyle LetterStyle { Microsoft::Office::Interop::Word::WdLetterStyle get(); void set(Microsoft::Office::Interop::Word::WdLetterStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.LetterStyle : Microsoft.Office.Interop.Word.WdLetterStyle with get, set" Usage="LetterStyle" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.LetterStyle</InterfaceMember>
@@ -522,6 +540,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.MailingInstructions" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property MailingInstructions As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ MailingInstructions { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.MailingInstructions : string with get, set" Usage="MailingInstructions" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.MailingInstructions</InterfaceMember>
@@ -556,6 +575,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.PageDesign" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property PageDesign As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ PageDesign { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PageDesign : string with get, set" Usage="PageDesign" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.PageDesign</InterfaceMember>
@@ -590,6 +610,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Parent" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Parent" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Parent</InterfaceMember>
@@ -621,6 +642,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.RecipientAddress" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property RecipientAddress As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ RecipientAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RecipientAddress : string with get, set" Usage="RecipientAddress" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.RecipientAddress</InterfaceMember>
@@ -655,6 +677,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.RecipientCode" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property RecipientCode As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ RecipientCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RecipientCode : string with get, set" Usage="RecipientCode" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.RecipientCode</InterfaceMember>
@@ -689,6 +712,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.RecipientGender" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property RecipientGender As WdSalutationGender" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::WdSalutationGender RecipientGender { Microsoft::Office::Interop::Word::WdSalutationGender get(); void set(Microsoft::Office::Interop::Word::WdSalutationGender value); };" />
+      <MemberSignature Language="F#" Value="member this.RecipientGender : Microsoft.Office.Interop.Word.WdSalutationGender with get, set" Usage="RecipientGender" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.RecipientGender</InterfaceMember>
@@ -723,6 +747,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.RecipientName" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property RecipientName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ RecipientName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RecipientName : string with get, set" Usage="RecipientName" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.RecipientName</InterfaceMember>
@@ -757,6 +782,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.RecipientReference" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property RecipientReference As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ RecipientReference { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RecipientReference : string with get, set" Usage="RecipientReference" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.RecipientReference</InterfaceMember>
@@ -791,6 +817,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.ReturnAddress" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property ReturnAddress As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ ReturnAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ReturnAddress : string with get, set" Usage="ReturnAddress" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.ReturnAddress</InterfaceMember>
@@ -825,6 +852,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.ReturnAddressShortForm" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property ReturnAddressShortForm As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ ReturnAddressShortForm { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ReturnAddressShortForm : string with get, set" Usage="ReturnAddressShortForm" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.ReturnAddressShortForm</InterfaceMember>
@@ -859,6 +887,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Salutation" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Salutation As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Salutation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Salutation : string with get, set" Usage="Salutation" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Salutation</InterfaceMember>
@@ -893,6 +922,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SalutationType" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SalutationType As WdSalutationType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::WdSalutationType SalutationType { Microsoft::Office::Interop::Word::WdSalutationType get(); void set(Microsoft::Office::Interop::Word::WdSalutationType value); };" />
+      <MemberSignature Language="F#" Value="member this.SalutationType : Microsoft.Office.Interop.Word.WdSalutationType with get, set" Usage="SalutationType" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SalutationType</InterfaceMember>
@@ -927,6 +957,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderCity" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderCity As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SenderCity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderCity : string with get, set" Usage="SenderCity" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderCity</InterfaceMember>
@@ -961,6 +992,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderCode" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderCode As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SenderCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderCode : string with get, set" Usage="SenderCode" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderCode</InterfaceMember>
@@ -995,6 +1027,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderCompany" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderCompany As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SenderCompany { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderCompany : string with get, set" Usage="SenderCompany" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderCompany</InterfaceMember>
@@ -1029,6 +1062,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderGender" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderGender As WdSalutationGender" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::WdSalutationGender SenderGender { Microsoft::Office::Interop::Word::WdSalutationGender get(); void set(Microsoft::Office::Interop::Word::WdSalutationGender value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderGender : Microsoft.Office.Interop.Word.WdSalutationGender with get, set" Usage="SenderGender" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderGender</InterfaceMember>
@@ -1063,6 +1097,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderInitials" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderInitials As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SenderInitials { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderInitials : string with get, set" Usage="SenderInitials" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderInitials</InterfaceMember>
@@ -1097,6 +1132,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderJobTitle" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderJobTitle As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SenderJobTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderJobTitle : string with get, set" Usage="SenderJobTitle" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderJobTitle</InterfaceMember>
@@ -1131,6 +1167,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderName" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SenderName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderName : string with get, set" Usage="SenderName" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderName</InterfaceMember>
@@ -1165,6 +1202,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.SenderReference" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property SenderReference As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SenderReference { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SenderReference : string with get, set" Usage="SenderReference" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.SenderReference</InterfaceMember>
@@ -1199,6 +1237,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LetterContentClass.Subject" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Subject As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Subject : string with get, set" Usage="Subject" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._LetterContent.Subject</InterfaceMember>

@@ -1,9 +1,10 @@
-﻿<Type Name="ChartTitle" FullName="Microsoft.Office.Interop.Word.ChartTitle">
+<Type Name="ChartTitle" FullName="Microsoft.Office.Interop.Word.ChartTitle">
   <TypeSignature Language="C#" Value="public interface ChartTitle" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartTitle" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ChartTitle" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartTitle" />
   <TypeSignature Language="C++ CLI" Value="public interface class ChartTitle" />
+  <TypeSignature Language="F#" Value="type ChartTitle = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.ChartTitle.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.AutoScaleFont" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoScaleFont As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ AutoScaleFont { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.AutoScaleFont : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.AutoScaleFont" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -103,6 +106,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Border" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As ChartBorder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartBorder ^ Border { Microsoft::Office::Interop::Word::ChartBorder ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Border : Microsoft.Office.Interop.Word.ChartBorder" Usage="Microsoft.Office.Interop.Word.ChartTitle.Border" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -136,6 +140,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Caption" />
       <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Caption : string with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Caption" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -169,6 +174,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Characters(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Characters(Optional Start As Object, Optional Length As Object) As ChartCharacters" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartCharacters ^ Characters[System::Object ^, System::Object ^] { Microsoft::Office::Interop::Word::ChartCharacters ^ get(System::Object ^ Start, System::Object ^ Length); };" />
+      <MemberSignature Language="F#" Value="member this.Characters(obj * obj) : Microsoft.Office.Interop.Word.ChartCharacters" Usage="Microsoft.Office.Interop.Word.ChartTitle.Characters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -207,6 +213,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.ChartTitle.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -240,6 +247,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartTitle.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; obj" Usage="chartTitle.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -268,6 +276,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Fill" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As ChartFillFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFillFormat ^ Fill { Microsoft::Office::Interop::Word::ChartFillFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Fill : Microsoft.Office.Interop.Word.ChartFillFormat" Usage="Microsoft.Office.Interop.Word.ChartTitle.Fill" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -301,6 +310,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Font" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As ChartFont" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFont ^ Font { Microsoft::Office::Interop::Word::ChartFont ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Office.Interop.Word.ChartFont" Usage="Microsoft.Office.Interop.Word.ChartTitle.Font" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -334,6 +344,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Format" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As ChartFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFormat ^ Format { Microsoft::Office::Interop::Word::ChartFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Format : Microsoft.Office.Interop.Word.ChartFormat" Usage="Microsoft.Office.Interop.Word.ChartTitle.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -365,6 +376,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Formula" />
       <MemberSignature Language="VB.NET" Value="Public Property Formula As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Formula { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Formula : string with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Formula" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -399,6 +411,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.FormulaLocal" />
       <MemberSignature Language="VB.NET" Value="Public Property FormulaLocal As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaLocal { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FormulaLocal : string with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.FormulaLocal" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -435,6 +448,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.FormulaR1C1" />
       <MemberSignature Language="VB.NET" Value="Public Property FormulaR1C1 As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaR1C1 { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FormulaR1C1 : string with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.FormulaR1C1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -471,6 +485,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.FormulaR1C1Local" />
       <MemberSignature Language="VB.NET" Value="Public Property FormulaR1C1Local As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaR1C1Local { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FormulaR1C1Local : string with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.FormulaR1C1Local" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -507,6 +522,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Height : double" Usage="Microsoft.Office.Interop.Word.ChartTitle.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -538,6 +554,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.HorizontalAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalAlignment As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HorizontalAlignment { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.HorizontalAlignment : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.HorizontalAlignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -602,6 +619,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.IncludeInLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludeInLayout As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeInLayout { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IncludeInLayout : bool with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.IncludeInLayout" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -639,6 +657,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Interior" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interior As Interior" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Interior ^ Interior { Microsoft::Office::Interop::Word::Interior ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Interior : Microsoft.Office.Interop.Word.Interior" Usage="Microsoft.Office.Interop.Word.ChartTitle.Interior" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -672,6 +691,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.Left : double with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -705,6 +725,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word.ChartTitle.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -735,6 +756,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Orientation" />
       <MemberSignature Language="VB.NET" Value="Public Property Orientation As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Orientation { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Orientation : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Orientation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -771,6 +793,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.ChartTitle.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -801,6 +824,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Position" />
       <MemberSignature Language="VB.NET" Value="Public Property Position As XlChartElementPosition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlChartElementPosition Position { Microsoft::Office::Interop::Word::XlChartElementPosition get(); void set(Microsoft::Office::Interop::Word::XlChartElementPosition value); };" />
+      <MemberSignature Language="F#" Value="member this.Position : Microsoft.Office.Interop.Word.XlChartElementPosition with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Position" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -834,6 +858,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.ReadingOrder" />
       <MemberSignature Language="VB.NET" Value="Public Property ReadingOrder As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReadingOrder { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.ReadingOrder : int with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.ReadingOrder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -867,6 +892,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartTitle.Select" />
       <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; obj" Usage="chartTitle.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -895,6 +921,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Shadow" />
       <MemberSignature Language="VB.NET" Value="Public Property Shadow As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Shadow { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Shadow : bool with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Shadow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -928,6 +955,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -961,6 +989,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.Top : double with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -994,6 +1023,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.VerticalAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalAlignment As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ VerticalAlignment { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.VerticalAlignment : obj with get, set" Usage="Microsoft.Office.Interop.Word.ChartTitle.VerticalAlignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1057,6 +1087,7 @@ Read-only.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartTitle.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
+      <MemberSignature Language="F#" Value="member this.Width : double" Usage="Microsoft.Office.Interop.Word.ChartTitle.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

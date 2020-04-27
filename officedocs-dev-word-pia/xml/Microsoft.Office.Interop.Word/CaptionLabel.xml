@@ -1,9 +1,10 @@
-﻿<Type Name="CaptionLabel" FullName="Microsoft.Office.Interop.Word.CaptionLabel">
+<Type Name="CaptionLabel" FullName="Microsoft.Office.Interop.Word.CaptionLabel">
   <TypeSignature Language="C#" Value="public interface CaptionLabel" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CaptionLabel" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.CaptionLabel" />
   <TypeSignature Language="VB.NET" Value="Public Interface CaptionLabel" />
   <TypeSignature Language="C++ CLI" Value="public interface class CaptionLabel" />
+  <TypeSignature Language="F#" Value="type CaptionLabel = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -34,6 +35,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.CaptionLabel.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.BuiltIn" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuiltIn As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BuiltIn { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.BuiltIn : bool" Usage="Microsoft.Office.Interop.Word.CaptionLabel.BuiltIn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.ChapterStyleLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property ChapterStyleLevel As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ChapterStyleLevel { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.ChapterStyleLevel : int with get, set" Usage="Microsoft.Office.Interop.Word.CaptionLabel.ChapterStyleLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -128,6 +132,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.CaptionLabel.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -160,6 +165,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.CaptionLabel.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="captionLabel.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -185,6 +191,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.ID" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ID As WdCaptionLabelID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCaptionLabelID ID { Microsoft::Office::Interop::Word::WdCaptionLabelID get(); };" />
+      <MemberSignature Language="F#" Value="member this.ID : Microsoft.Office.Interop.Word.WdCaptionLabelID" Usage="Microsoft.Office.Interop.Word.CaptionLabel.ID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -213,6 +220,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.IncludeChapterNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludeChapterNumber As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeChapterNumber { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IncludeChapterNumber : bool with get, set" Usage="Microsoft.Office.Interop.Word.CaptionLabel.IncludeChapterNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -244,6 +252,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word.CaptionLabel.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -272,6 +281,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.NumberStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberStyle As WdCaptionNumberStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCaptionNumberStyle NumberStyle { Microsoft::Office::Interop::Word::WdCaptionNumberStyle get(); void set(Microsoft::Office::Interop::Word::WdCaptionNumberStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberStyle : Microsoft.Office.Interop.Word.WdCaptionNumberStyle with get, set" Usage="Microsoft.Office.Interop.Word.CaptionLabel.NumberStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -303,6 +313,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.CaptionLabel.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -331,6 +342,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Position" />
       <MemberSignature Language="VB.NET" Value="Public Property Position As WdCaptionPosition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCaptionPosition Position { Microsoft::Office::Interop::Word::WdCaptionPosition get(); void set(Microsoft::Office::Interop::Word::WdCaptionPosition value); };" />
+      <MemberSignature Language="F#" Value="member this.Position : Microsoft.Office.Interop.Word.WdCaptionPosition with get, set" Usage="Microsoft.Office.Interop.Word.CaptionLabel.Position" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -362,6 +374,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.CaptionLabel.Separator" />
       <MemberSignature Language="VB.NET" Value="Public Property Separator As WdSeparatorType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdSeparatorType Separator { Microsoft::Office::Interop::Word::WdSeparatorType get(); void set(Microsoft::Office::Interop::Word::WdSeparatorType value); };" />
+      <MemberSignature Language="F#" Value="member this.Separator : Microsoft.Office.Interop.Word.WdSeparatorType with get, set" Usage="Microsoft.Office.Interop.Word.CaptionLabel.Separator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

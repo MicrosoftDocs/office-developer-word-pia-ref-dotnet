@@ -1,9 +1,10 @@
-﻿<Type Name="TablesOfContents" FullName="Microsoft.Office.Interop.Word.TablesOfContents">
+<Type Name="TablesOfContents" FullName="Microsoft.Office.Interop.Word.TablesOfContents">
   <TypeSignature Language="C#" Value="public interface TablesOfContents : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TablesOfContents implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TablesOfContents" />
   <TypeSignature Language="VB.NET" Value="Public Interface TablesOfContents&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class TablesOfContents : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type TablesOfContents = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TableOfContents Add (Microsoft.Office.Interop.Word.Range Range, ref object UseHeadingStyles, ref object UpperHeadingLevel, ref object LowerHeadingLevel, ref object UseFields, ref object TableID, ref object RightAlignPageNumbers, ref object IncludePageNumbers, ref object AddedStyles, ref object UseHyperlinks, ref object HidePageNumbersInWeb, ref object UseOutlineLevels);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.TableOfContents Add([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; UseHeadingStyles, [in]object&amp; UpperHeadingLevel, [in]object&amp; LowerHeadingLevel, [in]object&amp; UseFields, [in]object&amp; TableID, [in]object&amp; RightAlignPageNumbers, [in]object&amp; IncludePageNumbers, [in]object&amp; AddedStyles, [in]object&amp; UseHyperlinks, [in]object&amp; HidePageNumbersInWeb, [in]object&amp; UseOutlineLevels) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfContents.Add(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Range As Range, Optional ByRef UseHeadingStyles As Object, Optional ByRef UpperHeadingLevel As Object, Optional ByRef LowerHeadingLevel As Object, Optional ByRef UseFields As Object, Optional ByRef TableID As Object, Optional ByRef RightAlignPageNumbers As Object, Optional ByRef IncludePageNumbers As Object, Optional ByRef AddedStyles As Object, Optional ByRef UseHyperlinks As Object, Optional ByRef HidePageNumbersInWeb As Object, Optional ByRef UseOutlineLevels As Object) As TableOfContents" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Office.Interop.Word.Range * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.TableOfContents" Usage="tablesOfContents.Add (Range, UseHeadingStyles, UpperHeadingLevel, LowerHeadingLevel, UseFields, TableID, RightAlignPageNumbers, IncludePageNumbers, AddedStyles, UseHyperlinks, HidePageNumbersInWeb, UseOutlineLevels)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -50,17 +53,17 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
-        <Parameter Name="UseHeadingStyles" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UpperHeadingLevel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LowerHeadingLevel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UseFields" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TableID" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="RightAlignPageNumbers" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IncludePageNumbers" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AddedStyles" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UseHyperlinks" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="HidePageNumbersInWeb" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UseOutlineLevels" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseHeadingStyles" Type="System.Object" RefType="ref" />
+        <Parameter Name="UpperHeadingLevel" Type="System.Object" RefType="ref" />
+        <Parameter Name="LowerHeadingLevel" Type="System.Object" RefType="ref" />
+        <Parameter Name="UseFields" Type="System.Object" RefType="ref" />
+        <Parameter Name="TableID" Type="System.Object" RefType="ref" />
+        <Parameter Name="RightAlignPageNumbers" Type="System.Object" RefType="ref" />
+        <Parameter Name="IncludePageNumbers" Type="System.Object" RefType="ref" />
+        <Parameter Name="AddedStyles" Type="System.Object" RefType="ref" />
+        <Parameter Name="UseHyperlinks" Type="System.Object" RefType="ref" />
+        <Parameter Name="HidePageNumbersInWeb" Type="System.Object" RefType="ref" />
+        <Parameter Name="UseOutlineLevels" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The range where you want the table of contents to appear. The table of contents replaces the range if the range isn't collapsed.</param>
@@ -84,6 +87,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TableOfContents Add2000 (Microsoft.Office.Interop.Word.Range Range, ref object UseHeadingStyles, ref object UpperHeadingLevel, ref object LowerHeadingLevel, ref object UseFields, ref object TableID, ref object RightAlignPageNumbers, ref object IncludePageNumbers, ref object AddedStyles, ref object UseHyperlinks, ref object HidePageNumbersInWeb);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.TableOfContents Add2000([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; UseHeadingStyles, [in]object&amp; UpperHeadingLevel, [in]object&amp; LowerHeadingLevel, [in]object&amp; UseFields, [in]object&amp; TableID, [in]object&amp; RightAlignPageNumbers, [in]object&amp; IncludePageNumbers, [in]object&amp; AddedStyles, [in]object&amp; UseHyperlinks, [in]object&amp; HidePageNumbersInWeb) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfContents.Add2000(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add2000 (Range As Range, Optional ByRef UseHeadingStyles As Object, Optional ByRef UpperHeadingLevel As Object, Optional ByRef LowerHeadingLevel As Object, Optional ByRef UseFields As Object, Optional ByRef TableID As Object, Optional ByRef RightAlignPageNumbers As Object, Optional ByRef IncludePageNumbers As Object, Optional ByRef AddedStyles As Object, Optional ByRef UseHyperlinks As Object, Optional ByRef HidePageNumbersInWeb As Object) As TableOfContents" />
+      <MemberSignature Language="F#" Value="abstract member Add2000 : Microsoft.Office.Interop.Word.Range * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.TableOfContents" Usage="tablesOfContents.Add2000 (Range, UseHeadingStyles, UpperHeadingLevel, LowerHeadingLevel, UseFields, TableID, RightAlignPageNumbers, IncludePageNumbers, AddedStyles, UseHyperlinks, HidePageNumbersInWeb)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -102,16 +107,16 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
-        <Parameter Name="UseHeadingStyles" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UpperHeadingLevel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LowerHeadingLevel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UseFields" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TableID" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="RightAlignPageNumbers" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IncludePageNumbers" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AddedStyles" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UseHyperlinks" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="HidePageNumbersInWeb" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseHeadingStyles" Type="System.Object" RefType="ref" />
+        <Parameter Name="UpperHeadingLevel" Type="System.Object" RefType="ref" />
+        <Parameter Name="LowerHeadingLevel" Type="System.Object" RefType="ref" />
+        <Parameter Name="UseFields" Type="System.Object" RefType="ref" />
+        <Parameter Name="TableID" Type="System.Object" RefType="ref" />
+        <Parameter Name="RightAlignPageNumbers" Type="System.Object" RefType="ref" />
+        <Parameter Name="IncludePageNumbers" Type="System.Object" RefType="ref" />
+        <Parameter Name="AddedStyles" Type="System.Object" RefType="ref" />
+        <Parameter Name="UseHyperlinks" Type="System.Object" RefType="ref" />
+        <Parameter Name="HidePageNumbersInWeb" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">To be added.</param>
@@ -134,6 +139,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.TableOfContents AddOld (Microsoft.Office.Interop.Word.Range Range, ref object UseHeadingStyles, ref object UpperHeadingLevel, ref object LowerHeadingLevel, ref object UseFields, ref object TableID, ref object RightAlignPageNumbers, ref object IncludePageNumbers, ref object AddedStyles);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.TableOfContents AddOld([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; UseHeadingStyles, [in]object&amp; UpperHeadingLevel, [in]object&amp; LowerHeadingLevel, [in]object&amp; UseFields, [in]object&amp; TableID, [in]object&amp; RightAlignPageNumbers, [in]object&amp; IncludePageNumbers, [in]object&amp; AddedStyles) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfContents.AddOld(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddOld (Range As Range, Optional ByRef UseHeadingStyles As Object, Optional ByRef UpperHeadingLevel As Object, Optional ByRef LowerHeadingLevel As Object, Optional ByRef UseFields As Object, Optional ByRef TableID As Object, Optional ByRef RightAlignPageNumbers As Object, Optional ByRef IncludePageNumbers As Object, Optional ByRef AddedStyles As Object) As TableOfContents" />
+      <MemberSignature Language="F#" Value="abstract member AddOld : Microsoft.Office.Interop.Word.Range * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.TableOfContents" Usage="tablesOfContents.AddOld (Range, UseHeadingStyles, UpperHeadingLevel, LowerHeadingLevel, UseFields, TableID, RightAlignPageNumbers, IncludePageNumbers, AddedStyles)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -152,14 +159,14 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
-        <Parameter Name="UseHeadingStyles" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UpperHeadingLevel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LowerHeadingLevel" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="UseFields" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TableID" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="RightAlignPageNumbers" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IncludePageNumbers" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AddedStyles" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="UseHeadingStyles" Type="System.Object" RefType="ref" />
+        <Parameter Name="UpperHeadingLevel" Type="System.Object" RefType="ref" />
+        <Parameter Name="LowerHeadingLevel" Type="System.Object" RefType="ref" />
+        <Parameter Name="UseFields" Type="System.Object" RefType="ref" />
+        <Parameter Name="TableID" Type="System.Object" RefType="ref" />
+        <Parameter Name="RightAlignPageNumbers" Type="System.Object" RefType="ref" />
+        <Parameter Name="IncludePageNumbers" Type="System.Object" RefType="ref" />
+        <Parameter Name="AddedStyles" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">To be added.</param>
@@ -182,6 +189,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfContents.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.TablesOfContents.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -210,6 +218,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfContents.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.TablesOfContents.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -238,6 +247,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfContents.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.TablesOfContents.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -270,6 +280,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfContents.Format" />
       <MemberSignature Language="VB.NET" Value="Public Property Format As WdTocFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTocFormat Format { Microsoft::Office::Interop::Word::WdTocFormat get(); void set(Microsoft::Office::Interop::Word::WdTocFormat value); };" />
+      <MemberSignature Language="F#" Value="member this.Format : Microsoft.Office.Interop.Word.WdTocFormat with get, set" Usage="Microsoft.Office.Interop.Word.TablesOfContents.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -326,6 +337,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfContents.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="tablesOfContents.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -358,6 +370,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfContents.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As TableOfContents" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TableOfContents ^ default[int] { Microsoft::Office::Interop::Word::TableOfContents ^ get(int Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Office.Interop.Word.TableOfContents" Usage="Microsoft.Office.Interop.Word.TablesOfContents.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -388,6 +401,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.Field MarkEntry (Microsoft.Office.Interop.Word.Range Range, ref object Entry, ref object EntryAutoText, ref object TableID, ref object Level);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Field MarkEntry([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; Entry, [in]object&amp; EntryAutoText, [in]object&amp; TableID, [in]object&amp; Level) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TablesOfContents.MarkEntry(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function MarkEntry (Range As Range, Optional ByRef Entry As Object, Optional ByRef EntryAutoText As Object, Optional ByRef TableID As Object, Optional ByRef Level As Object) As Field" />
+      <MemberSignature Language="F#" Value="abstract member MarkEntry : Microsoft.Office.Interop.Word.Range * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Field" Usage="tablesOfContents.MarkEntry (Range, Entry, EntryAutoText, TableID, Level)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -403,10 +418,10 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
-        <Parameter Name="Entry" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="EntryAutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TableID" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Level" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Entry" Type="System.Object" RefType="ref" />
+        <Parameter Name="EntryAutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="TableID" Type="System.Object" RefType="ref" />
+        <Parameter Name="Level" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location of the entry. The TC field is inserted after <paramref name="Range" />.</param>
@@ -425,6 +440,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TablesOfContents.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.TablesOfContents.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

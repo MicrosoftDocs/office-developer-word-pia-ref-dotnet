@@ -1,9 +1,10 @@
-﻿<Type Name="MappedDataField" FullName="Microsoft.Office.Interop.Word.MappedDataField">
+<Type Name="MappedDataField" FullName="Microsoft.Office.Interop.Word.MappedDataField">
   <TypeSignature Language="C#" Value="public interface MappedDataField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MappedDataField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.MappedDataField" />
   <TypeSignature Language="VB.NET" Value="Public Interface MappedDataField" />
   <TypeSignature Language="C++ CLI" Value="public interface class MappedDataField" />
+  <TypeSignature Language="F#" Value="type MappedDataField = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.MappedDataField.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.MappedDataField.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.DataFieldIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property DataFieldIndex As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DataFieldIndex { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.DataFieldIndex : int with get, set" Usage="Microsoft.Office.Interop.Word.MappedDataField.DataFieldIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -127,6 +131,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.DataFieldName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataFieldName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DataFieldName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DataFieldName : string" Usage="Microsoft.Office.Interop.Word.MappedDataField.DataFieldName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -158,6 +163,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Office.Interop.Word.MappedDataField.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -186,6 +192,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word.MappedDataField.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -214,6 +221,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.MappedDataField.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -242,6 +250,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MappedDataField.Value" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Value : string" Usage="Microsoft.Office.Interop.Word.MappedDataField.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
