@@ -1,9 +1,10 @@
-﻿<Type Name="KeysBoundTo" FullName="Microsoft.Office.Interop.Word.KeysBoundTo">
+<Type Name="KeysBoundTo" FullName="Microsoft.Office.Interop.Word.KeysBoundTo">
   <TypeSignature Language="C#" Value="public interface KeysBoundTo : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract KeysBoundTo implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.KeysBoundTo" />
   <TypeSignature Language="VB.NET" Value="Public Interface KeysBoundTo&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class KeysBoundTo : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type KeysBoundTo = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Command" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Command As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Command { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Command : string" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandParameter As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CommandParameter { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : string" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Context" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Context { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Context : obj" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.Context" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -153,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -181,6 +187,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -213,6 +220,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeysBoundTo.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="keysBoundTo.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -245,6 +253,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As KeyBinding" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeyBinding ^ default[int] { Microsoft::Office::Interop::Word::KeyBinding ^ get(int Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Office.Interop.Word.KeyBinding" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -276,6 +285,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.KeyBinding Key([in]int32 KeyCode, [in]object&amp; KeyCode2) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeysBoundTo.Key(System.Int32,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Key (KeyCode As Integer, Optional ByRef KeyCode2 As Object) As KeyBinding" />
+      <MemberSignature Language="F#" Value="abstract member Key : int * obj -&gt; Microsoft.Office.Interop.Word.KeyBinding" Usage="keysBoundTo.Key (KeyCode, KeyCode2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -291,7 +301,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="KeyCode" Type="System.Int32" />
-        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="KeyCode2" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCode">Required <b>Integer</b>. A key you specify by using one of the <b>WdKey</b> constants.</param>
@@ -310,6 +320,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.KeyCategory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyCategory As WdKeyCategory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdKeyCategory KeyCategory { Microsoft::Office::Interop::Word::WdKeyCategory get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyCategory : Microsoft.Office.Interop.Word.WdKeyCategory" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.KeyCategory" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -338,6 +349,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeysBoundTo.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.KeysBoundTo.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

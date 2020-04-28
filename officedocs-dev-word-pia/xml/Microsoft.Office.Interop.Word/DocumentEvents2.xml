@@ -1,9 +1,10 @@
-﻿<Type Name="DocumentEvents2" FullName="Microsoft.Office.Interop.Word.DocumentEvents2">
+<Type Name="DocumentEvents2" FullName="Microsoft.Office.Interop.Word.DocumentEvents2">
   <TypeSignature Language="C#" Value="public interface DocumentEvents2" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentEvents2" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DocumentEvents2" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentEvents2" />
   <TypeSignature Language="C++ CLI" Value="public interface class DocumentEvents2" />
+  <TypeSignature Language="F#" Value="type DocumentEvents2 = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -29,7 +30,9 @@
       <MemberSignature Language="C#" Value="public void BuildingBlockInsert (Microsoft.Office.Interop.Word.Range Range, string Name, string Category, string BlockType, string Template);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BuildingBlockInsert([in]class Microsoft.Office.Interop.Word.Range Range, [in]string Name, [in]string Category, [in]string BlockType, [in]string Template) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.BuildingBlockInsert(Microsoft.Office.Interop.Word.Range,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BuildingBlockInsert (Range As Range, Name As String, Category As String, BlockType As String, Template As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void BuildingBlockInsert(Microsoft::Office::Interop::Word::Range ^ Range, System::String ^ Name, System::String ^ Category, System::String ^ BlockType, System::String ^ Template);" />
+      <MemberSignature Language="F#" Value="abstract member BuildingBlockInsert : Microsoft.Office.Interop.Word.Range * string * string * string * string -&gt; unit" Usage="documentEvents2.BuildingBlockInsert (Range, Name, Category, BlockType, Template)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -66,6 +69,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.Close" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit" Usage="documentEvents2.Close " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +95,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlAfterAdd(Microsoft.Office.Interop.Word.ContentControl,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ContentControlAfterAdd (NewContentControl As ContentControl, InUndoRedo As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ContentControlAfterAdd(Microsoft::Office::Interop::Word::ContentControl ^ NewContentControl, bool InUndoRedo);" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlAfterAdd : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit" Usage="documentEvents2.ContentControlAfterAdd (NewContentControl, InUndoRedo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -119,7 +124,9 @@
       <MemberSignature Language="C#" Value="public void ContentControlBeforeContentUpdate (Microsoft.Office.Interop.Word.ContentControl ContentControl, out string Content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ContentControlBeforeContentUpdate([in]class Microsoft.Office.Interop.Word.ContentControl ContentControl, [out] string&amp; Content) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlBeforeContentUpdate(Microsoft.Office.Interop.Word.ContentControl,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ContentControlBeforeContentUpdate (ContentControl As ContentControl, ByRef Content As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ContentControlBeforeContentUpdate(Microsoft::Office::Interop::Word::ContentControl ^ ContentControl, [Runtime::InteropServices::Out] System::String ^ % Content);" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlBeforeContentUpdate : Microsoft.Office.Interop.Word.ContentControl * string -&gt; unit" Usage="documentEvents2.ContentControlBeforeContentUpdate (ContentControl, Content)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -135,7 +142,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="ContentControl" Type="Microsoft.Office.Interop.Word.ContentControl" />
-        <Parameter Name="Content" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Content" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="ContentControl">To be added.</param>
@@ -150,6 +157,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlBeforeDelete(Microsoft.Office.Interop.Word.ContentControl,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ContentControlBeforeDelete (OldContentControl As ContentControl, InUndoRedo As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ContentControlBeforeDelete(Microsoft::Office::Interop::Word::ContentControl ^ OldContentControl, bool InUndoRedo);" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlBeforeDelete : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit" Usage="documentEvents2.ContentControlBeforeDelete (OldContentControl, InUndoRedo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -178,7 +186,9 @@
       <MemberSignature Language="C#" Value="public void ContentControlBeforeStoreUpdate (Microsoft.Office.Interop.Word.ContentControl ContentControl, out string Content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ContentControlBeforeStoreUpdate([in]class Microsoft.Office.Interop.Word.ContentControl ContentControl, [out] string&amp; Content) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlBeforeStoreUpdate(Microsoft.Office.Interop.Word.ContentControl,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ContentControlBeforeStoreUpdate (ContentControl As ContentControl, ByRef Content As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ContentControlBeforeStoreUpdate(Microsoft::Office::Interop::Word::ContentControl ^ ContentControl, [Runtime::InteropServices::Out] System::String ^ % Content);" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlBeforeStoreUpdate : Microsoft.Office.Interop.Word.ContentControl * string -&gt; unit" Usage="documentEvents2.ContentControlBeforeStoreUpdate (ContentControl, Content)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -194,7 +204,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="ContentControl" Type="Microsoft.Office.Interop.Word.ContentControl" />
-        <Parameter Name="Content" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Content" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="ContentControl">To be added.</param>
@@ -207,7 +217,9 @@
       <MemberSignature Language="C#" Value="public void ContentControlOnEnter (Microsoft.Office.Interop.Word.ContentControl ContentControl);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ContentControlOnEnter([in]class Microsoft.Office.Interop.Word.ContentControl ContentControl) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlOnEnter(Microsoft.Office.Interop.Word.ContentControl)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ContentControlOnEnter (ContentControl As ContentControl)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ContentControlOnEnter(Microsoft::Office::Interop::Word::ContentControl ^ ContentControl);" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlOnEnter : Microsoft.Office.Interop.Word.ContentControl -&gt; unit" Usage="documentEvents2.ContentControlOnEnter ContentControl" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -234,7 +246,9 @@
       <MemberSignature Language="C#" Value="public void ContentControlOnExit (Microsoft.Office.Interop.Word.ContentControl ContentControl, out bool Cancel);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ContentControlOnExit([in]class Microsoft.Office.Interop.Word.ContentControl ContentControl, [out] bool&amp; Cancel) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlOnExit(Microsoft.Office.Interop.Word.ContentControl,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ContentControlOnExit (ContentControl As ContentControl, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ContentControlOnExit(Microsoft::Office::Interop::Word::ContentControl ^ ContentControl, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlOnExit : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit" Usage="documentEvents2.ContentControlOnExit (ContentControl, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -250,7 +264,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="ContentControl" Type="Microsoft.Office.Interop.Word.ContentControl" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="ContentControl">To be added.</param>
@@ -265,6 +279,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.New" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void New();" />
+      <MemberSignature Language="F#" Value="abstract member New : unit -&gt; unit" Usage="documentEvents2.New " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -290,6 +305,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.Open" />
       <MemberSignature Language="VB.NET" Value="Public Sub Open ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open();" />
+      <MemberSignature Language="F#" Value="abstract member Open : unit -&gt; unit" Usage="documentEvents2.Open " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -315,6 +331,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.Sync(Microsoft.Office.Core.MsoSyncEventType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Sync (SyncEventType As MsoSyncEventType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Sync(Microsoft::Office::Core::MsoSyncEventType SyncEventType);" />
+      <MemberSignature Language="F#" Value="abstract member Sync : Microsoft.Office.Core.MsoSyncEventType -&gt; unit" Usage="documentEvents2.Sync SyncEventType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -343,6 +360,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.XMLAfterInsert(Microsoft.Office.Interop.Word.XMLNode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub XMLAfterInsert (NewXMLNode As XMLNode, InUndoRedo As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void XMLAfterInsert(Microsoft::Office::Interop::Word::XMLNode ^ NewXMLNode, bool InUndoRedo);" />
+      <MemberSignature Language="F#" Value="abstract member XMLAfterInsert : Microsoft.Office.Interop.Word.XMLNode * bool -&gt; unit" Usage="documentEvents2.XMLAfterInsert (NewXMLNode, InUndoRedo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -373,6 +391,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2.XMLBeforeDelete(Microsoft.Office.Interop.Word.Range,Microsoft.Office.Interop.Word.XMLNode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub XMLBeforeDelete (DeletedRange As Range, OldXMLNode As XMLNode, InUndoRedo As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void XMLBeforeDelete(Microsoft::Office::Interop::Word::Range ^ DeletedRange, Microsoft::Office::Interop::Word::XMLNode ^ OldXMLNode, bool InUndoRedo);" />
+      <MemberSignature Language="F#" Value="abstract member XMLBeforeDelete : Microsoft.Office.Interop.Word.Range * Microsoft.Office.Interop.Word.XMLNode * bool -&gt; unit" Usage="documentEvents2.XMLBeforeDelete (DeletedRange, OldXMLNode, InUndoRedo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

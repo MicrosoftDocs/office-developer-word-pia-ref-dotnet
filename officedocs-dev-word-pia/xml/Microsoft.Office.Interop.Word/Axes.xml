@@ -1,9 +1,10 @@
-﻿<Type Name="Axes" FullName="Microsoft.Office.Interop.Word.Axes">
+<Type Name="Axes" FullName="Microsoft.Office.Interop.Word.Axes">
   <TypeSignature Language="C#" Value="public interface Axes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Axes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Axes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Axes&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class Axes : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type Axes = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Axis _Default([in]valuetype Microsoft.Office.Interop.Word.XlAxisType Type, [in]valuetype Microsoft.Office.Interop.Word.XlAxisGroup AxisGroup) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Axes._Default(Microsoft.Office.Interop.Word.XlAxisType,Microsoft.Office.Interop.Word.XlAxisGroup)" />
       <MemberSignature Language="VB.NET" Value="Public Function _Default (Type As XlAxisType, Optional AxisGroup As XlAxisGroup = Microsoft.Office.Interop.Word.XlAxisGroup.xlPrimary) As Axis" />
+      <MemberSignature Language="F#" Value="abstract member _Default : Microsoft.Office.Interop.Word.XlAxisType * Microsoft.Office.Interop.Word.XlAxisGroup -&gt; Microsoft.Office.Interop.Word.Axis" Usage="axes._Default (Type, AxisGroup)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -69,6 +71,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axes.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.Axes.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -100,6 +103,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axes.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.Axes.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -130,6 +134,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axes.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Axes.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -163,6 +168,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Axes.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="axes.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -195,6 +201,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axes.Item(Microsoft.Office.Interop.Word.XlAxisType,Microsoft.Office.Interop.Word.XlAxisGroup)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Type As XlAxisType, Optional AxisGroup As XlAxisGroup = Microsoft.Office.Interop.Word.XlAxisGroup.xlPrimary) As Axis" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Axis ^ default[Microsoft::Office::Interop::Word::XlAxisType, Microsoft::Office::Interop::Word::XlAxisGroup] { Microsoft::Office::Interop::Word::Axis ^ get(Microsoft::Office::Interop::Word::XlAxisType Type, Microsoft::Office::Interop::Word::XlAxisGroup AxisGroup); };" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Office.Interop.Word.XlAxisType * Microsoft.Office.Interop.Word.XlAxisGroup) : Microsoft.Office.Interop.Word.Axis" Usage="Microsoft.Office.Interop.Word.Axes.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -231,6 +238,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Axes.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Axes.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

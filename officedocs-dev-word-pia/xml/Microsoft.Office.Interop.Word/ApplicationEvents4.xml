@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents4" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4">
+<Type Name="ApplicationEvents4" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4">
   <TypeSignature Language="C#" Value="public interface ApplicationEvents4" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ApplicationEvents4" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4" />
   <TypeSignature Language="VB.NET" Value="Public Interface ApplicationEvents4" />
   <TypeSignature Language="C++ CLI" Value="public interface class ApplicationEvents4" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents4 = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.DocumentBeforeClose(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DocumentBeforeClose (Doc As Document, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentBeforeClose(Microsoft::Office::Interop::Word::Document ^ Doc, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member DocumentBeforeClose : Microsoft.Office.Interop.Word.Document * bool -&gt; unit" Usage="applicationEvents4.DocumentBeforeClose (Doc, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -46,7 +48,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.DocumentBeforePrint(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DocumentBeforePrint (Doc As Document, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentBeforePrint(Microsoft::Office::Interop::Word::Document ^ Doc, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member DocumentBeforePrint : Microsoft.Office.Interop.Word.Document * bool -&gt; unit" Usage="applicationEvents4.DocumentBeforePrint (Doc, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -76,7 +79,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.DocumentBeforeSave(Microsoft.Office.Interop.Word.Document,System.Boolean@,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DocumentBeforeSave (Doc As Document, ByRef SaveAsUI As Boolean, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentBeforeSave(Microsoft::Office::Interop::Word::Document ^ Doc, bool % SaveAsUI, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member DocumentBeforeSave : Microsoft.Office.Interop.Word.Document * bool * bool -&gt; unit" Usage="applicationEvents4.DocumentBeforeSave (Doc, SaveAsUI, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -106,8 +110,8 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="SaveAsUI" Type="System.Boolean&amp;" RefType="ref" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="SaveAsUI" Type="System.Boolean" RefType="ref" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -123,6 +127,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.DocumentChange" />
       <MemberSignature Language="VB.NET" Value="Public Sub DocumentChange ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentChange();" />
+      <MemberSignature Language="F#" Value="abstract member DocumentChange : unit -&gt; unit" Usage="applicationEvents4.DocumentChange " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -148,6 +153,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.DocumentOpen(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DocumentOpen (Doc As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentOpen(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberSignature Language="F#" Value="abstract member DocumentOpen : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.DocumentOpen Doc" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -176,6 +182,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.DocumentSync(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Core.MsoSyncEventType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DocumentSync (Doc As Document, SyncEventType As MsoSyncEventType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentSync(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Core::MsoSyncEventType SyncEventType);" />
+      <MemberSignature Language="F#" Value="abstract member DocumentSync : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Core.MsoSyncEventType -&gt; unit" Usage="applicationEvents4.DocumentSync (Doc, SyncEventType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -206,6 +213,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.EPostageInsert(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EPostageInsert (Doc As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EPostageInsert(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberSignature Language="F#" Value="abstract member EPostageInsert : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.EPostageInsert Doc" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -234,6 +242,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.EPostageInsertEx(Microsoft.Office.Interop.Word.Document,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Boolean,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EPostageInsertEx (Doc As Document, cpDeliveryAddrStart As Integer, cpDeliveryAddrEnd As Integer, cpReturnAddrStart As Integer, cpReturnAddrEnd As Integer, xaWidth As Integer, yaHeight As Integer, bstrPrinterName As String, bstrPaperFeed As String, fPrint As Boolean, ByRef fCancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EPostageInsertEx(Microsoft::Office::Interop::Word::Document ^ Doc, int cpDeliveryAddrStart, int cpDeliveryAddrEnd, int cpReturnAddrStart, int cpReturnAddrEnd, int xaWidth, int yaHeight, System::String ^ bstrPrinterName, System::String ^ bstrPaperFeed, bool fPrint, [Runtime::InteropServices::Out] bool % fCancel);" />
+      <MemberSignature Language="F#" Value="abstract member EPostageInsertEx : Microsoft.Office.Interop.Word.Document * int * int * int * int * int * int * string * string * bool * bool -&gt; unit" Usage="applicationEvents4.EPostageInsertEx (Doc, cpDeliveryAddrStart, cpDeliveryAddrEnd, cpReturnAddrStart, cpReturnAddrEnd, xaWidth, yaHeight, bstrPrinterName, bstrPaperFeed, fPrint, fCancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -258,7 +267,7 @@
         <Parameter Name="bstrPrinterName" Type="System.String" />
         <Parameter Name="bstrPaperFeed" Type="System.String" />
         <Parameter Name="fPrint" Type="System.Boolean" />
-        <Parameter Name="fCancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="fCancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -282,6 +291,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.EPostagePropertyDialog(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EPostagePropertyDialog (Doc As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EPostagePropertyDialog(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberSignature Language="F#" Value="abstract member EPostagePropertyDialog : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.EPostagePropertyDialog Doc" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -310,6 +320,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeAfterMerge(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeAfterMerge (Doc As Document, DocResult As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeAfterMerge(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Document ^ DocResult);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeAfterMerge : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.MailMergeAfterMerge (Doc, DocResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -340,6 +351,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeAfterRecordMerge(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeAfterRecordMerge (Doc As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeAfterRecordMerge(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeAfterRecordMerge : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.MailMergeAfterRecordMerge Doc" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -368,6 +380,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeBeforeMerge(Microsoft.Office.Interop.Word.Document,System.Int32,System.Int32,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeBeforeMerge (Doc As Document, StartRecord As Integer, EndRecord As Integer, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeBeforeMerge(Microsoft::Office::Interop::Word::Document ^ Doc, int StartRecord, int EndRecord, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeBeforeMerge : Microsoft.Office.Interop.Word.Document * int * int * bool -&gt; unit" Usage="applicationEvents4.MailMergeBeforeMerge (Doc, StartRecord, EndRecord, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -385,7 +398,7 @@
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
         <Parameter Name="StartRecord" Type="System.Int32" />
         <Parameter Name="EndRecord" Type="System.Int32" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -402,6 +415,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeBeforeRecordMerge(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeBeforeRecordMerge (Doc As Document, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeBeforeRecordMerge(Microsoft::Office::Interop::Word::Document ^ Doc, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeBeforeRecordMerge : Microsoft.Office.Interop.Word.Document * bool -&gt; unit" Usage="applicationEvents4.MailMergeBeforeRecordMerge (Doc, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -417,7 +431,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -432,6 +446,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeDataSourceLoad(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeDataSourceLoad (Doc As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeDataSourceLoad(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeDataSourceLoad : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.MailMergeDataSourceLoad Doc" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -460,6 +475,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeDataSourceValidate(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeDataSourceValidate (Doc As Document, ByRef Handled As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeDataSourceValidate(Microsoft::Office::Interop::Word::Document ^ Doc, bool % Handled);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeDataSourceValidate : Microsoft.Office.Interop.Word.Document * bool -&gt; unit" Usage="applicationEvents4.MailMergeDataSourceValidate (Doc, Handled)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -475,7 +491,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="Handled" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="Handled" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -490,6 +506,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeDataSourceValidate2(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeDataSourceValidate2 (Doc As Document, ByRef Handled As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeDataSourceValidate2(Microsoft::Office::Interop::Word::Document ^ Doc, [Runtime::InteropServices::Out] bool % Handled);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeDataSourceValidate2 : Microsoft.Office.Interop.Word.Document * bool -&gt; unit" Usage="applicationEvents4.MailMergeDataSourceValidate2 (Doc, Handled)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -505,7 +522,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="Handled" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Handled" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -520,6 +537,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeWizardSendToCustom(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeWizardSendToCustom (Doc As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeWizardSendToCustom(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeWizardSendToCustom : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.MailMergeWizardSendToCustom Doc" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -548,6 +566,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.MailMergeWizardStateChange(Microsoft.Office.Interop.Word.Document,System.Int32@,System.Int32@,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MailMergeWizardStateChange (Doc As Document, ByRef FromState As Integer, ByRef ToState As Integer, ByRef Handled As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeWizardStateChange(Microsoft::Office::Interop::Word::Document ^ Doc, int % FromState, int % ToState, bool % Handled);" />
+      <MemberSignature Language="F#" Value="abstract member MailMergeWizardStateChange : Microsoft.Office.Interop.Word.Document * int * int * bool -&gt; unit" Usage="applicationEvents4.MailMergeWizardStateChange (Doc, FromState, ToState, Handled)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -563,9 +582,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="FromState" Type="System.Int32&amp;" RefType="ref" />
-        <Parameter Name="ToState" Type="System.Int32&amp;" RefType="ref" />
-        <Parameter Name="Handled" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="FromState" Type="System.Int32" RefType="ref" />
+        <Parameter Name="ToState" Type="System.Int32" RefType="ref" />
+        <Parameter Name="Handled" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Doc">To be added.</param>
@@ -582,6 +601,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.NewDocument(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Sub NewDocument (Doc As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewDocument(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberSignature Language="F#" Value="abstract member NewDocument : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents4.NewDocument Doc" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -610,6 +630,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.ProtectedViewWindowActivate(Microsoft.Office.Interop.Word.ProtectedViewWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowActivate (PvWindow As ProtectedViewWindow)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowActivate(Microsoft::Office::Interop::Word::ProtectedViewWindow ^ PvWindow);" />
+      <MemberSignature Language="F#" Value="abstract member ProtectedViewWindowActivate : Microsoft.Office.Interop.Word.ProtectedViewWindow -&gt; unit" Usage="applicationEvents4.ProtectedViewWindowActivate PvWindow" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -638,6 +659,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.ProtectedViewWindowBeforeClose(Microsoft.Office.Interop.Word.ProtectedViewWindow,System.Int32,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowBeforeClose (PvWindow As ProtectedViewWindow, CloseReason As Integer, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowBeforeClose(Microsoft::Office::Interop::Word::ProtectedViewWindow ^ PvWindow, int CloseReason, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member ProtectedViewWindowBeforeClose : Microsoft.Office.Interop.Word.ProtectedViewWindow * int * bool -&gt; unit" Usage="applicationEvents4.ProtectedViewWindowBeforeClose (PvWindow, CloseReason, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -654,7 +676,7 @@
       <Parameters>
         <Parameter Name="PvWindow" Type="Microsoft.Office.Interop.Word.ProtectedViewWindow" />
         <Parameter Name="CloseReason" Type="System.Int32" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="PvWindow">To be added.</param>
@@ -670,6 +692,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.ProtectedViewWindowBeforeEdit(Microsoft.Office.Interop.Word.ProtectedViewWindow,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowBeforeEdit (PvWindow As ProtectedViewWindow, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowBeforeEdit(Microsoft::Office::Interop::Word::ProtectedViewWindow ^ PvWindow, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member ProtectedViewWindowBeforeEdit : Microsoft.Office.Interop.Word.ProtectedViewWindow * bool -&gt; unit" Usage="applicationEvents4.ProtectedViewWindowBeforeEdit (PvWindow, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -685,7 +708,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="PvWindow" Type="Microsoft.Office.Interop.Word.ProtectedViewWindow" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="PvWindow">To be added.</param>
@@ -700,6 +723,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.ProtectedViewWindowDeactivate(Microsoft.Office.Interop.Word.ProtectedViewWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowDeactivate (PvWindow As ProtectedViewWindow)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowDeactivate(Microsoft::Office::Interop::Word::ProtectedViewWindow ^ PvWindow);" />
+      <MemberSignature Language="F#" Value="abstract member ProtectedViewWindowDeactivate : Microsoft.Office.Interop.Word.ProtectedViewWindow -&gt; unit" Usage="applicationEvents4.ProtectedViewWindowDeactivate PvWindow" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -728,6 +752,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.ProtectedViewWindowOpen(Microsoft.Office.Interop.Word.ProtectedViewWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowOpen (PvWindow As ProtectedViewWindow)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowOpen(Microsoft::Office::Interop::Word::ProtectedViewWindow ^ PvWindow);" />
+      <MemberSignature Language="F#" Value="abstract member ProtectedViewWindowOpen : Microsoft.Office.Interop.Word.ProtectedViewWindow -&gt; unit" Usage="applicationEvents4.ProtectedViewWindowOpen PvWindow" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -756,6 +781,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.ProtectedViewWindowSize(Microsoft.Office.Interop.Word.ProtectedViewWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowSize (PvWindow As ProtectedViewWindow)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowSize(Microsoft::Office::Interop::Word::ProtectedViewWindow ^ PvWindow);" />
+      <MemberSignature Language="F#" Value="abstract member ProtectedViewWindowSize : Microsoft.Office.Interop.Word.ProtectedViewWindow -&gt; unit" Usage="applicationEvents4.ProtectedViewWindowSize PvWindow" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -784,6 +810,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.Quit" />
       <MemberSignature Language="VB.NET" Value="Public Sub Quit ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Quit();" />
+      <MemberSignature Language="F#" Value="abstract member Quit : unit -&gt; unit" Usage="applicationEvents4.Quit " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -809,6 +836,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.Startup" />
       <MemberSignature Language="VB.NET" Value="Public Sub Startup ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Startup();" />
+      <MemberSignature Language="F#" Value="abstract member Startup : unit -&gt; unit" Usage="applicationEvents4.Startup " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -837,6 +865,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.WindowActivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WindowActivate (Doc As Document, Wn As Window)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowActivate(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Window ^ Wn);" />
+      <MemberSignature Language="F#" Value="abstract member WindowActivate : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Window -&gt; unit" Usage="applicationEvents4.WindowActivate (Doc, Wn)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -867,6 +896,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.WindowBeforeDoubleClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WindowBeforeDoubleClick (Sel As Selection, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowBeforeDoubleClick(Microsoft::Office::Interop::Word::Selection ^ Sel, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member WindowBeforeDoubleClick : Microsoft.Office.Interop.Word.Selection * bool -&gt; unit" Usage="applicationEvents4.WindowBeforeDoubleClick (Sel, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -882,7 +912,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Sel" Type="Microsoft.Office.Interop.Word.Selection" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Sel">To be added.</param>
@@ -897,6 +927,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.WindowBeforeRightClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WindowBeforeRightClick (Sel As Selection, ByRef Cancel As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowBeforeRightClick(Microsoft::Office::Interop::Word::Selection ^ Sel, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberSignature Language="F#" Value="abstract member WindowBeforeRightClick : Microsoft.Office.Interop.Word.Selection * bool -&gt; unit" Usage="applicationEvents4.WindowBeforeRightClick (Sel, Cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -912,7 +943,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Sel" Type="Microsoft.Office.Interop.Word.Selection" />
-        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+        <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
       </Parameters>
       <Docs>
         <param name="Sel">To be added.</param>
@@ -927,6 +958,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.WindowDeactivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WindowDeactivate (Doc As Document, Wn As Window)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowDeactivate(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Window ^ Wn);" />
+      <MemberSignature Language="F#" Value="abstract member WindowDeactivate : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Window -&gt; unit" Usage="applicationEvents4.WindowDeactivate (Doc, Wn)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -957,6 +989,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.WindowSelectionChange(Microsoft.Office.Interop.Word.Selection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WindowSelectionChange (Sel As Selection)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowSelectionChange(Microsoft::Office::Interop::Word::Selection ^ Sel);" />
+      <MemberSignature Language="F#" Value="abstract member WindowSelectionChange : Microsoft.Office.Interop.Word.Selection -&gt; unit" Usage="applicationEvents4.WindowSelectionChange Sel" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -985,6 +1018,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.WindowSize(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WindowSize (Doc As Document, Wn As Window)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowSize(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Window ^ Wn);" />
+      <MemberSignature Language="F#" Value="abstract member WindowSize : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Window -&gt; unit" Usage="applicationEvents4.WindowSize (Doc, Wn)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1015,6 +1049,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.XMLSelectionChange(Microsoft.Office.Interop.Word.Selection,Microsoft.Office.Interop.Word.XMLNode,Microsoft.Office.Interop.Word.XMLNode,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub XMLSelectionChange (Sel As Selection, OldXMLNode As XMLNode, NewXMLNode As XMLNode, ByRef Reason As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void XMLSelectionChange(Microsoft::Office::Interop::Word::Selection ^ Sel, Microsoft::Office::Interop::Word::XMLNode ^ OldXMLNode, Microsoft::Office::Interop::Word::XMLNode ^ NewXMLNode, int % Reason);" />
+      <MemberSignature Language="F#" Value="abstract member XMLSelectionChange : Microsoft.Office.Interop.Word.Selection * Microsoft.Office.Interop.Word.XMLNode * Microsoft.Office.Interop.Word.XMLNode * int -&gt; unit" Usage="applicationEvents4.XMLSelectionChange (Sel, OldXMLNode, NewXMLNode, Reason)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1032,7 +1067,7 @@
         <Parameter Name="Sel" Type="Microsoft.Office.Interop.Word.Selection" />
         <Parameter Name="OldXMLNode" Type="Microsoft.Office.Interop.Word.XMLNode" />
         <Parameter Name="NewXMLNode" Type="Microsoft.Office.Interop.Word.XMLNode" />
-        <Parameter Name="Reason" Type="System.Int32&amp;" RefType="ref" />
+        <Parameter Name="Reason" Type="System.Int32" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Sel">To be added.</param>
@@ -1047,7 +1082,9 @@
       <MemberSignature Language="C#" Value="public void XMLValidationError (Microsoft.Office.Interop.Word.XMLNode XMLNode);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XMLValidationError([in]class Microsoft.Office.Interop.Word.XMLNode XMLNode) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents4.XMLValidationError(Microsoft.Office.Interop.Word.XMLNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XMLValidationError (XMLNode As XMLNode)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void XMLValidationError(Microsoft::Office::Interop::Word::XMLNode ^ XMLNode);" />
+      <MemberSignature Language="F#" Value="abstract member XMLValidationError : Microsoft.Office.Interop.Word.XMLNode -&gt; unit" Usage="applicationEvents4.XMLValidationError XMLNode" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="Series" FullName="Microsoft.Office.Interop.Word.Series">
+<Type Name="Series" FullName="Microsoft.Office.Interop.Word.Series">
   <TypeSignature Language="C#" Value="public interface Series" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Series" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Series" />
   <TypeSignature Language="VB.NET" Value="Public Interface Series" />
   <TypeSignature Language="C++ CLI" Value="public interface class Series" />
+  <TypeSignature Language="F#" Value="type Series = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.Series.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.ApplyCustomType(Microsoft.Office.Core.XlChartType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyCustomType (ChartType As XlChartType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyCustomType(Microsoft::Office::Core::XlChartType ChartType);" />
+      <MemberSignature Language="F#" Value="abstract member ApplyCustomType : Microsoft.Office.Core.XlChartType -&gt; unit" Usage="series.ApplyCustomType ChartType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ApplyDataLabels([in]valuetype Microsoft.Office.Interop.Word.XlDataLabelsType Type, [in]object LegendKey, [in]object AutoText, [in]object HasLeaderLines, [in]object ShowSeriesName, [in]object ShowCategoryName, [in]object ShowValue, [in]object ShowPercentage, [in]object ShowBubbleSize, [in]object Separator) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.ApplyDataLabels(Microsoft.Office.Interop.Word.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function ApplyDataLabels (Optional Type As XlDataLabelsType = Microsoft.Office.Interop.Word.XlDataLabelsType.xlDataLabelsShowValue, Optional LegendKey As Object, Optional AutoText As Object, Optional HasLeaderLines As Object, Optional ShowSeriesName As Object, Optional ShowCategoryName As Object, Optional ShowValue As Object, Optional ShowPercentage As Object, Optional ShowBubbleSize As Object, Optional Separator As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ApplyDataLabels : Microsoft.Office.Interop.Word.XlDataLabelsType * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; obj" Usage="series.ApplyDataLabels (Type, LegendKey, AutoText, HasLeaderLines, ShowSeriesName, ShowCategoryName, ShowValue, ShowPercentage, ShowBubbleSize, Separator)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -145,6 +149,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.ApplyPictToEnd" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToEnd As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToEnd { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplyPictToEnd : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.ApplyPictToEnd" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -179,6 +184,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.ApplyPictToFront" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToFront As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToFront { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplyPictToFront : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.ApplyPictToFront" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -213,6 +219,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.ApplyPictToSides" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToSides As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToSides { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplyPictToSides : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.ApplyPictToSides" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -247,6 +254,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.AxisGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property AxisGroup As XlAxisGroup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlAxisGroup AxisGroup { Microsoft::Office::Interop::Word::XlAxisGroup get(); void set(Microsoft::Office::Interop::Word::XlAxisGroup value); };" />
+      <MemberSignature Language="F#" Value="member this.AxisGroup : Microsoft.Office.Interop.Word.XlAxisGroup with get, set" Usage="Microsoft.Office.Interop.Word.Series.AxisGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -280,6 +288,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.BarShape" />
       <MemberSignature Language="VB.NET" Value="Public Property BarShape As XlBarShape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlBarShape BarShape { Microsoft::Office::Interop::Word::XlBarShape get(); void set(Microsoft::Office::Interop::Word::XlBarShape value); };" />
+      <MemberSignature Language="F#" Value="member this.BarShape : Microsoft.Office.Interop.Word.XlBarShape with get, set" Usage="Microsoft.Office.Interop.Word.Series.BarShape" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -313,6 +322,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Border" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As ChartBorder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartBorder ^ Border { Microsoft::Office::Interop::Word::ChartBorder ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Border : Microsoft.Office.Interop.Word.ChartBorder" Usage="Microsoft.Office.Interop.Word.Series.Border" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -343,6 +353,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.BubbleSizes" />
       <MemberSignature Language="VB.NET" Value="Public Property BubbleSizes As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ BubbleSizes { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.BubbleSizes : obj with get, set" Usage="Microsoft.Office.Interop.Word.Series.BubbleSizes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -379,6 +390,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.ChartType" />
       <MemberSignature Language="VB.NET" Value="Public Property ChartType As XlChartType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlChartType ChartType { Microsoft::Office::Core::XlChartType get(); void set(Microsoft::Office::Core::XlChartType value); };" />
+      <MemberSignature Language="F#" Value="member this.ChartType : Microsoft.Office.Core.XlChartType with get, set" Usage="Microsoft.Office.Interop.Word.Series.ChartType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -415,6 +427,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.ClearFormats" />
       <MemberSignature Language="VB.NET" Value="Public Function ClearFormats () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ClearFormats();" />
+      <MemberSignature Language="F#" Value="abstract member ClearFormats : unit -&gt; obj" Usage="series.ClearFormats " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -443,6 +456,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Function Copy () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; obj" Usage="series.Copy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -471,6 +485,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Series.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -503,6 +518,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object DataLabels([in]object Index) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.DataLabels(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function DataLabels (Optional Index As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member DataLabels : obj -&gt; obj" Usage="series.DataLabels Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -538,6 +554,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; obj" Usage="series.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -565,6 +582,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ErrorBar([in]valuetype Microsoft.Office.Interop.Word.XlErrorBarDirection Direction, [in]valuetype Microsoft.Office.Interop.Word.XlErrorBarInclude Include, [in]valuetype Microsoft.Office.Interop.Word.XlErrorBarType Type, [in]object Amount, [in]object MinusValues) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.ErrorBar(Microsoft.Office.Interop.Word.XlErrorBarDirection,Microsoft.Office.Interop.Word.XlErrorBarInclude,Microsoft.Office.Interop.Word.XlErrorBarType,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function ErrorBar (Direction As XlErrorBarDirection, Include As XlErrorBarInclude, Type As XlErrorBarType, Optional Amount As Object, Optional MinusValues As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ErrorBar : Microsoft.Office.Interop.Word.XlErrorBarDirection * Microsoft.Office.Interop.Word.XlErrorBarInclude * Microsoft.Office.Interop.Word.XlErrorBarType * obj * obj -&gt; obj" Usage="series.ErrorBar (Direction, Include, Type, Amount, MinusValues)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -604,6 +622,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.ErrorBars" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorBars As ErrorBars" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ErrorBars ^ ErrorBars { Microsoft::Office::Interop::Word::ErrorBars ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ErrorBars : Microsoft.Office.Interop.Word.ErrorBars" Usage="Microsoft.Office.Interop.Word.Series.ErrorBars" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -635,6 +654,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Explosion" />
       <MemberSignature Language="VB.NET" Value="Public Property Explosion As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Explosion { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Explosion : int with get, set" Usage="Microsoft.Office.Interop.Word.Series.Explosion" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -668,6 +688,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Fill" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As ChartFillFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFillFormat ^ Fill { Microsoft::Office::Interop::Word::ChartFillFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Fill : Microsoft.Office.Interop.Word.ChartFillFormat" Usage="Microsoft.Office.Interop.Word.Series.Fill" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -701,6 +722,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Format" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As ChartFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartFormat ^ Format { Microsoft::Office::Interop::Word::ChartFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Format : Microsoft.Office.Interop.Word.ChartFormat" Usage="Microsoft.Office.Interop.Word.Series.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -733,6 +755,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Formula" />
       <MemberSignature Language="VB.NET" Value="Public Property Formula As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Formula { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Formula : string with get, set" Usage="Microsoft.Office.Interop.Word.Series.Formula" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -771,6 +794,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.FormulaLocal" />
       <MemberSignature Language="VB.NET" Value="Public Property FormulaLocal As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaLocal { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FormulaLocal : string with get, set" Usage="Microsoft.Office.Interop.Word.Series.FormulaLocal" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -810,6 +834,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.FormulaR1C1" />
       <MemberSignature Language="VB.NET" Value="Public Property FormulaR1C1 As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaR1C1 { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FormulaR1C1 : string with get, set" Usage="Microsoft.Office.Interop.Word.Series.FormulaR1C1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -849,6 +874,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.FormulaR1C1Local" />
       <MemberSignature Language="VB.NET" Value="Public Property FormulaR1C1Local As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaR1C1Local { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FormulaR1C1Local : string with get, set" Usage="Microsoft.Office.Interop.Word.Series.FormulaR1C1Local" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -888,6 +914,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Has3DEffect" />
       <MemberSignature Language="VB.NET" Value="Public Property Has3DEffect As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Has3DEffect { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Has3DEffect : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.Has3DEffect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -925,6 +952,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.HasDataLabels" />
       <MemberSignature Language="VB.NET" Value="Public Property HasDataLabels As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDataLabels { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasDataLabels : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.HasDataLabels" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -959,6 +987,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.HasErrorBars" />
       <MemberSignature Language="VB.NET" Value="Public Property HasErrorBars As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasErrorBars { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasErrorBars : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.HasErrorBars" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -992,6 +1021,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.HasLeaderLines" />
       <MemberSignature Language="VB.NET" Value="Public Property HasLeaderLines As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasLeaderLines { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HasLeaderLines : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.HasLeaderLines" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1028,6 +1058,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Interior" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interior As Interior" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Interior ^ Interior { Microsoft::Office::Interop::Word::Interior ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Interior : Microsoft.Office.Interop.Word.Interior" Usage="Microsoft.Office.Interop.Word.Series.Interior" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1060,6 +1091,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.InvertColor" />
       <MemberSignature Language="VB.NET" Value="Public Property InvertColor As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InvertColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.InvertColor : int with get, set" Usage="Microsoft.Office.Interop.Word.Series.InvertColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1094,6 +1126,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.InvertColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property InvertColorIndex As XlColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlColorIndex InvertColorIndex { Microsoft::Office::Interop::Word::XlColorIndex get(); void set(Microsoft::Office::Interop::Word::XlColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.InvertColorIndex : Microsoft.Office.Interop.Word.XlColorIndex with get, set" Usage="Microsoft.Office.Interop.Word.Series.InvertColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1128,6 +1161,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.InvertIfNegative" />
       <MemberSignature Language="VB.NET" Value="Public Property InvertIfNegative As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvertIfNegative { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.InvertIfNegative : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.InvertIfNegative" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1162,6 +1196,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.IsFiltered" />
       <MemberSignature Language="VB.NET" Value="Public Property IsFiltered As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFiltered { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsFiltered : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.IsFiltered" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1193,6 +1228,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.LeaderLines" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LeaderLines As LeaderLines" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::LeaderLines ^ LeaderLines { Microsoft::Office::Interop::Word::LeaderLines ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LeaderLines : Microsoft.Office.Interop.Word.LeaderLines" Usage="Microsoft.Office.Interop.Word.Series.LeaderLines" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1229,6 +1265,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.MarkerBackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColor As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerBackgroundColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerBackgroundColor : int with get, set" Usage="Microsoft.Office.Interop.Word.Series.MarkerBackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1262,6 +1299,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.MarkerBackgroundColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColorIndex As XlColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlColorIndex MarkerBackgroundColorIndex { Microsoft::Office::Interop::Word::XlColorIndex get(); void set(Microsoft::Office::Interop::Word::XlColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerBackgroundColorIndex : Microsoft.Office.Interop.Word.XlColorIndex with get, set" Usage="Microsoft.Office.Interop.Word.Series.MarkerBackgroundColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1295,6 +1333,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.MarkerForegroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColor As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerForegroundColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerForegroundColor : int with get, set" Usage="Microsoft.Office.Interop.Word.Series.MarkerForegroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1328,6 +1367,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.MarkerForegroundColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColorIndex As XlColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlColorIndex MarkerForegroundColorIndex { Microsoft::Office::Interop::Word::XlColorIndex get(); void set(Microsoft::Office::Interop::Word::XlColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerForegroundColorIndex : Microsoft.Office.Interop.Word.XlColorIndex with get, set" Usage="Microsoft.Office.Interop.Word.Series.MarkerForegroundColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1361,6 +1401,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.MarkerSize" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerSize As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerSize { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerSize : int with get, set" Usage="Microsoft.Office.Interop.Word.Series.MarkerSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1394,6 +1435,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.MarkerStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property MarkerStyle As XlMarkerStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlMarkerStyle MarkerStyle { Microsoft::Office::Interop::Word::XlMarkerStyle get(); void set(Microsoft::Office::Interop::Word::XlMarkerStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.MarkerStyle : Microsoft.Office.Interop.Word.XlMarkerStyle with get, set" Usage="Microsoft.Office.Interop.Word.Series.MarkerStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1427,6 +1469,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Office.Interop.Word.Series.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1460,6 +1503,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Series.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1490,6 +1534,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.Paste" />
       <MemberSignature Language="VB.NET" Value="Public Function Paste () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Paste();" />
+      <MemberSignature Language="F#" Value="abstract member Paste : unit -&gt; obj" Usage="series.Paste " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1521,6 +1566,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.PictureType" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureType As XlChartPictureType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XlChartPictureType PictureType { Microsoft::Office::Interop::Word::XlChartPictureType get(); void set(Microsoft::Office::Interop::Word::XlChartPictureType value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureType : Microsoft.Office.Interop.Word.XlChartPictureType with get, set" Usage="Microsoft.Office.Interop.Word.Series.PictureType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1554,6 +1600,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.PictureUnit" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureUnit As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureUnit : double with get, set" Usage="Microsoft.Office.Interop.Word.Series.PictureUnit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1593,6 +1640,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.PictureUnit2" />
       <MemberSignature Language="VB.NET" Value="Public Property PictureUnit2 As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit2 { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.PictureUnit2 : double with get, set" Usage="Microsoft.Office.Interop.Word.Series.PictureUnit2" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1625,6 +1673,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.PlotColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlotColorIndex As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PlotColorIndex { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.PlotColorIndex : int" Usage="Microsoft.Office.Interop.Word.Series.PlotColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1656,6 +1705,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.PlotOrder" />
       <MemberSignature Language="VB.NET" Value="Public Property PlotOrder As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PlotOrder { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.PlotOrder : int with get, set" Usage="Microsoft.Office.Interop.Word.Series.PlotOrder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1692,6 +1742,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Points([in]object Index) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.Points(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Points (Optional Index As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Points : obj -&gt; obj" Usage="series.Points Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1724,6 +1775,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.Select" />
       <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; obj" Usage="series.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1752,6 +1804,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Shadow" />
       <MemberSignature Language="VB.NET" Value="Public Property Shadow As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Shadow { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Shadow : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.Shadow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1785,6 +1838,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Smooth" />
       <MemberSignature Language="VB.NET" Value="Public Property Smooth As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Smooth { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Smooth : bool with get, set" Usage="Microsoft.Office.Interop.Word.Series.Smooth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1818,6 +1872,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Trendlines([in]object Index) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Series.Trendlines(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Trendlines (Optional Index As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member Trendlines : obj -&gt; obj" Usage="series.Trendlines Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1850,6 +1905,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Type { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : int with get, set" Usage="Microsoft.Office.Interop.Word.Series.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1884,6 +1940,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.Values" />
       <MemberSignature Language="VB.NET" Value="Public Property Values As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Values { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Values : obj with get, set" Usage="Microsoft.Office.Interop.Word.Series.Values" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1920,6 +1977,7 @@ Read-only <see cref="T:Microsoft.Office.Interop.Word.ChartFormat" />.</summary>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Series.XValues" />
       <MemberSignature Language="VB.NET" Value="Public Property XValues As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ XValues { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.XValues : obj with get, set" Usage="Microsoft.Office.Interop.Word.Series.XValues" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

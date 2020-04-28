@@ -1,9 +1,10 @@
-﻿<Type Name="FootnoteOptions" FullName="Microsoft.Office.Interop.Word.FootnoteOptions">
+<Type Name="FootnoteOptions" FullName="Microsoft.Office.Interop.Word.FootnoteOptions">
   <TypeSignature Language="C#" Value="public interface FootnoteOptions" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FootnoteOptions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.FootnoteOptions" />
   <TypeSignature Language="VB.NET" Value="Public Interface FootnoteOptions" />
   <TypeSignature Language="C++ CLI" Value="public interface class FootnoteOptions" />
+  <TypeSignature Language="F#" Value="type FootnoteOptions = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.LayoutColumns" />
       <MemberSignature Language="VB.NET" Value="Public Property LayoutColumns As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LayoutColumns { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.LayoutColumns : int with get, set" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.LayoutColumns" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.Location" />
       <MemberSignature Language="VB.NET" Value="Public Property Location As WdFootnoteLocation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFootnoteLocation Location { Microsoft::Office::Interop::Word::WdFootnoteLocation get(); void set(Microsoft::Office::Interop::Word::WdFootnoteLocation value); };" />
+      <MemberSignature Language="F#" Value="member this.Location : Microsoft.Office.Interop.Word.WdFootnoteLocation with get, set" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -156,6 +161,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.NumberingRule" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberingRule As WdNumberingRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdNumberingRule NumberingRule { Microsoft::Office::Interop::Word::WdNumberingRule get(); void set(Microsoft::Office::Interop::Word::WdNumberingRule value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberingRule : Microsoft.Office.Interop.Word.WdNumberingRule with get, set" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.NumberingRule" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -190,6 +196,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.NumberStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberStyle As WdNoteNumberStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdNoteNumberStyle NumberStyle { Microsoft::Office::Interop::Word::WdNoteNumberStyle get(); void set(Microsoft::Office::Interop::Word::WdNoteNumberStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberStyle : Microsoft.Office.Interop.Word.WdNoteNumberStyle with get, set" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.NumberStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -224,6 +231,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -252,6 +260,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FootnoteOptions.StartingNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property StartingNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartingNumber { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.StartingNumber : int with get, set" Usage="Microsoft.Office.Interop.Word.FootnoteOptions.StartingNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

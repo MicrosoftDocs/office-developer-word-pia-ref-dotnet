@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word._Font" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Font" />
   <TypeSignature Language="C++ CLI" Value="public interface class _Font" />
+  <TypeSignature Language="F#" Value="type _Font = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.AllCaps" />
       <MemberSignature Language="VB.NET" Value="Public Property AllCaps As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AllCaps { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.AllCaps : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.AllCaps" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Animation" />
       <MemberSignature Language="VB.NET" Value="Public Property Animation As WdAnimation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdAnimation Animation { Microsoft::Office::Interop::Word::WdAnimation get(); void set(Microsoft::Office::Interop::Word::WdAnimation value); };" />
+      <MemberSignature Language="F#" Value="member this.Animation : Microsoft.Office.Interop.Word.WdAnimation with get, set" Usage="Microsoft.Office.Interop.Word._Font.Animation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -100,6 +103,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word._Font.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -128,6 +132,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Bold" />
       <MemberSignature Language="VB.NET" Value="Public Property Bold As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Bold { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Bold : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Bold" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -160,6 +165,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.BoldBi" />
       <MemberSignature Language="VB.NET" Value="Public Property BoldBi As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BoldBi { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.BoldBi : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.BoldBi" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -195,6 +201,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Borders" />
       <MemberSignature Language="VB.NET" Value="Public Property Borders As Borders" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Borders ^ Borders { Microsoft::Office::Interop::Word::Borders ^ get(); void set(Microsoft::Office::Interop::Word::Borders ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Borders : Microsoft.Office.Interop.Word.Borders with get, set" Usage="Microsoft.Office.Interop.Word._Font.Borders" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -226,6 +233,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Color" />
       <MemberSignature Language="VB.NET" Value="Public Property Color As WdColor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColor Color { Microsoft::Office::Interop::Word::WdColor get(); void set(Microsoft::Office::Interop::Word::WdColor value); };" />
+      <MemberSignature Language="F#" Value="member this.Color : Microsoft.Office.Interop.Word.WdColor with get, set" Usage="Microsoft.Office.Interop.Word._Font.Color" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -263,6 +271,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.ColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As WdColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColorIndex ColorIndex { Microsoft::Office::Interop::Word::WdColorIndex get(); void set(Microsoft::Office::Interop::Word::WdColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.ColorIndex : Microsoft.Office.Interop.Word.WdColorIndex with get, set" Usage="Microsoft.Office.Interop.Word._Font.ColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -297,6 +306,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.ColorIndexBi" />
       <MemberSignature Language="VB.NET" Value="Public Property ColorIndexBi As WdColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColorIndex ColorIndexBi { Microsoft::Office::Interop::Word::WdColorIndex get(); void set(Microsoft::Office::Interop::Word::WdColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.ColorIndexBi : Microsoft.Office.Interop.Word.WdColorIndex with get, set" Usage="Microsoft.Office.Interop.Word._Font.ColorIndexBi" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -328,6 +338,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.ContextualAlternates" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextualAlternates As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ContextualAlternates { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextualAlternates : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.ContextualAlternates" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -362,6 +373,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word._Font.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -394,6 +406,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.DiacriticColor" />
       <MemberSignature Language="VB.NET" Value="Public Property DiacriticColor As WdColor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColor DiacriticColor { Microsoft::Office::Interop::Word::WdColor get(); void set(Microsoft::Office::Interop::Word::WdColor value); };" />
+      <MemberSignature Language="F#" Value="member this.DiacriticColor : Microsoft.Office.Interop.Word.WdColor with get, set" Usage="Microsoft.Office.Interop.Word._Font.DiacriticColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -428,6 +441,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.DisableCharacterSpaceGrid" />
       <MemberSignature Language="VB.NET" Value="Public Property DisableCharacterSpaceGrid As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisableCharacterSpaceGrid { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisableCharacterSpaceGrid : bool with get, set" Usage="Microsoft.Office.Interop.Word._Font.DisableCharacterSpaceGrid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -460,6 +474,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.DoubleStrikeThrough" />
       <MemberSignature Language="VB.NET" Value="Public Property DoubleStrikeThrough As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DoubleStrikeThrough { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.DoubleStrikeThrough : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.DoubleStrikeThrough" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -495,6 +510,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Duplicate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duplicate As Font" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Font ^ Duplicate { Microsoft::Office::Interop::Word::Font ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Duplicate : Microsoft.Office.Interop.Word.Font" Usage="Microsoft.Office.Interop.Word._Font.Duplicate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -527,6 +543,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Emboss" />
       <MemberSignature Language="VB.NET" Value="Public Property Emboss As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Emboss { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Emboss : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Emboss" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -559,6 +576,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.EmphasisMark" />
       <MemberSignature Language="VB.NET" Value="Public Property EmphasisMark As WdEmphasisMark" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdEmphasisMark EmphasisMark { Microsoft::Office::Interop::Word::WdEmphasisMark get(); void set(Microsoft::Office::Interop::Word::WdEmphasisMark value); };" />
+      <MemberSignature Language="F#" Value="member this.EmphasisMark : Microsoft.Office.Interop.Word.WdEmphasisMark with get, set" Usage="Microsoft.Office.Interop.Word._Font.EmphasisMark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -609,6 +627,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Engrave" />
       <MemberSignature Language="VB.NET" Value="Public Property Engrave As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Engrave { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Engrave : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Engrave" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -644,6 +663,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Fill" />
       <MemberSignature Language="VB.NET" Value="Public Property Fill As FillFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FillFormat ^ Fill { Microsoft::Office::Interop::Word::FillFormat ^ get(); void set(Microsoft::Office::Interop::Word::FillFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Fill : Microsoft.Office.Interop.Word.FillFormat with get, set" Usage="Microsoft.Office.Interop.Word._Font.Fill" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -678,6 +698,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Glow" />
       <MemberSignature Language="VB.NET" Value="Public Property Glow As GlowFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::GlowFormat ^ Glow { Microsoft::Office::Interop::Word::GlowFormat ^ get(); void set(Microsoft::Office::Interop::Word::GlowFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Glow : Microsoft.Office.Interop.Word.GlowFormat with get, set" Usage="Microsoft.Office.Interop.Word._Font.Glow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -712,6 +733,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Font.Grow" />
       <MemberSignature Language="VB.NET" Value="Public Sub Grow ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Grow();" />
+      <MemberSignature Language="F#" Value="abstract member Grow : unit -&gt; unit" Usage="_Font.Grow " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -737,6 +759,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Hidden" />
       <MemberSignature Language="VB.NET" Value="Public Property Hidden As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Hidden { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Hidden : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Hidden" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -773,6 +796,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Italic" />
       <MemberSignature Language="VB.NET" Value="Public Property Italic As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Italic { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Italic : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Italic" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -805,6 +829,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.ItalicBi" />
       <MemberSignature Language="VB.NET" Value="Public Property ItalicBi As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ItalicBi { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.ItalicBi : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.ItalicBi" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -840,6 +865,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Kerning" />
       <MemberSignature Language="VB.NET" Value="Public Property Kerning As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Kerning { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Kerning : single with get, set" Usage="Microsoft.Office.Interop.Word._Font.Kerning" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -871,6 +897,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Ligatures" />
       <MemberSignature Language="VB.NET" Value="Public Property Ligatures As WdLigatures" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLigatures Ligatures { Microsoft::Office::Interop::Word::WdLigatures get(); void set(Microsoft::Office::Interop::Word::WdLigatures value); };" />
+      <MemberSignature Language="F#" Value="member this.Ligatures : Microsoft.Office.Interop.Word.WdLigatures with get, set" Usage="Microsoft.Office.Interop.Word._Font.Ligatures" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -925,6 +952,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Line" />
       <MemberSignature Language="VB.NET" Value="Public Property Line As LineFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::LineFormat ^ Line { Microsoft::Office::Interop::Word::LineFormat ^ get(); void set(Microsoft::Office::Interop::Word::LineFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Line : Microsoft.Office.Interop.Word.LineFormat with get, set" Usage="Microsoft.Office.Interop.Word._Font.Line" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -959,6 +987,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Office.Interop.Word._Font.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -990,6 +1019,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.NameAscii" />
       <MemberSignature Language="VB.NET" Value="Public Property NameAscii As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NameAscii { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.NameAscii : string with get, set" Usage="Microsoft.Office.Interop.Word._Font.NameAscii" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1024,6 +1054,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.NameBi" />
       <MemberSignature Language="VB.NET" Value="Public Property NameBi As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NameBi { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.NameBi : string with get, set" Usage="Microsoft.Office.Interop.Word._Font.NameBi" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1055,6 +1086,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.NameFarEast" />
       <MemberSignature Language="VB.NET" Value="Public Property NameFarEast As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NameFarEast { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.NameFarEast : string with get, set" Usage="Microsoft.Office.Interop.Word._Font.NameFarEast" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1089,6 +1121,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.NameOther" />
       <MemberSignature Language="VB.NET" Value="Public Property NameOther As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NameOther { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.NameOther : string with get, set" Usage="Microsoft.Office.Interop.Word._Font.NameOther" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1123,6 +1156,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.NumberForm" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberForm As WdNumberForm" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdNumberForm NumberForm { Microsoft::Office::Interop::Word::WdNumberForm get(); void set(Microsoft::Office::Interop::Word::WdNumberForm value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberForm : Microsoft.Office.Interop.Word.WdNumberForm with get, set" Usage="Microsoft.Office.Interop.Word._Font.NumberForm" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1158,6 +1192,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.NumberSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberSpacing As WdNumberSpacing" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdNumberSpacing NumberSpacing { Microsoft::Office::Interop::Word::WdNumberSpacing get(); void set(Microsoft::Office::Interop::Word::WdNumberSpacing value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberSpacing : Microsoft.Office.Interop.Word.WdNumberSpacing with get, set" Usage="Microsoft.Office.Interop.Word._Font.NumberSpacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1192,6 +1227,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Outline" />
       <MemberSignature Language="VB.NET" Value="Public Property Outline As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Outline { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Outline : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Outline" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1224,6 +1260,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word._Font.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1252,6 +1289,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Position" />
       <MemberSignature Language="VB.NET" Value="Public Property Position As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Position : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Position" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1283,6 +1321,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Reflection" />
       <MemberSignature Language="VB.NET" Value="Public Property Reflection As ReflectionFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ReflectionFormat ^ Reflection { Microsoft::Office::Interop::Word::ReflectionFormat ^ get(); void set(Microsoft::Office::Interop::Word::ReflectionFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Reflection : Microsoft.Office.Interop.Word.ReflectionFormat with get, set" Usage="Microsoft.Office.Interop.Word._Font.Reflection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1317,6 +1356,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Font.Reset" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberSignature Language="F#" Value="abstract member Reset : unit -&gt; unit" Usage="_Font.Reset " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1345,6 +1385,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Scaling" />
       <MemberSignature Language="VB.NET" Value="Public Property Scaling As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Scaling { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Scaling : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Scaling" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1376,6 +1417,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Font.SetAsTemplateDefault" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAsTemplateDefault ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAsTemplateDefault();" />
+      <MemberSignature Language="F#" Value="abstract member SetAsTemplateDefault : unit -&gt; unit" Usage="_Font.SetAsTemplateDefault " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1401,6 +1443,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Shading" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shading As Shading" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shading ^ Shading { Microsoft::Office::Interop::Word::Shading ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Shading : Microsoft.Office.Interop.Word.Shading" Usage="Microsoft.Office.Interop.Word._Font.Shading" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1429,6 +1472,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Shadow" />
       <MemberSignature Language="VB.NET" Value="Public Property Shadow As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Shadow { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Shadow : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Shadow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1461,6 +1505,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Font.Shrink" />
       <MemberSignature Language="VB.NET" Value="Public Sub Shrink ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Shrink();" />
+      <MemberSignature Language="F#" Value="abstract member Shrink : unit -&gt; unit" Usage="_Font.Shrink " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1486,6 +1531,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Size" />
       <MemberSignature Language="VB.NET" Value="Public Property Size As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Size { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Size : single with get, set" Usage="Microsoft.Office.Interop.Word._Font.Size" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1517,6 +1563,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.SizeBi" />
       <MemberSignature Language="VB.NET" Value="Public Property SizeBi As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float SizeBi { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.SizeBi : single with get, set" Usage="Microsoft.Office.Interop.Word._Font.SizeBi" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1551,6 +1598,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.SmallCaps" />
       <MemberSignature Language="VB.NET" Value="Public Property SmallCaps As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SmallCaps { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.SmallCaps : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.SmallCaps" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1586,6 +1634,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Spacing" />
       <MemberSignature Language="VB.NET" Value="Public Property Spacing As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Spacing { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Spacing : single with get, set" Usage="Microsoft.Office.Interop.Word._Font.Spacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1617,6 +1666,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.StrikeThrough" />
       <MemberSignature Language="VB.NET" Value="Public Property StrikeThrough As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StrikeThrough { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.StrikeThrough : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.StrikeThrough" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1652,6 +1702,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.StylisticSet" />
       <MemberSignature Language="VB.NET" Value="Public Property StylisticSet As WdStylisticSet" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdStylisticSet StylisticSet { Microsoft::Office::Interop::Word::WdStylisticSet get(); void set(Microsoft::Office::Interop::Word::WdStylisticSet value); };" />
+      <MemberSignature Language="F#" Value="member this.StylisticSet : Microsoft.Office.Interop.Word.WdStylisticSet with get, set" Usage="Microsoft.Office.Interop.Word._Font.StylisticSet" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1686,6 +1737,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Subscript" />
       <MemberSignature Language="VB.NET" Value="Public Property Subscript As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Subscript { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Subscript : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Subscript" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1721,6 +1773,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Superscript" />
       <MemberSignature Language="VB.NET" Value="Public Property Superscript As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Superscript { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Superscript : int with get, set" Usage="Microsoft.Office.Interop.Word._Font.Superscript" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1756,6 +1809,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextColor As ColorFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ColorFormat ^ TextColor { Microsoft::Office::Interop::Word::ColorFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TextColor : Microsoft.Office.Interop.Word.ColorFormat" Usage="Microsoft.Office.Interop.Word._Font.TextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1787,6 +1841,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.TextShadow" />
       <MemberSignature Language="VB.NET" Value="Public Property TextShadow As ShadowFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ShadowFormat ^ TextShadow { Microsoft::Office::Interop::Word::ShadowFormat ^ get(); void set(Microsoft::Office::Interop::Word::ShadowFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TextShadow : Microsoft.Office.Interop.Word.ShadowFormat with get, set" Usage="Microsoft.Office.Interop.Word._Font.TextShadow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1818,6 +1873,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.ThreeD" />
       <MemberSignature Language="VB.NET" Value="Public Property ThreeD As ThreeDFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ThreeDFormat ^ ThreeD { Microsoft::Office::Interop::Word::ThreeDFormat ^ get(); void set(Microsoft::Office::Interop::Word::ThreeDFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ThreeD : Microsoft.Office.Interop.Word.ThreeDFormat with get, set" Usage="Microsoft.Office.Interop.Word._Font.ThreeD" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1852,6 +1908,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.Underline" />
       <MemberSignature Language="VB.NET" Value="Public Property Underline As WdUnderline" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdUnderline Underline { Microsoft::Office::Interop::Word::WdUnderline get(); void set(Microsoft::Office::Interop::Word::WdUnderline value); };" />
+      <MemberSignature Language="F#" Value="member this.Underline : Microsoft.Office.Interop.Word.WdUnderline with get, set" Usage="Microsoft.Office.Interop.Word._Font.Underline" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1941,6 +1998,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Font.UnderlineColor" />
       <MemberSignature Language="VB.NET" Value="Public Property UnderlineColor As WdColor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColor UnderlineColor { Microsoft::Office::Interop::Word::WdColor get(); void set(Microsoft::Office::Interop::Word::WdColor value); };" />
+      <MemberSignature Language="F#" Value="member this.UnderlineColor : Microsoft.Office.Interop.Word.WdColor with get, set" Usage="Microsoft.Office.Interop.Word._Font.UnderlineColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

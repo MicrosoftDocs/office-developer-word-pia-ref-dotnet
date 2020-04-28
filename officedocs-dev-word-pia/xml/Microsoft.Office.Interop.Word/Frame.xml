@@ -1,9 +1,10 @@
-﻿<Type Name="Frame" FullName="Microsoft.Office.Interop.Word.Frame">
+<Type Name="Frame" FullName="Microsoft.Office.Interop.Word.Frame">
   <TypeSignature Language="C#" Value="public interface Frame" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Frame" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Frame" />
   <TypeSignature Language="VB.NET" Value="Public Interface Frame" />
   <TypeSignature Language="C++ CLI" Value="public interface class Frame" />
+  <TypeSignature Language="F#" Value="type Frame = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Frame.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Borders" />
       <MemberSignature Language="VB.NET" Value="Public Property Borders As Borders" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Borders ^ Borders { Microsoft::Office::Interop::Word::Borders ^ get(); void set(Microsoft::Office::Interop::Word::Borders ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Borders : Microsoft.Office.Interop.Word.Borders with get, set" Usage="Microsoft.Office.Interop.Word.Frame.Borders" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Frame.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; unit" Usage="frame.Copy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -117,6 +121,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Frame.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -149,6 +154,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Frame.Cut" />
       <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberSignature Language="F#" Value="abstract member Cut : unit -&gt; unit" Usage="frame.Cut " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -174,6 +180,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Frame.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="frame.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -199,6 +206,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Height : single with get, set" Usage="Microsoft.Office.Interop.Word.Frame.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -230,6 +238,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.HeightRule" />
       <MemberSignature Language="VB.NET" Value="Public Property HeightRule As WdFrameSizeRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFrameSizeRule HeightRule { Microsoft::Office::Interop::Word::WdFrameSizeRule get(); void set(Microsoft::Office::Interop::Word::WdFrameSizeRule value); };" />
+      <MemberSignature Language="F#" Value="member this.HeightRule : Microsoft.Office.Interop.Word.WdFrameSizeRule with get, set" Usage="Microsoft.Office.Interop.Word.Frame.HeightRule" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -261,6 +270,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.HorizontalDistanceFromText" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalDistanceFromText As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float HorizontalDistanceFromText { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.HorizontalDistanceFromText : single with get, set" Usage="Microsoft.Office.Interop.Word.Frame.HorizontalDistanceFromText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -292,6 +302,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.HorizontalPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalPosition As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float HorizontalPosition { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.HorizontalPosition : single with get, set" Usage="Microsoft.Office.Interop.Word.Frame.HorizontalPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -326,6 +337,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.LockAnchor" />
       <MemberSignature Language="VB.NET" Value="Public Property LockAnchor As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LockAnchor { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.LockAnchor : bool with get, set" Usage="Microsoft.Office.Interop.Word.Frame.LockAnchor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -361,6 +373,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Frame.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -389,6 +402,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Range" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Frame.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -420,6 +434,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.RelativeHorizontalPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property RelativeHorizontalPosition As WdRelativeHorizontalPosition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRelativeHorizontalPosition RelativeHorizontalPosition { Microsoft::Office::Interop::Word::WdRelativeHorizontalPosition get(); void set(Microsoft::Office::Interop::Word::WdRelativeHorizontalPosition value); };" />
+      <MemberSignature Language="F#" Value="member this.RelativeHorizontalPosition : Microsoft.Office.Interop.Word.WdRelativeHorizontalPosition with get, set" Usage="Microsoft.Office.Interop.Word.Frame.RelativeHorizontalPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -451,6 +466,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.RelativeVerticalPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property RelativeVerticalPosition As WdRelativeVerticalPosition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRelativeVerticalPosition RelativeVerticalPosition { Microsoft::Office::Interop::Word::WdRelativeVerticalPosition get(); void set(Microsoft::Office::Interop::Word::WdRelativeVerticalPosition value); };" />
+      <MemberSignature Language="F#" Value="member this.RelativeVerticalPosition : Microsoft.Office.Interop.Word.WdRelativeVerticalPosition with get, set" Usage="Microsoft.Office.Interop.Word.Frame.RelativeVerticalPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -482,6 +498,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Frame.Select" />
       <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit" Usage="frame.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -510,6 +527,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Shading" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shading As Shading" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shading ^ Shading { Microsoft::Office::Interop::Word::Shading ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Shading : Microsoft.Office.Interop.Word.Shading" Usage="Microsoft.Office.Interop.Word.Frame.Shading" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -538,6 +556,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.TextWrap" />
       <MemberSignature Language="VB.NET" Value="Public Property TextWrap As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextWrap { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.TextWrap : bool with get, set" Usage="Microsoft.Office.Interop.Word.Frame.TextWrap" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -570,6 +589,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.VerticalDistanceFromText" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalDistanceFromText As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float VerticalDistanceFromText { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.VerticalDistanceFromText : single with get, set" Usage="Microsoft.Office.Interop.Word.Frame.VerticalDistanceFromText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -601,6 +621,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.VerticalPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalPosition As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float VerticalPosition { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.VerticalPosition : single with get, set" Usage="Microsoft.Office.Interop.Word.Frame.VerticalPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -635,6 +656,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : single with get, set" Usage="Microsoft.Office.Interop.Word.Frame.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -666,6 +688,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Frame.WidthRule" />
       <MemberSignature Language="VB.NET" Value="Public Property WidthRule As WdFrameSizeRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFrameSizeRule WidthRule { Microsoft::Office::Interop::Word::WdFrameSizeRule get(); void set(Microsoft::Office::Interop::Word::WdFrameSizeRule value); };" />
+      <MemberSignature Language="F#" Value="member this.WidthRule : Microsoft.Office.Interop.Word.WdFrameSizeRule with get, set" Usage="Microsoft.Office.Interop.Word.Frame.WidthRule" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

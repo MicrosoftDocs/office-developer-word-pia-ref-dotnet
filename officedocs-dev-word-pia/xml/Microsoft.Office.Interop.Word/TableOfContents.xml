@@ -1,9 +1,10 @@
-﻿<Type Name="TableOfContents" FullName="Microsoft.Office.Interop.Word.TableOfContents">
+<Type Name="TableOfContents" FullName="Microsoft.Office.Interop.Word.TableOfContents">
   <TypeSignature Language="C#" Value="public interface TableOfContents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TableOfContents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TableOfContents" />
   <TypeSignature Language="VB.NET" Value="Public Interface TableOfContents" />
   <TypeSignature Language="C++ CLI" Value="public interface class TableOfContents" />
+  <TypeSignature Language="F#" Value="type TableOfContents = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.TableOfContents.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.TableOfContents.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TableOfContents.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="tableOfContents.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -118,6 +122,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.HeadingStyles" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeadingStyles As HeadingStyles" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HeadingStyles ^ HeadingStyles { Microsoft::Office::Interop::Word::HeadingStyles ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HeadingStyles : Microsoft.Office.Interop.Word.HeadingStyles" Usage="Microsoft.Office.Interop.Word.TableOfContents.HeadingStyles" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -146,6 +151,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.HidePageNumbersInWeb" />
       <MemberSignature Language="VB.NET" Value="Public Property HidePageNumbersInWeb As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HidePageNumbersInWeb { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HidePageNumbersInWeb : bool with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.HidePageNumbersInWeb" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -177,6 +183,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.IncludePageNumbers" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludePageNumbers As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludePageNumbers { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IncludePageNumbers : bool with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.IncludePageNumbers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -209,6 +216,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.LowerHeadingLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property LowerHeadingLevel As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LowerHeadingLevel { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.LowerHeadingLevel : int with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.LowerHeadingLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -244,6 +252,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.TableOfContents.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -272,6 +281,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.Range" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.TableOfContents.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -303,6 +313,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.RightAlignPageNumbers" />
       <MemberSignature Language="VB.NET" Value="Public Property RightAlignPageNumbers As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RightAlignPageNumbers { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.RightAlignPageNumbers : bool with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.RightAlignPageNumbers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -335,6 +346,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.TabLeader" />
       <MemberSignature Language="VB.NET" Value="Public Property TabLeader As WdTabLeader" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTabLeader TabLeader { Microsoft::Office::Interop::Word::WdTabLeader get(); void set(Microsoft::Office::Interop::Word::WdTabLeader value); };" />
+      <MemberSignature Language="F#" Value="member this.TabLeader : Microsoft.Office.Interop.Word.WdTabLeader with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.TabLeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -388,6 +400,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.TableID" />
       <MemberSignature Language="VB.NET" Value="Public Property TableID As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TableID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TableID : string with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.TableID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -422,6 +435,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TableOfContents.Update" />
       <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberSignature Language="F#" Value="abstract member Update : unit -&gt; unit" Usage="tableOfContents.Update " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -451,6 +465,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TableOfContents.UpdatePageNumbers" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdatePageNumbers ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void UpdatePageNumbers();" />
+      <MemberSignature Language="F#" Value="abstract member UpdatePageNumbers : unit -&gt; unit" Usage="tableOfContents.UpdatePageNumbers " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -476,6 +491,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.UpperHeadingLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property UpperHeadingLevel As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UpperHeadingLevel { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.UpperHeadingLevel : int with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.UpperHeadingLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -511,6 +527,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.UseFields" />
       <MemberSignature Language="VB.NET" Value="Public Property UseFields As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseFields { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.UseFields : bool with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.UseFields" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -543,6 +560,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.UseHeadingStyles" />
       <MemberSignature Language="VB.NET" Value="Public Property UseHeadingStyles As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseHeadingStyles { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.UseHeadingStyles : bool with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.UseHeadingStyles" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -575,6 +593,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TableOfContents.UseHyperlinks" />
       <MemberSignature Language="VB.NET" Value="Public Property UseHyperlinks As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseHyperlinks { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.UseHyperlinks : bool with get, set" Usage="Microsoft.Office.Interop.Word.TableOfContents.UseHyperlinks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

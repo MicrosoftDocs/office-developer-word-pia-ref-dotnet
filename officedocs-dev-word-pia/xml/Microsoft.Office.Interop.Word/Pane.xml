@@ -1,9 +1,10 @@
-﻿<Type Name="Pane" FullName="Microsoft.Office.Interop.Word.Pane">
+<Type Name="Pane" FullName="Microsoft.Office.Interop.Word.Pane">
   <TypeSignature Language="C#" Value="public interface Pane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Pane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Pane" />
   <TypeSignature Language="VB.NET" Value="Public Interface Pane" />
   <TypeSignature Language="C++ CLI" Value="public interface class Pane" />
+  <TypeSignature Language="F#" Value="type Pane = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -2091,6 +2092,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.Activate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberSignature Language="F#" Value="abstract member Activate : unit -&gt; unit" Usage="pane.Activate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2890,6 +2892,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Pane.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2921,6 +2924,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.AutoScroll(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AutoScroll (Velocity As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutoScroll(int Velocity);" />
+      <MemberSignature Language="F#" Value="abstract member AutoScroll : int -&gt; unit" Usage="pane.AutoScroll Velocity" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2949,6 +2953,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.BrowseToWindow" />
       <MemberSignature Language="VB.NET" Value="Public Property BrowseToWindow As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BrowseToWindow { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.BrowseToWindow : bool with get, set" Usage="Microsoft.Office.Interop.Word.Pane.BrowseToWindow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2986,6 +2991,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.BrowseWidth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BrowseWidth As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BrowseWidth { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.BrowseWidth : int" Usage="Microsoft.Office.Interop.Word.Pane.BrowseWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3017,6 +3023,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.Close" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit" Usage="pane.Close " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3303,6 +3310,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Pane.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3334,6 +3342,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.DisplayRulers" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayRulers As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayRulers { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayRulers : bool with get, set" Usage="Microsoft.Office.Interop.Word.Pane.DisplayRulers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3887,6 +3896,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.DisplayVerticalRuler" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayVerticalRuler As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayVerticalRuler { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayVerticalRuler : bool with get, set" Usage="Microsoft.Office.Interop.Word.Pane.DisplayVerticalRuler" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4696,6 +4706,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Document" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Document As Document" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Document ^ Document { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Document : Microsoft.Office.Interop.Word.Document" Usage="Microsoft.Office.Interop.Word.Pane.Document" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4724,6 +4735,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Frameset" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Frameset As Frameset" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Frameset ^ Frameset { Microsoft::Office::Interop::Word::Frameset ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Frameset : Microsoft.Office.Interop.Word.Frameset" Usage="Microsoft.Office.Interop.Word.Pane.Frameset" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4762,6 +4774,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.HorizontalPercentScrolled" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalPercentScrolled As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HorizontalPercentScrolled { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.HorizontalPercentScrolled : int with get, set" Usage="Microsoft.Office.Interop.Word.Pane.HorizontalPercentScrolled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5311,6 +5324,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Office.Interop.Word.Pane.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5338,6 +5352,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LargeScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.LargeScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub LargeScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberSignature Language="F#" Value="abstract member LargeScroll : obj * obj * obj * obj -&gt; unit" Usage="pane.LargeScroll (Down, Up, ToRight, ToLeft)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5352,10 +5367,10 @@ End If&lt;/span&gt;</code>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Down" Type="System.Object" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Down">The number of screens to scroll the window down.</param>
@@ -5375,6 +5390,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.MinimumFontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property MinimumFontSize As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumFontSize { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MinimumFontSize : int with get, set" Usage="Microsoft.Office.Interop.Word.Pane.MinimumFontSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6186,6 +6202,7 @@ End If&lt;/span&gt;</code>
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.NewFrameset" />
       <MemberSignature Language="VB.NET" Value="Public Sub NewFrameset ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewFrameset();" />
+      <MemberSignature Language="F#" Value="abstract member NewFrameset : unit -&gt; unit" Usage="pane.NewFrameset " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6475,6 +6492,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Next" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As Pane" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pane ^ Next { Microsoft::Office::Interop::Word::Pane ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Next : Microsoft.Office.Interop.Word.Pane" Usage="Microsoft.Office.Interop.Word.Pane.Next" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6503,6 +6521,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Pages" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pages As Pages" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pages ^ Pages { Microsoft::Office::Interop::Word::Pages ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Pages : Microsoft.Office.Interop.Word.Pages" Usage="Microsoft.Office.Interop.Word.Pane.Pages" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6530,6 +6549,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PageScroll([in]object&amp; Down, [in]object&amp; Up) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.PageScroll(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PageScroll (Optional ByRef Down As Object, Optional ByRef Up As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PageScroll : obj * obj -&gt; unit" Usage="pane.PageScroll (Down, Up)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6544,8 +6564,8 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Down" Type="System.Object" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Down">The number of pages to be scrolled down.</param>
@@ -6560,6 +6580,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Pane.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6588,6 +6609,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Previous" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As Pane" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pane ^ Previous { Microsoft::Office::Interop::Word::Pane ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Previous : Microsoft.Office.Interop.Word.Pane" Usage="Microsoft.Office.Interop.Word.Pane.Previous" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6616,6 +6638,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Selection" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As Selection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Selection ^ Selection { Microsoft::Office::Interop::Word::Selection ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Selection : Microsoft.Office.Interop.Word.Selection" Usage="Microsoft.Office.Interop.Word.Pane.Selection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6643,6 +6666,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SmallScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.SmallScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SmallScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SmallScroll : obj * obj * obj * obj -&gt; unit" Usage="pane.SmallScroll (Down, Up, ToRight, ToLeft)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -6657,10 +6681,10 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Down" Type="System.Object" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Down">The number of lines to scroll the window down.</param>
@@ -6677,6 +6701,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Pane.TOCInFrameset" />
       <MemberSignature Language="VB.NET" Value="Public Sub TOCInFrameset ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void TOCInFrameset();" />
+      <MemberSignature Language="F#" Value="abstract member TOCInFrameset : unit -&gt; unit" Usage="pane.TOCInFrameset " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -7222,6 +7247,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.VerticalPercentScrolled" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalPercentScrolled As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int VerticalPercentScrolled { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.VerticalPercentScrolled : int with get, set" Usage="Microsoft.Office.Interop.Word.Pane.VerticalPercentScrolled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -7771,6 +7797,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.View" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property View As View" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::View ^ View { Microsoft::Office::Interop::Word::View ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.View : Microsoft.Office.Interop.Word.View" Usage="Microsoft.Office.Interop.Word.Pane.View" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -8061,6 +8088,7 @@ ActiveDocument.ActiveWindow.ActivePane.&lt;/span&gt;
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Pane.Zooms" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Zooms As Zooms" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Zooms ^ Zooms { Microsoft::Office::Interop::Word::Zooms ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Zooms : Microsoft.Office.Interop.Word.Zooms" Usage="Microsoft.Office.Interop.Word.Pane.Zooms" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

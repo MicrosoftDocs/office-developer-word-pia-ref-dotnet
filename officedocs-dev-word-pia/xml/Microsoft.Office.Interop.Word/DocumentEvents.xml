@@ -1,9 +1,10 @@
-﻿<Type Name="DocumentEvents" FullName="Microsoft.Office.Interop.Word.DocumentEvents">
+<Type Name="DocumentEvents" FullName="Microsoft.Office.Interop.Word.DocumentEvents">
   <TypeSignature Language="C#" Value="public interface DocumentEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DocumentEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentEvents" />
   <TypeSignature Language="C++ CLI" Value="public interface class DocumentEvents" />
+  <TypeSignature Language="F#" Value="type DocumentEvents = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents.Close" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit" Usage="documentEvents.Close " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents.New" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void New();" />
+      <MemberSignature Language="F#" Value="abstract member New : unit -&gt; unit" Usage="documentEvents.New " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -81,6 +84,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents.Open" />
       <MemberSignature Language="VB.NET" Value="Public Sub Open ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open();" />
+      <MemberSignature Language="F#" Value="abstract member Open : unit -&gt; unit" Usage="documentEvents.Open " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

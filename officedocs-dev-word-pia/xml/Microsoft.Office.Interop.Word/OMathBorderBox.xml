@@ -1,9 +1,10 @@
-﻿<Type Name="OMathBorderBox" FullName="Microsoft.Office.Interop.Word.OMathBorderBox">
+<Type Name="OMathBorderBox" FullName="Microsoft.Office.Interop.Word.OMathBorderBox">
   <TypeSignature Language="C#" Value="public interface OMathBorderBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathBorderBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathBorderBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface OMathBorderBox" />
   <TypeSignature Language="C++ CLI" Value="public interface class OMathBorderBox" />
+  <TypeSignature Language="F#" Value="type OMathBorderBox = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -58,6 +60,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.E" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property E As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ E { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.E : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.E" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.HideBot" />
       <MemberSignature Language="VB.NET" Value="Public Property HideBot As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideBot { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideBot : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.HideBot" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -155,6 +160,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.HideLeft" />
       <MemberSignature Language="VB.NET" Value="Public Property HideLeft As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideLeft { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideLeft : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.HideLeft" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -188,6 +194,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.HideRight" />
       <MemberSignature Language="VB.NET" Value="Public Property HideRight As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideRight { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideRight : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.HideRight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -221,6 +228,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.HideTop" />
       <MemberSignature Language="VB.NET" Value="Public Property HideTop As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideTop { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideTop : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.HideTop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -254,6 +262,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -284,6 +293,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.StrikeBLTR" />
       <MemberSignature Language="VB.NET" Value="Public Property StrikeBLTR As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StrikeBLTR { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.StrikeBLTR : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.StrikeBLTR" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -317,6 +327,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.StrikeH" />
       <MemberSignature Language="VB.NET" Value="Public Property StrikeH As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StrikeH { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.StrikeH : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.StrikeH" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -350,6 +361,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.StrikeTLBR" />
       <MemberSignature Language="VB.NET" Value="Public Property StrikeTLBR As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StrikeTLBR { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.StrikeTLBR : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.StrikeTLBR" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -383,6 +395,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathBorderBox.StrikeV" />
       <MemberSignature Language="VB.NET" Value="Public Property StrikeV As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StrikeV { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.StrikeV : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathBorderBox.StrikeV" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

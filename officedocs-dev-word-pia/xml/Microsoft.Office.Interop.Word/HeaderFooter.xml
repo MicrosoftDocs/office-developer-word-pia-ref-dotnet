@@ -1,9 +1,10 @@
-﻿<Type Name="HeaderFooter" FullName="Microsoft.Office.Interop.Word.HeaderFooter">
+<Type Name="HeaderFooter" FullName="Microsoft.Office.Interop.Word.HeaderFooter">
   <TypeSignature Language="C#" Value="public interface HeaderFooter" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract HeaderFooter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.HeaderFooter" />
   <TypeSignature Language="VB.NET" Value="Public Interface HeaderFooter" />
   <TypeSignature Language="C++ CLI" Value="public interface class HeaderFooter" />
+  <TypeSignature Language="F#" Value="type HeaderFooter = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -38,6 +39,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.HeaderFooter.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -66,6 +68,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.HeaderFooter.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -98,6 +101,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Exists" />
       <MemberSignature Language="VB.NET" Value="Public Property Exists As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Exists { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Exists : bool with get, set" Usage="Microsoft.Office.Interop.Word.HeaderFooter.Exists" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -133,6 +137,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As WdHeaderFooterIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdHeaderFooterIndex Index { Microsoft::Office::Interop::Word::WdHeaderFooterIndex get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : Microsoft.Office.Interop.Word.WdHeaderFooterIndex" Usage="Microsoft.Office.Interop.Word.HeaderFooter.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -161,6 +166,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.IsHeader" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsHeader As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsHeader { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsHeader : bool" Usage="Microsoft.Office.Interop.Word.HeaderFooter.IsHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -190,6 +196,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.LinkToPrevious" />
       <MemberSignature Language="VB.NET" Value="Public Property LinkToPrevious As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LinkToPrevious { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.LinkToPrevious : bool with get, set" Usage="Microsoft.Office.Interop.Word.HeaderFooter.LinkToPrevious" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -226,6 +233,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.PageNumbers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageNumbers As PageNumbers" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::PageNumbers ^ PageNumbers { Microsoft::Office::Interop::Word::PageNumbers ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PageNumbers : Microsoft.Office.Interop.Word.PageNumbers" Usage="Microsoft.Office.Interop.Word.HeaderFooter.PageNumbers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -254,6 +262,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.HeaderFooter.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -282,6 +291,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Range" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ default { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.HeaderFooter.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -313,6 +323,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HeaderFooter.Shapes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shapes As Shapes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shapes ^ Shapes { Microsoft::Office::Interop::Word::Shapes ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Shapes : Microsoft.Office.Interop.Word.Shapes" Usage="Microsoft.Office.Interop.Word.HeaderFooter.Shapes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

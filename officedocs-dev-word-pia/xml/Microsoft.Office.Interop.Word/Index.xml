@@ -1,9 +1,10 @@
-﻿<Type Name="Index" FullName="Microsoft.Office.Interop.Word.Index">
+<Type Name="Index" FullName="Microsoft.Office.Interop.Word.Index">
   <TypeSignature Language="C#" Value="public interface Index" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Index" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Index" />
   <TypeSignature Language="VB.NET" Value="Public Interface Index" />
   <TypeSignature Language="C++ CLI" Value="public interface class Index" />
+  <TypeSignature Language="F#" Value="type Index = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.AccentedLetters" />
       <MemberSignature Language="VB.NET" Value="Public Property AccentedLetters As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AccentedLetters { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AccentedLetters : bool with get, set" Usage="Microsoft.Office.Interop.Word.Index.AccentedLetters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -65,6 +67,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Index.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Index.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -125,6 +129,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Index.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="index.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -150,6 +155,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.Filter" />
       <MemberSignature Language="VB.NET" Value="Public Property Filter As WdIndexFilter" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdIndexFilter Filter { Microsoft::Office::Interop::Word::WdIndexFilter get(); void set(Microsoft::Office::Interop::Word::WdIndexFilter value); };" />
+      <MemberSignature Language="F#" Value="member this.Filter : Microsoft.Office.Interop.Word.WdIndexFilter with get, set" Usage="Microsoft.Office.Interop.Word.Index.Filter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -184,6 +190,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.HeadingSeparator" />
       <MemberSignature Language="VB.NET" Value="Public Property HeadingSeparator As WdHeadingSeparator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdHeadingSeparator HeadingSeparator { Microsoft::Office::Interop::Word::WdHeadingSeparator get(); void set(Microsoft::Office::Interop::Word::WdHeadingSeparator value); };" />
+      <MemberSignature Language="F#" Value="member this.HeadingSeparator : Microsoft.Office.Interop.Word.WdHeadingSeparator with get, set" Usage="Microsoft.Office.Interop.Word.Index.HeadingSeparator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -218,6 +225,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.IndexLanguage" />
       <MemberSignature Language="VB.NET" Value="Public Property IndexLanguage As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID IndexLanguage { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.IndexLanguage : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Index.IndexLanguage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -252,6 +260,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.NumberOfColumns" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberOfColumns As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfColumns { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberOfColumns : int with get, set" Usage="Microsoft.Office.Interop.Word.Index.NumberOfColumns" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -286,6 +295,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Index.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -314,6 +324,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.Range" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Index.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -345,6 +356,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.RightAlignPageNumbers" />
       <MemberSignature Language="VB.NET" Value="Public Property RightAlignPageNumbers As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RightAlignPageNumbers { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.RightAlignPageNumbers : bool with get, set" Usage="Microsoft.Office.Interop.Word.Index.RightAlignPageNumbers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -377,6 +389,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.SortBy" />
       <MemberSignature Language="VB.NET" Value="Public Property SortBy As WdIndexSortBy" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdIndexSortBy SortBy { Microsoft::Office::Interop::Word::WdIndexSortBy get(); void set(Microsoft::Office::Interop::Word::WdIndexSortBy value); };" />
+      <MemberSignature Language="F#" Value="member this.SortBy : Microsoft.Office.Interop.Word.WdIndexSortBy with get, set" Usage="Microsoft.Office.Interop.Word.Index.SortBy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -411,6 +424,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.TabLeader" />
       <MemberSignature Language="VB.NET" Value="Public Property TabLeader As WdTabLeader" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTabLeader TabLeader { Microsoft::Office::Interop::Word::WdTabLeader get(); void set(Microsoft::Office::Interop::Word::WdTabLeader value); };" />
+      <MemberSignature Language="F#" Value="member this.TabLeader : Microsoft.Office.Interop.Word.WdTabLeader with get, set" Usage="Microsoft.Office.Interop.Word.Index.TabLeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -445,6 +459,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Index.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As WdIndexType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdIndexType Type { Microsoft::Office::Interop::Word::WdIndexType get(); void set(Microsoft::Office::Interop::Word::WdIndexType value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdIndexType with get, set" Usage="Microsoft.Office.Interop.Word.Index.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -479,6 +494,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Index.Update" />
       <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberSignature Language="F#" Value="abstract member Update : unit -&gt; unit" Usage="index.Update " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

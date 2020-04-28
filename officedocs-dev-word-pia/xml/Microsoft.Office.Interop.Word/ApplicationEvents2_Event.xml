@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents2_Event" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_Event">
+<Type Name="ApplicationEvents2_Event" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_Event">
   <TypeSignature Language="C#" Value="public interface ApplicationEvents2_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ApplicationEvents2_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents2_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ApplicationEvents2_Event" />
   <TypeSignature Language="C++ CLI" Value="public interface class ApplicationEvents2_Event" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents2_Event = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -25,12 +26,325 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="add_DocumentBeforeClose">
+      <MemberSignature Language="C#" Value="public void add_DocumentBeforeClose (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DocumentBeforeClose(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_DocumentBeforeClose(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DocumentBeforeClose ( As ApplicationEvents2_DocumentBeforeCloseEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_DocumentBeforeClose(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeCloseEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_DocumentBeforeClose : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_DocumentBeforeClose " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DocumentBeforePrint">
+      <MemberSignature Language="C#" Value="public void add_DocumentBeforePrint (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DocumentBeforePrint(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_DocumentBeforePrint(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DocumentBeforePrint ( As ApplicationEvents2_DocumentBeforePrintEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_DocumentBeforePrint(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforePrintEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_DocumentBeforePrint : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_DocumentBeforePrint " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DocumentBeforeSave">
+      <MemberSignature Language="C#" Value="public void add_DocumentBeforeSave (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DocumentBeforeSave(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_DocumentBeforeSave(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DocumentBeforeSave ( As ApplicationEvents2_DocumentBeforeSaveEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_DocumentBeforeSave(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeSaveEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_DocumentBeforeSave : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_DocumentBeforeSave " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DocumentChange">
+      <MemberSignature Language="C#" Value="public void add_DocumentChange (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DocumentChange(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_DocumentChange(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DocumentChange ( As ApplicationEvents2_DocumentChangeEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_DocumentChange(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentChangeEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_DocumentChange : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_DocumentChange " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_DocumentOpen">
+      <MemberSignature Language="C#" Value="public void add_DocumentOpen (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_DocumentOpen(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_DocumentOpen(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_DocumentOpen ( As ApplicationEvents2_DocumentOpenEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_DocumentOpen(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentOpenEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_DocumentOpen : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_DocumentOpen " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_NewDocument">
+      <MemberSignature Language="C#" Value="public void add_NewDocument (Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_NewDocument(class Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_NewDocument(Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_NewDocument ( As ApplicationEvents2_NewDocumentEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_NewDocument(Microsoft::Office::Interop::Word::ApplicationEvents2_NewDocumentEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_NewDocument : Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_NewDocument " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Quit">
+      <MemberSignature Language="C#" Value="public void add_Quit (Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Quit(class Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_Quit(Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Quit ( As ApplicationEvents2_QuitEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_Quit(Microsoft::Office::Interop::Word::ApplicationEvents2_QuitEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_Quit : Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_Quit " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_Startup">
+      <MemberSignature Language="C#" Value="public void add_Startup (Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_Startup(class Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_Startup(Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_Startup ( As ApplicationEvents2_StartupEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_Startup(Microsoft::Office::Interop::Word::ApplicationEvents2_StartupEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_Startup : Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_Startup " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_WindowActivate">
+      <MemberSignature Language="C#" Value="public void add_WindowActivate (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_WindowActivate(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_WindowActivate(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_WindowActivate ( As ApplicationEvents2_WindowActivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_WindowActivate(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowActivateEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_WindowActivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_WindowActivate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_WindowBeforeDoubleClick">
+      <MemberSignature Language="C#" Value="public void add_WindowBeforeDoubleClick (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_WindowBeforeDoubleClick(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_WindowBeforeDoubleClick(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_WindowBeforeDoubleClick ( As ApplicationEvents2_WindowBeforeDoubleClickEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_WindowBeforeDoubleClick(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeDoubleClickEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_WindowBeforeDoubleClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_WindowBeforeDoubleClick " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_WindowBeforeRightClick">
+      <MemberSignature Language="C#" Value="public void add_WindowBeforeRightClick (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_WindowBeforeRightClick(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_WindowBeforeRightClick(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_WindowBeforeRightClick ( As ApplicationEvents2_WindowBeforeRightClickEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_WindowBeforeRightClick(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeRightClickEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_WindowBeforeRightClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_WindowBeforeRightClick " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_WindowDeactivate">
+      <MemberSignature Language="C#" Value="public void add_WindowDeactivate (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_WindowDeactivate(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_WindowDeactivate(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_WindowDeactivate ( As ApplicationEvents2_WindowDeactivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_WindowDeactivate(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowDeactivateEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_WindowDeactivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_WindowDeactivate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="add_WindowSelectionChange">
+      <MemberSignature Language="C#" Value="public void add_WindowSelectionChange (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void add_WindowSelectionChange(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.add_WindowSelectionChange(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub add_WindowSelectionChange ( As ApplicationEvents2_WindowSelectionChangeEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void add_WindowSelectionChange(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowSelectionChangeEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member add_WindowSelectionChange : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler -&gt; unit" Usage="applicationEvents2_Event.add_WindowSelectionChange " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DocumentBeforeClose">
       <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler DocumentBeforeClose;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler DocumentBeforeClose" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.DocumentBeforeClose" />
       <MemberSignature Language="VB.NET" Value="Event DocumentBeforeClose As ApplicationEvents2_DocumentBeforeCloseEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeCloseEventHandler ^ DocumentBeforeClose;" />
+      <MemberSignature Language="F#" Value="member this.DocumentBeforeClose : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler " Usage="member this.DocumentBeforeClose : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -50,6 +364,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.DocumentBeforePrint" />
       <MemberSignature Language="VB.NET" Value="Event DocumentBeforePrint As ApplicationEvents2_DocumentBeforePrintEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforePrintEventHandler ^ DocumentBeforePrint;" />
+      <MemberSignature Language="F#" Value="member this.DocumentBeforePrint : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler " Usage="member this.DocumentBeforePrint : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -69,6 +384,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.DocumentBeforeSave" />
       <MemberSignature Language="VB.NET" Value="Event DocumentBeforeSave As ApplicationEvents2_DocumentBeforeSaveEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeSaveEventHandler ^ DocumentBeforeSave;" />
+      <MemberSignature Language="F#" Value="member this.DocumentBeforeSave : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler " Usage="member this.DocumentBeforeSave : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -88,6 +404,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.DocumentChange" />
       <MemberSignature Language="VB.NET" Value="Event DocumentChange As ApplicationEvents2_DocumentChangeEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentChangeEventHandler ^ DocumentChange;" />
+      <MemberSignature Language="F#" Value="member this.DocumentChange : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler " Usage="member this.DocumentChange : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -107,6 +424,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.DocumentOpen" />
       <MemberSignature Language="VB.NET" Value="Event DocumentOpen As ApplicationEvents2_DocumentOpenEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentOpenEventHandler ^ DocumentOpen;" />
+      <MemberSignature Language="F#" Value="member this.DocumentOpen : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler " Usage="member this.DocumentOpen : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -126,6 +444,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.NewDocument" />
       <MemberSignature Language="VB.NET" Value="Event NewDocument As ApplicationEvents2_NewDocumentEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_NewDocumentEventHandler ^ NewDocument;" />
+      <MemberSignature Language="F#" Value="member this.NewDocument : Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler " Usage="member this.NewDocument : Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -145,6 +464,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.Quit" />
       <MemberSignature Language="VB.NET" Value="Event Quit As ApplicationEvents2_QuitEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_QuitEventHandler ^ Quit;" />
+      <MemberSignature Language="F#" Value="member this.Quit : Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler " Usage="member this.Quit : Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -158,12 +478,325 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="remove_DocumentBeforeClose">
+      <MemberSignature Language="C#" Value="public void remove_DocumentBeforeClose (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DocumentBeforeClose(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_DocumentBeforeClose(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DocumentBeforeClose ( As ApplicationEvents2_DocumentBeforeCloseEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_DocumentBeforeClose(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeCloseEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_DocumentBeforeClose : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_DocumentBeforeClose " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DocumentBeforePrint">
+      <MemberSignature Language="C#" Value="public void remove_DocumentBeforePrint (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DocumentBeforePrint(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_DocumentBeforePrint(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DocumentBeforePrint ( As ApplicationEvents2_DocumentBeforePrintEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_DocumentBeforePrint(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforePrintEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_DocumentBeforePrint : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_DocumentBeforePrint " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DocumentBeforeSave">
+      <MemberSignature Language="C#" Value="public void remove_DocumentBeforeSave (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DocumentBeforeSave(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_DocumentBeforeSave(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DocumentBeforeSave ( As ApplicationEvents2_DocumentBeforeSaveEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_DocumentBeforeSave(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeSaveEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_DocumentBeforeSave : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_DocumentBeforeSave " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DocumentChange">
+      <MemberSignature Language="C#" Value="public void remove_DocumentChange (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DocumentChange(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_DocumentChange(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DocumentChange ( As ApplicationEvents2_DocumentChangeEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_DocumentChange(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentChangeEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_DocumentChange : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_DocumentChange " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_DocumentOpen">
+      <MemberSignature Language="C#" Value="public void remove_DocumentOpen (Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_DocumentOpen(class Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_DocumentOpen(Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_DocumentOpen ( As ApplicationEvents2_DocumentOpenEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_DocumentOpen(Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentOpenEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_DocumentOpen : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_DocumentOpen " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_NewDocument">
+      <MemberSignature Language="C#" Value="public void remove_NewDocument (Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_NewDocument(class Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_NewDocument(Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_NewDocument ( As ApplicationEvents2_NewDocumentEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_NewDocument(Microsoft::Office::Interop::Word::ApplicationEvents2_NewDocumentEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_NewDocument : Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_NewDocument " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Quit">
+      <MemberSignature Language="C#" Value="public void remove_Quit (Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Quit(class Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_Quit(Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Quit ( As ApplicationEvents2_QuitEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_Quit(Microsoft::Office::Interop::Word::ApplicationEvents2_QuitEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_Quit : Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_Quit " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_Startup">
+      <MemberSignature Language="C#" Value="public void remove_Startup (Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_Startup(class Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_Startup(Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_Startup ( As ApplicationEvents2_StartupEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_Startup(Microsoft::Office::Interop::Word::ApplicationEvents2_StartupEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_Startup : Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_Startup " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_WindowActivate">
+      <MemberSignature Language="C#" Value="public void remove_WindowActivate (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_WindowActivate(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_WindowActivate(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_WindowActivate ( As ApplicationEvents2_WindowActivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_WindowActivate(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowActivateEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_WindowActivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_WindowActivate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_WindowBeforeDoubleClick">
+      <MemberSignature Language="C#" Value="public void remove_WindowBeforeDoubleClick (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_WindowBeforeDoubleClick(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_WindowBeforeDoubleClick(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_WindowBeforeDoubleClick ( As ApplicationEvents2_WindowBeforeDoubleClickEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_WindowBeforeDoubleClick(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeDoubleClickEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_WindowBeforeDoubleClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_WindowBeforeDoubleClick " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_WindowBeforeRightClick">
+      <MemberSignature Language="C#" Value="public void remove_WindowBeforeRightClick (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_WindowBeforeRightClick(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_WindowBeforeRightClick(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_WindowBeforeRightClick ( As ApplicationEvents2_WindowBeforeRightClickEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_WindowBeforeRightClick(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeRightClickEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_WindowBeforeRightClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_WindowBeforeRightClick " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_WindowDeactivate">
+      <MemberSignature Language="C#" Value="public void remove_WindowDeactivate (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_WindowDeactivate(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_WindowDeactivate(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_WindowDeactivate ( As ApplicationEvents2_WindowDeactivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_WindowDeactivate(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowDeactivateEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_WindowDeactivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_WindowDeactivate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remove_WindowSelectionChange">
+      <MemberSignature Language="C#" Value="public void remove_WindowSelectionChange (Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void remove_WindowSelectionChange(class Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.remove_WindowSelectionChange(Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub remove_WindowSelectionChange ( As ApplicationEvents2_WindowSelectionChangeEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void remove_WindowSelectionChange(Microsoft::Office::Interop::Word::ApplicationEvents2_WindowSelectionChangeEventHandler ^ );" />
+      <MemberSignature Language="F#" Value="abstract member remove_WindowSelectionChange : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler -&gt; unit" Usage="applicationEvents2_Event.remove_WindowSelectionChange " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Startup">
       <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler Startup;" />
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler Startup" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.Startup" />
       <MemberSignature Language="VB.NET" Value="Event Startup As ApplicationEvents2_StartupEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_StartupEventHandler ^ Startup;" />
+      <MemberSignature Language="F#" Value="member this.Startup : Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler " Usage="member this.Startup : Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -183,6 +816,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.WindowActivate" />
       <MemberSignature Language="VB.NET" Value="Event WindowActivate As ApplicationEvents2_WindowActivateEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_WindowActivateEventHandler ^ WindowActivate;" />
+      <MemberSignature Language="F#" Value="member this.WindowActivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler " Usage="member this.WindowActivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -202,6 +836,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.WindowBeforeDoubleClick" />
       <MemberSignature Language="VB.NET" Value="Event WindowBeforeDoubleClick As ApplicationEvents2_WindowBeforeDoubleClickEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeDoubleClickEventHandler ^ WindowBeforeDoubleClick;" />
+      <MemberSignature Language="F#" Value="member this.WindowBeforeDoubleClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler " Usage="member this.WindowBeforeDoubleClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -221,6 +856,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.WindowBeforeRightClick" />
       <MemberSignature Language="VB.NET" Value="Event WindowBeforeRightClick As ApplicationEvents2_WindowBeforeRightClickEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeRightClickEventHandler ^ WindowBeforeRightClick;" />
+      <MemberSignature Language="F#" Value="member this.WindowBeforeRightClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler " Usage="member this.WindowBeforeRightClick : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -240,6 +876,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.WindowDeactivate" />
       <MemberSignature Language="VB.NET" Value="Event WindowDeactivate As ApplicationEvents2_WindowDeactivateEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_WindowDeactivateEventHandler ^ WindowDeactivate;" />
+      <MemberSignature Language="F#" Value="member this.WindowDeactivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler " Usage="member this.WindowDeactivate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -259,6 +896,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Word.ApplicationEvents2_Event.WindowSelectionChange" />
       <MemberSignature Language="VB.NET" Value="Event WindowSelectionChange As ApplicationEvents2_WindowSelectionChangeEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Word::ApplicationEvents2_WindowSelectionChangeEventHandler ^ WindowSelectionChange;" />
+      <MemberSignature Language="F#" Value="member this.WindowSelectionChange : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler " Usage="member this.WindowSelectionChange : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

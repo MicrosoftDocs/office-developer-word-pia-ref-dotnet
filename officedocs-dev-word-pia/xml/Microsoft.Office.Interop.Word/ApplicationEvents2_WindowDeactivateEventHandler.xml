@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents2_WindowDeactivateEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler">
+<Type Name="ApplicationEvents2_WindowDeactivateEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents2_WindowDeactivateEventHandler(Document Doc, Window Wn);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents2_WindowDeactivateEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents2_WindowDeactivateEventHandler(Doc As Document, Wn As Window)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents2_WindowDeactivateEventHandler(Document ^ Doc, Window ^ Wn);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents2_WindowDeactivateEventHandler = delegate of Document * Window -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

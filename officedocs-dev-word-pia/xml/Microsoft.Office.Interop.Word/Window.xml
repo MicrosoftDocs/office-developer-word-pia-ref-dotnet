@@ -1,9 +1,10 @@
-﻿<Type Name="Window" FullName="Microsoft.Office.Interop.Word.Window">
+<Type Name="Window" FullName="Microsoft.Office.Interop.Word.Window">
   <TypeSignature Language="C#" Value="public interface Window" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Window" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Window" />
   <TypeSignature Language="VB.NET" Value="Public Interface Window" />
   <TypeSignature Language="C++ CLI" Value="public interface class Window" />
+  <TypeSignature Language="F#" Value="type Window = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.Activate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberSignature Language="F#" Value="abstract member Activate : unit -&gt; unit" Usage="window.Activate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Active" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Active As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Active { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Active : bool" Usage="Microsoft.Office.Interop.Word.Window.Active" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.ActivePane" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivePane As Pane" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Pane ^ ActivePane { Microsoft::Office::Interop::Word::Pane ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActivePane : Microsoft.Office.Interop.Word.Pane" Usage="Microsoft.Office.Interop.Word.Window.ActivePane" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -118,6 +122,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Window.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -146,6 +151,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Caption" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Caption As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Caption : string with get, set" Usage="Microsoft.Office.Interop.Word.Window.Caption" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -179,6 +185,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]object&amp; SaveChanges, [in]object&amp; RouteDocument) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.Close(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close (Optional ByRef SaveChanges As Object, Optional ByRef RouteDocument As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Close : obj * obj -&gt; unit" Usage="window.Close (SaveChanges, RouteDocument)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -193,8 +200,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="SaveChanges" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="RouteDocument" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SaveChanges" Type="System.Object" RefType="ref" />
+        <Parameter Name="RouteDocument" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="SaveChanges">Optional <b>Object</b>. Specifies the save action for the document. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdSaveOptions" /> constants: <b>wdDoNotSaveChanges</b>, <b>wdPromptToSaveChanges</b>, or <b>wdSaveChanges</b>.</param>
@@ -209,6 +216,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Window.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -241,6 +249,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayHorizontalScrollBar" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayHorizontalScrollBar As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayHorizontalScrollBar { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayHorizontalScrollBar : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DisplayHorizontalScrollBar" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -273,6 +282,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayLeftScrollBar" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayLeftScrollBar As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayLeftScrollBar { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayLeftScrollBar : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DisplayLeftScrollBar" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -305,6 +315,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayRightRuler" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayRightRuler As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayRightRuler { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayRightRuler : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DisplayRightRuler" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -337,6 +348,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayRulers" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayRulers As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayRulers { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayRulers : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DisplayRulers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -374,6 +386,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayScreenTips" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayScreenTips As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayScreenTips { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayScreenTips : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DisplayScreenTips" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -406,6 +419,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayVerticalRuler" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayVerticalRuler As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayVerticalRuler { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayVerticalRuler : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DisplayVerticalRuler" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -442,6 +456,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DisplayVerticalScrollBar" />
       <MemberSignature Language="VB.NET" Value="Public Property DisplayVerticalScrollBar As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayVerticalScrollBar { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayVerticalScrollBar : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DisplayVerticalScrollBar" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -474,6 +489,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Document" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Document As Document" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Document ^ Document { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Document : Microsoft.Office.Interop.Word.Document" Usage="Microsoft.Office.Interop.Word.Window.Document" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -502,6 +518,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DocumentMap" />
       <MemberSignature Language="VB.NET" Value="Public Property DocumentMap As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DocumentMap { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DocumentMap : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.DocumentMap" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -534,6 +551,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.DocumentMapPercentWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property DocumentMapPercentWidth As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DocumentMapPercentWidth { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.DocumentMapPercentWidth : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.DocumentMapPercentWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -571,6 +589,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.EnvelopeVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property EnvelopeVisible As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnvelopeVisible { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.EnvelopeVisible : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.EnvelopeVisible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -606,6 +625,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.GetPoint(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetPoint (ByRef ScreenPixelsLeft As Integer, ByRef ScreenPixelsTop As Integer, ByRef ScreenPixelsWidth As Integer, ByRef ScreenPixelsHeight As Integer, obj As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetPoint([Runtime::InteropServices::Out] int % ScreenPixelsLeft, [Runtime::InteropServices::Out] int % ScreenPixelsTop, [Runtime::InteropServices::Out] int % ScreenPixelsWidth, [Runtime::InteropServices::Out] int % ScreenPixelsHeight, System::Object ^ obj);" />
+      <MemberSignature Language="F#" Value="abstract member GetPoint : int * int * int * int * obj -&gt; unit" Usage="window.GetPoint (ScreenPixelsLeft, ScreenPixelsTop, ScreenPixelsWidth, ScreenPixelsHeight, obj)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -620,10 +640,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ScreenPixelsLeft" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="ScreenPixelsTop" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="ScreenPixelsWidth" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="ScreenPixelsHeight" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="ScreenPixelsLeft" Type="System.Int32" RefType="out" />
+        <Parameter Name="ScreenPixelsTop" Type="System.Int32" RefType="out" />
+        <Parameter Name="ScreenPixelsWidth" Type="System.Int32" RefType="out" />
+        <Parameter Name="ScreenPixelsHeight" Type="System.Int32" RefType="out" />
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
@@ -645,6 +665,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Height : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -680,6 +701,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.HorizontalPercentScrolled" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalPercentScrolled As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HorizontalPercentScrolled { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.HorizontalPercentScrolled : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.HorizontalPercentScrolled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -711,6 +733,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Hwnd" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hwnd As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Hwnd { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Hwnd : int" Usage="Microsoft.Office.Interop.Word.Window.Hwnd" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -739,6 +762,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.IMEMode" />
       <MemberSignature Language="VB.NET" Value="Public Property IMEMode As WdIMEMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdIMEMode IMEMode { Microsoft::Office::Interop::Word::WdIMEMode get(); void set(Microsoft::Office::Interop::Word::WdIMEMode value); };" />
+      <MemberSignature Language="F#" Value="member this.IMEMode : Microsoft.Office.Interop.Word.WdIMEMode with get, set" Usage="Microsoft.Office.Interop.Word.Window.IMEMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -804,6 +828,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Office.Interop.Word.Window.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -831,6 +856,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LargeScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.LargeScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub LargeScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberSignature Language="F#" Value="abstract member LargeScroll : obj * obj * obj * obj -&gt; unit" Usage="window.LargeScroll (Down, Up, ToRight, ToLeft)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -845,10 +871,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Down" Type="System.Object" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Down">Optional <b>Object</b>. The number of screens to scroll the window down.</param>
@@ -870,6 +896,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Left : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -901,6 +928,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.NewWindow" />
       <MemberSignature Language="VB.NET" Value="Public Function NewWindow () As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Window ^ NewWindow();" />
+      <MemberSignature Language="F#" Value="abstract member NewWindow : unit -&gt; Microsoft.Office.Interop.Word.Window" Usage="window.NewWindow " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -932,6 +960,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Next" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Window ^ Next { Microsoft::Office::Interop::Word::Window ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Next : Microsoft.Office.Interop.Word.Window" Usage="Microsoft.Office.Interop.Word.Window.Next" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -959,6 +988,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PageScroll([in]object&amp; Down, [in]object&amp; Up) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PageScroll(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PageScroll (Optional ByRef Down As Object, Optional ByRef Up As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PageScroll : obj * obj -&gt; unit" Usage="window.PageScroll (Down, Up)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -973,8 +1003,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Down" Type="System.Object" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Down">Optional <b>Object</b>. The number of pages to be scrolled down. If this argument is omitted, this value is assumed to be 1.</param>
@@ -993,6 +1023,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Panes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Panes As Panes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Panes ^ Panes { Microsoft::Office::Interop::Word::Panes ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Panes : Microsoft.Office.Interop.Word.Panes" Usage="Microsoft.Office.Interop.Word.Window.Panes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1021,6 +1052,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Window.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1049,6 +1081,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Previous" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Window ^ Previous { Microsoft::Office::Interop::Word::Window ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Previous : Microsoft.Office.Interop.Word.Window" Usage="Microsoft.Office.Interop.Word.Window.Previous" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1076,6 +1109,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut([in]object&amp; Background, [in]object&amp; Append, [in]object&amp; Range, [in]object&amp; OutputFileName, [in]object&amp; From, [in]object&amp; To, [in]object&amp; Item, [in]object&amp; Copies, [in]object&amp; Pages, [in]object&amp; PageType, [in]object&amp; PrintToFile, [in]object&amp; Collate, [in]object&amp; ActivePrinterMacGX, [in]object&amp; ManualDuplexPrint, [in]object&amp; PrintZoomColumn, [in]object&amp; PrintZoomRow, [in]object&amp; PrintZoomPaperWidth, [in]object&amp; PrintZoomPaperHeight) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PrintOut(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PrintOut (Optional ByRef Background As Object, Optional ByRef Append As Object, Optional ByRef Range As Object, Optional ByRef OutputFileName As Object, Optional ByRef From As Object, Optional ByRef To As Object, Optional ByRef Item As Object, Optional ByRef Copies As Object, Optional ByRef Pages As Object, Optional ByRef PageType As Object, Optional ByRef PrintToFile As Object, Optional ByRef Collate As Object, Optional ByRef ActivePrinterMacGX As Object, Optional ByRef ManualDuplexPrint As Object, Optional ByRef PrintZoomColumn As Object, Optional ByRef PrintZoomRow As Object, Optional ByRef PrintZoomPaperWidth As Object, Optional ByRef PrintZoomPaperHeight As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PrintOut : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="window.PrintOut (Background, Append, Range, OutputFileName, From, To, Item, Copies, Pages, PageType, PrintToFile, Collate, ActivePrinterMacGX, ManualDuplexPrint, PrintZoomColumn, PrintZoomRow, PrintZoomPaperWidth, PrintZoomPaperHeight)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1090,24 +1124,24 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Background" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Append" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="OutputFileName" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="From" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="To" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Item" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Copies" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Pages" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PageType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintToFile" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Collate" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ActivePrinterMacGX" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ManualDuplexPrint" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomRow" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomPaperWidth" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomPaperHeight" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Background" Type="System.Object" RefType="ref" />
+        <Parameter Name="Append" Type="System.Object" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object" RefType="ref" />
+        <Parameter Name="OutputFileName" Type="System.Object" RefType="ref" />
+        <Parameter Name="From" Type="System.Object" RefType="ref" />
+        <Parameter Name="To" Type="System.Object" RefType="ref" />
+        <Parameter Name="Item" Type="System.Object" RefType="ref" />
+        <Parameter Name="Copies" Type="System.Object" RefType="ref" />
+        <Parameter Name="Pages" Type="System.Object" RefType="ref" />
+        <Parameter Name="PageType" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintToFile" Type="System.Object" RefType="ref" />
+        <Parameter Name="Collate" Type="System.Object" RefType="ref" />
+        <Parameter Name="ActivePrinterMacGX" Type="System.Object" RefType="ref" />
+        <Parameter Name="ManualDuplexPrint" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomRow" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomPaperWidth" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomPaperHeight" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Background">Optional <b>Object</b>. Set to <b>True</b> to have the macro continue while Microsoft Word prints the document.</param>
@@ -1137,6 +1171,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut2000([in]object&amp; Background, [in]object&amp; Append, [in]object&amp; Range, [in]object&amp; OutputFileName, [in]object&amp; From, [in]object&amp; To, [in]object&amp; Item, [in]object&amp; Copies, [in]object&amp; Pages, [in]object&amp; PageType, [in]object&amp; PrintToFile, [in]object&amp; Collate, [in]object&amp; ActivePrinterMacGX, [in]object&amp; ManualDuplexPrint, [in]object&amp; PrintZoomColumn, [in]object&amp; PrintZoomRow, [in]object&amp; PrintZoomPaperWidth, [in]object&amp; PrintZoomPaperHeight) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PrintOut2000(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PrintOut2000 (Optional ByRef Background As Object, Optional ByRef Append As Object, Optional ByRef Range As Object, Optional ByRef OutputFileName As Object, Optional ByRef From As Object, Optional ByRef To As Object, Optional ByRef Item As Object, Optional ByRef Copies As Object, Optional ByRef Pages As Object, Optional ByRef PageType As Object, Optional ByRef PrintToFile As Object, Optional ByRef Collate As Object, Optional ByRef ActivePrinterMacGX As Object, Optional ByRef ManualDuplexPrint As Object, Optional ByRef PrintZoomColumn As Object, Optional ByRef PrintZoomRow As Object, Optional ByRef PrintZoomPaperWidth As Object, Optional ByRef PrintZoomPaperHeight As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PrintOut2000 : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="window.PrintOut2000 (Background, Append, Range, OutputFileName, From, To, Item, Copies, Pages, PageType, PrintToFile, Collate, ActivePrinterMacGX, ManualDuplexPrint, PrintZoomColumn, PrintZoomRow, PrintZoomPaperWidth, PrintZoomPaperHeight)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1154,24 +1189,24 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Background" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Append" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="OutputFileName" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="From" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="To" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Item" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Copies" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Pages" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PageType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintToFile" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Collate" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ActivePrinterMacGX" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ManualDuplexPrint" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomRow" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomPaperWidth" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintZoomPaperHeight" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Background" Type="System.Object" RefType="ref" />
+        <Parameter Name="Append" Type="System.Object" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object" RefType="ref" />
+        <Parameter Name="OutputFileName" Type="System.Object" RefType="ref" />
+        <Parameter Name="From" Type="System.Object" RefType="ref" />
+        <Parameter Name="To" Type="System.Object" RefType="ref" />
+        <Parameter Name="Item" Type="System.Object" RefType="ref" />
+        <Parameter Name="Copies" Type="System.Object" RefType="ref" />
+        <Parameter Name="Pages" Type="System.Object" RefType="ref" />
+        <Parameter Name="PageType" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintToFile" Type="System.Object" RefType="ref" />
+        <Parameter Name="Collate" Type="System.Object" RefType="ref" />
+        <Parameter Name="ActivePrinterMacGX" Type="System.Object" RefType="ref" />
+        <Parameter Name="ManualDuplexPrint" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomRow" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomPaperWidth" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintZoomPaperHeight" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Background">To be added.</param>
@@ -1201,6 +1236,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOutOld([in]object&amp; Background, [in]object&amp; Append, [in]object&amp; Range, [in]object&amp; OutputFileName, [in]object&amp; From, [in]object&amp; To, [in]object&amp; Item, [in]object&amp; Copies, [in]object&amp; Pages, [in]object&amp; PageType, [in]object&amp; PrintToFile, [in]object&amp; Collate, [in]object&amp; ActivePrinterMacGX, [in]object&amp; ManualDuplexPrint) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.PrintOutOld(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PrintOutOld (Optional ByRef Background As Object, Optional ByRef Append As Object, Optional ByRef Range As Object, Optional ByRef OutputFileName As Object, Optional ByRef From As Object, Optional ByRef To As Object, Optional ByRef Item As Object, Optional ByRef Copies As Object, Optional ByRef Pages As Object, Optional ByRef PageType As Object, Optional ByRef PrintToFile As Object, Optional ByRef Collate As Object, Optional ByRef ActivePrinterMacGX As Object, Optional ByRef ManualDuplexPrint As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PrintOutOld : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="window.PrintOutOld (Background, Append, Range, OutputFileName, From, To, Item, Copies, Pages, PageType, PrintToFile, Collate, ActivePrinterMacGX, ManualDuplexPrint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1218,20 +1254,20 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Background" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Append" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="OutputFileName" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="From" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="To" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Item" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Copies" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Pages" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PageType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PrintToFile" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Collate" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ActivePrinterMacGX" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ManualDuplexPrint" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Background" Type="System.Object" RefType="ref" />
+        <Parameter Name="Append" Type="System.Object" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object" RefType="ref" />
+        <Parameter Name="OutputFileName" Type="System.Object" RefType="ref" />
+        <Parameter Name="From" Type="System.Object" RefType="ref" />
+        <Parameter Name="To" Type="System.Object" RefType="ref" />
+        <Parameter Name="Item" Type="System.Object" RefType="ref" />
+        <Parameter Name="Copies" Type="System.Object" RefType="ref" />
+        <Parameter Name="Pages" Type="System.Object" RefType="ref" />
+        <Parameter Name="PageType" Type="System.Object" RefType="ref" />
+        <Parameter Name="PrintToFile" Type="System.Object" RefType="ref" />
+        <Parameter Name="Collate" Type="System.Object" RefType="ref" />
+        <Parameter Name="ActivePrinterMacGX" Type="System.Object" RefType="ref" />
+        <Parameter Name="ManualDuplexPrint" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Background">To be added.</param>
@@ -1258,6 +1294,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.RangeFromPoint(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function RangeFromPoint (x As Integer, y As Integer) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ RangeFromPoint(int x, int y);" />
+      <MemberSignature Language="F#" Value="abstract member RangeFromPoint : int * int -&gt; obj" Usage="window.RangeFromPoint (x, y)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1291,6 +1328,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ScrollIntoView([in]object obj, [in]object&amp; Start) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.ScrollIntoView(System.Object,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScrollIntoView (obj As Object, Optional ByRef Start As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ScrollIntoView : obj * obj -&gt; unit" Usage="window.ScrollIntoView (obj, Start)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1306,7 +1344,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="obj" Type="System.Object" />
-        <Parameter Name="Start" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Start" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="obj">Required <b>Object</b>. A <see cref="T:Microsoft.Office.Interop.Word.Range" /> or <see cref="T:Microsoft.Office.Interop.Word.Shape" /> object.</param>
@@ -1324,6 +1362,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Selection" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As Selection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Selection ^ Selection { Microsoft::Office::Interop::Word::Selection ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Selection : Microsoft.Office.Interop.Word.Selection" Usage="Microsoft.Office.Interop.Word.Window.Selection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1352,6 +1391,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.SetFocus" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetFocus ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetFocus();" />
+      <MemberSignature Language="F#" Value="abstract member SetFocus : unit -&gt; unit" Usage="window.SetFocus " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1380,6 +1420,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.ShowSourceDocuments" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowSourceDocuments As WdShowSourceDocuments" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdShowSourceDocuments ShowSourceDocuments { Microsoft::Office::Interop::Word::WdShowSourceDocuments get(); void set(Microsoft::Office::Interop::Word::WdShowSourceDocuments value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowSourceDocuments : Microsoft.Office.Interop.Word.WdShowSourceDocuments with get, set" Usage="Microsoft.Office.Interop.Word.Window.ShowSourceDocuments" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1412,6 +1453,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SmallScroll([in]object&amp; Down, [in]object&amp; Up, [in]object&amp; ToRight, [in]object&amp; ToLeft) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.SmallScroll(System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SmallScroll (Optional ByRef Down As Object, Optional ByRef Up As Object, Optional ByRef ToRight As Object, Optional ByRef ToLeft As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SmallScroll : obj * obj * obj * obj -&gt; unit" Usage="window.SmallScroll (Down, Up, ToRight, ToLeft)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1426,10 +1468,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Down" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Up" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToRight" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ToLeft" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Down" Type="System.Object" RefType="ref" />
+        <Parameter Name="Up" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToRight" Type="System.Object" RefType="ref" />
+        <Parameter Name="ToLeft" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Down">Optional <b>Object</b>. The number of lines to scroll the window down. A "line" corresponds to the distance scrolled by clicking the down scroll arrow on the vertical scroll bar once.</param>
@@ -1451,6 +1493,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Split" />
       <MemberSignature Language="VB.NET" Value="Public Property Split As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Split { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Split : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.Split" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1483,6 +1526,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.SplitVertical" />
       <MemberSignature Language="VB.NET" Value="Public Property SplitVertical As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SplitVertical { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.SplitVertical : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.SplitVertical" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1517,6 +1561,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.StyleAreaWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property StyleAreaWidth As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float StyleAreaWidth { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.StyleAreaWidth : single with get, set" Usage="Microsoft.Office.Interop.Word.Window.StyleAreaWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1551,6 +1596,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Thumbnails" />
       <MemberSignature Language="VB.NET" Value="Public Property Thumbnails As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Thumbnails { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Thumbnails : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.Thumbnails" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1582,6 +1628,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.ToggleRibbon" />
       <MemberSignature Language="VB.NET" Value="Public Sub ToggleRibbon ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToggleRibbon();" />
+      <MemberSignature Language="F#" Value="abstract member ToggleRibbon : unit -&gt; unit" Usage="window.ToggleRibbon " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1610,6 +1657,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Window.ToggleShowAllReviewers" />
       <MemberSignature Language="VB.NET" Value="Public Sub ToggleShowAllReviewers ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToggleShowAllReviewers();" />
+      <MemberSignature Language="F#" Value="abstract member ToggleShowAllReviewers : unit -&gt; unit" Usage="window.ToggleShowAllReviewers " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1638,6 +1686,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Top : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1669,6 +1718,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdWindowType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdWindowType Type { Microsoft::Office::Interop::Word::WdWindowType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdWindowType" Usage="Microsoft.Office.Interop.Word.Window.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1707,6 +1757,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.UsableHeight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsableHeight As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UsableHeight { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.UsableHeight : int" Usage="Microsoft.Office.Interop.Word.Window.UsableHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1738,6 +1789,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.UsableWidth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsableWidth As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UsableWidth { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.UsableWidth : int" Usage="Microsoft.Office.Interop.Word.Window.UsableWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1769,6 +1821,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.VerticalPercentScrolled" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalPercentScrolled As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int VerticalPercentScrolled { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.VerticalPercentScrolled : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.VerticalPercentScrolled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1800,6 +1853,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.View" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property View As View" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::View ^ View { Microsoft::Office::Interop::Word::View ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.View : Microsoft.Office.Interop.Word.View" Usage="Microsoft.Office.Interop.Word.Window.View" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1828,6 +1882,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : bool with get, set" Usage="Microsoft.Office.Interop.Word.Window.Visible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1863,6 +1918,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : int with get, set" Usage="Microsoft.Office.Interop.Word.Window.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1894,6 +1950,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.WindowNumber" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowNumber { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.WindowNumber : int" Usage="Microsoft.Office.Interop.Word.Window.WindowNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1925,6 +1982,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Window.WindowState" />
       <MemberSignature Language="VB.NET" Value="Public Property WindowState As WdWindowState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdWindowState WindowState { Microsoft::Office::Interop::Word::WdWindowState get(); void set(Microsoft::Office::Interop::Word::WdWindowState value); };" />
+      <MemberSignature Language="F#" Value="member this.WindowState : Microsoft.Office.Interop.Word.WdWindowState with get, set" Usage="Microsoft.Office.Interop.Word.Window.WindowState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

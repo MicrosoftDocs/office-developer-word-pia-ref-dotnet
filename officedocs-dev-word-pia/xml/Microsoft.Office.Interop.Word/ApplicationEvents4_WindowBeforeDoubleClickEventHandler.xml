@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents4_WindowBeforeDoubleClickEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_WindowBeforeDoubleClickEventHandler">
+<Type Name="ApplicationEvents4_WindowBeforeDoubleClickEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_WindowBeforeDoubleClickEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_WindowBeforeDoubleClickEventHandler(Selection Sel, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_WindowBeforeDoubleClickEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_WindowBeforeDoubleClickEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_WindowBeforeDoubleClickEventHandler(Sel As Selection, ByRef Cancel As Boolean)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_WindowBeforeDoubleClickEventHandler(Selection ^ Sel, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents4_WindowBeforeDoubleClickEventHandler = delegate of Selection * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,7 +22,7 @@
   </Attributes>
   <Parameters>
     <Parameter Name="Sel" Type="Microsoft.Office.Interop.Word.Selection" />
-    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+    <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

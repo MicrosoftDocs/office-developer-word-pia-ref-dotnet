@@ -1,9 +1,10 @@
-﻿<Type Name="ShadowFormat" FullName="Microsoft.Office.Interop.Word.ShadowFormat">
+<Type Name="ShadowFormat" FullName="Microsoft.Office.Interop.Word.ShadowFormat">
   <TypeSignature Language="C#" Value="public interface ShadowFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ShadowFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ShadowFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ShadowFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class ShadowFormat" />
+  <TypeSignature Language="F#" Value="type ShadowFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Blur" />
       <MemberSignature Language="VB.NET" Value="Public Property Blur As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Blur { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Blur : single with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Blur" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -124,6 +128,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.ForeColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForeColor As ColorFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ColorFormat ^ ForeColor { Microsoft::Office::Interop::Word::ColorFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ForeColor : Microsoft.Office.Interop.Word.ColorFormat" Usage="Microsoft.Office.Interop.Word.ShadowFormat.ForeColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -152,6 +157,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ShadowFormat.IncrementOffsetX(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub IncrementOffsetX (Increment As Single)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementOffsetX(float Increment);" />
+      <MemberSignature Language="F#" Value="abstract member IncrementOffsetX : single -&gt; unit" Usage="shadowFormat.IncrementOffsetX Increment" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -183,6 +189,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ShadowFormat.IncrementOffsetY(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub IncrementOffsetY (Increment As Single)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementOffsetY(float Increment);" />
+      <MemberSignature Language="F#" Value="abstract member IncrementOffsetY : single -&gt; unit" Usage="shadowFormat.IncrementOffsetY Increment" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -214,6 +221,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Obscured" />
       <MemberSignature Language="VB.NET" Value="Public Property Obscured As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Obscured { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.Obscured : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Obscured" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -265,6 +273,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.OffsetX" />
       <MemberSignature Language="VB.NET" Value="Public Property OffsetX As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float OffsetX { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.OffsetX : single with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.OffsetX" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -299,6 +308,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.OffsetY" />
       <MemberSignature Language="VB.NET" Value="Public Property OffsetY As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float OffsetY { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.OffsetY : single with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.OffsetY" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -333,6 +343,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -361,6 +372,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.RotateWithShape" />
       <MemberSignature Language="VB.NET" Value="Public Property RotateWithShape As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState RotateWithShape { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.RotateWithShape : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.RotateWithShape" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -394,6 +406,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Size" />
       <MemberSignature Language="VB.NET" Value="Public Property Size As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Size { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Size : single with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Size" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -427,6 +440,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Style" />
       <MemberSignature Language="VB.NET" Value="Public Property Style As MsoShadowStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoShadowStyle Style { Microsoft::Office::Core::MsoShadowStyle get(); void set(Microsoft::Office::Core::MsoShadowStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.Style : Microsoft.Office.Core.MsoShadowStyle with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Style" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -460,6 +474,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Transparency" />
       <MemberSignature Language="VB.NET" Value="Public Property Transparency As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Transparency { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Transparency : single with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Transparency" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -491,6 +506,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As MsoShadowType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoShadowType Type { Microsoft::Office::Core::MsoShadowType get(); void set(Microsoft::Office::Core::MsoShadowType value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Core.MsoShadowType with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -589,6 +605,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ShadowFormat.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.ShadowFormat.Visible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

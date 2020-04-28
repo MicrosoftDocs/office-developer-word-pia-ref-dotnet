@@ -1,9 +1,10 @@
-﻿<Type Name="ChartFillFormat" FullName="Microsoft.Office.Interop.Word.ChartFillFormat">
+<Type Name="ChartFillFormat" FullName="Microsoft.Office.Interop.Word.ChartFillFormat">
   <TypeSignature Language="C#" Value="public interface ChartFillFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartFillFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ChartFillFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartFillFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class ChartFillFormat" />
+  <TypeSignature Language="F#" Value="type ChartFillFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : obj" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.BackColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackColor As ChartColorFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartColorFormat ^ BackColor { Microsoft::Office::Interop::Word::ChartColorFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BackColor : Microsoft.Office.Interop.Word.ChartColorFormat" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.BackColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -125,6 +129,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.ForeColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForeColor As ChartColorFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ChartColorFormat ^ ForeColor { Microsoft::Office::Interop::Word::ChartColorFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ForeColor : Microsoft.Office.Interop.Word.ChartColorFormat" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.ForeColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -155,6 +160,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.GradientColorType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientColorType As MsoGradientColorType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientColorType GradientColorType { Microsoft::Office::Core::MsoGradientColorType get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientColorType : Microsoft.Office.Core.MsoGradientColorType" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.GradientColorType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -190,6 +196,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.GradientDegree" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientDegree As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float GradientDegree { float get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientDegree : single" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.GradientDegree" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -223,6 +230,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.GradientStyle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientStyle As MsoGradientStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientStyle GradientStyle { Microsoft::Office::Core::MsoGradientStyle get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientStyle : Microsoft.Office.Core.MsoGradientStyle" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.GradientStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -253,6 +261,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.GradientVariant" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientVariant As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GradientVariant { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.GradientVariant : int" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.GradientVariant" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -286,6 +295,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OneColorGradient (Style As MsoGradientStyle, Variant As Integer, Degree As Single)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void OneColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, float Degree);" />
+      <MemberSignature Language="F#" Value="abstract member OneColorGradient : Microsoft.Office.Core.MsoGradientStyle * int * single -&gt; unit" Usage="chartFillFormat.OneColorGradient (Style, Variant, Degree)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -318,6 +328,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -348,6 +359,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.Pattern" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pattern As MsoPatternType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPatternType Pattern { Microsoft::Office::Core::MsoPatternType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Pattern : Microsoft.Office.Core.MsoPatternType" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.Pattern" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -381,6 +393,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.Patterned(Microsoft.Office.Core.MsoPatternType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Patterned (Pattern As MsoPatternType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Patterned(Microsoft::Office::Core::MsoPatternType Pattern);" />
+      <MemberSignature Language="F#" Value="abstract member Patterned : Microsoft.Office.Core.MsoPatternType -&gt; unit" Usage="chartFillFormat.Patterned Pattern" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -409,6 +422,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.PresetGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,Microsoft.Office.Core.MsoPresetGradientType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PresetGradient (Style As MsoGradientStyle, Variant As Integer, PresetGradientType As MsoPresetGradientType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, Microsoft::Office::Core::MsoPresetGradientType PresetGradientType);" />
+      <MemberSignature Language="F#" Value="abstract member PresetGradient : Microsoft.Office.Core.MsoGradientStyle * int * Microsoft.Office.Core.MsoPresetGradientType -&gt; unit" Usage="chartFillFormat.PresetGradient (Style, Variant, PresetGradientType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -441,6 +455,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.PresetGradientType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetGradientType As MsoPresetGradientType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetGradientType PresetGradientType { Microsoft::Office::Core::MsoPresetGradientType get(); };" />
+      <MemberSignature Language="F#" Value="member this.PresetGradientType : Microsoft.Office.Core.MsoPresetGradientType" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.PresetGradientType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -474,6 +489,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.PresetTexture" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetTexture As MsoPresetTexture" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetTexture PresetTexture { Microsoft::Office::Core::MsoPresetTexture get(); };" />
+      <MemberSignature Language="F#" Value="member this.PresetTexture : Microsoft.Office.Core.MsoPresetTexture" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.PresetTexture" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -507,6 +523,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.PresetTextured(Microsoft.Office.Core.MsoPresetTexture)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PresetTextured (PresetTexture As MsoPresetTexture)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetTextured(Microsoft::Office::Core::MsoPresetTexture PresetTexture);" />
+      <MemberSignature Language="F#" Value="abstract member PresetTextured : Microsoft.Office.Core.MsoPresetTexture -&gt; unit" Usage="chartFillFormat.PresetTextured PresetTexture" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -535,6 +552,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.Solid" />
       <MemberSignature Language="VB.NET" Value="Public Sub Solid ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Solid();" />
+      <MemberSignature Language="F#" Value="abstract member Solid : unit -&gt; unit" Usage="chartFillFormat.Solid " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -560,6 +578,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.TextureName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextureName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TextureName : string" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.TextureName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -593,6 +612,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.TextureType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureType As MsoTextureType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextureType TextureType { Microsoft::Office::Core::MsoTextureType get(); };" />
+      <MemberSignature Language="F#" Value="member this.TextureType : Microsoft.Office.Core.MsoTextureType" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.TextureType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -626,6 +646,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.TwoColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub TwoColorGradient (Style As MsoGradientStyle, Variant As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void TwoColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant);" />
+      <MemberSignature Language="F#" Value="abstract member TwoColorGradient : Microsoft.Office.Core.MsoGradientStyle * int -&gt; unit" Usage="chartFillFormat.TwoColorGradient (Style, Variant)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -656,6 +677,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As MsoFillType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFillType Type { Microsoft::Office::Core::MsoFillType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Core.MsoFillType" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -689,6 +711,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UserPicture([in]object PictureFile, [in]object PictureFormat, [in]object PictureStackUnit, [in]object PicturePlacement) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub UserPicture (Optional PictureFile As Object, Optional PictureFormat As Object, Optional PictureStackUnit As Object, Optional PicturePlacement As Object)" />
+      <MemberSignature Language="F#" Value="abstract member UserPicture : obj * obj * obj * obj -&gt; unit" Usage="chartFillFormat.UserPicture (PictureFile, PictureFormat, PictureStackUnit, PicturePlacement)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -726,6 +749,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ChartFillFormat.UserTextured(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub UserTextured (TextureFile As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserTextured(System::String ^ TextureFile);" />
+      <MemberSignature Language="F#" Value="abstract member UserTextured : string -&gt; unit" Usage="chartFillFormat.UserTextured TextureFile" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -757,6 +781,7 @@ Use the <see cref="M:Microsoft.Office.Interop.Word.ChartFillFormat.OneColorGradi
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ChartFillFormat.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.ChartFillFormat.Visible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

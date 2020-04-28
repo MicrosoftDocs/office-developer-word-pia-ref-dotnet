@@ -1,9 +1,10 @@
-﻿<Type Name="MailMergeFields" FullName="Microsoft.Office.Interop.Word.MailMergeFields">
+<Type Name="MailMergeFields" FullName="Microsoft.Office.Interop.Word.MailMergeFields">
   <TypeSignature Language="C#" Value="public interface MailMergeFields : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MailMergeFields implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.MailMergeFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface MailMergeFields&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class MailMergeFields : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type MailMergeFields = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,7 +37,9 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField Add (Microsoft.Office.Interop.Word.Range Range, string Name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField Add([in]class Microsoft.Office.Interop.Word.Range Range, [in]string Name) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.Add(Microsoft.Office.Interop.Word.Range,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Range As Range, Name As String) As MailMergeField" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::MailMergeField ^ Add(Microsoft::Office::Interop::Word::Range ^ Range, System::String ^ Name);" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Office.Interop.Word.Range * string -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.Add (Range, Name)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -66,6 +69,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddAsk (Microsoft.Office.Interop.Word.Range Range, string Name, ref object Prompt, ref object DefaultAskText, ref object AskOnce);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddAsk([in]class Microsoft.Office.Interop.Word.Range Range, [in]string Name, [in]object&amp; Prompt, [in]object&amp; DefaultAskText, [in]object&amp; AskOnce) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddAsk(Microsoft.Office.Interop.Word.Range,System.String,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddAsk (Range As Range, Name As String, Optional ByRef Prompt As Object, Optional ByRef DefaultAskText As Object, Optional ByRef AskOnce As Object) As MailMergeField" />
+      <MemberSignature Language="F#" Value="abstract member AddAsk : Microsoft.Office.Interop.Word.Range * string * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddAsk (Range, Name, Prompt, DefaultAskText, AskOnce)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -82,9 +87,9 @@
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
         <Parameter Name="Name" Type="System.String" />
-        <Parameter Name="Prompt" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DefaultAskText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AskOnce" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Prompt" Type="System.Object" RefType="ref" />
+        <Parameter Name="DefaultAskText" Type="System.Object" RefType="ref" />
+        <Parameter Name="AskOnce" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location for the ASK field.</param>
@@ -104,6 +109,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddFillIn (Microsoft.Office.Interop.Word.Range Range, ref object Prompt, ref object DefaultFillInText, ref object AskOnce);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddFillIn([in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; Prompt, [in]object&amp; DefaultFillInText, [in]object&amp; AskOnce) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddFillIn(Microsoft.Office.Interop.Word.Range,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFillIn (Range As Range, Optional ByRef Prompt As Object, Optional ByRef DefaultFillInText As Object, Optional ByRef AskOnce As Object) As MailMergeField" />
+      <MemberSignature Language="F#" Value="abstract member AddFillIn : Microsoft.Office.Interop.Word.Range * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddFillIn (Range, Prompt, DefaultFillInText, AskOnce)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -119,9 +126,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
-        <Parameter Name="Prompt" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DefaultFillInText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AskOnce" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Prompt" Type="System.Object" RefType="ref" />
+        <Parameter Name="DefaultFillInText" Type="System.Object" RefType="ref" />
+        <Parameter Name="AskOnce" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location for the FILLIN field.</param>
@@ -141,6 +148,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddIf (Microsoft.Office.Interop.Word.Range Range, string MergeField, Microsoft.Office.Interop.Word.WdMailMergeComparison Comparison, ref object CompareTo, ref object TrueAutoText, ref object TrueText, ref object FalseAutoText, ref object FalseText);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddIf([in]class Microsoft.Office.Interop.Word.Range Range, [in]string MergeField, [in]valuetype Microsoft.Office.Interop.Word.WdMailMergeComparison Comparison, [in]object&amp; CompareTo, [in]object&amp; TrueAutoText, [in]object&amp; TrueText, [in]object&amp; FalseAutoText, [in]object&amp; FalseText) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddIf(Microsoft.Office.Interop.Word.Range,System.String,Microsoft.Office.Interop.Word.WdMailMergeComparison,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddIf (Range As Range, MergeField As String, Comparison As WdMailMergeComparison, Optional ByRef CompareTo As Object, Optional ByRef TrueAutoText As Object, Optional ByRef TrueText As Object, Optional ByRef FalseAutoText As Object, Optional ByRef FalseText As Object) As MailMergeField" />
+      <MemberSignature Language="F#" Value="abstract member AddIf : Microsoft.Office.Interop.Word.Range * string * Microsoft.Office.Interop.Word.WdMailMergeComparison * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddIf (Range, MergeField, Comparison, CompareTo, TrueAutoText, TrueText, FalseAutoText, FalseText)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -158,11 +167,11 @@
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
         <Parameter Name="MergeField" Type="System.String" />
         <Parameter Name="Comparison" Type="Microsoft.Office.Interop.Word.WdMailMergeComparison" />
-        <Parameter Name="CompareTo" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TrueAutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TrueText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FalseAutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FalseText" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CompareTo" Type="System.Object" RefType="ref" />
+        <Parameter Name="TrueAutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="TrueText" Type="System.Object" RefType="ref" />
+        <Parameter Name="FalseAutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="FalseText" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location for the IF field.</param>
@@ -185,7 +194,9 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddMergeRec (Microsoft.Office.Interop.Word.Range Range);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddMergeRec([in]class Microsoft.Office.Interop.Word.Range Range) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddMergeRec(Microsoft.Office.Interop.Word.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddMergeRec (Range As Range) As MailMergeField" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::MailMergeField ^ AddMergeRec(Microsoft::Office::Interop::Word::Range ^ Range);" />
+      <MemberSignature Language="F#" Value="abstract member AddMergeRec : Microsoft.Office.Interop.Word.Range -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddMergeRec Range" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -216,7 +227,9 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddMergeSeq (Microsoft.Office.Interop.Word.Range Range);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddMergeSeq([in]class Microsoft.Office.Interop.Word.Range Range) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddMergeSeq(Microsoft.Office.Interop.Word.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddMergeSeq (Range As Range) As MailMergeField" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::MailMergeField ^ AddMergeSeq(Microsoft::Office::Interop::Word::Range ^ Range);" />
+      <MemberSignature Language="F#" Value="abstract member AddMergeSeq : Microsoft.Office.Interop.Word.Range -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddMergeSeq Range" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -247,7 +260,9 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddNext (Microsoft.Office.Interop.Word.Range Range);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddNext([in]class Microsoft.Office.Interop.Word.Range Range) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddNext(Microsoft.Office.Interop.Word.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddNext (Range As Range) As MailMergeField" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::MailMergeField ^ AddNext(Microsoft::Office::Interop::Word::Range ^ Range);" />
+      <MemberSignature Language="F#" Value="abstract member AddNext : Microsoft.Office.Interop.Word.Range -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddNext Range" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -278,6 +293,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddNextIf (Microsoft.Office.Interop.Word.Range Range, string MergeField, Microsoft.Office.Interop.Word.WdMailMergeComparison Comparison, ref object CompareTo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddNextIf([in]class Microsoft.Office.Interop.Word.Range Range, [in]string MergeField, [in]valuetype Microsoft.Office.Interop.Word.WdMailMergeComparison Comparison, [in]object&amp; CompareTo) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddNextIf(Microsoft.Office.Interop.Word.Range,System.String,Microsoft.Office.Interop.Word.WdMailMergeComparison,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddNextIf (Range As Range, MergeField As String, Comparison As WdMailMergeComparison, Optional ByRef CompareTo As Object) As MailMergeField" />
+      <MemberSignature Language="F#" Value="abstract member AddNextIf : Microsoft.Office.Interop.Word.Range * string * Microsoft.Office.Interop.Word.WdMailMergeComparison * obj -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddNextIf (Range, MergeField, Comparison, CompareTo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -295,7 +312,7 @@
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
         <Parameter Name="MergeField" Type="System.String" />
         <Parameter Name="Comparison" Type="Microsoft.Office.Interop.Word.WdMailMergeComparison" />
-        <Parameter Name="CompareTo" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CompareTo" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location for the NEXTIF field.</param>
@@ -314,6 +331,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddSet (Microsoft.Office.Interop.Word.Range Range, string Name, ref object ValueText, ref object ValueAutoText);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddSet([in]class Microsoft.Office.Interop.Word.Range Range, [in]string Name, [in]object&amp; ValueText, [in]object&amp; ValueAutoText) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddSet(Microsoft.Office.Interop.Word.Range,System.String,System.Object@,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddSet (Range As Range, Name As String, Optional ByRef ValueText As Object, Optional ByRef ValueAutoText As Object) As MailMergeField" />
+      <MemberSignature Language="F#" Value="abstract member AddSet : Microsoft.Office.Interop.Word.Range * string * obj * obj -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddSet (Range, Name, ValueText, ValueAutoText)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -330,8 +349,8 @@
       <Parameters>
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
         <Parameter Name="Name" Type="System.String" />
-        <Parameter Name="ValueText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ValueAutoText" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ValueText" Type="System.Object" RefType="ref" />
+        <Parameter Name="ValueAutoText" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location for the SET field.</param>
@@ -350,6 +369,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.MailMergeField AddSkipIf (Microsoft.Office.Interop.Word.Range Range, string MergeField, Microsoft.Office.Interop.Word.WdMailMergeComparison Comparison, ref object CompareTo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.MailMergeField AddSkipIf([in]class Microsoft.Office.Interop.Word.Range Range, [in]string MergeField, [in]valuetype Microsoft.Office.Interop.Word.WdMailMergeComparison Comparison, [in]object&amp; CompareTo) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.AddSkipIf(Microsoft.Office.Interop.Word.Range,System.String,Microsoft.Office.Interop.Word.WdMailMergeComparison,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddSkipIf (Range As Range, MergeField As String, Comparison As WdMailMergeComparison, Optional ByRef CompareTo As Object) As MailMergeField" />
+      <MemberSignature Language="F#" Value="abstract member AddSkipIf : Microsoft.Office.Interop.Word.Range * string * Microsoft.Office.Interop.Word.WdMailMergeComparison * obj -&gt; Microsoft.Office.Interop.Word.MailMergeField" Usage="mailMergeFields.AddSkipIf (Range, MergeField, Comparison, CompareTo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -367,7 +388,7 @@
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
         <Parameter Name="MergeField" Type="System.String" />
         <Parameter Name="Comparison" Type="Microsoft.Office.Interop.Word.WdMailMergeComparison" />
-        <Parameter Name="CompareTo" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CompareTo" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Word.Range" /> object. The location for the SKIPIF field.</param>
@@ -388,6 +409,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeFields.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.MailMergeFields.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -416,6 +438,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeFields.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.MailMergeFields.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -444,6 +467,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeFields.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.MailMergeFields.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -476,6 +500,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeFields.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="mailMergeFields.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -508,6 +533,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeFields.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As MailMergeField" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::MailMergeField ^ default[int] { Microsoft::Office::Interop::Word::MailMergeField ^ get(int Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Office.Interop.Word.MailMergeField" Usage="Microsoft.Office.Interop.Word.MailMergeFields.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -540,6 +566,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeFields.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.MailMergeFields.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

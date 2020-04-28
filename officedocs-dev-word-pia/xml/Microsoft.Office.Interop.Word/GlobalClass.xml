@@ -1,9 +1,10 @@
-﻿<Type Name="GlobalClass" FullName="Microsoft.Office.Interop.Word.GlobalClass">
+<Type Name="GlobalClass" FullName="Microsoft.Office.Interop.Word.GlobalClass">
   <TypeSignature Language="C#" Value="public class GlobalClass : Microsoft.Office.Interop.Word.Global" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi GlobalClass extends System.Object implements class Microsoft.Office.Interop.Word._Global, class Microsoft.Office.Interop.Word.Global" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.GlobalClass" />
   <TypeSignature Language="VB.NET" Value="Public Class GlobalClass&#xA;Implements Global" />
   <TypeSignature Language="C++ CLI" Value="public ref class GlobalClass : Microsoft::Office::Interop::Word::Global" />
+  <TypeSignature Language="F#" Value="type GlobalClass = class&#xA;    interface _Global&#xA;    interface Global" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -12,6 +13,9 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Word._Global</InterfaceName>
+    </Interface>
     <Interface>
       <InterfaceName>Microsoft.Office.Interop.Word.Global</InterfaceName>
     </Interface>
@@ -55,6 +59,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.ActiveDocument" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActiveDocument As Document" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Document ^ ActiveDocument { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveDocument : Microsoft.Office.Interop.Word.Document" Usage="ActiveDocument" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.ActiveDocument</InterfaceMember>
@@ -86,6 +91,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.ActivePrinter" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property ActivePrinter As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ ActivePrinter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ActivePrinter : string with get, set" Usage="ActivePrinter" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.ActivePrinter</InterfaceMember>
@@ -120,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.ActiveProtectedViewWindow" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActiveProtectedViewWindow As ProtectedViewWindow" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::ProtectedViewWindow ^ ActiveProtectedViewWindow { Microsoft::Office::Interop::Word::ProtectedViewWindow ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveProtectedViewWindow : Microsoft.Office.Interop.Word.ProtectedViewWindow" Usage="ActiveProtectedViewWindow" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.ActiveProtectedViewWindow</InterfaceMember>
@@ -151,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.ActiveWindow" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActiveWindow As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Window ^ ActiveWindow { Microsoft::Office::Interop::Word::Window ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveWindow : Microsoft.Office.Interop.Word.Window" Usage="ActiveWindow" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.ActiveWindow</InterfaceMember>
@@ -182,6 +190,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.AddIns" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AddIns As AddIns" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::AddIns ^ AddIns { Microsoft::Office::Interop::Word::AddIns ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AddIns : Microsoft.Office.Interop.Word.AddIns" Usage="AddIns" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.AddIns</InterfaceMember>
@@ -213,6 +222,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.AnswerWizard" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AnswerWizard As AnswerWizard" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::AnswerWizard ^ AnswerWizard { Microsoft::Office::Core::AnswerWizard ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AnswerWizard : Microsoft.Office.Core.AnswerWizard" Usage="AnswerWizard" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.AnswerWizard</InterfaceMember>
@@ -247,6 +257,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Application" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Application" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Application</InterfaceMember>
@@ -278,6 +289,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Assistant" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Assistant As Assistant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::Assistant ^ Assistant { Microsoft::Office::Core::Assistant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Assistant : Microsoft.Office.Core.Assistant" Usage="Assistant" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Assistant</InterfaceMember>
@@ -312,6 +324,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.AutoCaptions" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoCaptions As AutoCaptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::AutoCaptions ^ AutoCaptions { Microsoft::Office::Interop::Word::AutoCaptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoCaptions : Microsoft.Office.Interop.Word.AutoCaptions" Usage="AutoCaptions" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.AutoCaptions</InterfaceMember>
@@ -343,6 +356,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.AutoCorrect" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoCorrect As AutoCorrect" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::AutoCorrect ^ AutoCorrect { Microsoft::Office::Interop::Word::AutoCorrect ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoCorrect : Microsoft.Office.Interop.Word.AutoCorrect" Usage="AutoCorrect" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.AutoCorrect</InterfaceMember>
@@ -374,6 +388,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.AutoCorrectEmail" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoCorrectEmail As AutoCorrect" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::AutoCorrect ^ AutoCorrectEmail { Microsoft::Office::Interop::Word::AutoCorrect ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoCorrectEmail : Microsoft.Office.Interop.Word.AutoCorrect" Usage="AutoCorrectEmail" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.AutoCorrectEmail</InterfaceMember>
@@ -404,6 +419,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 BuildKeyCode([in]valuetype Microsoft.Office.Interop.Word.WdKey Arg1, [in]object&amp; Arg2, [in]object&amp; Arg3, [in]object&amp; Arg4) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.BuildKeyCode(Microsoft.Office.Interop.Word.WdKey,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function BuildKeyCode (Arg1 As WdKey, Optional ByRef Arg2 As Object, Optional ByRef Arg3 As Object, Optional ByRef Arg4 As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member BuildKeyCode : Microsoft.Office.Interop.Word.WdKey * obj * obj * obj -&gt; int&#xA;override this.BuildKeyCode : Microsoft.Office.Interop.Word.WdKey * obj * obj * obj -&gt; int" Usage="globalClass.BuildKeyCode (Arg1, Arg2, Arg3, Arg4)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.BuildKeyCode(Microsoft.Office.Interop.Word.WdKey,System.Object@,System.Object@,System.Object@)</InterfaceMember>
@@ -422,9 +438,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Arg1" Type="Microsoft.Office.Interop.Word.WdKey" />
-        <Parameter Name="Arg2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Arg3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Arg4" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Arg2" Type="System.Object" RefType="ref" />
+        <Parameter Name="Arg3" Type="System.Object" RefType="ref" />
+        <Parameter Name="Arg4" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Arg1">To be added.</param>
@@ -442,6 +458,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.CaptionLabels" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CaptionLabels As CaptionLabels" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::CaptionLabels ^ CaptionLabels { Microsoft::Office::Interop::Word::CaptionLabels ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CaptionLabels : Microsoft.Office.Interop.Word.CaptionLabels" Usage="CaptionLabels" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.CaptionLabels</InterfaceMember>
@@ -473,6 +490,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.CentimetersToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CentimetersToPoints (Centimeters As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float CentimetersToPoints(float Centimeters) = Microsoft::Office::Interop::Word::_Global::CentimetersToPoints;" />
+      <MemberSignature Language="F#" Value="abstract member CentimetersToPoints : single -&gt; single&#xA;override this.CentimetersToPoints : single -&gt; single" Usage="globalClass.CentimetersToPoints Centimeters" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.CentimetersToPoints(System.Single)</InterfaceMember>
@@ -505,6 +523,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.ChangeFileOpenDirectory(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ChangeFileOpenDirectory (Path As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ChangeFileOpenDirectory(System::String ^ Path) = Microsoft::Office::Interop::Word::_Global::ChangeFileOpenDirectory;" />
+      <MemberSignature Language="F#" Value="abstract member ChangeFileOpenDirectory : string -&gt; unit&#xA;override this.ChangeFileOpenDirectory : string -&gt; unit" Usage="globalClass.ChangeFileOpenDirectory Path" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.ChangeFileOpenDirectory(System.String)</InterfaceMember>
@@ -535,6 +554,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CheckSpelling([in]string Word, [in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; MainDictionary, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.CheckSpelling(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CheckSpelling (Word As String, Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef MainDictionary As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member CheckSpelling : string * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; bool&#xA;override this.CheckSpelling : string * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; bool" Usage="globalClass.CheckSpelling (Word, CustomDictionary, IgnoreUppercase, MainDictionary, CustomDictionary2, CustomDictionary3, CustomDictionary4, CustomDictionary5, CustomDictionary6, CustomDictionary7, CustomDictionary8, CustomDictionary9, CustomDictionary10)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.CheckSpelling(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)</InterfaceMember>
@@ -553,18 +573,18 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Word" Type="System.String" />
-        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MainDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MainDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Word">To be added.</param>
@@ -589,7 +609,9 @@
       <MemberSignature Language="C#" Value="public virtual string CleanString (string String);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string CleanString([in]string String) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.CleanString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CleanString (String As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ CleanString(System::String ^ String) = Microsoft::Office::Interop::Word::_Global::CleanString;" />
+      <MemberSignature Language="F#" Value="abstract member CleanString : string -&gt; string&#xA;override this.CleanString : string -&gt; string" Usage="globalClass.CleanString String" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.CleanString(System.String)</InterfaceMember>
@@ -622,6 +644,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.CommandBars" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CommandBars As CommandBars" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBars ^ CommandBars { Microsoft::Office::Core::CommandBars ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CommandBars : Microsoft.Office.Core.CommandBars" Usage="CommandBars" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.CommandBars</InterfaceMember>
@@ -653,6 +676,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Creator" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Creator" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Creator</InterfaceMember>
@@ -684,6 +708,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.CustomDictionaries" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CustomDictionaries As Dictionaries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Dictionaries ^ CustomDictionaries { Microsoft::Office::Interop::Word::Dictionaries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CustomDictionaries : Microsoft.Office.Interop.Word.Dictionaries" Usage="CustomDictionaries" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.CustomDictionaries</InterfaceMember>
@@ -715,6 +740,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.CustomizationContext" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property CustomizationContext As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ CustomizationContext { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CustomizationContext : obj with get, set" Usage="CustomizationContext" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.CustomizationContext</InterfaceMember>
@@ -749,6 +775,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.DDEExecute(System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DDEExecute (Channel As Integer, Command As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void DDEExecute(int Channel, System::String ^ Command) = Microsoft::Office::Interop::Word::_Global::DDEExecute;" />
+      <MemberSignature Language="F#" Value="abstract member DDEExecute : int * string -&gt; unit&#xA;override this.DDEExecute : int * string -&gt; unit" Usage="globalClass.DDEExecute (Channel, Command)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.DDEExecute(System.Int32,System.String)</InterfaceMember>
@@ -782,6 +809,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.DDEInitiate(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function DDEInitiate (App As String, Topic As String) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int DDEInitiate(System::String ^ App, System::String ^ Topic) = Microsoft::Office::Interop::Word::_Global::DDEInitiate;" />
+      <MemberSignature Language="F#" Value="abstract member DDEInitiate : string * string -&gt; int&#xA;override this.DDEInitiate : string * string -&gt; int" Usage="globalClass.DDEInitiate (App, Topic)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.DDEInitiate(System.String,System.String)</InterfaceMember>
@@ -816,6 +844,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.DDEPoke(System.Int32,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DDEPoke (Channel As Integer, Item As String, Data As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void DDEPoke(int Channel, System::String ^ Item, System::String ^ Data) = Microsoft::Office::Interop::Word::_Global::DDEPoke;" />
+      <MemberSignature Language="F#" Value="abstract member DDEPoke : int * string * string -&gt; unit&#xA;override this.DDEPoke : int * string * string -&gt; unit" Usage="globalClass.DDEPoke (Channel, Item, Data)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.DDEPoke(System.Int32,System.String,System.String)</InterfaceMember>
@@ -851,6 +880,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.DDERequest(System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function DDERequest (Channel As Integer, Item As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ DDERequest(int Channel, System::String ^ Item) = Microsoft::Office::Interop::Word::_Global::DDERequest;" />
+      <MemberSignature Language="F#" Value="abstract member DDERequest : int * string -&gt; string&#xA;override this.DDERequest : int * string -&gt; string" Usage="globalClass.DDERequest (Channel, Item)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.DDERequest(System.Int32,System.String)</InterfaceMember>
@@ -885,6 +915,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.DDETerminate(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DDETerminate (Channel As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void DDETerminate(int Channel) = Microsoft::Office::Interop::Word::_Global::DDETerminate;" />
+      <MemberSignature Language="F#" Value="abstract member DDETerminate : int -&gt; unit&#xA;override this.DDETerminate : int -&gt; unit" Usage="globalClass.DDETerminate Channel" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.DDETerminate(System.Int32)</InterfaceMember>
@@ -916,6 +947,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.DDETerminateAll" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DDETerminateAll ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void DDETerminateAll() = Microsoft::Office::Interop::Word::_Global::DDETerminateAll;" />
+      <MemberSignature Language="F#" Value="abstract member DDETerminateAll : unit -&gt; unit&#xA;override this.DDETerminateAll : unit -&gt; unit" Usage="globalClass.DDETerminateAll " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.DDETerminateAll</InterfaceMember>
@@ -944,6 +976,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Dialogs" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Dialogs As Dialogs" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Dialogs ^ Dialogs { Microsoft::Office::Interop::Word::Dialogs ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Dialogs : Microsoft.Office.Interop.Word.Dialogs" Usage="Dialogs" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Dialogs</InterfaceMember>
@@ -975,6 +1008,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Documents" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Documents As Documents" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Documents ^ Documents { Microsoft::Office::Interop::Word::Documents ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Documents : Microsoft.Office.Interop.Word.Documents" Usage="Documents" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Documents</InterfaceMember>
@@ -1006,6 +1040,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.FileConverters" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property FileConverters As FileConverters" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::FileConverters ^ FileConverters { Microsoft::Office::Interop::Word::FileConverters ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FileConverters : Microsoft.Office.Interop.Word.FileConverters" Usage="FileConverters" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.FileConverters</InterfaceMember>
@@ -1037,6 +1072,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.FindKey(System.Int32,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property FindKey(KeyCode As Integer, Optional ByRef KeyCode2 As Object) As KeyBinding" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::KeyBinding ^ FindKey[int, System::Object ^ %] { Microsoft::Office::Interop::Word::KeyBinding ^ get(int KeyCode, System::Object ^ % KeyCode2); };" />
+      <MemberSignature Language="F#" Value="member this.FindKey(int * obj) : Microsoft.Office.Interop.Word.KeyBinding" Usage="FindKey" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.FindKey(System.Int32,System.Object@)</InterfaceMember>
@@ -1058,7 +1094,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="KeyCode" Type="System.Int32" />
-        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="KeyCode2" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCode">To be added.</param>
@@ -1074,6 +1110,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.FontNames" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property FontNames As FontNames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::FontNames ^ FontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FontNames : Microsoft.Office.Interop.Word.FontNames" Usage="FontNames" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.FontNames</InterfaceMember>
@@ -1104,6 +1141,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.SpellingSuggestions GetSpellingSuggestions([in]string Word, [in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; MainDictionary, [in]object&amp; SuggestionMode, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.GetSpellingSuggestions(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSpellingSuggestions (Word As String, Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef MainDictionary As Object, Optional ByRef SuggestionMode As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object) As SpellingSuggestions" />
+      <MemberSignature Language="F#" Value="abstract member GetSpellingSuggestions : string * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.SpellingSuggestions&#xA;override this.GetSpellingSuggestions : string * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.SpellingSuggestions" Usage="globalClass.GetSpellingSuggestions (Word, CustomDictionary, IgnoreUppercase, MainDictionary, SuggestionMode, CustomDictionary2, CustomDictionary3, CustomDictionary4, CustomDictionary5, CustomDictionary6, CustomDictionary7, CustomDictionary8, CustomDictionary9, CustomDictionary10)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.GetSpellingSuggestions(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)</InterfaceMember>
@@ -1122,19 +1160,19 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Word" Type="System.String" />
-        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MainDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SuggestionMode" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MainDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="SuggestionMode" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Word">To be added.</param>
@@ -1162,6 +1200,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.HangulHanjaDictionaries" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HangulHanjaDictionaries As HangulHanjaConversionDictionaries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::HangulHanjaConversionDictionaries ^ HangulHanjaDictionaries { Microsoft::Office::Interop::Word::HangulHanjaConversionDictionaries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HangulHanjaDictionaries : Microsoft.Office.Interop.Word.HangulHanjaConversionDictionaries" Usage="HangulHanjaDictionaries" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.HangulHanjaDictionaries</InterfaceMember>
@@ -1193,6 +1232,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.Help(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Help (ByRef HelpType As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Help(System::Object ^ % HelpType) = Microsoft::Office::Interop::Word::_Global::Help;" />
+      <MemberSignature Language="F#" Value="abstract member Help : obj -&gt; unit&#xA;override this.Help : obj -&gt; unit" Usage="globalClass.Help HelpType" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.Help(System.Object@)</InterfaceMember>
@@ -1210,7 +1250,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="HelpType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="HelpType" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="HelpType">To be added.</param>
@@ -1224,6 +1264,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.InchesToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function InchesToPoints (Inches As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float InchesToPoints(float Inches) = Microsoft::Office::Interop::Word::_Global::InchesToPoints;" />
+      <MemberSignature Language="F#" Value="abstract member InchesToPoints : single -&gt; single&#xA;override this.InchesToPoints : single -&gt; single" Usage="globalClass.InchesToPoints Inches" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.InchesToPoints(System.Single)</InterfaceMember>
@@ -1256,6 +1297,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.IsObjectValid(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsObjectValid(Object As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsObjectValid[System::Object ^] { bool get(System::Object ^ Object); };" />
+      <MemberSignature Language="F#" Value="member this.IsObjectValid(obj) : bool" Usage="IsObjectValid" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.IsObjectValid(System.Object)</InterfaceMember>
@@ -1291,6 +1333,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.IsSandboxed" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsSandboxed As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsSandboxed { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsSandboxed : bool" Usage="IsSandboxed" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.IsSandboxed</InterfaceMember>
@@ -1322,6 +1365,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.KeyBindings" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property KeyBindings As KeyBindings" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::KeyBindings ^ KeyBindings { Microsoft::Office::Interop::Word::KeyBindings ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyBindings : Microsoft.Office.Interop.Word.KeyBindings" Usage="KeyBindings" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.KeyBindings</InterfaceMember>
@@ -1353,6 +1397,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.KeysBoundTo(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property KeysBoundTo(KeyCategory As WdKeyCategory, Command As String, Optional ByRef CommandParameter As Object) As KeysBoundTo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::KeysBoundTo ^ KeysBoundTo[Microsoft::Office::Interop::Word::WdKeyCategory, System::String ^, System::Object ^ %] { Microsoft::Office::Interop::Word::KeysBoundTo ^ get(Microsoft::Office::Interop::Word::WdKeyCategory KeyCategory, System::String ^ Command, System::Object ^ % CommandParameter); };" />
+      <MemberSignature Language="F#" Value="member this.KeysBoundTo(Microsoft.Office.Interop.Word.WdKeyCategory * string * obj) : Microsoft.Office.Interop.Word.KeysBoundTo" Usage="KeysBoundTo" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.KeysBoundTo(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Object@)</InterfaceMember>
@@ -1375,7 +1420,7 @@
       <Parameters>
         <Parameter Name="KeyCategory" Type="Microsoft.Office.Interop.Word.WdKeyCategory" />
         <Parameter Name="Command" Type="System.String" />
-        <Parameter Name="CommandParameter" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CommandParameter" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCategory">To be added.</param>
@@ -1391,6 +1436,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string KeyString([in]int32 KeyCode, [in]object&amp; KeyCode2) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.KeyString(System.Int32,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function KeyString (KeyCode As Integer, Optional ByRef KeyCode2 As Object) As String" />
+      <MemberSignature Language="F#" Value="abstract member KeyString : int * obj -&gt; string&#xA;override this.KeyString : int * obj -&gt; string" Usage="globalClass.KeyString (KeyCode, KeyCode2)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.KeyString(System.Int32,System.Object@)</InterfaceMember>
@@ -1409,7 +1455,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="KeyCode" Type="System.Int32" />
-        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="KeyCode2" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCode">To be added.</param>
@@ -1425,6 +1471,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.LandscapeFontNames" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property LandscapeFontNames As FontNames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::FontNames ^ LandscapeFontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LandscapeFontNames : Microsoft.Office.Interop.Word.FontNames" Usage="LandscapeFontNames" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.LandscapeFontNames</InterfaceMember>
@@ -1456,6 +1503,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Languages" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Languages As Languages" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Languages ^ Languages { Microsoft::Office::Interop::Word::Languages ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Languages : Microsoft.Office.Interop.Word.Languages" Usage="Languages" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Languages</InterfaceMember>
@@ -1487,6 +1535,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.LanguageSettings" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property LanguageSettings As LanguageSettings" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::LanguageSettings ^ LanguageSettings { Microsoft::Office::Core::LanguageSettings ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageSettings : Microsoft.Office.Core.LanguageSettings" Usage="LanguageSettings" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.LanguageSettings</InterfaceMember>
@@ -1518,6 +1567,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.LinesToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function LinesToPoints (Lines As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float LinesToPoints(float Lines) = Microsoft::Office::Interop::Word::_Global::LinesToPoints;" />
+      <MemberSignature Language="F#" Value="abstract member LinesToPoints : single -&gt; single&#xA;override this.LinesToPoints : single -&gt; single" Usage="globalClass.LinesToPoints Lines" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.LinesToPoints(System.Single)</InterfaceMember>
@@ -1550,6 +1600,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.ListGalleries" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ListGalleries As ListGalleries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::ListGalleries ^ ListGalleries { Microsoft::Office::Interop::Word::ListGalleries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListGalleries : Microsoft.Office.Interop.Word.ListGalleries" Usage="ListGalleries" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.ListGalleries</InterfaceMember>
@@ -1581,6 +1632,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.MacroContainer" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property MacroContainer As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ MacroContainer { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MacroContainer : obj" Usage="MacroContainer" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.MacroContainer</InterfaceMember>
@@ -1612,6 +1664,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.MillimetersToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function MillimetersToPoints (Millimeters As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float MillimetersToPoints(float Millimeters) = Microsoft::Office::Interop::Word::_Global::MillimetersToPoints;" />
+      <MemberSignature Language="F#" Value="abstract member MillimetersToPoints : single -&gt; single&#xA;override this.MillimetersToPoints : single -&gt; single" Usage="globalClass.MillimetersToPoints Millimeters" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.MillimetersToPoints(System.Single)</InterfaceMember>
@@ -1644,6 +1697,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Name" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Name</InterfaceMember>
@@ -1675,6 +1729,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.NewWindow" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function NewWindow () As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Word::Window ^ NewWindow() = Microsoft::Office::Interop::Word::_Global::NewWindow;" />
+      <MemberSignature Language="F#" Value="abstract member NewWindow : unit -&gt; Microsoft.Office.Interop.Word.Window&#xA;override this.NewWindow : unit -&gt; Microsoft.Office.Interop.Word.Window" Usage="globalClass.NewWindow " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.NewWindow</InterfaceMember>
@@ -1704,6 +1759,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.NormalTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NormalTemplate As Template" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Template ^ NormalTemplate { Microsoft::Office::Interop::Word::Template ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NormalTemplate : Microsoft.Office.Interop.Word.Template" Usage="NormalTemplate" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.NormalTemplate</InterfaceMember>
@@ -1735,6 +1791,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Options" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Options As Options" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Options ^ Options { Microsoft::Office::Interop::Word::Options ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Options : Microsoft.Office.Interop.Word.Options" Usage="Options" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Options</InterfaceMember>
@@ -1766,6 +1823,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Parent" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Parent" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Parent</InterfaceMember>
@@ -1797,6 +1855,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PicasToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PicasToPoints (Picas As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float PicasToPoints(float Picas) = Microsoft::Office::Interop::Word::_Global::PicasToPoints;" />
+      <MemberSignature Language="F#" Value="abstract member PicasToPoints : single -&gt; single&#xA;override this.PicasToPoints : single -&gt; single" Usage="globalClass.PicasToPoints Picas" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PicasToPoints(System.Single)</InterfaceMember>
@@ -1828,6 +1887,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PixelsToPoints([in]float32 Pixels, [in]object&amp; fVertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PixelsToPoints(System.Single,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PixelsToPoints (Pixels As Single, Optional ByRef fVertical As Object) As Single" />
+      <MemberSignature Language="F#" Value="abstract member PixelsToPoints : single * obj -&gt; single&#xA;override this.PixelsToPoints : single * obj -&gt; single" Usage="globalClass.PixelsToPoints (Pixels, fVertical)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PixelsToPoints(System.Single,System.Object@)</InterfaceMember>
@@ -1846,7 +1906,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Pixels" Type="System.Single" />
-        <Parameter Name="fVertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="fVertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Pixels">To be added.</param>
@@ -1862,6 +1922,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PointsToCentimeters(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PointsToCentimeters (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float PointsToCentimeters(float Points) = Microsoft::Office::Interop::Word::_Global::PointsToCentimeters;" />
+      <MemberSignature Language="F#" Value="abstract member PointsToCentimeters : single -&gt; single&#xA;override this.PointsToCentimeters : single -&gt; single" Usage="globalClass.PointsToCentimeters Points" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PointsToCentimeters(System.Single)</InterfaceMember>
@@ -1894,6 +1955,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PointsToInches(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PointsToInches (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float PointsToInches(float Points) = Microsoft::Office::Interop::Word::_Global::PointsToInches;" />
+      <MemberSignature Language="F#" Value="abstract member PointsToInches : single -&gt; single&#xA;override this.PointsToInches : single -&gt; single" Usage="globalClass.PointsToInches Points" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PointsToInches(System.Single)</InterfaceMember>
@@ -1926,6 +1988,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PointsToLines(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PointsToLines (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float PointsToLines(float Points) = Microsoft::Office::Interop::Word::_Global::PointsToLines;" />
+      <MemberSignature Language="F#" Value="abstract member PointsToLines : single -&gt; single&#xA;override this.PointsToLines : single -&gt; single" Usage="globalClass.PointsToLines Points" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PointsToLines(System.Single)</InterfaceMember>
@@ -1958,6 +2021,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PointsToMillimeters(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PointsToMillimeters (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float PointsToMillimeters(float Points) = Microsoft::Office::Interop::Word::_Global::PointsToMillimeters;" />
+      <MemberSignature Language="F#" Value="abstract member PointsToMillimeters : single -&gt; single&#xA;override this.PointsToMillimeters : single -&gt; single" Usage="globalClass.PointsToMillimeters Points" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PointsToMillimeters(System.Single)</InterfaceMember>
@@ -1990,6 +2054,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PointsToPicas(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PointsToPicas (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual float PointsToPicas(float Points) = Microsoft::Office::Interop::Word::_Global::PointsToPicas;" />
+      <MemberSignature Language="F#" Value="abstract member PointsToPicas : single -&gt; single&#xA;override this.PointsToPicas : single -&gt; single" Usage="globalClass.PointsToPicas Points" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PointsToPicas(System.Single)</InterfaceMember>
@@ -2021,6 +2086,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToPixels([in]float32 Points, [in]object&amp; fVertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.PointsToPixels(System.Single,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function PointsToPixels (Points As Single, Optional ByRef fVertical As Object) As Single" />
+      <MemberSignature Language="F#" Value="abstract member PointsToPixels : single * obj -&gt; single&#xA;override this.PointsToPixels : single * obj -&gt; single" Usage="globalClass.PointsToPixels (Points, fVertical)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.PointsToPixels(System.Single,System.Object@)</InterfaceMember>
@@ -2039,7 +2105,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Points" Type="System.Single" />
-        <Parameter Name="fVertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="fVertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Points">To be added.</param>
@@ -2055,6 +2121,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.PortraitFontNames" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property PortraitFontNames As FontNames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::FontNames ^ PortraitFontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PortraitFontNames : Microsoft.Office.Interop.Word.FontNames" Usage="PortraitFontNames" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.PortraitFontNames</InterfaceMember>
@@ -2086,6 +2153,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.PrintPreview" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property PrintPreview As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool PrintPreview { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.PrintPreview : bool with get, set" Usage="PrintPreview" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.PrintPreview</InterfaceMember>
@@ -2120,6 +2188,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.ProtectedViewWindows" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ProtectedViewWindows As ProtectedViewWindows" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::ProtectedViewWindows ^ ProtectedViewWindows { Microsoft::Office::Interop::Word::ProtectedViewWindows ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ProtectedViewWindows : Microsoft.Office.Interop.Word.ProtectedViewWindows" Usage="ProtectedViewWindows" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.ProtectedViewWindows</InterfaceMember>
@@ -2151,6 +2220,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.RecentFiles" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property RecentFiles As RecentFiles" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::RecentFiles ^ RecentFiles { Microsoft::Office::Interop::Word::RecentFiles ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.RecentFiles : Microsoft.Office.Interop.Word.RecentFiles" Usage="RecentFiles" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.RecentFiles</InterfaceMember>
@@ -2181,6 +2251,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Repeat([in]object&amp; Times) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.GlobalClass.Repeat(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Repeat (Optional ByRef Times As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Repeat : obj -&gt; bool&#xA;override this.Repeat : obj -&gt; bool" Usage="globalClass.Repeat Times" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word._Global.Repeat(System.Object@)</InterfaceMember>
@@ -2198,7 +2269,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Times" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Times" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Times">To be added.</param>
@@ -2213,6 +2284,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Selection" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Selection As Selection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Selection ^ Selection { Microsoft::Office::Interop::Word::Selection ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Selection : Microsoft.Office.Interop.Word.Selection" Usage="Selection" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Selection</InterfaceMember>
@@ -2244,6 +2316,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.ShowVisualBasicEditor" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowVisualBasicEditor As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowVisualBasicEditor { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowVisualBasicEditor : bool with get, set" Usage="ShowVisualBasicEditor" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.ShowVisualBasicEditor</InterfaceMember>
@@ -2278,6 +2351,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.StatusBar" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property StatusBar As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ StatusBar {  void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StatusBar : string" Usage="StatusBar" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.StatusBar</InterfaceMember>
@@ -2309,6 +2383,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.SynonymInfo(System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SynonymInfo(Word As String, Optional ByRef LanguageID As Object) As SynonymInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::SynonymInfo ^ SynonymInfo[System::String ^, System::Object ^ %] { Microsoft::Office::Interop::Word::SynonymInfo ^ get(System::String ^ Word, System::Object ^ % LanguageID); };" />
+      <MemberSignature Language="F#" Value="member this.SynonymInfo(string * obj) : Microsoft.Office.Interop.Word.SynonymInfo" Usage="SynonymInfo" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.SynonymInfo(System.String,System.Object@)</InterfaceMember>
@@ -2330,7 +2405,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Word" Type="System.String" />
-        <Parameter Name="LanguageID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LanguageID" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Word">To be added.</param>
@@ -2346,6 +2421,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.System" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property System As System" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::System ^ System { Microsoft::Office::Interop::Word::System ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.System : Microsoft.Office.Interop.Word.System" Usage="System" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.System</InterfaceMember>
@@ -2377,6 +2453,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Tasks" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Tasks As Tasks" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Tasks ^ Tasks { Microsoft::Office::Interop::Word::Tasks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Tasks : Microsoft.Office.Interop.Word.Tasks" Usage="Tasks" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Tasks</InterfaceMember>
@@ -2408,6 +2485,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Templates" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Templates As Templates" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Templates ^ Templates { Microsoft::Office::Interop::Word::Templates ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Templates : Microsoft.Office.Interop.Word.Templates" Usage="Templates" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Templates</InterfaceMember>
@@ -2439,6 +2517,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.VBE" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property VBE As VBE" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Vbe::Interop::VBE ^ VBE { Microsoft::Vbe::Interop::VBE ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.VBE : Microsoft.Vbe.Interop.VBE" Usage="VBE" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.VBE</InterfaceMember>
@@ -2470,6 +2549,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.Windows" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Windows As Windows" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Word::Windows ^ Windows { Microsoft::Office::Interop::Word::Windows ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Windows : Microsoft.Office.Interop.Word.Windows" Usage="Windows" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.Windows</InterfaceMember>
@@ -2501,6 +2581,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.GlobalClass.WordBasic" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property WordBasic As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ WordBasic { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.WordBasic : obj" Usage="WordBasic" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Office.Interop.Word._Global.WordBasic</InterfaceMember>

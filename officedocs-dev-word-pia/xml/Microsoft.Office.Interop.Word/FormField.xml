@@ -1,9 +1,10 @@
-﻿<Type Name="FormField" FullName="Microsoft.Office.Interop.Word.FormField">
+<Type Name="FormField" FullName="Microsoft.Office.Interop.Word.FormField">
   <TypeSignature Language="C#" Value="public interface FormField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.FormField" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormField" />
   <TypeSignature Language="C++ CLI" Value="public interface class FormField" />
+  <TypeSignature Language="F#" Value="type FormField = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.FormField.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.CalculateOnExit" />
       <MemberSignature Language="VB.NET" Value="Public Property CalculateOnExit As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CalculateOnExit { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CalculateOnExit : bool with get, set" Usage="Microsoft.Office.Interop.Word.FormField.CalculateOnExit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -98,6 +101,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.CheckBox" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CheckBox As CheckBox" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CheckBox ^ CheckBox { Microsoft::Office::Interop::Word::CheckBox ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CheckBox : Microsoft.Office.Interop.Word.CheckBox" Usage="Microsoft.Office.Interop.Word.FormField.CheckBox" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -129,6 +133,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.FormField.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; unit" Usage="formField.Copy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -154,6 +159,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.FormField.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -186,6 +192,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.FormField.Cut" />
       <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberSignature Language="F#" Value="abstract member Cut : unit -&gt; unit" Usage="formField.Cut " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -211,6 +218,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.FormField.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="formField.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -236,6 +244,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.DropDown" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DropDown As DropDown" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::DropDown ^ DropDown { Microsoft::Office::Interop::Word::DropDown ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DropDown : Microsoft.Office.Interop.Word.DropDown" Usage="Microsoft.Office.Interop.Word.FormField.DropDown" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -267,6 +276,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Enabled" />
       <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Enabled : bool with get, set" Usage="Microsoft.Office.Interop.Word.FormField.Enabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -302,6 +312,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.EntryMacro" />
       <MemberSignature Language="VB.NET" Value="Public Property EntryMacro As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EntryMacro { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.EntryMacro : string with get, set" Usage="Microsoft.Office.Interop.Word.FormField.EntryMacro" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -336,6 +347,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.ExitMacro" />
       <MemberSignature Language="VB.NET" Value="Public Property ExitMacro As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExitMacro { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ExitMacro : string with get, set" Usage="Microsoft.Office.Interop.Word.FormField.ExitMacro" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -370,6 +382,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.HelpText" />
       <MemberSignature Language="VB.NET" Value="Public Property HelpText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HelpText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.HelpText : string with get, set" Usage="Microsoft.Office.Interop.Word.FormField.HelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -404,6 +417,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Office.Interop.Word.FormField.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -435,6 +449,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Next" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As FormField" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FormField ^ Next { Microsoft::Office::Interop::Word::FormField ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Next : Microsoft.Office.Interop.Word.FormField" Usage="Microsoft.Office.Interop.Word.FormField.Next" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -463,6 +478,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.OwnHelp" />
       <MemberSignature Language="VB.NET" Value="Public Property OwnHelp As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OwnHelp { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.OwnHelp : bool with get, set" Usage="Microsoft.Office.Interop.Word.FormField.OwnHelp" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -497,6 +513,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.OwnStatus" />
       <MemberSignature Language="VB.NET" Value="Public Property OwnStatus As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OwnStatus { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.OwnStatus : bool with get, set" Usage="Microsoft.Office.Interop.Word.FormField.OwnStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -531,6 +548,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.FormField.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -559,6 +577,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Previous" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As FormField" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FormField ^ Previous { Microsoft::Office::Interop::Word::FormField ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Previous : Microsoft.Office.Interop.Word.FormField" Usage="Microsoft.Office.Interop.Word.FormField.Previous" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -587,6 +606,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Range" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.FormField.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -618,6 +638,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Result" />
       <MemberSignature Language="VB.NET" Value="Public Property Result As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Result { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Result : string with get, set" Usage="Microsoft.Office.Interop.Word.FormField.Result" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -652,6 +673,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.FormField.Select" />
       <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit" Usage="formField.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -680,6 +702,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.StatusText" />
       <MemberSignature Language="VB.NET" Value="Public Property StatusText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StatusText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StatusText : string with get, set" Usage="Microsoft.Office.Interop.Word.FormField.StatusText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -714,6 +737,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.TextInput" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextInput As TextInput" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TextInput ^ TextInput { Microsoft::Office::Interop::Word::TextInput ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TextInput : Microsoft.Office.Interop.Word.TextInput" Usage="Microsoft.Office.Interop.Word.FormField.TextInput" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -746,6 +770,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.FormField.Type" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Type As WdFieldType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFieldType default { Microsoft::Office::Interop::Word::WdFieldType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdFieldType" Usage="Microsoft.Office.Interop.Word.FormField.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="PictureFormat" FullName="Microsoft.Office.Interop.Word.PictureFormat">
+<Type Name="PictureFormat" FullName="Microsoft.Office.Interop.Word.PictureFormat">
   <TypeSignature Language="C#" Value="public interface PictureFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PictureFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.PictureFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface PictureFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class PictureFormat" />
+  <TypeSignature Language="F#" Value="type PictureFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.PictureFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.Brightness" />
       <MemberSignature Language="VB.NET" Value="Public Property Brightness As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Brightness { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Brightness : single with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.Brightness" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.ColorType" />
       <MemberSignature Language="VB.NET" Value="Public Property ColorType As MsoPictureColorType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPictureColorType ColorType { Microsoft::Office::Core::MsoPictureColorType get(); void set(Microsoft::Office::Core::MsoPictureColorType value); };" />
+      <MemberSignature Language="F#" Value="member this.ColorType : Microsoft.Office.Core.MsoPictureColorType with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.ColorType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -122,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.Contrast" />
       <MemberSignature Language="VB.NET" Value="Public Property Contrast As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Contrast { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Contrast : single with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.Contrast" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -153,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.PictureFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -185,6 +191,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.Crop" />
       <MemberSignature Language="VB.NET" Value="Public Property Crop As Crop" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Crop ^ Crop { Microsoft::Office::Core::Crop ^ get(); void set(Microsoft::Office::Core::Crop ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Crop : Microsoft.Office.Core.Crop with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.Crop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -219,6 +226,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.CropBottom" />
       <MemberSignature Language="VB.NET" Value="Public Property CropBottom As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropBottom { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.CropBottom : single with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.CropBottom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -253,6 +261,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.CropLeft" />
       <MemberSignature Language="VB.NET" Value="Public Property CropLeft As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropLeft { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.CropLeft : single with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.CropLeft" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -287,6 +296,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.CropRight" />
       <MemberSignature Language="VB.NET" Value="Public Property CropRight As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropRight { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.CropRight : single with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.CropRight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -321,6 +331,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.CropTop" />
       <MemberSignature Language="VB.NET" Value="Public Property CropTop As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropTop { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.CropTop : single with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.CropTop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -355,6 +366,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.PictureFormat.IncrementBrightness(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub IncrementBrightness (Increment As Single)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementBrightness(float Increment);" />
+      <MemberSignature Language="F#" Value="abstract member IncrementBrightness : single -&gt; unit" Usage="pictureFormat.IncrementBrightness Increment" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -386,6 +398,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.PictureFormat.IncrementContrast(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub IncrementContrast (Increment As Single)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementContrast(float Increment);" />
+      <MemberSignature Language="F#" Value="abstract member IncrementContrast : single -&gt; unit" Usage="pictureFormat.IncrementContrast Increment" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -417,6 +430,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.PictureFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -445,6 +459,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.TransparencyColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TransparencyColor As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TransparencyColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.TransparencyColor : int with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.TransparencyColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -480,6 +495,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PictureFormat.TransparentBackground" />
       <MemberSignature Language="VB.NET" Value="Public Property TransparentBackground As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState TransparentBackground { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.TransparentBackground : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.PictureFormat.TransparentBackground" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

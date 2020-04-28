@@ -1,9 +1,10 @@
-﻿<Type Name="OMathScrSubSup" FullName="Microsoft.Office.Interop.Word.OMathScrSubSup">
+<Type Name="OMathScrSubSup" FullName="Microsoft.Office.Interop.Word.OMathScrSubSup">
   <TypeSignature Language="C#" Value="public interface OMathScrSubSup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OMathScrSubSup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.OMathScrSubSup" />
   <TypeSignature Language="VB.NET" Value="Public Interface OMathScrSubSup" />
   <TypeSignature Language="C++ CLI" Value="public interface class OMathScrSubSup" />
+  <TypeSignature Language="F#" Value="type OMathScrSubSup = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathScrSubSup.AlignScripts" />
       <MemberSignature Language="VB.NET" Value="Public Property AlignScripts As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AlignScripts { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AlignScripts : bool with get, set" Usage="Microsoft.Office.Interop.Word.OMathScrSubSup.AlignScripts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathScrSubSup.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.OMathScrSubSup.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathScrSubSup.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.OMathScrSubSup.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -126,6 +130,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathScrSubSup.E" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property E As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ E { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.E : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathScrSubSup.E" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -156,6 +161,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathScrSubSup.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.OMathScrSubSup.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -186,6 +192,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMathScrSubSup.RemoveSub" />
       <MemberSignature Language="VB.NET" Value="Public Function RemoveSub () As OMathFunction" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::OMathFunction ^ RemoveSub();" />
+      <MemberSignature Language="F#" Value="abstract member RemoveSub : unit -&gt; Microsoft.Office.Interop.Word.OMathFunction" Usage="oMathScrSubSup.RemoveSub " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -214,6 +221,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMathScrSubSup.RemoveSup" />
       <MemberSignature Language="VB.NET" Value="Public Function RemoveSup () As OMathFunction" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::OMathFunction ^ RemoveSup();" />
+      <MemberSignature Language="F#" Value="abstract member RemoveSup : unit -&gt; Microsoft.Office.Interop.Word.OMathFunction" Usage="oMathScrSubSup.RemoveSup " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -242,6 +250,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathScrSubSup.Sub" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sub As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ Sub { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sub : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathScrSubSup.Sub" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -272,6 +281,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.OMathScrSubSup.Sup" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sup As OMath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMath ^ Sup { Microsoft::Office::Interop::Word::OMath ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sup : Microsoft.Office.Interop.Word.OMath" Usage="Microsoft.Office.Interop.Word.OMathScrSubSup.Sup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -302,6 +312,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.OMathScrSubSup.ToScrPre" />
       <MemberSignature Language="VB.NET" Value="Public Function ToScrPre () As OMathFunction" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::OMathFunction ^ ToScrPre();" />
+      <MemberSignature Language="F#" Value="abstract member ToScrPre : unit -&gt; Microsoft.Office.Interop.Word.OMathFunction" Usage="oMathScrSubSup.ToScrPre " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

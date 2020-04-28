@@ -1,9 +1,10 @@
-﻿<Type Name="TextColumns" FullName="Microsoft.Office.Interop.Word.TextColumns">
+<Type Name="TextColumns" FullName="Microsoft.Office.Interop.Word.TextColumns">
   <TypeSignature Language="C#" Value="public interface TextColumns : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextColumns implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TextColumns" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextColumns&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class TextColumns : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type TextColumns = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.TextColumn Add([in]object&amp; Width, [in]object&amp; Spacing, [in]object&amp; EvenlySpaced) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextColumns.Add(System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (Optional ByRef Width As Object, Optional ByRef Spacing As Object, Optional ByRef EvenlySpaced As Object) As TextColumn" />
+      <MemberSignature Language="F#" Value="abstract member Add : obj * obj * obj -&gt; Microsoft.Office.Interop.Word.TextColumn" Usage="textColumns.Add (Width, Spacing, EvenlySpaced)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -50,9 +52,9 @@
         <ReturnType>Microsoft.Office.Interop.Word.TextColumn</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Width" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Spacing" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="EvenlySpaced" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Width" Type="System.Object" RefType="ref" />
+        <Parameter Name="Spacing" Type="System.Object" RefType="ref" />
+        <Parameter Name="EvenlySpaced" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Width">Optional <b>Object</b>. The width of the new text column in the document, in points.</param>
@@ -69,6 +71,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.TextColumns.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -97,6 +100,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.TextColumns.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -125,6 +129,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.TextColumns.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -157,6 +162,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.EvenlySpaced" />
       <MemberSignature Language="VB.NET" Value="Public Property EvenlySpaced As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EvenlySpaced { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.EvenlySpaced : int with get, set" Usage="Microsoft.Office.Interop.Word.TextColumns.EvenlySpaced" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -192,6 +198,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.FlowDirection" />
       <MemberSignature Language="VB.NET" Value="Public Property FlowDirection As WdFlowDirection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFlowDirection FlowDirection { Microsoft::Office::Interop::Word::WdFlowDirection get(); void set(Microsoft::Office::Interop::Word::WdFlowDirection value); };" />
+      <MemberSignature Language="F#" Value="member this.FlowDirection : Microsoft.Office.Interop.Word.WdFlowDirection with get, set" Usage="Microsoft.Office.Interop.Word.TextColumns.FlowDirection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -231,6 +238,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextColumns.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="textColumns.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -263,6 +271,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As TextColumn" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TextColumn ^ default[int] { Microsoft::Office::Interop::Word::TextColumn ^ get(int Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Office.Interop.Word.TextColumn" Usage="Microsoft.Office.Interop.Word.TextColumns.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -295,6 +304,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.LineBetween" />
       <MemberSignature Language="VB.NET" Value="Public Property LineBetween As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LineBetween { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.LineBetween : int with get, set" Usage="Microsoft.Office.Interop.Word.TextColumns.LineBetween" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -327,6 +337,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.TextColumns.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -355,6 +366,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextColumns.SetCount(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetCount (NumColumns As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCount(int NumColumns);" />
+      <MemberSignature Language="F#" Value="abstract member SetCount : int -&gt; unit" Usage="textColumns.SetCount NumColumns" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -387,6 +399,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.Spacing" />
       <MemberSignature Language="VB.NET" Value="Public Property Spacing As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Spacing { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Spacing : single with get, set" Usage="Microsoft.Office.Interop.Word.TextColumns.Spacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -421,6 +434,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextColumns.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : single with get, set" Usage="Microsoft.Office.Interop.Word.TextColumns.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

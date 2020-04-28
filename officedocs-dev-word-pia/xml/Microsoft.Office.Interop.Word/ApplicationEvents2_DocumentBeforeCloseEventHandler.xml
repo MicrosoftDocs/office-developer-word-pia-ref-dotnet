@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents2_DocumentBeforeCloseEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler">
+<Type Name="ApplicationEvents2_DocumentBeforeCloseEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents2_DocumentBeforeCloseEventHandler(Document Doc, ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents2_DocumentBeforeCloseEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents2_DocumentBeforeCloseEventHandler(Doc As Document, ByRef Cancel As Boolean)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents2_DocumentBeforeCloseEventHandler(Document ^ Doc, bool % Cancel);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents2_DocumentBeforeCloseEventHandler = delegate of Document * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,7 +22,7 @@
   </Attributes>
   <Parameters>
     <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+    <Parameter Name="Cancel" Type="System.Boolean" RefType="ref" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

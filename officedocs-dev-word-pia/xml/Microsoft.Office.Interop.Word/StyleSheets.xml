@@ -1,9 +1,10 @@
-﻿<Type Name="StyleSheets" FullName="Microsoft.Office.Interop.Word.StyleSheets">
+<Type Name="StyleSheets" FullName="Microsoft.Office.Interop.Word.StyleSheets">
   <TypeSignature Language="C#" Value="public interface StyleSheets : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StyleSheets implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.StyleSheets" />
   <TypeSignature Language="VB.NET" Value="Public Interface StyleSheets&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class StyleSheets : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type StyleSheets = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.StyleSheets.Add(System.String,Microsoft.Office.Interop.Word.WdStyleSheetLinkType,System.String,Microsoft.Office.Interop.Word.WdStyleSheetPrecedence)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (FileName As String, LinkType As WdStyleSheetLinkType, Title As String, Precedence As WdStyleSheetPrecedence) As StyleSheet" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::StyleSheet ^ Add(System::String ^ FileName, Microsoft::Office::Interop::Word::WdStyleSheetLinkType LinkType, System::String ^ Title, Microsoft::Office::Interop::Word::WdStyleSheetPrecedence Precedence);" />
+      <MemberSignature Language="F#" Value="abstract member Add : string * Microsoft.Office.Interop.Word.WdStyleSheetLinkType * string * Microsoft.Office.Interop.Word.WdStyleSheetPrecedence -&gt; Microsoft.Office.Interop.Word.StyleSheet" Usage="styleSheets.Add (FileName, LinkType, Title, Precedence)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -71,6 +73,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.StyleSheets.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.StyleSheets.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -99,6 +102,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.StyleSheets.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.StyleSheets.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -127,6 +131,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.StyleSheets.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.StyleSheets.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -159,6 +164,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.StyleSheets.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="styleSheets.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -191,6 +197,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.StyleSheets.Item(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(ByRef Index As Object) As StyleSheet" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::StyleSheet ^ default[System::Object ^ %] { Microsoft::Office::Interop::Word::StyleSheet ^ get(System::Object ^ % Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(obj) : Microsoft.Office.Interop.Word.StyleSheet" Usage="Microsoft.Office.Interop.Word.StyleSheets.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -208,7 +215,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.StyleSheet</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Index" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Index" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Index">An <b>Object</b> indicating the ordinal position or a string representing the name of the individual object.</param>
@@ -223,6 +230,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.StyleSheets.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.StyleSheets.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

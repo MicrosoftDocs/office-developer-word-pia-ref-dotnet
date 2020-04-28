@@ -1,9 +1,10 @@
-﻿<Type Name="LineFormat" FullName="Microsoft.Office.Interop.Word.LineFormat">
+<Type Name="LineFormat" FullName="Microsoft.Office.Interop.Word.LineFormat">
   <TypeSignature Language="C#" Value="public interface LineFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LineFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.LineFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface LineFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class LineFormat" />
+  <TypeSignature Language="F#" Value="type LineFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.LineFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.BackColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackColor As ColorFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ColorFormat ^ BackColor { Microsoft::Office::Interop::Word::ColorFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BackColor : Microsoft.Office.Interop.Word.ColorFormat" Usage="Microsoft.Office.Interop.Word.LineFormat.BackColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -87,6 +90,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.BeginArrowheadLength" />
       <MemberSignature Language="VB.NET" Value="Public Property BeginArrowheadLength As MsoArrowheadLength" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoArrowheadLength BeginArrowheadLength { Microsoft::Office::Core::MsoArrowheadLength get(); void set(Microsoft::Office::Core::MsoArrowheadLength value); };" />
+      <MemberSignature Language="F#" Value="member this.BeginArrowheadLength : Microsoft.Office.Core.MsoArrowheadLength with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.BeginArrowheadLength" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -118,6 +122,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.BeginArrowheadStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property BeginArrowheadStyle As MsoArrowheadStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoArrowheadStyle BeginArrowheadStyle { Microsoft::Office::Core::MsoArrowheadStyle get(); void set(Microsoft::Office::Core::MsoArrowheadStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.BeginArrowheadStyle : Microsoft.Office.Core.MsoArrowheadStyle with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.BeginArrowheadStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -149,6 +154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.BeginArrowheadWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property BeginArrowheadWidth As MsoArrowheadWidth" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoArrowheadWidth BeginArrowheadWidth { Microsoft::Office::Core::MsoArrowheadWidth get(); void set(Microsoft::Office::Core::MsoArrowheadWidth value); };" />
+      <MemberSignature Language="F#" Value="member this.BeginArrowheadWidth : Microsoft.Office.Core.MsoArrowheadWidth with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.BeginArrowheadWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -180,6 +186,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.LineFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -212,6 +219,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.DashStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property DashStyle As MsoLineDashStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoLineDashStyle DashStyle { Microsoft::Office::Core::MsoLineDashStyle get(); void set(Microsoft::Office::Core::MsoLineDashStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.DashStyle : Microsoft.Office.Core.MsoLineDashStyle with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.DashStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -243,6 +251,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.EndArrowheadLength" />
       <MemberSignature Language="VB.NET" Value="Public Property EndArrowheadLength As MsoArrowheadLength" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoArrowheadLength EndArrowheadLength { Microsoft::Office::Core::MsoArrowheadLength get(); void set(Microsoft::Office::Core::MsoArrowheadLength value); };" />
+      <MemberSignature Language="F#" Value="member this.EndArrowheadLength : Microsoft.Office.Core.MsoArrowheadLength with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.EndArrowheadLength" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -274,6 +283,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.EndArrowheadStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property EndArrowheadStyle As MsoArrowheadStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoArrowheadStyle EndArrowheadStyle { Microsoft::Office::Core::MsoArrowheadStyle get(); void set(Microsoft::Office::Core::MsoArrowheadStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.EndArrowheadStyle : Microsoft.Office.Core.MsoArrowheadStyle with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.EndArrowheadStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -305,6 +315,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.EndArrowheadWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property EndArrowheadWidth As MsoArrowheadWidth" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoArrowheadWidth EndArrowheadWidth { Microsoft::Office::Core::MsoArrowheadWidth get(); void set(Microsoft::Office::Core::MsoArrowheadWidth value); };" />
+      <MemberSignature Language="F#" Value="member this.EndArrowheadWidth : Microsoft.Office.Core.MsoArrowheadWidth with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.EndArrowheadWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -336,6 +347,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.ForeColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForeColor As ColorFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ColorFormat ^ ForeColor { Microsoft::Office::Interop::Word::ColorFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ForeColor : Microsoft.Office.Interop.Word.ColorFormat" Usage="Microsoft.Office.Interop.Word.LineFormat.ForeColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -364,6 +376,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.InsetPen" />
       <MemberSignature Language="VB.NET" Value="Public Property InsetPen As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState InsetPen { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.InsetPen : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.InsetPen" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -399,6 +412,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.LineFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -427,6 +441,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Pattern" />
       <MemberSignature Language="VB.NET" Value="Public Property Pattern As MsoPatternType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPatternType Pattern { Microsoft::Office::Core::MsoPatternType get(); void set(Microsoft::Office::Core::MsoPatternType value); };" />
+      <MemberSignature Language="F#" Value="member this.Pattern : Microsoft.Office.Core.MsoPatternType with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.Pattern" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -462,6 +477,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Style" />
       <MemberSignature Language="VB.NET" Value="Public Property Style As MsoLineStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoLineStyle Style { Microsoft::Office::Core::MsoLineStyle get(); void set(Microsoft::Office::Core::MsoLineStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.Style : Microsoft.Office.Core.MsoLineStyle with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.Style" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -493,6 +509,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Transparency" />
       <MemberSignature Language="VB.NET" Value="Public Property Transparency As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Transparency { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Transparency : single with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.Transparency" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -527,6 +544,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : Microsoft.Office.Core.MsoTriState with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.Visible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -562,6 +580,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LineFormat.Weight" />
       <MemberSignature Language="VB.NET" Value="Public Property Weight As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Weight { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Weight : single with get, set" Usage="Microsoft.Office.Interop.Word.LineFormat.Weight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="XMLSchemaReferences" FullName="Microsoft.Office.Interop.Word.XMLSchemaReferences">
+<Type Name="XMLSchemaReferences" FullName="Microsoft.Office.Interop.Word.XMLSchemaReferences">
   <TypeSignature Language="C#" Value="public interface XMLSchemaReferences : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XMLSchemaReferences implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.XMLSchemaReferences" />
   <TypeSignature Language="VB.NET" Value="Public Interface XMLSchemaReferences&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class XMLSchemaReferences : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type XMLSchemaReferences = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -34,6 +35,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.XMLSchemaReference Add([in]object&amp; NamespaceURI, [in]object&amp; Alias, [in]object&amp; FileName, [in]bool InstallForAllUsers) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.XMLSchemaReferences.Add(System.Object@,System.Object@,System.Object@,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (Optional ByRef NamespaceURI As Object, Optional ByRef Alias As Object, Optional ByRef FileName As Object, Optional InstallForAllUsers As Boolean = false) As XMLSchemaReference" />
+      <MemberSignature Language="F#" Value="abstract member Add : obj * obj * obj * bool -&gt; Microsoft.Office.Interop.Word.XMLSchemaReference" Usage="xMLSchemaReferences.Add (NamespaceURI, Alias, FileName, InstallForAllUsers)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -48,9 +50,9 @@
         <ReturnType>Microsoft.Office.Interop.Word.XMLSchemaReference</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="NamespaceURI" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Alias" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FileName" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="NamespaceURI" Type="System.Object" RefType="ref" />
+        <Parameter Name="Alias" Type="System.Object" RefType="ref" />
+        <Parameter Name="FileName" Type="System.Object" RefType="ref" />
         <Parameter Name="InstallForAllUsers" Type="System.Boolean" />
       </Parameters>
       <Docs>
@@ -69,6 +71,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.AllowSaveAsXMLWithoutValidation" />
       <MemberSignature Language="VB.NET" Value="Public Property AllowSaveAsXMLWithoutValidation As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowSaveAsXMLWithoutValidation { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AllowSaveAsXMLWithoutValidation : bool with get, set" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.AllowSaveAsXMLWithoutValidation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -106,6 +109,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -134,6 +138,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.AutomaticValidation" />
       <MemberSignature Language="VB.NET" Value="Public Property AutomaticValidation As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutomaticValidation { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AutomaticValidation : bool with get, set" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.AutomaticValidation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -171,6 +176,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -199,6 +205,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -231,6 +238,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.XMLSchemaReferences.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="xMLSchemaReferences.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -263,6 +271,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.HideValidationErrors" />
       <MemberSignature Language="VB.NET" Value="Public Property HideValidationErrors As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideValidationErrors { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.HideValidationErrors : bool with get, set" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.HideValidationErrors" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -295,6 +304,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.IgnoreMixedContent" />
       <MemberSignature Language="VB.NET" Value="Public Property IgnoreMixedContent As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnoreMixedContent { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IgnoreMixedContent : bool with get, set" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.IgnoreMixedContent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -330,6 +340,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.Item(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(ByRef Index As Object) As XMLSchemaReference" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XMLSchemaReference ^ default[System::Object ^ %] { Microsoft::Office::Interop::Word::XMLSchemaReference ^ get(System::Object ^ % Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(obj) : Microsoft.Office.Interop.Word.XMLSchemaReference" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -347,7 +358,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.XMLSchemaReference</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Index" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Index" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Index">An <b>Object</b> indicating the ordinal position or a string representing the name of the individual object.</param>
@@ -362,6 +373,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -390,6 +402,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLSchemaReferences.ShowPlaceholderText" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowPlaceholderText As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowPlaceholderText { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowPlaceholderText : bool with get, set" Usage="Microsoft.Office.Interop.Word.XMLSchemaReferences.ShowPlaceholderText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -421,6 +434,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.XMLSchemaReferences.Validate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Validate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Validate();" />
+      <MemberSignature Language="F#" Value="abstract member Validate : unit -&gt; unit" Usage="xMLSchemaReferences.Validate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

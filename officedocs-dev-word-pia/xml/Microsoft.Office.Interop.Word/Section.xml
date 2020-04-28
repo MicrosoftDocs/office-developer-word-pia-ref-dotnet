@@ -1,9 +1,10 @@
-﻿<Type Name="Section" FullName="Microsoft.Office.Interop.Word.Section">
+<Type Name="Section" FullName="Microsoft.Office.Interop.Word.Section">
   <TypeSignature Language="C#" Value="public interface Section" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Section" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Section" />
   <TypeSignature Language="VB.NET" Value="Public Interface Section" />
   <TypeSignature Language="C++ CLI" Value="public interface class Section" />
+  <TypeSignature Language="F#" Value="type Section = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -34,6 +35,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Section.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Borders" />
       <MemberSignature Language="VB.NET" Value="Public Property Borders As Borders" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Borders ^ Borders { Microsoft::Office::Interop::Word::Borders ^ get(); void set(Microsoft::Office::Interop::Word::Borders ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Borders : Microsoft.Office.Interop.Word.Borders with get, set" Usage="Microsoft.Office.Interop.Word.Section.Borders" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Section.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -125,6 +129,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Footers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Footers As HeadersFooters" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HeadersFooters ^ Footers { Microsoft::Office::Interop::Word::HeadersFooters ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Footers : Microsoft.Office.Interop.Word.HeadersFooters" Usage="Microsoft.Office.Interop.Word.Section.Footers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -156,6 +161,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Headers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Headers As HeadersFooters" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HeadersFooters ^ Headers { Microsoft::Office::Interop::Word::HeadersFooters ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Headers : Microsoft.Office.Interop.Word.HeadersFooters" Usage="Microsoft.Office.Interop.Word.Section.Headers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -187,6 +193,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Office.Interop.Word.Section.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -215,6 +222,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.PageSetup" />
       <MemberSignature Language="VB.NET" Value="Public Property PageSetup As PageSetup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::PageSetup ^ PageSetup { Microsoft::Office::Interop::Word::PageSetup ^ get(); void set(Microsoft::Office::Interop::Word::PageSetup ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PageSetup : Microsoft.Office.Interop.Word.PageSetup with get, set" Usage="Microsoft.Office.Interop.Word.Section.PageSetup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -246,6 +254,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Section.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -274,6 +283,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.ProtectedForForms" />
       <MemberSignature Language="VB.NET" Value="Public Property ProtectedForForms As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ProtectedForForms { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ProtectedForForms : bool with get, set" Usage="Microsoft.Office.Interop.Word.Section.ProtectedForForms" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -309,6 +319,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Section.Range" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ default { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Section.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

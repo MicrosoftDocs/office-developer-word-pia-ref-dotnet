@@ -1,9 +1,10 @@
-﻿<Type Name="LinkFormat" FullName="Microsoft.Office.Interop.Word.LinkFormat">
+<Type Name="LinkFormat" FullName="Microsoft.Office.Interop.Word.LinkFormat">
   <TypeSignature Language="C#" Value="public interface LinkFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LinkFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.LinkFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface LinkFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class LinkFormat" />
+  <TypeSignature Language="F#" Value="type LinkFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.LinkFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.AutoUpdate" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoUpdate As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoUpdate { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.AutoUpdate : bool with get, set" Usage="Microsoft.Office.Interop.Word.LinkFormat.AutoUpdate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.LinkFormat.BreakLink" />
       <MemberSignature Language="VB.NET" Value="Public Sub BreakLink ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void BreakLink();" />
+      <MemberSignature Language="F#" Value="abstract member BreakLink : unit -&gt; unit" Usage="linkFormat.BreakLink " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -121,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.LinkFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -153,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.Locked" />
       <MemberSignature Language="VB.NET" Value="Public Property Locked As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Locked { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Locked : bool with get, set" Usage="Microsoft.Office.Interop.Word.LinkFormat.Locked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -188,6 +194,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.LinkFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -216,6 +223,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.SavePictureWithDocument" />
       <MemberSignature Language="VB.NET" Value="Public Property SavePictureWithDocument As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SavePictureWithDocument { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SavePictureWithDocument : bool with get, set" Usage="Microsoft.Office.Interop.Word.LinkFormat.SavePictureWithDocument" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -251,6 +259,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.SourceFullName" />
       <MemberSignature Language="VB.NET" Value="Public Property SourceFullName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceFullName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SourceFullName : string with get, set" Usage="Microsoft.Office.Interop.Word.LinkFormat.SourceFullName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -285,6 +294,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.SourceName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SourceName : string" Usage="Microsoft.Office.Interop.Word.LinkFormat.SourceName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -316,6 +326,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.SourcePath" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourcePath As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourcePath { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SourcePath : string" Usage="Microsoft.Office.Interop.Word.LinkFormat.SourcePath" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -347,6 +358,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.LinkFormat.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdLinkType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLinkType Type { Microsoft::Office::Interop::Word::WdLinkType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdLinkType" Usage="Microsoft.Office.Interop.Word.LinkFormat.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -378,6 +390,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.LinkFormat.Update" />
       <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberSignature Language="F#" Value="abstract member Update : unit -&gt; unit" Usage="linkFormat.Update " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

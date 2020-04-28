@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents4_DocumentSyncEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_DocumentSyncEventHandler">
+<Type Name="ApplicationEvents4_DocumentSyncEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_DocumentSyncEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_DocumentSyncEventHandler(Document Doc, MsoSyncEventType SyncEventType);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_DocumentSyncEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_DocumentSyncEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_DocumentSyncEventHandler(Doc As Document, SyncEventType As MsoSyncEventType)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_DocumentSyncEventHandler(Document ^ Doc, MsoSyncEventType SyncEventType);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents4_DocumentSyncEventHandler = delegate of Document * MsoSyncEventType -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

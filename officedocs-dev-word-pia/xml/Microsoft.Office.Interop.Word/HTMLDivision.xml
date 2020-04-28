@@ -1,9 +1,10 @@
-﻿<Type Name="HTMLDivision" FullName="Microsoft.Office.Interop.Word.HTMLDivision">
+<Type Name="HTMLDivision" FullName="Microsoft.Office.Interop.Word.HTMLDivision">
   <TypeSignature Language="C#" Value="public interface HTMLDivision" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract HTMLDivision" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.HTMLDivision" />
   <TypeSignature Language="VB.NET" Value="Public Interface HTMLDivision" />
   <TypeSignature Language="C++ CLI" Value="public interface class HTMLDivision" />
+  <TypeSignature Language="F#" Value="type HTMLDivision = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.HTMLDivision.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.Borders" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Borders As Borders" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Borders ^ Borders { Microsoft::Office::Interop::Word::Borders ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Borders : Microsoft.Office.Interop.Word.Borders" Usage="Microsoft.Office.Interop.Word.HTMLDivision.Borders" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -89,6 +92,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.HTMLDivision.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -121,6 +125,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.HTMLDivision.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="hTMLDivision.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -145,6 +150,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.HTMLDivision HTMLDivisionParent([in]object&amp; LevelsUp) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.HTMLDivision.HTMLDivisionParent(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function HTMLDivisionParent (Optional ByRef LevelsUp As Object) As HTMLDivision" />
+      <MemberSignature Language="F#" Value="abstract member HTMLDivisionParent : obj -&gt; Microsoft.Office.Interop.Word.HTMLDivision" Usage="hTMLDivision.HTMLDivisionParent LevelsUp" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -159,7 +165,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.HTMLDivision</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="LevelsUp" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LevelsUp" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="LevelsUp">Optional <b>Integer</b>. The number of parent divisions to count back to return the desired division. If the <paramref name="LevelsUp" /> argument is omitted, the HTML division returned is one level up from the current HTML division.</param>
@@ -174,6 +180,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.HTMLDivisions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HTMLDivisions As HTMLDivisions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HTMLDivisions ^ HTMLDivisions { Microsoft::Office::Interop::Word::HTMLDivisions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HTMLDivisions : Microsoft.Office.Interop.Word.HTMLDivisions" Usage="Microsoft.Office.Interop.Word.HTMLDivision.HTMLDivisions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -202,6 +209,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.LeftIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property LeftIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LeftIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.LeftIndent : single with get, set" Usage="Microsoft.Office.Interop.Word.HTMLDivision.LeftIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -233,6 +241,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.HTMLDivision.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -261,6 +270,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.Range" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.HTMLDivision.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -292,6 +302,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.RightIndent" />
       <MemberSignature Language="VB.NET" Value="Public Property RightIndent As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RightIndent { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.RightIndent : single with get, set" Usage="Microsoft.Office.Interop.Word.HTMLDivision.RightIndent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -323,6 +334,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.SpaceAfter" />
       <MemberSignature Language="VB.NET" Value="Public Property SpaceAfter As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float SpaceAfter { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.SpaceAfter : single with get, set" Usage="Microsoft.Office.Interop.Word.HTMLDivision.SpaceAfter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -354,6 +366,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.HTMLDivision.SpaceBefore" />
       <MemberSignature Language="VB.NET" Value="Public Property SpaceBefore As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float SpaceBefore { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.SpaceBefore : single with get, set" Usage="Microsoft.Office.Interop.Word.HTMLDivision.SpaceBefore" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

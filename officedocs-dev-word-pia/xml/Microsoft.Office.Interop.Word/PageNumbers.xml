@@ -1,9 +1,10 @@
-﻿<Type Name="PageNumbers" FullName="Microsoft.Office.Interop.Word.PageNumbers">
+<Type Name="PageNumbers" FullName="Microsoft.Office.Interop.Word.PageNumbers">
   <TypeSignature Language="C#" Value="public interface PageNumbers : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PageNumbers implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.PageNumbers" />
   <TypeSignature Language="VB.NET" Value="Public Interface PageNumbers&#xA;Implements IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public interface class PageNumbers : System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type PageNumbers = interface&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.PageNumber Add([in]object&amp; PageNumberAlignment, [in]object&amp; FirstPage) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.PageNumbers.Add(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (Optional ByRef PageNumberAlignment As Object, Optional ByRef FirstPage As Object) As PageNumber" />
+      <MemberSignature Language="F#" Value="abstract member Add : obj * obj -&gt; Microsoft.Office.Interop.Word.PageNumber" Usage="pageNumbers.Add (PageNumberAlignment, FirstPage)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -51,8 +53,8 @@
         <ReturnType>Microsoft.Office.Interop.Word.PageNumber</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="PageNumberAlignment" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FirstPage" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="PageNumberAlignment" Type="System.Object" RefType="ref" />
+        <Parameter Name="FirstPage" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="PageNumberAlignment">Optional <b>Object</b>. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdPageNumberAlignment" /> constant.</param>
@@ -71,6 +73,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.PageNumbers.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -99,6 +102,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.ChapterPageSeparator" />
       <MemberSignature Language="VB.NET" Value="Public Property ChapterPageSeparator As WdSeparatorType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdSeparatorType ChapterPageSeparator { Microsoft::Office::Interop::Word::WdSeparatorType get(); void set(Microsoft::Office::Interop::Word::WdSeparatorType value); };" />
+      <MemberSignature Language="F#" Value="member this.ChapterPageSeparator : Microsoft.Office.Interop.Word.WdSeparatorType with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.ChapterPageSeparator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -133,6 +137,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.PageNumbers.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -161,6 +166,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.PageNumbers.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -193,6 +199,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.DoubleQuote" />
       <MemberSignature Language="VB.NET" Value="Public Property DoubleQuote As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DoubleQuote { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DoubleQuote : bool with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.DoubleQuote" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -228,6 +235,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.PageNumbers.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="pageNumbers.GetEnumerator " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
@@ -260,6 +268,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.HeadingLevelForChapter" />
       <MemberSignature Language="VB.NET" Value="Public Property HeadingLevelForChapter As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HeadingLevelForChapter { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.HeadingLevelForChapter : int with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.HeadingLevelForChapter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -294,6 +303,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.IncludeChapterNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludeChapterNumber As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeChapterNumber { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IncludeChapterNumber : bool with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.IncludeChapterNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -326,6 +336,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As PageNumber" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::PageNumber ^ default[int] { Microsoft::Office::Interop::Word::PageNumber ^ get(int Index); };" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Office.Interop.Word.PageNumber" Usage="Microsoft.Office.Interop.Word.PageNumbers.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -358,6 +369,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.NumberStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberStyle As WdPageNumberStyle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdPageNumberStyle NumberStyle { Microsoft::Office::Interop::Word::WdPageNumberStyle get(); void set(Microsoft::Office::Interop::Word::WdPageNumberStyle value); };" />
+      <MemberSignature Language="F#" Value="member this.NumberStyle : Microsoft.Office.Interop.Word.WdPageNumberStyle with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.NumberStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -392,6 +404,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.PageNumbers.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -420,6 +433,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.RestartNumberingAtSection" />
       <MemberSignature Language="VB.NET" Value="Public Property RestartNumberingAtSection As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RestartNumberingAtSection { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.RestartNumberingAtSection : bool with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.RestartNumberingAtSection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -455,6 +469,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.ShowFirstPageNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowFirstPageNumber As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowFirstPageNumber { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowFirstPageNumber : bool with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.ShowFirstPageNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -490,6 +505,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.PageNumbers.StartingNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property StartingNumber As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartingNumber { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.StartingNumber : int with get, set" Usage="Microsoft.Office.Interop.Word.PageNumbers.StartingNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

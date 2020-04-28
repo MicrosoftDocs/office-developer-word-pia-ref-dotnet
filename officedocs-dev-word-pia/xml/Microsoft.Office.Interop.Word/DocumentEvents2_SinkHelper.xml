@@ -1,9 +1,10 @@
-﻿<Type Name="DocumentEvents2_SinkHelper" FullName="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper">
+<Type Name="DocumentEvents2_SinkHelper" FullName="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper">
   <TypeSignature Language="C#" Value="public sealed class DocumentEvents2_SinkHelper : Microsoft.Office.Interop.Word.DocumentEvents2" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DocumentEvents2_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Word.DocumentEvents2" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentEvents2_SinkHelper&#xA;Implements DocumentEvents2" />
   <TypeSignature Language="C++ CLI" Value="public ref class DocumentEvents2_SinkHelper sealed : Microsoft::Office::Interop::Word::DocumentEvents2" />
+  <TypeSignature Language="F#" Value="type DocumentEvents2_SinkHelper = class&#xA;    interface DocumentEvents2" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.BuildingBlockInsert(Microsoft.Office.Interop.Word.Range,System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub BuildingBlockInsert ( As Range,  As String,  As String,  As String,  As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void BuildingBlockInsert(Microsoft::Office::Interop::Word::Range ^ , System::String ^ , System::String ^ , System::String ^ , System::String ^ );" />
+      <MemberSignature Language="F#" Value="abstract member BuildingBlockInsert : Microsoft.Office.Interop.Word.Range * string * string * string * string -&gt; unit&#xA;override this.BuildingBlockInsert : Microsoft.Office.Interop.Word.Range * string * string * string * string -&gt; unit" Usage="documentEvents2_SinkHelper.BuildingBlockInsert (, , , , )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.BuildingBlockInsert(Microsoft.Office.Interop.Word.Range,System.String,System.String,System.String,System.String)</InterfaceMember>
@@ -65,6 +67,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.Close" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Close();" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit&#xA;override this.Close : unit -&gt; unit" Usage="documentEvents2_SinkHelper.Close " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.Close</InterfaceMember>
@@ -88,6 +91,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.ContentControlAfterAdd(Microsoft.Office.Interop.Word.ContentControl,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ContentControlAfterAdd ( As ContentControl,  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ContentControlAfterAdd(Microsoft::Office::Interop::Word::ContentControl ^ , bool );" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlAfterAdd : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit&#xA;override this.ContentControlAfterAdd : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit" Usage="documentEvents2_SinkHelper.ContentControlAfterAdd (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlAfterAdd(Microsoft.Office.Interop.Word.ContentControl,System.Boolean)</InterfaceMember>
@@ -115,6 +119,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.ContentControlBeforeContentUpdate(Microsoft.Office.Interop.Word.ContentControl,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ContentControlBeforeContentUpdate ( As ContentControl, ByRef  As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ContentControlBeforeContentUpdate(Microsoft::Office::Interop::Word::ContentControl ^ , System::String ^ % );" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlBeforeContentUpdate : Microsoft.Office.Interop.Word.ContentControl * string -&gt; unit&#xA;override this.ContentControlBeforeContentUpdate : Microsoft.Office.Interop.Word.ContentControl * string -&gt; unit" Usage="documentEvents2_SinkHelper.ContentControlBeforeContentUpdate (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlBeforeContentUpdate(Microsoft.Office.Interop.Word.ContentControl,System.String@)</InterfaceMember>
@@ -128,7 +133,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.ContentControl" />
-        <Parameter Name="" Type="System.String&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.String" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -142,6 +147,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.ContentControlBeforeDelete(Microsoft.Office.Interop.Word.ContentControl,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ContentControlBeforeDelete ( As ContentControl,  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ContentControlBeforeDelete(Microsoft::Office::Interop::Word::ContentControl ^ , bool );" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlBeforeDelete : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit&#xA;override this.ContentControlBeforeDelete : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit" Usage="documentEvents2_SinkHelper.ContentControlBeforeDelete (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlBeforeDelete(Microsoft.Office.Interop.Word.ContentControl,System.Boolean)</InterfaceMember>
@@ -169,6 +175,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.ContentControlBeforeStoreUpdate(Microsoft.Office.Interop.Word.ContentControl,System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ContentControlBeforeStoreUpdate ( As ContentControl, ByRef  As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ContentControlBeforeStoreUpdate(Microsoft::Office::Interop::Word::ContentControl ^ , System::String ^ % );" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlBeforeStoreUpdate : Microsoft.Office.Interop.Word.ContentControl * string -&gt; unit&#xA;override this.ContentControlBeforeStoreUpdate : Microsoft.Office.Interop.Word.ContentControl * string -&gt; unit" Usage="documentEvents2_SinkHelper.ContentControlBeforeStoreUpdate (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlBeforeStoreUpdate(Microsoft.Office.Interop.Word.ContentControl,System.String@)</InterfaceMember>
@@ -182,7 +189,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.ContentControl" />
-        <Parameter Name="" Type="System.String&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.String" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -196,6 +203,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.ContentControlOnEnter(Microsoft.Office.Interop.Word.ContentControl)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ContentControlOnEnter ( As ContentControl)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ContentControlOnEnter(Microsoft::Office::Interop::Word::ContentControl ^ );" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlOnEnter : Microsoft.Office.Interop.Word.ContentControl -&gt; unit&#xA;override this.ContentControlOnEnter : Microsoft.Office.Interop.Word.ContentControl -&gt; unit" Usage="documentEvents2_SinkHelper.ContentControlOnEnter " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlOnEnter(Microsoft.Office.Interop.Word.ContentControl)</InterfaceMember>
@@ -222,6 +230,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.ContentControlOnExit(Microsoft.Office.Interop.Word.ContentControl,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ContentControlOnExit ( As ContentControl, ByRef  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ContentControlOnExit(Microsoft::Office::Interop::Word::ContentControl ^ , bool % );" />
+      <MemberSignature Language="F#" Value="abstract member ContentControlOnExit : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit&#xA;override this.ContentControlOnExit : Microsoft.Office.Interop.Word.ContentControl * bool -&gt; unit" Usage="documentEvents2_SinkHelper.ContentControlOnExit (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.ContentControlOnExit(Microsoft.Office.Interop.Word.ContentControl,System.Boolean@)</InterfaceMember>
@@ -235,7 +244,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.ContentControl" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -249,6 +258,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_BuildingBlockInsertDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_BuildingBlockInsertDelegate As DocumentEvents2_BuildingBlockInsertEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_BuildingBlockInsertEventHandler ^ m_BuildingBlockInsertDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_BuildingBlockInsertDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_BuildingBlockInsertEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_BuildingBlockInsertDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -268,6 +278,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_CloseDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_CloseDelegate As DocumentEvents2_CloseEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_CloseEventHandler ^ m_CloseDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_CloseDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_CloseEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_CloseDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -287,6 +298,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlAfterAddDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_ContentControlAfterAddDelegate As DocumentEvents2_ContentControlAfterAddEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_ContentControlAfterAddEventHandler ^ m_ContentControlAfterAddDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_ContentControlAfterAddDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlAfterAddEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlAfterAddDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -306,6 +318,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlBeforeContentUpdateDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_ContentControlBeforeContentUpdateDelegate As DocumentEvents2_ContentControlBeforeContentUpdateEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_ContentControlBeforeContentUpdateEventHandler ^ m_ContentControlBeforeContentUpdateDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_ContentControlBeforeContentUpdateDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlBeforeContentUpdateEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlBeforeContentUpdateDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -325,6 +338,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlBeforeDeleteDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_ContentControlBeforeDeleteDelegate As DocumentEvents2_ContentControlBeforeDeleteEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_ContentControlBeforeDeleteEventHandler ^ m_ContentControlBeforeDeleteDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_ContentControlBeforeDeleteDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlBeforeDeleteEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlBeforeDeleteDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -344,6 +358,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlBeforeStoreUpdateDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_ContentControlBeforeStoreUpdateDelegate As DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler ^ m_ContentControlBeforeStoreUpdateDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_ContentControlBeforeStoreUpdateDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlBeforeStoreUpdateDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -363,6 +378,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlOnEnterDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_ContentControlOnEnterDelegate As DocumentEvents2_ContentControlOnEnterEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_ContentControlOnEnterEventHandler ^ m_ContentControlOnEnterDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_ContentControlOnEnterDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlOnEnterEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlOnEnterDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -382,6 +398,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlOnExitDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_ContentControlOnExitDelegate As DocumentEvents2_ContentControlOnExitEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_ContentControlOnExitEventHandler ^ m_ContentControlOnExitDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_ContentControlOnExitDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlOnExitEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_ContentControlOnExitDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -401,6 +418,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_dwCookie" />
       <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
       <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_dwCookie" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -420,6 +438,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_NewDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_NewDelegate As DocumentEvents2_NewEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_NewEventHandler ^ m_NewDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_NewDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_NewEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_NewDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -439,6 +458,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_OpenDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_OpenDelegate As DocumentEvents2_OpenEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_OpenEventHandler ^ m_OpenDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_OpenDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_OpenEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_OpenDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -458,6 +478,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_SyncDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_SyncDelegate As DocumentEvents2_SyncEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_SyncEventHandler ^ m_SyncDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_SyncDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_SyncEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_SyncDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -477,6 +498,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_XMLAfterInsertDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_XMLAfterInsertDelegate As DocumentEvents2_XMLAfterInsertEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_XMLAfterInsertEventHandler ^ m_XMLAfterInsertDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_XMLAfterInsertDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_XMLAfterInsertEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_XMLAfterInsertDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -496,6 +518,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_XMLBeforeDeleteDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_XMLBeforeDeleteDelegate As DocumentEvents2_XMLBeforeDeleteEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::DocumentEvents2_XMLBeforeDeleteEventHandler ^ m_XMLBeforeDeleteDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_XMLBeforeDeleteDelegate : Microsoft.Office.Interop.Word.DocumentEvents2_XMLBeforeDeleteEventHandler" Usage="Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.m_XMLBeforeDeleteDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -515,6 +538,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.New" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void New();" />
+      <MemberSignature Language="F#" Value="abstract member New : unit -&gt; unit&#xA;override this.New : unit -&gt; unit" Usage="documentEvents2_SinkHelper.New " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.New</InterfaceMember>
@@ -538,6 +562,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.Open" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Open ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Open();" />
+      <MemberSignature Language="F#" Value="abstract member Open : unit -&gt; unit&#xA;override this.Open : unit -&gt; unit" Usage="documentEvents2_SinkHelper.Open " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.Open</InterfaceMember>
@@ -561,6 +586,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.Sync(Microsoft.Office.Core.MsoSyncEventType)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Sync ( As MsoSyncEventType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Sync(Microsoft::Office::Core::MsoSyncEventType );" />
+      <MemberSignature Language="F#" Value="abstract member Sync : Microsoft.Office.Core.MsoSyncEventType -&gt; unit&#xA;override this.Sync : Microsoft.Office.Core.MsoSyncEventType -&gt; unit" Usage="documentEvents2_SinkHelper.Sync " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.Sync(Microsoft.Office.Core.MsoSyncEventType)</InterfaceMember>
@@ -587,6 +613,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.XMLAfterInsert(Microsoft.Office.Interop.Word.XMLNode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub XMLAfterInsert ( As XMLNode,  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void XMLAfterInsert(Microsoft::Office::Interop::Word::XMLNode ^ , bool );" />
+      <MemberSignature Language="F#" Value="abstract member XMLAfterInsert : Microsoft.Office.Interop.Word.XMLNode * bool -&gt; unit&#xA;override this.XMLAfterInsert : Microsoft.Office.Interop.Word.XMLNode * bool -&gt; unit" Usage="documentEvents2_SinkHelper.XMLAfterInsert (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.XMLAfterInsert(Microsoft.Office.Interop.Word.XMLNode,System.Boolean)</InterfaceMember>
@@ -614,6 +641,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DocumentEvents2_SinkHelper.XMLBeforeDelete(Microsoft.Office.Interop.Word.Range,Microsoft.Office.Interop.Word.XMLNode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub XMLBeforeDelete ( As Range,  As XMLNode,  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void XMLBeforeDelete(Microsoft::Office::Interop::Word::Range ^ , Microsoft::Office::Interop::Word::XMLNode ^ , bool );" />
+      <MemberSignature Language="F#" Value="abstract member XMLBeforeDelete : Microsoft.Office.Interop.Word.Range * Microsoft.Office.Interop.Word.XMLNode * bool -&gt; unit&#xA;override this.XMLBeforeDelete : Microsoft.Office.Interop.Word.Range * Microsoft.Office.Interop.Word.XMLNode * bool -&gt; unit" Usage="documentEvents2_SinkHelper.XMLBeforeDelete (, , )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.DocumentEvents2.XMLBeforeDelete(Microsoft.Office.Interop.Word.Range,Microsoft.Office.Interop.Word.XMLNode,System.Boolean)</InterfaceMember>

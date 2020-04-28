@@ -1,9 +1,10 @@
-﻿<Type Name="Range" FullName="Microsoft.Office.Interop.Word.Range">
+<Type Name="Range" FullName="Microsoft.Office.Interop.Word.Range">
   <TypeSignature Language="C#" Value="public interface Range" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Range" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Range" />
   <TypeSignature Language="VB.NET" Value="Public Interface Range" />
   <TypeSignature Language="C++ CLI" Value="public interface class Range" />
+  <TypeSignature Language="F#" Value="type Range = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Range.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.AutoFormat" />
       <MemberSignature Language="VB.NET" Value="Public Sub AutoFormat ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutoFormat();" />
+      <MemberSignature Language="F#" Value="abstract member AutoFormat : unit -&gt; unit" Usage="range.AutoFormat " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -86,6 +89,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Bold" />
       <MemberSignature Language="VB.NET" Value="Public Property Bold As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Bold { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Bold : int with get, set" Usage="Microsoft.Office.Interop.Word.Range.Bold" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -121,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.BoldBi" />
       <MemberSignature Language="VB.NET" Value="Public Property BoldBi As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BoldBi { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.BoldBi : int with get, set" Usage="Microsoft.Office.Interop.Word.Range.BoldBi" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -157,6 +162,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.BookmarkID" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BookmarkID As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BookmarkID { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.BookmarkID : int" Usage="Microsoft.Office.Interop.Word.Range.BookmarkID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -188,6 +194,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Bookmarks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bookmarks As Bookmarks" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Bookmarks ^ Bookmarks { Microsoft::Office::Interop::Word::Bookmarks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Bookmarks : Microsoft.Office.Interop.Word.Bookmarks" Usage="Microsoft.Office.Interop.Word.Range.Bookmarks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -216,6 +223,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Borders" />
       <MemberSignature Language="VB.NET" Value="Public Property Borders As Borders" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Borders ^ Borders { Microsoft::Office::Interop::Word::Borders ^ get(); void set(Microsoft::Office::Interop::Word::Borders ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Borders : Microsoft.Office.Interop.Word.Borders with get, set" Usage="Microsoft.Office.Interop.Word.Range.Borders" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -247,6 +255,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Calculate" />
       <MemberSignature Language="VB.NET" Value="Public Function Calculate () As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float Calculate();" />
+      <MemberSignature Language="F#" Value="abstract member Calculate : unit -&gt; single" Usage="range.Calculate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -273,6 +282,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.CanEdit" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanEdit As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CanEdit { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanEdit : int" Usage="Microsoft.Office.Interop.Word.Range.CanEdit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -304,6 +314,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.CanPaste" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanPaste As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CanPaste { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanPaste : int" Usage="Microsoft.Office.Interop.Word.Range.CanPaste" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -335,6 +346,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Case" />
       <MemberSignature Language="VB.NET" Value="Public Property Case As WdCharacterCase" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCharacterCase Case { Microsoft::Office::Interop::Word::WdCharacterCase get(); void set(Microsoft::Office::Interop::Word::WdCharacterCase value); };" />
+      <MemberSignature Language="F#" Value="member this.Case : Microsoft.Office.Interop.Word.WdCharacterCase with get, set" Usage="Microsoft.Office.Interop.Word.Range.Case" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -369,6 +381,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Cells" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cells As Cells" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Cells ^ Cells { Microsoft::Office::Interop::Word::Cells ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Cells : Microsoft.Office.Interop.Word.Cells" Usage="Microsoft.Office.Interop.Word.Range.Cells" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -397,6 +410,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Characters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Characters As Characters" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Characters ^ Characters { Microsoft::Office::Interop::Word::Characters ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Characters : Microsoft.Office.Interop.Word.Characters" Usage="Microsoft.Office.Interop.Word.Range.Characters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -425,6 +439,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.CharacterStyle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CharacterStyle As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CharacterStyle { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CharacterStyle : obj" Usage="Microsoft.Office.Interop.Word.Range.CharacterStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -455,6 +470,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.CharacterWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property CharacterWidth As WdCharacterWidth" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdCharacterWidth CharacterWidth { Microsoft::Office::Interop::Word::WdCharacterWidth get(); void set(Microsoft::Office::Interop::Word::WdCharacterWidth value); };" />
+      <MemberSignature Language="F#" Value="member this.CharacterWidth : Microsoft.Office.Interop.Word.WdCharacterWidth with get, set" Usage="Microsoft.Office.Interop.Word.Range.CharacterWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -486,6 +502,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.CheckGrammar" />
       <MemberSignature Language="VB.NET" Value="Public Sub CheckGrammar ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CheckGrammar();" />
+      <MemberSignature Language="F#" Value="abstract member CheckGrammar : unit -&gt; unit" Usage="range.CheckGrammar " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -513,6 +530,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CheckSpelling([in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; AlwaysSuggest, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.CheckSpelling(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CheckSpelling (Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef AlwaysSuggest As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object)" />
+      <MemberSignature Language="F#" Value="abstract member CheckSpelling : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="range.CheckSpelling (CustomDictionary, IgnoreUppercase, AlwaysSuggest, CustomDictionary2, CustomDictionary3, CustomDictionary4, CustomDictionary5, CustomDictionary6, CustomDictionary7, CustomDictionary8, CustomDictionary9, CustomDictionary10)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -527,18 +545,18 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AlwaysSuggest" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object" RefType="ref" />
+        <Parameter Name="AlwaysSuggest" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="CustomDictionary">Optional <b>Object</b>. Either an expression that returns a <see cref="T:Microsoft.Office.Interop.Word.Dictionary" /> object or the file name of the custom dictionary.</param>
@@ -566,6 +584,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.CheckSynonyms" />
       <MemberSignature Language="VB.NET" Value="Public Sub CheckSynonyms ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CheckSynonyms();" />
+      <MemberSignature Language="F#" Value="abstract member CheckSynonyms : unit -&gt; unit" Usage="range.CheckSynonyms " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -590,6 +609,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Collapse([in]object&amp; Direction) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Collapse(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Collapse (Optional ByRef Direction As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Collapse : obj -&gt; unit" Usage="range.Collapse Direction" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -604,7 +624,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Direction" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Direction" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Direction">Optional <b>Object</b>. The direction in which to collapse the range or selection. Can be either of the following <see cref="T:Microsoft.Office.Interop.Word.WdCollapseDirection" /> constants: <b>wdCollapseEnd</b> or <b>wdCollapseStart</b>. The default value is <b>wdCollapseStart</b>.</param>
@@ -622,6 +642,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Columns" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Columns As Columns" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Columns ^ Columns { Microsoft::Office::Interop::Word::Columns ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Columns : Microsoft.Office.Interop.Word.Columns" Usage="Microsoft.Office.Interop.Word.Range.Columns" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -650,6 +671,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.CombineCharacters" />
       <MemberSignature Language="VB.NET" Value="Public Property CombineCharacters As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CombineCharacters { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.CombineCharacters : bool with get, set" Usage="Microsoft.Office.Interop.Word.Range.CombineCharacters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -684,6 +706,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Comments" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Comments As Comments" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Comments ^ Comments { Microsoft::Office::Interop::Word::Comments ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Comments : Microsoft.Office.Interop.Word.Comments" Usage="Microsoft.Office.Interop.Word.Range.Comments" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -712,6 +735,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ComputeStatistics(Microsoft.Office.Interop.Word.WdStatistic)" />
       <MemberSignature Language="VB.NET" Value="Public Function ComputeStatistics (Statistic As WdStatistic) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int ComputeStatistics(Microsoft::Office::Interop::Word::WdStatistic Statistic);" />
+      <MemberSignature Language="F#" Value="abstract member ComputeStatistics : Microsoft.Office.Interop.Word.WdStatistic -&gt; int" Usage="range.ComputeStatistics Statistic" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -744,6 +768,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Conflicts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conflicts As Conflicts" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Conflicts ^ Conflicts { Microsoft::Office::Interop::Word::Conflicts ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Conflicts : Microsoft.Office.Interop.Word.Conflicts" Usage="Microsoft.Office.Interop.Word.Range.Conflicts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -775,6 +800,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ContentControls" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentControls As ContentControls" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ContentControls ^ ContentControls { Microsoft::Office::Interop::Word::ContentControls ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentControls : Microsoft.Office.Interop.Word.ContentControls" Usage="Microsoft.Office.Interop.Word.Range.ContentControls" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -804,6 +830,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConvertHangulAndHanja([in]object&amp; ConversionsMode, [in]object&amp; FastConversion, [in]object&amp; CheckHangulEnding, [in]object&amp; EnableRecentOrdering, [in]object&amp; CustomDictionary) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ConvertHangulAndHanja(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ConvertHangulAndHanja (Optional ByRef ConversionsMode As Object, Optional ByRef FastConversion As Object, Optional ByRef CheckHangulEnding As Object, Optional ByRef EnableRecentOrdering As Object, Optional ByRef CustomDictionary As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ConvertHangulAndHanja : obj * obj * obj * obj * obj -&gt; unit" Usage="range.ConvertHangulAndHanja (ConversionsMode, FastConversion, CheckHangulEnding, EnableRecentOrdering, CustomDictionary)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -818,11 +845,11 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ConversionsMode" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FastConversion" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CheckHangulEnding" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="EnableRecentOrdering" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ConversionsMode" Type="System.Object" RefType="ref" />
+        <Parameter Name="FastConversion" Type="System.Object" RefType="ref" />
+        <Parameter Name="CheckHangulEnding" Type="System.Object" RefType="ref" />
+        <Parameter Name="EnableRecentOrdering" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ConversionsMode">Optional <b>Object</b>. Sets the direction for the conversion between Hangul and Hanja. Can be either of the following <see cref="T:Microsoft.Office.Interop.Word.WdMultipleWordConversionsMode" /> constants: <b>wdHangulToHanja</b> or <b>wdHanjaToHangul</b>. The default value is the current value of the <see cref="P:Microsoft.Office.Interop.Word.Options.MultipleWordConversionsMode" /> property.</param>
@@ -839,6 +866,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Table ConvertToTable([in]object&amp; Separator, [in]object&amp; NumRows, [in]object&amp; NumColumns, [in]object&amp; InitialColumnWidth, [in]object&amp; Format, [in]object&amp; ApplyBorders, [in]object&amp; ApplyShading, [in]object&amp; ApplyFont, [in]object&amp; ApplyColor, [in]object&amp; ApplyHeadingRows, [in]object&amp; ApplyLastRow, [in]object&amp; ApplyFirstColumn, [in]object&amp; ApplyLastColumn, [in]object&amp; AutoFit, [in]object&amp; AutoFitBehavior, [in]object&amp; DefaultTableBehavior) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertToTable (Optional ByRef Separator As Object, Optional ByRef NumRows As Object, Optional ByRef NumColumns As Object, Optional ByRef InitialColumnWidth As Object, Optional ByRef Format As Object, Optional ByRef ApplyBorders As Object, Optional ByRef ApplyShading As Object, Optional ByRef ApplyFont As Object, Optional ByRef ApplyColor As Object, Optional ByRef ApplyHeadingRows As Object, Optional ByRef ApplyLastRow As Object, Optional ByRef ApplyFirstColumn As Object, Optional ByRef ApplyLastColumn As Object, Optional ByRef AutoFit As Object, Optional ByRef AutoFitBehavior As Object, Optional ByRef DefaultTableBehavior As Object) As Table" />
+      <MemberSignature Language="F#" Value="abstract member ConvertToTable : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Table" Usage="range.ConvertToTable (Separator, NumRows, NumColumns, InitialColumnWidth, Format, ApplyBorders, ApplyShading, ApplyFont, ApplyColor, ApplyHeadingRows, ApplyLastRow, ApplyFirstColumn, ApplyLastColumn, AutoFit, AutoFitBehavior, DefaultTableBehavior)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -853,22 +881,22 @@
         <ReturnType>Microsoft.Office.Interop.Word.Table</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Separator" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="NumRows" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="NumColumns" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InitialColumnWidth" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyBorders" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyShading" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyFont" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyColor" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyHeadingRows" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyLastRow" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyFirstColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyLastColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AutoFit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AutoFitBehavior" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DefaultTableBehavior" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Separator" Type="System.Object" RefType="ref" />
+        <Parameter Name="NumRows" Type="System.Object" RefType="ref" />
+        <Parameter Name="NumColumns" Type="System.Object" RefType="ref" />
+        <Parameter Name="InitialColumnWidth" Type="System.Object" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyBorders" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyShading" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyFont" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyColor" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyHeadingRows" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyLastRow" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyFirstColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyLastColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="AutoFit" Type="System.Object" RefType="ref" />
+        <Parameter Name="AutoFitBehavior" Type="System.Object" RefType="ref" />
+        <Parameter Name="DefaultTableBehavior" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Separator">Optional <b>Object</b>. Specifies the character used to separate text into cells. Can be a character or a <see cref="T:Microsoft.Office.Interop.Word.WdTableFieldSeparator" /> constant. If this argument is omitted, the value of the <b>DefaultTableSeparator</b> property is used.</param>
@@ -897,6 +925,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Table ConvertToTableOld([in]object&amp; Separator, [in]object&amp; NumRows, [in]object&amp; NumColumns, [in]object&amp; InitialColumnWidth, [in]object&amp; Format, [in]object&amp; ApplyBorders, [in]object&amp; ApplyShading, [in]object&amp; ApplyFont, [in]object&amp; ApplyColor, [in]object&amp; ApplyHeadingRows, [in]object&amp; ApplyLastRow, [in]object&amp; ApplyFirstColumn, [in]object&amp; ApplyLastColumn, [in]object&amp; AutoFit) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ConvertToTableOld(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertToTableOld (Optional ByRef Separator As Object, Optional ByRef NumRows As Object, Optional ByRef NumColumns As Object, Optional ByRef InitialColumnWidth As Object, Optional ByRef Format As Object, Optional ByRef ApplyBorders As Object, Optional ByRef ApplyShading As Object, Optional ByRef ApplyFont As Object, Optional ByRef ApplyColor As Object, Optional ByRef ApplyHeadingRows As Object, Optional ByRef ApplyLastRow As Object, Optional ByRef ApplyFirstColumn As Object, Optional ByRef ApplyLastColumn As Object, Optional ByRef AutoFit As Object) As Table" />
+      <MemberSignature Language="F#" Value="abstract member ConvertToTableOld : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Table" Usage="range.ConvertToTableOld (Separator, NumRows, NumColumns, InitialColumnWidth, Format, ApplyBorders, ApplyShading, ApplyFont, ApplyColor, ApplyHeadingRows, ApplyLastRow, ApplyFirstColumn, ApplyLastColumn, AutoFit)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -914,20 +943,20 @@
         <ReturnType>Microsoft.Office.Interop.Word.Table</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Separator" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="NumRows" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="NumColumns" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InitialColumnWidth" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyBorders" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyShading" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyFont" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyColor" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyHeadingRows" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyLastRow" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyFirstColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ApplyLastColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="AutoFit" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Separator" Type="System.Object" RefType="ref" />
+        <Parameter Name="NumRows" Type="System.Object" RefType="ref" />
+        <Parameter Name="NumColumns" Type="System.Object" RefType="ref" />
+        <Parameter Name="InitialColumnWidth" Type="System.Object" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyBorders" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyShading" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyFont" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyColor" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyHeadingRows" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyLastRow" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyFirstColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="ApplyLastColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="AutoFit" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Separator">To be added.</param>
@@ -955,6 +984,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Copy" />
       <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberSignature Language="F#" Value="abstract member Copy : unit -&gt; unit" Usage="range.Copy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -980,6 +1010,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.CopyAsPicture" />
       <MemberSignature Language="VB.NET" Value="Public Sub CopyAsPicture ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyAsPicture();" />
+      <MemberSignature Language="F#" Value="abstract member CopyAsPicture : unit -&gt; unit" Usage="range.CopyAsPicture " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1004,6 +1035,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreatePublisher([in]object&amp; Edition, [in]object&amp; ContainsPICT, [in]object&amp; ContainsRTF, [in]object&amp; ContainsText) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.CreatePublisher(System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CreatePublisher (Optional ByRef Edition As Object, Optional ByRef ContainsPICT As Object, Optional ByRef ContainsRTF As Object, Optional ByRef ContainsText As Object)" />
+      <MemberSignature Language="F#" Value="abstract member CreatePublisher : obj * obj * obj * obj -&gt; unit" Usage="range.CreatePublisher (Edition, ContainsPICT, ContainsRTF, ContainsText)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1021,10 +1053,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Edition" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ContainsPICT" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ContainsRTF" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ContainsText" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Edition" Type="System.Object" RefType="ref" />
+        <Parameter Name="ContainsPICT" Type="System.Object" RefType="ref" />
+        <Parameter Name="ContainsRTF" Type="System.Object" RefType="ref" />
+        <Parameter Name="ContainsText" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Edition">This parameter is for Macintosh only and should not be used.</param>
@@ -1041,6 +1073,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Range.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1073,6 +1106,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Cut" />
       <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberSignature Language="F#" Value="abstract member Cut : unit -&gt; unit" Usage="range.Cut " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1100,6 +1134,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Delete([in]object&amp; Unit, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Delete(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Delete (Optional ByRef Unit As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member Delete : obj * obj -&gt; int" Usage="range.Delete (Unit, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1114,8 +1149,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <b>Object</b>. The unit by which the collapsed range or selection is to be deleted. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdUnits" /> constants: <b>wdCharacter</b> (default) or <b>wdWord</b>.</param>
@@ -1134,6 +1169,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.DetectLanguage" />
       <MemberSignature Language="VB.NET" Value="Public Sub DetectLanguage ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DetectLanguage();" />
+      <MemberSignature Language="F#" Value="abstract member DetectLanguage : unit -&gt; unit" Usage="range.DetectLanguage " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1163,6 +1199,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.DisableCharacterSpaceGrid" />
       <MemberSignature Language="VB.NET" Value="Public Property DisableCharacterSpaceGrid As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisableCharacterSpaceGrid { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.DisableCharacterSpaceGrid : bool with get, set" Usage="Microsoft.Office.Interop.Word.Range.DisableCharacterSpaceGrid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1198,6 +1235,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Document" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Document As Document" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Document ^ Document { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Document : Microsoft.Office.Interop.Word.Document" Usage="Microsoft.Office.Interop.Word.Range.Document" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1226,6 +1264,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Duplicate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duplicate As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Duplicate { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Duplicate : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Range.Duplicate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1257,6 +1296,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Editors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Editors As Editors" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Editors ^ Editors { Microsoft::Office::Interop::Word::Editors ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Editors : Microsoft.Office.Interop.Word.Editors" Usage="Microsoft.Office.Interop.Word.Range.Editors" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1285,6 +1325,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.EmphasisMark" />
       <MemberSignature Language="VB.NET" Value="Public Property EmphasisMark As WdEmphasisMark" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdEmphasisMark EmphasisMark { Microsoft::Office::Interop::Word::WdEmphasisMark get(); void set(Microsoft::Office::Interop::Word::WdEmphasisMark value); };" />
+      <MemberSignature Language="F#" Value="member this.EmphasisMark : Microsoft.Office.Interop.Word.WdEmphasisMark with get, set" Usage="Microsoft.Office.Interop.Word.Range.EmphasisMark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1316,6 +1357,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.End" />
       <MemberSignature Language="VB.NET" Value="Public Property End As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int End { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.End : int with get, set" Usage="Microsoft.Office.Interop.Word.Range.End" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1352,6 +1394,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.EndnoteOptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndnoteOptions As EndnoteOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::EndnoteOptions ^ EndnoteOptions { Microsoft::Office::Interop::Word::EndnoteOptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.EndnoteOptions : Microsoft.Office.Interop.Word.EndnoteOptions" Usage="Microsoft.Office.Interop.Word.Range.EndnoteOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1380,6 +1423,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Endnotes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Endnotes As Endnotes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Endnotes ^ Endnotes { Microsoft::Office::Interop::Word::Endnotes ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Endnotes : Microsoft.Office.Interop.Word.Endnotes" Usage="Microsoft.Office.Interop.Word.Range.Endnotes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1407,6 +1451,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 EndOf([in]object&amp; Unit, [in]object&amp; Extend) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.EndOf(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndOf (Optional ByRef Unit As Object, Optional ByRef Extend As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member EndOf : obj * obj -&gt; int" Usage="range.EndOf (Unit, Extend)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1421,8 +1466,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Extend" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Extend" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <b>Object</b>. The unit by which to move the ending character position. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdUnits" /> constants.</param>
@@ -1442,6 +1487,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.EnhMetaFileBits" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnhMetaFileBits As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ EnhMetaFileBits { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.EnhMetaFileBits : obj" Usage="Microsoft.Office.Interop.Word.Range.EnhMetaFileBits" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1472,6 +1518,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Expand([in]object&amp; Unit) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Expand(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Expand (Optional ByRef Unit As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member Expand : obj -&gt; int" Usage="range.Expand Unit" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1486,7 +1533,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <b>Object</b>. The unit by which to expand the range. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdUnits" /> constants.</param>
@@ -1503,6 +1550,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExportAsFixedFormat([in]string OutputFileName, [in]valuetype Microsoft.Office.Interop.Word.WdExportFormat ExportFormat, [in]bool OpenAfterExport, [in]valuetype Microsoft.Office.Interop.Word.WdExportOptimizeFor OptimizeFor, [in]bool ExportCurrentPage, [in]valuetype Microsoft.Office.Interop.Word.WdExportItem Item, [in]bool IncludeDocProps, [in]bool KeepIRM, [in]valuetype Microsoft.Office.Interop.Word.WdExportCreateBookmarks CreateBookmarks, [in]bool DocStructureTags, [in]bool BitmapMissingFonts, [in]bool UseISO19005_1, [in]object&amp; FixedFormatExtClassPtr) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ExportAsFixedFormat(System.String,Microsoft.Office.Interop.Word.WdExportFormat,System.Boolean,Microsoft.Office.Interop.Word.WdExportOptimizeFor,System.Boolean,Microsoft.Office.Interop.Word.WdExportItem,System.Boolean,System.Boolean,Microsoft.Office.Interop.Word.WdExportCreateBookmarks,System.Boolean,System.Boolean,System.Boolean,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ExportAsFixedFormat (OutputFileName As String, ExportFormat As WdExportFormat, Optional OpenAfterExport As Boolean = false, Optional OptimizeFor As WdExportOptimizeFor = Microsoft.Office.Interop.Word.WdExportOptimizeFor.wdExportOptimizeForPrint, Optional ExportCurrentPage As Boolean = false, Optional Item As WdExportItem = Microsoft.Office.Interop.Word.WdExportItem.wdExportDocumentContent, Optional IncludeDocProps As Boolean = false, Optional KeepIRM As Boolean = false, Optional CreateBookmarks As WdExportCreateBookmarks = Microsoft.Office.Interop.Word.WdExportCreateBookmarks.wdExportCreateNoBookmarks, Optional DocStructureTags As Boolean = false, Optional BitmapMissingFonts As Boolean = false, Optional UseISO19005_1 As Boolean = false, Optional ByRef FixedFormatExtClassPtr As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ExportAsFixedFormat : string * Microsoft.Office.Interop.Word.WdExportFormat * bool * Microsoft.Office.Interop.Word.WdExportOptimizeFor * bool * Microsoft.Office.Interop.Word.WdExportItem * bool * bool * Microsoft.Office.Interop.Word.WdExportCreateBookmarks * bool * bool * bool * obj -&gt; unit" Usage="range.ExportAsFixedFormat (OutputFileName, ExportFormat, OpenAfterExport, OptimizeFor, ExportCurrentPage, Item, IncludeDocProps, KeepIRM, CreateBookmarks, DocStructureTags, BitmapMissingFonts, UseISO19005_1, FixedFormatExtClassPtr)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1529,7 +1577,7 @@
         <Parameter Name="DocStructureTags" Type="System.Boolean" />
         <Parameter Name="BitmapMissingFonts" Type="System.Boolean" />
         <Parameter Name="UseISO19005_1" Type="System.Boolean" />
-        <Parameter Name="FixedFormatExtClassPtr" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="FixedFormatExtClassPtr" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="OutputFileName">Required <b>String</b> The path and file name of the new PDF or XPS file.</param>
@@ -1558,6 +1606,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ExportFragment(System.String,Microsoft.Office.Interop.Word.WdSaveFormat)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ExportFragment (FileName As String, Format As WdSaveFormat)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ExportFragment(System::String ^ FileName, Microsoft::Office::Interop::Word::WdSaveFormat Format);" />
+      <MemberSignature Language="F#" Value="abstract member ExportFragment : string * Microsoft.Office.Interop.Word.WdSaveFormat -&gt; unit" Usage="range.ExportFragment (FileName, Format)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1588,6 +1637,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Fields" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fields As Fields" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Fields ^ Fields { Microsoft::Office::Interop::Word::Fields ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Fields : Microsoft.Office.Interop.Word.Fields" Usage="Microsoft.Office.Interop.Word.Range.Fields" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1616,6 +1666,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Find" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Find As Find" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Find ^ Find { Microsoft::Office::Interop::Word::Find ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Find : Microsoft.Office.Interop.Word.Find" Usage="Microsoft.Office.Interop.Word.Range.Find" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1647,6 +1698,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.FitTextWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property FitTextWidth As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FitTextWidth { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.FitTextWidth : single with get, set" Usage="Microsoft.Office.Interop.Word.Range.FitTextWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1678,6 +1730,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Font" />
       <MemberSignature Language="VB.NET" Value="Public Property Font As Font" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Font ^ Font { Microsoft::Office::Interop::Word::Font ^ get(); void set(Microsoft::Office::Interop::Word::Font ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Font : Microsoft.Office.Interop.Word.Font with get, set" Usage="Microsoft.Office.Interop.Word.Range.Font" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1709,6 +1762,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.FootnoteOptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FootnoteOptions As FootnoteOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FootnoteOptions ^ FootnoteOptions { Microsoft::Office::Interop::Word::FootnoteOptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FootnoteOptions : Microsoft.Office.Interop.Word.FootnoteOptions" Usage="Microsoft.Office.Interop.Word.Range.FootnoteOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1737,6 +1791,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Footnotes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Footnotes As Footnotes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Footnotes ^ Footnotes { Microsoft::Office::Interop::Word::Footnotes ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Footnotes : Microsoft.Office.Interop.Word.Footnotes" Usage="Microsoft.Office.Interop.Word.Range.Footnotes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1765,6 +1820,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.FormattedText" />
       <MemberSignature Language="VB.NET" Value="Public Property FormattedText As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ FormattedText { Microsoft::Office::Interop::Word::Range ^ get(); void set(Microsoft::Office::Interop::Word::Range ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FormattedText : Microsoft.Office.Interop.Word.Range with get, set" Usage="Microsoft.Office.Interop.Word.Range.FormattedText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1800,6 +1856,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.FormFields" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormFields As FormFields" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FormFields ^ FormFields { Microsoft::Office::Interop::Word::FormFields ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FormFields : Microsoft.Office.Interop.Word.FormFields" Usage="Microsoft.Office.Interop.Word.Range.FormFields" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1828,6 +1885,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Frames" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Frames As Frames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Frames ^ Frames { Microsoft::Office::Interop::Word::Frames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Frames : Microsoft.Office.Interop.Word.Frames" Usage="Microsoft.Office.Interop.Word.Range.Frames" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1855,6 +1913,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.SpellingSuggestions GetSpellingSuggestions([in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; MainDictionary, [in]object&amp; SuggestionMode, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.GetSpellingSuggestions(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSpellingSuggestions (Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef MainDictionary As Object, Optional ByRef SuggestionMode As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object) As SpellingSuggestions" />
+      <MemberSignature Language="F#" Value="abstract member GetSpellingSuggestions : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.SpellingSuggestions" Usage="range.GetSpellingSuggestions (CustomDictionary, IgnoreUppercase, MainDictionary, SuggestionMode, CustomDictionary2, CustomDictionary3, CustomDictionary4, CustomDictionary5, CustomDictionary6, CustomDictionary7, CustomDictionary8, CustomDictionary9, CustomDictionary10)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1869,19 +1928,19 @@
         <ReturnType>Microsoft.Office.Interop.Word.SpellingSuggestions</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MainDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SuggestionMode" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MainDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="SuggestionMode" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="CustomDictionary">Optional <b>Object</b>. Either an expression that returns a <see cref="T:Microsoft.Office.Interop.Word.Dictionary" /> object or the file name of the custom dictionary.</param>
@@ -1907,6 +1966,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Range GoTo([in]object&amp; What, [in]object&amp; Which, [in]object&amp; Count, [in]object&amp; Name) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.GoTo(System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function GoTo (Optional ByRef What As Object, Optional ByRef Which As Object, Optional ByRef Count As Object, Optional ByRef Name As Object) As Range" />
+      <MemberSignature Language="F#" Value="abstract member GoTo : obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.Range" Usage="range.GoTo (What, Which, Count, Name)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1921,10 +1981,10 @@
         <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="What" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Which" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Name" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="What" Type="System.Object" RefType="ref" />
+        <Parameter Name="Which" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
+        <Parameter Name="Name" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="What">Optional <b>Object</b>. The kind of item to which the range or selection is moved. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdGoToItem" /> constants.</param>
@@ -1944,6 +2004,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Range GoToEditableRange([in]object&amp; EditorID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.GoToEditableRange(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function GoToEditableRange (Optional ByRef EditorID As Object) As Range" />
+      <MemberSignature Language="F#" Value="abstract member GoToEditableRange : obj -&gt; Microsoft.Office.Interop.Word.Range" Usage="range.GoToEditableRange EditorID" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1958,7 +2019,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="EditorID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="EditorID" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="EditorID">Optional <b>Object</b>. Can be a <b>String</b> that represents the user's e-mail alias (if in the same domain), an e-mail address, or a <see cref="T:Microsoft.Office.Interop.Word.WdEditorType" /> constant that represents a group of users. If omitted, selects all ranges for which all users have permissions to edit.</param>
@@ -1976,6 +2037,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.GoToNext(Microsoft.Office.Interop.Word.WdGoToItem)" />
       <MemberSignature Language="VB.NET" Value="Public Function GoToNext (What As WdGoToItem) As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Range ^ GoToNext(Microsoft::Office::Interop::Word::WdGoToItem What);" />
+      <MemberSignature Language="F#" Value="abstract member GoToNext : Microsoft.Office.Interop.Word.WdGoToItem -&gt; Microsoft.Office.Interop.Word.Range" Usage="range.GoToNext What" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2008,6 +2070,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.GoToPrevious(Microsoft.Office.Interop.Word.WdGoToItem)" />
       <MemberSignature Language="VB.NET" Value="Public Function GoToPrevious (What As WdGoToItem) As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Range ^ GoToPrevious(Microsoft::Office::Interop::Word::WdGoToItem What);" />
+      <MemberSignature Language="F#" Value="abstract member GoToPrevious : Microsoft.Office.Interop.Word.WdGoToItem -&gt; Microsoft.Office.Interop.Word.Range" Usage="range.GoToPrevious What" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2037,6 +2100,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.GrammarChecked" />
       <MemberSignature Language="VB.NET" Value="Public Property GrammarChecked As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GrammarChecked { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.GrammarChecked : bool with get, set" Usage="Microsoft.Office.Interop.Word.Range.GrammarChecked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2072,6 +2136,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.GrammaticalErrors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GrammaticalErrors As ProofreadingErrors" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ProofreadingErrors ^ GrammaticalErrors { Microsoft::Office::Interop::Word::ProofreadingErrors ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GrammaticalErrors : Microsoft.Office.Interop.Word.ProofreadingErrors" Usage="Microsoft.Office.Interop.Word.Range.GrammaticalErrors" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2104,6 +2169,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.HighlightColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property HighlightColorIndex As WdColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColorIndex HighlightColorIndex { Microsoft::Office::Interop::Word::WdColorIndex get(); void set(Microsoft::Office::Interop::Word::WdColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.HighlightColorIndex : Microsoft.Office.Interop.Word.WdColorIndex with get, set" Usage="Microsoft.Office.Interop.Word.Range.HighlightColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2138,6 +2204,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.HorizontalInVertical" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalInVertical As WdHorizontalInVerticalType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdHorizontalInVerticalType HorizontalInVertical { Microsoft::Office::Interop::Word::WdHorizontalInVerticalType get(); void set(Microsoft::Office::Interop::Word::WdHorizontalInVerticalType value); };" />
+      <MemberSignature Language="F#" Value="member this.HorizontalInVertical : Microsoft.Office.Interop.Word.WdHorizontalInVerticalType with get, set" Usage="Microsoft.Office.Interop.Word.Range.HorizontalInVertical" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2169,6 +2236,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.HTMLDivisions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HTMLDivisions As HTMLDivisions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HTMLDivisions ^ HTMLDivisions { Microsoft::Office::Interop::Word::HTMLDivisions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HTMLDivisions : Microsoft.Office.Interop.Word.HTMLDivisions" Usage="Microsoft.Office.Interop.Word.Range.HTMLDivisions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2197,6 +2265,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Hyperlinks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hyperlinks As Hyperlinks" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Hyperlinks ^ Hyperlinks { Microsoft::Office::Interop::Word::Hyperlinks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Hyperlinks : Microsoft.Office.Interop.Word.Hyperlinks" Usage="Microsoft.Office.Interop.Word.Range.Hyperlinks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2225,6 +2294,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ID" />
       <MemberSignature Language="VB.NET" Value="Public Property ID As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ID : string with get, set" Usage="Microsoft.Office.Interop.Word.Range.ID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2259,6 +2329,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ImportFragment([in]string FileName, [in]bool MatchDestination) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ImportFragment (FileName As String, Optional MatchDestination As Boolean = false)" />
+      <MemberSignature Language="F#" Value="abstract member ImportFragment : string * bool -&gt; unit" Usage="range.ImportFragment (FileName, MatchDestination)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2292,6 +2363,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Information(Microsoft.Office.Interop.Word.WdInformation)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Information(Type As WdInformation) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Information[Microsoft::Office::Interop::Word::WdInformation] { System::Object ^ get(Microsoft::Office::Interop::Word::WdInformation Type); };" />
+      <MemberSignature Language="F#" Value="member this.Information(Microsoft.Office.Interop.Word.WdInformation) : obj" Usage="Microsoft.Office.Interop.Word.Range.Information" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2324,6 +2396,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.InlineShapes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InlineShapes As InlineShapes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::InlineShapes ^ InlineShapes { Microsoft::Office::Interop::Word::InlineShapes ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.InlineShapes : Microsoft.Office.Interop.Word.InlineShapes" Usage="Microsoft.Office.Interop.Word.Range.InlineShapes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2350,7 +2423,9 @@
       <MemberSignature Language="C#" Value="public bool InRange (Microsoft.Office.Interop.Word.Range Range);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool InRange([in]class Microsoft.Office.Interop.Word.Range Range) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InRange(Microsoft.Office.Interop.Word.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InRange (Range As Range) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool InRange(Microsoft::Office::Interop::Word::Range ^ Range);" />
+      <MemberSignature Language="F#" Value="abstract member InRange : Microsoft.Office.Interop.Word.Range -&gt; bool" Usage="range.InRange Range" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2384,6 +2459,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertAfter(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertAfter (Text As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertAfter(System::String ^ Text);" />
+      <MemberSignature Language="F#" Value="abstract member InsertAfter : string -&gt; unit" Usage="range.InsertAfter Text" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2417,6 +2493,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertAlignmentTab([in]int32 Alignment, [in]int32 RelativeTo) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertAlignmentTab(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertAlignmentTab (Alignment As Integer, Optional RelativeTo As Integer = 0)" />
+      <MemberSignature Language="F#" Value="abstract member InsertAlignmentTab : int * int -&gt; unit" Usage="range.InsertAlignmentTab (Alignment, RelativeTo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2447,6 +2524,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertAutoText" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertAutoText ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertAutoText();" />
+      <MemberSignature Language="F#" Value="abstract member InsertAutoText : unit -&gt; unit" Usage="range.InsertAutoText " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2476,6 +2554,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertBefore(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertBefore (Text As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertBefore(System::String ^ Text);" />
+      <MemberSignature Language="F#" Value="abstract member InsertBefore : string -&gt; unit" Usage="range.InsertBefore Text" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2506,6 +2585,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertBreak([in]object&amp; Type) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertBreak(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertBreak (Optional ByRef Type As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertBreak : obj -&gt; unit" Usage="range.InsertBreak Type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2520,7 +2600,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Type" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Type" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Type">Optional <b>Object</b>. The type of break to be inserted. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdBreakType" /> constants.</param>
@@ -2537,6 +2617,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertCaption([in]object&amp; Label, [in]object&amp; Title, [in]object&amp; TitleAutoText, [in]object&amp; Position, [in]object&amp; ExcludeLabel) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertCaption(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertCaption (ByRef Label As Object, Optional ByRef Title As Object, Optional ByRef TitleAutoText As Object, Optional ByRef Position As Object, Optional ByRef ExcludeLabel As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertCaption : obj * obj * obj * obj * obj -&gt; unit" Usage="range.InsertCaption (Label, Title, TitleAutoText, Position, ExcludeLabel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2551,11 +2632,11 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Label" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Title" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TitleAutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Position" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ExcludeLabel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Label" Type="System.Object" RefType="ref" />
+        <Parameter Name="Title" Type="System.Object" RefType="ref" />
+        <Parameter Name="TitleAutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="Position" Type="System.Object" RefType="ref" />
+        <Parameter Name="ExcludeLabel" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Label">Required <b>Object</b>. The caption label to be inserted. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdCaptionLabelID" /> constants.</param>
@@ -2572,6 +2653,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertCaptionXP([in]object&amp; Label, [in]object&amp; Title, [in]object&amp; TitleAutoText, [in]object&amp; Position) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertCaptionXP(System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertCaptionXP (ByRef Label As Object, Optional ByRef Title As Object, Optional ByRef TitleAutoText As Object, Optional ByRef Position As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertCaptionXP : obj * obj * obj * obj -&gt; unit" Usage="range.InsertCaptionXP (Label, Title, TitleAutoText, Position)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2589,10 +2671,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Label" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Title" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="TitleAutoText" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Position" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Label" Type="System.Object" RefType="ref" />
+        <Parameter Name="Title" Type="System.Object" RefType="ref" />
+        <Parameter Name="TitleAutoText" Type="System.Object" RefType="ref" />
+        <Parameter Name="Position" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Label">To be added.</param>
@@ -2608,6 +2690,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertCrossReference([in]object&amp; ReferenceType, [in]valuetype Microsoft.Office.Interop.Word.WdReferenceKind ReferenceKind, [in]object&amp; ReferenceItem, [in]object&amp; InsertAsHyperlink, [in]object&amp; IncludePosition, [in]object&amp; SeparateNumbers, [in]object&amp; SeparatorString) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertCrossReference(System.Object@,Microsoft.Office.Interop.Word.WdReferenceKind,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertCrossReference (ByRef ReferenceType As Object, ReferenceKind As WdReferenceKind, ByRef ReferenceItem As Object, Optional ByRef InsertAsHyperlink As Object, Optional ByRef IncludePosition As Object, Optional ByRef SeparateNumbers As Object, Optional ByRef SeparatorString As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertCrossReference : obj * Microsoft.Office.Interop.Word.WdReferenceKind * obj * obj * obj * obj * obj -&gt; unit" Usage="range.InsertCrossReference (ReferenceType, ReferenceKind, ReferenceItem, InsertAsHyperlink, IncludePosition, SeparateNumbers, SeparatorString)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2622,13 +2705,13 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ReferenceType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReferenceType" Type="System.Object" RefType="ref" />
         <Parameter Name="ReferenceKind" Type="Microsoft.Office.Interop.Word.WdReferenceKind" />
-        <Parameter Name="ReferenceItem" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InsertAsHyperlink" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IncludePosition" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SeparateNumbers" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SeparatorString" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReferenceItem" Type="System.Object" RefType="ref" />
+        <Parameter Name="InsertAsHyperlink" Type="System.Object" RefType="ref" />
+        <Parameter Name="IncludePosition" Type="System.Object" RefType="ref" />
+        <Parameter Name="SeparateNumbers" Type="System.Object" RefType="ref" />
+        <Parameter Name="SeparatorString" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ReferenceType">Required <b>Object</b>. The type of item for which a cross-reference is to be inserted. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdReferenceType" /> or <see cref="T:Microsoft.Office.Interop.Word.WdCaptionLabelID" /> constant or a user defined caption label.</param>
@@ -2650,6 +2733,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertCrossReference_2002([in]object&amp; ReferenceType, [in]valuetype Microsoft.Office.Interop.Word.WdReferenceKind ReferenceKind, [in]object&amp; ReferenceItem, [in]object&amp; InsertAsHyperlink, [in]object&amp; IncludePosition) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertCrossReference_2002(System.Object@,Microsoft.Office.Interop.Word.WdReferenceKind,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertCrossReference_2002 (ByRef ReferenceType As Object, ReferenceKind As WdReferenceKind, ByRef ReferenceItem As Object, Optional ByRef InsertAsHyperlink As Object, Optional ByRef IncludePosition As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertCrossReference_2002 : obj * Microsoft.Office.Interop.Word.WdReferenceKind * obj * obj * obj -&gt; unit" Usage="range.InsertCrossReference_2002 (ReferenceType, ReferenceKind, ReferenceItem, InsertAsHyperlink, IncludePosition)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2667,11 +2751,11 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ReferenceType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReferenceType" Type="System.Object" RefType="ref" />
         <Parameter Name="ReferenceKind" Type="Microsoft.Office.Interop.Word.WdReferenceKind" />
-        <Parameter Name="ReferenceItem" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InsertAsHyperlink" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IncludePosition" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ReferenceItem" Type="System.Object" RefType="ref" />
+        <Parameter Name="InsertAsHyperlink" Type="System.Object" RefType="ref" />
+        <Parameter Name="IncludePosition" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ReferenceType">To be added.</param>
@@ -2688,6 +2772,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertDatabase([in]object&amp; Format, [in]object&amp; Style, [in]object&amp; LinkToSource, [in]object&amp; Connection, [in]object&amp; SQLStatement, [in]object&amp; SQLStatement1, [in]object&amp; PasswordDocument, [in]object&amp; PasswordTemplate, [in]object&amp; WritePasswordDocument, [in]object&amp; WritePasswordTemplate, [in]object&amp; DataSource, [in]object&amp; From, [in]object&amp; To, [in]object&amp; IncludeFields) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertDatabase(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertDatabase (Optional ByRef Format As Object, Optional ByRef Style As Object, Optional ByRef LinkToSource As Object, Optional ByRef Connection As Object, Optional ByRef SQLStatement As Object, Optional ByRef SQLStatement1 As Object, Optional ByRef PasswordDocument As Object, Optional ByRef PasswordTemplate As Object, Optional ByRef WritePasswordDocument As Object, Optional ByRef WritePasswordTemplate As Object, Optional ByRef DataSource As Object, Optional ByRef From As Object, Optional ByRef To As Object, Optional ByRef IncludeFields As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertDatabase : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="range.InsertDatabase (Format, Style, LinkToSource, Connection, SQLStatement, SQLStatement1, PasswordDocument, PasswordTemplate, WritePasswordDocument, WritePasswordTemplate, DataSource, From, To, IncludeFields)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2702,20 +2787,20 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Style" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LinkToSource" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Connection" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SQLStatement" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SQLStatement1" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PasswordDocument" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="PasswordTemplate" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="WritePasswordDocument" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="WritePasswordTemplate" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DataSource" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="From" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="To" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IncludeFields" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
+        <Parameter Name="Style" Type="System.Object" RefType="ref" />
+        <Parameter Name="LinkToSource" Type="System.Object" RefType="ref" />
+        <Parameter Name="Connection" Type="System.Object" RefType="ref" />
+        <Parameter Name="SQLStatement" Type="System.Object" RefType="ref" />
+        <Parameter Name="SQLStatement1" Type="System.Object" RefType="ref" />
+        <Parameter Name="PasswordDocument" Type="System.Object" RefType="ref" />
+        <Parameter Name="PasswordTemplate" Type="System.Object" RefType="ref" />
+        <Parameter Name="WritePasswordDocument" Type="System.Object" RefType="ref" />
+        <Parameter Name="WritePasswordTemplate" Type="System.Object" RefType="ref" />
+        <Parameter Name="DataSource" Type="System.Object" RefType="ref" />
+        <Parameter Name="From" Type="System.Object" RefType="ref" />
+        <Parameter Name="To" Type="System.Object" RefType="ref" />
+        <Parameter Name="IncludeFields" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Format">Optional <b>Object</b>. A format listed in the Formats box in the Table AutoFormat dialog box (Table menu). Can be any of the <see cref="T:Microsoft.Office.Interop.Word.WdTableFormat" /> constants. A border is applied to the cells in the table by default.</param>
@@ -2746,6 +2831,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertDateTime([in]object&amp; DateTimeFormat, [in]object&amp; InsertAsField, [in]object&amp; InsertAsFullWidth, [in]object&amp; DateLanguage, [in]object&amp; CalendarType) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertDateTime(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertDateTime (Optional ByRef DateTimeFormat As Object, Optional ByRef InsertAsField As Object, Optional ByRef InsertAsFullWidth As Object, Optional ByRef DateLanguage As Object, Optional ByRef CalendarType As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertDateTime : obj * obj * obj * obj * obj -&gt; unit" Usage="range.InsertDateTime (DateTimeFormat, InsertAsField, InsertAsFullWidth, DateLanguage, CalendarType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2760,11 +2846,11 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="DateTimeFormat" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InsertAsField" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InsertAsFullWidth" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DateLanguage" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CalendarType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="DateTimeFormat" Type="System.Object" RefType="ref" />
+        <Parameter Name="InsertAsField" Type="System.Object" RefType="ref" />
+        <Parameter Name="InsertAsFullWidth" Type="System.Object" RefType="ref" />
+        <Parameter Name="DateLanguage" Type="System.Object" RefType="ref" />
+        <Parameter Name="CalendarType" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="DateTimeFormat">Optional <b>Object</b>. The format to be used for displaying the date or time, or both. If this argument is omitted, Microsoft Word uses the short-date style from the Windows Control Panel (Regional Settings icon).</param>
@@ -2781,6 +2867,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertDateTimeOld([in]object&amp; DateTimeFormat, [in]object&amp; InsertAsField, [in]object&amp; InsertAsFullWidth) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertDateTimeOld(System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertDateTimeOld (Optional ByRef DateTimeFormat As Object, Optional ByRef InsertAsField As Object, Optional ByRef InsertAsFullWidth As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertDateTimeOld : obj * obj * obj -&gt; unit" Usage="range.InsertDateTimeOld (DateTimeFormat, InsertAsField, InsertAsFullWidth)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2798,9 +2885,9 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="DateTimeFormat" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InsertAsField" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="InsertAsFullWidth" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="DateTimeFormat" Type="System.Object" RefType="ref" />
+        <Parameter Name="InsertAsField" Type="System.Object" RefType="ref" />
+        <Parameter Name="InsertAsFullWidth" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="DateTimeFormat">To be added.</param>
@@ -2815,6 +2902,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertFile([in]string FileName, [in]object&amp; Range, [in]object&amp; ConfirmConversions, [in]object&amp; Link, [in]object&amp; Attachment) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertFile(System.String,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertFile (FileName As String, Optional ByRef Range As Object, Optional ByRef ConfirmConversions As Object, Optional ByRef Link As Object, Optional ByRef Attachment As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertFile : string * obj * obj * obj * obj -&gt; unit" Usage="range.InsertFile (FileName, Range, ConfirmConversions, Link, Attachment)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2830,10 +2918,10 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="FileName" Type="System.String" />
-        <Parameter Name="Range" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="ConfirmConversions" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Link" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Attachment" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Range" Type="System.Object" RefType="ref" />
+        <Parameter Name="ConfirmConversions" Type="System.Object" RefType="ref" />
+        <Parameter Name="Link" Type="System.Object" RefType="ref" />
+        <Parameter Name="Attachment" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="FileName">Required <b>String</b>. The path and file name of the file to be inserted. If you don't specify a path, Microsoft Word assumes the file is in the current folder.</param>
@@ -2851,6 +2939,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertParagraph" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertParagraph ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertParagraph();" />
+      <MemberSignature Language="F#" Value="abstract member InsertParagraph : unit -&gt; unit" Usage="range.InsertParagraph " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2880,6 +2969,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertParagraphAfter" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertParagraphAfter ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertParagraphAfter();" />
+      <MemberSignature Language="F#" Value="abstract member InsertParagraphAfter : unit -&gt; unit" Usage="range.InsertParagraphAfter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2908,6 +2998,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertParagraphBefore" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertParagraphBefore ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertParagraphBefore();" />
+      <MemberSignature Language="F#" Value="abstract member InsertParagraphBefore : unit -&gt; unit" Usage="range.InsertParagraphBefore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2935,6 +3026,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertSymbol([in]int32 CharacterNumber, [in]object&amp; Font, [in]object&amp; Unicode, [in]object&amp; Bias) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertSymbol(System.Int32,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertSymbol (CharacterNumber As Integer, Optional ByRef Font As Object, Optional ByRef Unicode As Object, Optional ByRef Bias As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertSymbol : int * obj * obj * obj -&gt; unit" Usage="range.InsertSymbol (CharacterNumber, Font, Unicode, Bias)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2950,9 +3042,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="CharacterNumber" Type="System.Int32" />
-        <Parameter Name="Font" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Unicode" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Bias" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Font" Type="System.Object" RefType="ref" />
+        <Parameter Name="Unicode" Type="System.Object" RefType="ref" />
+        <Parameter Name="Bias" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="CharacterNumber">Required <b>Integer</b>. The character number for the specified symbol. This value will always be the sum of 31 and the number that corresponds to the position of the symbol in the table of symbols (counting from left to right). For example, to specify a delta character at position 37 in the table of symbols in the Symbol font, set <paramref name="CharacterNumber" /> to 68.</param>
@@ -2971,6 +3063,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertXML([in]string XML, [in]object&amp; Transform) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertXML (XML As String, Optional ByRef Transform As Object)" />
+      <MemberSignature Language="F#" Value="abstract member InsertXML : string * obj -&gt; unit" Usage="range.InsertXML (XML, Transform)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2986,7 +3079,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="XML" Type="System.String" />
-        <Parameter Name="Transform" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Transform" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="XML">Required <b>String</b>. The XML text to insert.</param>
@@ -3004,7 +3097,9 @@
       <MemberSignature Language="C#" Value="public bool InStory (Microsoft.Office.Interop.Word.Range Range);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool InStory([in]class Microsoft.Office.Interop.Word.Range Range) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.InStory(Microsoft.Office.Interop.Word.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InStory (Range As Range) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool InStory(Microsoft::Office::Interop::Word::Range ^ Range);" />
+      <MemberSignature Language="F#" Value="abstract member InStory : Microsoft.Office.Interop.Word.Range -&gt; bool" Usage="range.InStory Range" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3037,6 +3132,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.IsEndOfRowMark" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEndOfRowMark As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEndOfRowMark { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsEndOfRowMark : bool" Usage="Microsoft.Office.Interop.Word.Range.IsEndOfRowMark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3066,7 +3162,9 @@
       <MemberSignature Language="C#" Value="public bool IsEqual (Microsoft.Office.Interop.Word.Range Range);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsEqual([in]class Microsoft.Office.Interop.Word.Range Range) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.IsEqual(Microsoft.Office.Interop.Word.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsEqual (Range As Range) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsEqual(Microsoft::Office::Interop::Word::Range ^ Range);" />
+      <MemberSignature Language="F#" Value="abstract member IsEqual : Microsoft.Office.Interop.Word.Range -&gt; bool" Usage="range.IsEqual Range" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3100,6 +3198,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Italic" />
       <MemberSignature Language="VB.NET" Value="Public Property Italic As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Italic { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Italic : int with get, set" Usage="Microsoft.Office.Interop.Word.Range.Italic" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3136,6 +3235,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ItalicBi" />
       <MemberSignature Language="VB.NET" Value="Public Property ItalicBi As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ItalicBi { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.ItalicBi : int with get, set" Usage="Microsoft.Office.Interop.Word.Range.ItalicBi" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3173,6 +3273,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Kana" />
       <MemberSignature Language="VB.NET" Value="Public Property Kana As WdKana" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdKana Kana { Microsoft::Office::Interop::Word::WdKana get(); void set(Microsoft::Office::Interop::Word::WdKana value); };" />
+      <MemberSignature Language="F#" Value="member this.Kana : Microsoft.Office.Interop.Word.WdKana with get, set" Usage="Microsoft.Office.Interop.Word.Range.Kana" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3207,6 +3308,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.LanguageDetected" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageDetected As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LanguageDetected { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageDetected : bool with get, set" Usage="Microsoft.Office.Interop.Word.Range.LanguageDetected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3242,6 +3344,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.LanguageID" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageID As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageID { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageID : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Range.LanguageID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3276,6 +3379,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.LanguageIDFarEast" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageIDFarEast As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageIDFarEast { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageIDFarEast : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Range.LanguageIDFarEast" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3310,6 +3414,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.LanguageIDOther" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageIDOther As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageIDOther { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageIDOther : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Range.LanguageIDOther" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3344,6 +3449,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ListFormat" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListFormat As ListFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListFormat ^ ListFormat { Microsoft::Office::Interop::Word::ListFormat ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListFormat : Microsoft.Office.Interop.Word.ListFormat" Usage="Microsoft.Office.Interop.Word.Range.ListFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3372,6 +3478,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ListParagraphs" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListParagraphs As ListParagraphs" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListParagraphs ^ ListParagraphs { Microsoft::Office::Interop::Word::ListParagraphs ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListParagraphs : Microsoft.Office.Interop.Word.ListParagraphs" Usage="Microsoft.Office.Interop.Word.Range.ListParagraphs" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3400,6 +3507,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ListStyle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListStyle As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ListStyle { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListStyle : obj" Usage="Microsoft.Office.Interop.Word.Range.ListStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3430,6 +3538,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Locks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locks As CoAuthLocks" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CoAuthLocks ^ Locks { Microsoft::Office::Interop::Word::CoAuthLocks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Locks : Microsoft.Office.Interop.Word.CoAuthLocks" Usage="Microsoft.Office.Interop.Word.Range.Locks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3461,6 +3570,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.LookupNameProperties" />
       <MemberSignature Language="VB.NET" Value="Public Sub LookupNameProperties ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void LookupNameProperties();" />
+      <MemberSignature Language="F#" Value="abstract member LookupNameProperties : unit -&gt; unit" Usage="range.LookupNameProperties " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3488,6 +3598,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ModifyEnclosure([in]object&amp; Style, [in]object&amp; Symbol, [in]object&amp; EnclosedText) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.ModifyEnclosure(System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ModifyEnclosure (ByRef Style As Object, Optional ByRef Symbol As Object, Optional ByRef EnclosedText As Object)" />
+      <MemberSignature Language="F#" Value="abstract member ModifyEnclosure : obj * obj * obj -&gt; unit" Usage="range.ModifyEnclosure (Style, Symbol, EnclosedText)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3502,9 +3613,9 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Style" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Symbol" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="EnclosedText" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Style" Type="System.Object" RefType="ref" />
+        <Parameter Name="Symbol" Type="System.Object" RefType="ref" />
+        <Parameter Name="EnclosedText" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Style">Required <b>Object</b>. The style of the enclosure. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdEncloseStyle" /> constant.</param>
@@ -3519,6 +3630,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Move([in]object&amp; Unit, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Move(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Move (Optional ByRef Unit As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member Move : obj * obj -&gt; int" Usage="range.Move (Unit, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3533,8 +3645,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <b>Object</b>. The unit by which the collapsed range or selection is to be moved. Can be one of the following <see cref="T:Microsoft.Office.Interop.Word.WdUnits" /> constants: <b>wdCharacter</b>, <b>wdWord</b>, <b>wdSentence</b>, <b>wdParagraph</b>, <b>wdSection</b>, <b>wdStory</b>, <b>wdCell</b>, <b>wdColumn</b>, <b>wdRow</b>, or <b>wdTable</b>. If <paramref name="expression" /> returns a <see cref="T:Microsoft.Office.Interop.Word.Selection" /> object, you can also use <b>wdLine</b>. The default value is <b>wdCharacter</b>.</param>
@@ -3554,6 +3666,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveEnd([in]object&amp; Unit, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveEnd(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveEnd (Optional ByRef Unit As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveEnd : obj * obj -&gt; int" Usage="range.MoveEnd (Unit, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3568,8 +3681,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <see cref="T:Microsoft.Office.Interop.Word.WdUnits" />. The unit by which to move the ending character position.</param>
@@ -3587,6 +3700,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveEndUntil([in]object&amp; Cset, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveEndUntil(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveEndUntil (ByRef Cset As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveEndUntil : obj * obj -&gt; int" Usage="range.MoveEndUntil (Cset, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3601,8 +3715,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Cset" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Cset" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Cset">Required <b>Object</b>. One or more characters. This argument is case sensitive.</param>
@@ -3621,6 +3735,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveEndWhile([in]object&amp; Cset, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveEndWhile(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveEndWhile (ByRef Cset As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveEndWhile : obj * obj -&gt; int" Usage="range.MoveEndWhile (Cset, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3635,8 +3750,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Cset" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Cset" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Cset">Required <b>Object</b>. One or more characters. This argument is case sensitive.</param>
@@ -3654,6 +3769,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveStart([in]object&amp; Unit, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveStart(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveStart (Optional ByRef Unit As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveStart : obj * obj -&gt; int" Usage="range.MoveStart (Unit, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3668,8 +3784,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <see cref="T:Microsoft.Office.Interop.Word.WdUnits" />. The unit by which start position of the specified range or selection is to be moved.</param>
@@ -3687,6 +3803,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveStartUntil([in]object&amp; Cset, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveStartUntil(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveStartUntil (ByRef Cset As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveStartUntil : obj * obj -&gt; int" Usage="range.MoveStartUntil (Cset, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3701,8 +3818,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Cset" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Cset" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Cset">Required <b>Object</b>. One or more characters. This argument is case sensitive.</param>
@@ -3721,6 +3838,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveStartWhile([in]object&amp; Cset, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveStartWhile(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveStartWhile (ByRef Cset As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveStartWhile : obj * obj -&gt; int" Usage="range.MoveStartWhile (Cset, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3735,8 +3853,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Cset" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Cset" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Cset">Required <b>Object</b>. One or more characters. This argument is case sensitive.</param>
@@ -3754,6 +3872,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveUntil([in]object&amp; Cset, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveUntil(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveUntil (ByRef Cset As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveUntil : obj * obj -&gt; int" Usage="range.MoveUntil (Cset, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3768,8 +3887,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Cset" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Cset" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Cset">Required <b>Object</b>. One or more characters. If any character in <paramref name="Cset" /> is found before the <paramref name="Count" /> value expires, the specified range or selection is positioned as an insertion point immediately before that character. This argument is case sensitive.</param>
@@ -3787,6 +3906,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MoveWhile([in]object&amp; Cset, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.MoveWhile(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveWhile (ByRef Cset As Object, Optional ByRef Count As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member MoveWhile : obj * obj -&gt; int" Usage="range.MoveWhile (Cset, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3801,8 +3921,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Cset" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Cset" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Cset">Required <b>Object</b>. One or more characters. This argument is case sensitive.</param>
@@ -3820,6 +3940,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Range Next([in]object&amp; Unit, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Next(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Next (Optional ByRef Unit As Object, Optional ByRef Count As Object) As Range" />
+      <MemberSignature Language="F#" Value="abstract member Next : obj * obj -&gt; Microsoft.Office.Interop.Word.Range" Usage="range.Next (Unit, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3834,8 +3955,8 @@
         <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <b>Object</b>. The type of units by which to count. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdUnits" /> constant.</param>
@@ -3854,6 +3975,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.NextStoryRange" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NextStoryRange As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ NextStoryRange { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NextStoryRange : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Range.NextStoryRange" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3903,6 +4025,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.NextSubdocument" />
       <MemberSignature Language="VB.NET" Value="Public Sub NextSubdocument ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void NextSubdocument();" />
+      <MemberSignature Language="F#" Value="abstract member NextSubdocument : unit -&gt; unit" Usage="range.NextSubdocument " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3931,6 +4054,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.NoProofing" />
       <MemberSignature Language="VB.NET" Value="Public Property NoProofing As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NoProofing { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.NoProofing : int with get, set" Usage="Microsoft.Office.Interop.Word.Range.NoProofing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3965,6 +4089,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.OMaths" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OMaths As OMaths" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::OMaths ^ OMaths { Microsoft::Office::Interop::Word::OMaths ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OMaths : Microsoft.Office.Interop.Word.OMaths" Usage="Microsoft.Office.Interop.Word.Range.OMaths" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -3995,6 +4120,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Orientation" />
       <MemberSignature Language="VB.NET" Value="Public Property Orientation As WdTextOrientation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTextOrientation Orientation { Microsoft::Office::Interop::Word::WdTextOrientation get(); void set(Microsoft::Office::Interop::Word::WdTextOrientation value); };" />
+      <MemberSignature Language="F#" Value="member this.Orientation : Microsoft.Office.Interop.Word.WdTextOrientation with get, set" Usage="Microsoft.Office.Interop.Word.Range.Orientation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4030,6 +4156,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.PageSetup" />
       <MemberSignature Language="VB.NET" Value="Public Property PageSetup As PageSetup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::PageSetup ^ PageSetup { Microsoft::Office::Interop::Word::PageSetup ^ get(); void set(Microsoft::Office::Interop::Word::PageSetup ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PageSetup : Microsoft.Office.Interop.Word.PageSetup with get, set" Usage="Microsoft.Office.Interop.Word.Range.PageSetup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4061,6 +4188,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ParagraphFormat" />
       <MemberSignature Language="VB.NET" Value="Public Property ParagraphFormat As ParagraphFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ParagraphFormat ^ ParagraphFormat { Microsoft::Office::Interop::Word::ParagraphFormat ^ get(); void set(Microsoft::Office::Interop::Word::ParagraphFormat ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ParagraphFormat : Microsoft.Office.Interop.Word.ParagraphFormat with get, set" Usage="Microsoft.Office.Interop.Word.Range.ParagraphFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4092,6 +4220,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Paragraphs" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Paragraphs As Paragraphs" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Paragraphs ^ Paragraphs { Microsoft::Office::Interop::Word::Paragraphs ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Paragraphs : Microsoft.Office.Interop.Word.Paragraphs" Usage="Microsoft.Office.Interop.Word.Range.Paragraphs" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4120,6 +4249,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ParagraphStyle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParagraphStyle As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ParagraphStyle { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParagraphStyle : obj" Usage="Microsoft.Office.Interop.Word.Range.ParagraphStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4150,6 +4280,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Range.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4178,6 +4309,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ParentContentControl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentContentControl As ContentControl" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ContentControl ^ ParentContentControl { Microsoft::Office::Interop::Word::ContentControl ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParentContentControl : Microsoft.Office.Interop.Word.ContentControl" Usage="Microsoft.Office.Interop.Word.Range.ParentContentControl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4211,6 +4343,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Paste" />
       <MemberSignature Language="VB.NET" Value="Public Sub Paste ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Paste();" />
+      <MemberSignature Language="F#" Value="abstract member Paste : unit -&gt; unit" Usage="range.Paste " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4240,6 +4373,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.PasteAndFormat(Microsoft.Office.Interop.Word.WdRecoveryType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PasteAndFormat (Type As WdRecoveryType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void PasteAndFormat(Microsoft::Office::Interop::Word::WdRecoveryType Type);" />
+      <MemberSignature Language="F#" Value="abstract member PasteAndFormat : Microsoft.Office.Interop.Word.WdRecoveryType -&gt; unit" Usage="range.PasteAndFormat Type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4268,6 +4402,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.PasteAppendTable" />
       <MemberSignature Language="VB.NET" Value="Public Sub PasteAppendTable ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void PasteAppendTable();" />
+      <MemberSignature Language="F#" Value="abstract member PasteAppendTable : unit -&gt; unit" Usage="range.PasteAppendTable " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4296,6 +4431,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.PasteAsNestedTable" />
       <MemberSignature Language="VB.NET" Value="Public Sub PasteAsNestedTable ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void PasteAsNestedTable();" />
+      <MemberSignature Language="F#" Value="abstract member PasteAsNestedTable : unit -&gt; unit" Usage="range.PasteAsNestedTable " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4324,6 +4460,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.PasteExcelTable(System.Boolean,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PasteExcelTable (LinkedToExcel As Boolean, WordFormatting As Boolean, RTF As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void PasteExcelTable(bool LinkedToExcel, bool WordFormatting, bool RTF);" />
+      <MemberSignature Language="F#" Value="abstract member PasteExcelTable : bool * bool * bool -&gt; unit" Usage="range.PasteExcelTable (LinkedToExcel, WordFormatting, RTF)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4355,6 +4492,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PasteSpecial([in]object&amp; IconIndex, [in]object&amp; Link, [in]object&amp; Placement, [in]object&amp; DisplayAsIcon, [in]object&amp; DataType, [in]object&amp; IconFileName, [in]object&amp; IconLabel) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.PasteSpecial(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PasteSpecial (Optional ByRef IconIndex As Object, Optional ByRef Link As Object, Optional ByRef Placement As Object, Optional ByRef DisplayAsIcon As Object, Optional ByRef DataType As Object, Optional ByRef IconFileName As Object, Optional ByRef IconLabel As Object)" />
+      <MemberSignature Language="F#" Value="abstract member PasteSpecial : obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="range.PasteSpecial (IconIndex, Link, Placement, DisplayAsIcon, DataType, IconFileName, IconLabel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4369,13 +4507,13 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="IconIndex" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Link" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Placement" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DisplayAsIcon" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="DataType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IconFileName" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IconLabel" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="IconIndex" Type="System.Object" RefType="ref" />
+        <Parameter Name="Link" Type="System.Object" RefType="ref" />
+        <Parameter Name="Placement" Type="System.Object" RefType="ref" />
+        <Parameter Name="DisplayAsIcon" Type="System.Object" RefType="ref" />
+        <Parameter Name="DataType" Type="System.Object" RefType="ref" />
+        <Parameter Name="IconFileName" Type="System.Object" RefType="ref" />
+        <Parameter Name="IconLabel" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="IconIndex">Optional <b>Object</b>. If <paramref name="DisplayAsIcon" /> is <b>True</b>, this argument is a number that corresponds to the icon you want to use in the program file specified by <paramref name="IconFilename" />. Icons appear in the Change Icon dialog box (Insert menu, Object command, Create New tab): 0 (zero) corresponds to the first icon, 1 corresponds to the second icon, and so on. If this argument is omitted, the first (default) icon is used.</param>
@@ -4398,6 +4536,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PhoneticGuide([in]string Text, [in]valuetype Microsoft.Office.Interop.Word.WdPhoneticGuideAlignmentType Alignment, [in]int32 Raise, [in]int32 FontSize, [in]string FontName) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.PhoneticGuide(System.String,Microsoft.Office.Interop.Word.WdPhoneticGuideAlignmentType,System.Int32,System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PhoneticGuide (Text As String, Optional Alignment As WdPhoneticGuideAlignmentType = (Microsoft.Office.Interop.Word.WdPhoneticGuideAlignmentType) -1, Optional Raise As Integer = 0, Optional FontSize As Integer = 0, Optional FontName As String = &quot;&quot;)" />
+      <MemberSignature Language="F#" Value="abstract member PhoneticGuide : string * Microsoft.Office.Interop.Word.WdPhoneticGuideAlignmentType * int * int * string -&gt; unit" Usage="range.PhoneticGuide (Text, Alignment, Raise, FontSize, FontName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4433,6 +4572,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.Range Previous([in]object&amp; Unit, [in]object&amp; Count) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Previous(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Previous (Optional ByRef Unit As Object, Optional ByRef Count As Object) As Range" />
+      <MemberSignature Language="F#" Value="abstract member Previous : obj * obj -&gt; Microsoft.Office.Interop.Word.Range" Usage="range.Previous (Unit, Count)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4447,8 +4587,8 @@
         <ReturnType>Microsoft.Office.Interop.Word.Range</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Count" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Count" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <b>Object</b>. <see cref="T:Microsoft.Office.Interop.Word.WdUnits" /></param>
@@ -4467,6 +4607,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.PreviousBookmarkID" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousBookmarkID As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PreviousBookmarkID { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.PreviousBookmarkID : int" Usage="Microsoft.Office.Interop.Word.Range.PreviousBookmarkID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4498,6 +4639,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.PreviousSubdocument" />
       <MemberSignature Language="VB.NET" Value="Public Sub PreviousSubdocument ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void PreviousSubdocument();" />
+      <MemberSignature Language="F#" Value="abstract member PreviousSubdocument : unit -&gt; unit" Usage="range.PreviousSubdocument " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4523,6 +4665,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ReadabilityStatistics" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadabilityStatistics As ReadabilityStatistics" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ReadabilityStatistics ^ ReadabilityStatistics { Microsoft::Office::Interop::Word::ReadabilityStatistics ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ReadabilityStatistics : Microsoft.Office.Interop.Word.ReadabilityStatistics" Usage="Microsoft.Office.Interop.Word.Range.ReadabilityStatistics" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4551,6 +4694,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Relocate(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Relocate (Direction As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Relocate(int Direction);" />
+      <MemberSignature Language="F#" Value="abstract member Relocate : int -&gt; unit" Usage="range.Relocate Direction" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4582,6 +4726,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Revisions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Revisions As Revisions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Revisions ^ Revisions { Microsoft::Office::Interop::Word::Revisions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Revisions : Microsoft.Office.Interop.Word.Revisions" Usage="Microsoft.Office.Interop.Word.Range.Revisions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4610,6 +4755,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Rows" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rows As Rows" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Rows ^ Rows { Microsoft::Office::Interop::Word::Rows ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Rows : Microsoft.Office.Interop.Word.Rows" Usage="Microsoft.Office.Interop.Word.Range.Rows" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4638,6 +4784,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Scripts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scripts As Scripts" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Scripts ^ Scripts { Microsoft::Office::Core::Scripts ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Scripts : Microsoft.Office.Core.Scripts" Usage="Microsoft.Office.Interop.Word.Range.Scripts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4666,6 +4813,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Sections" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sections As Sections" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Sections ^ Sections { Microsoft::Office::Interop::Word::Sections ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sections : Microsoft.Office.Interop.Word.Sections" Usage="Microsoft.Office.Interop.Word.Range.Sections" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4694,6 +4842,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Select" />
       <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit" Usage="range.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4722,6 +4871,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Sentences" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sentences As Sentences" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Sentences ^ Sentences { Microsoft::Office::Interop::Word::Sentences ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sentences : Microsoft.Office.Interop.Word.Sentences" Usage="Microsoft.Office.Interop.Word.Range.Sentences" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4750,6 +4900,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.SetListLevel(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetListLevel (Level As Short)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetListLevel(short Level);" />
+      <MemberSignature Language="F#" Value="abstract member SetListLevel : int16 -&gt; unit" Usage="range.SetListLevel Level" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4778,6 +4929,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.SetRange(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetRange (Start As Integer, End As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetRange(int Start, int End);" />
+      <MemberSignature Language="F#" Value="abstract member SetRange : int * int -&gt; unit" Usage="range.SetRange (Start, End)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4812,6 +4964,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Shading" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shading As Shading" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shading ^ Shading { Microsoft::Office::Interop::Word::Shading ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Shading : Microsoft.Office.Interop.Word.Shading" Usage="Microsoft.Office.Interop.Word.Range.Shading" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4840,6 +4993,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ShapeRange" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShapeRange As ShapeRange" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ShapeRange ^ ShapeRange { Microsoft::Office::Interop::Word::ShapeRange ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ShapeRange : Microsoft.Office.Interop.Word.ShapeRange" Usage="Microsoft.Office.Interop.Word.Range.ShapeRange" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4871,6 +5025,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.ShowAll" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowAll As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowAll { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowAll : bool with get, set" Usage="Microsoft.Office.Interop.Word.Range.ShowAll" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4902,6 +5057,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.SmartTags" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmartTags As SmartTags" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::SmartTags ^ SmartTags { Microsoft::Office::Interop::Word::SmartTags ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SmartTags : Microsoft.Office.Interop.Word.SmartTags" Usage="Microsoft.Office.Interop.Word.Range.SmartTags" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4932,6 +5088,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]object&amp; ExcludeHeader, [in]object&amp; FieldNumber, [in]object&amp; SortFieldType, [in]object&amp; SortOrder, [in]object&amp; FieldNumber2, [in]object&amp; SortFieldType2, [in]object&amp; SortOrder2, [in]object&amp; FieldNumber3, [in]object&amp; SortFieldType3, [in]object&amp; SortOrder3, [in]object&amp; SortColumn, [in]object&amp; Separator, [in]object&amp; CaseSensitive, [in]object&amp; BidiSort, [in]object&amp; IgnoreThe, [in]object&amp; IgnoreKashida, [in]object&amp; IgnoreDiacritics, [in]object&amp; IgnoreHe, [in]object&amp; LanguageID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.Sort(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Sort (Optional ByRef ExcludeHeader As Object, Optional ByRef FieldNumber As Object, Optional ByRef SortFieldType As Object, Optional ByRef SortOrder As Object, Optional ByRef FieldNumber2 As Object, Optional ByRef SortFieldType2 As Object, Optional ByRef SortOrder2 As Object, Optional ByRef FieldNumber3 As Object, Optional ByRef SortFieldType3 As Object, Optional ByRef SortOrder3 As Object, Optional ByRef SortColumn As Object, Optional ByRef Separator As Object, Optional ByRef CaseSensitive As Object, Optional ByRef BidiSort As Object, Optional ByRef IgnoreThe As Object, Optional ByRef IgnoreKashida As Object, Optional ByRef IgnoreDiacritics As Object, Optional ByRef IgnoreHe As Object, Optional ByRef LanguageID As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Sort : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="range.Sort (ExcludeHeader, FieldNumber, SortFieldType, SortOrder, FieldNumber2, SortFieldType2, SortOrder2, FieldNumber3, SortFieldType3, SortOrder3, SortColumn, Separator, CaseSensitive, BidiSort, IgnoreThe, IgnoreKashida, IgnoreDiacritics, IgnoreHe, LanguageID)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -4946,25 +5103,25 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ExcludeHeader" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FieldNumber" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortFieldType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortOrder" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FieldNumber2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortFieldType2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortOrder2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FieldNumber3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortFieldType3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortOrder3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Separator" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CaseSensitive" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="BidiSort" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreThe" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreKashida" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreDiacritics" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreHe" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LanguageID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ExcludeHeader" Type="System.Object" RefType="ref" />
+        <Parameter Name="FieldNumber" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortFieldType" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortOrder" Type="System.Object" RefType="ref" />
+        <Parameter Name="FieldNumber2" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortFieldType2" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortOrder2" Type="System.Object" RefType="ref" />
+        <Parameter Name="FieldNumber3" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortFieldType3" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortOrder3" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="Separator" Type="System.Object" RefType="ref" />
+        <Parameter Name="CaseSensitive" Type="System.Object" RefType="ref" />
+        <Parameter Name="BidiSort" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreThe" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreKashida" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreDiacritics" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreHe" Type="System.Object" RefType="ref" />
+        <Parameter Name="LanguageID" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ExcludeHeader">Optional <b>Object</b>. <b>True</b> to exclude the first row or paragraph header from the sort operation. The default value is <b>False</b>.</param>
@@ -4996,6 +5153,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.SortAscending" />
       <MemberSignature Language="VB.NET" Value="Public Sub SortAscending ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SortAscending();" />
+      <MemberSignature Language="F#" Value="abstract member SortAscending : unit -&gt; unit" Usage="range.SortAscending " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5024,6 +5182,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SortByHeadings([in]object&amp; SortFieldType, [in]object&amp; SortOrder, [in]object&amp; CaseSensitive, [in]object&amp; BidiSort, [in]object&amp; IgnoreThe, [in]object&amp; IgnoreKashida, [in]object&amp; IgnoreDiacritics, [in]object&amp; IgnoreHe, [in]object&amp; LanguageID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.SortByHeadings(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SortByHeadings (Optional ByRef SortFieldType As Object, Optional ByRef SortOrder As Object, Optional ByRef CaseSensitive As Object, Optional ByRef BidiSort As Object, Optional ByRef IgnoreThe As Object, Optional ByRef IgnoreKashida As Object, Optional ByRef IgnoreDiacritics As Object, Optional ByRef IgnoreHe As Object, Optional ByRef LanguageID As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SortByHeadings : obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="range.SortByHeadings (SortFieldType, SortOrder, CaseSensitive, BidiSort, IgnoreThe, IgnoreKashida, IgnoreDiacritics, IgnoreHe, LanguageID)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5038,15 +5197,15 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="SortFieldType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortOrder" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CaseSensitive" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="BidiSort" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreThe" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreKashida" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreDiacritics" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreHe" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LanguageID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="SortFieldType" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortOrder" Type="System.Object" RefType="ref" />
+        <Parameter Name="CaseSensitive" Type="System.Object" RefType="ref" />
+        <Parameter Name="BidiSort" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreThe" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreKashida" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreDiacritics" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreHe" Type="System.Object" RefType="ref" />
+        <Parameter Name="LanguageID" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="SortFieldType">The sort field type to use. Can be one of the <see cref="T:Microsoft.Office.Interop.Word.WdSortFieldType" /> constants. The default value is <b>wdSortFieldAlphanumeric</b>. Depending on the language support (U.S. English, for example) that you have selected or installed, some of these constants may not be available to you.</param>
@@ -5074,6 +5233,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.SortDescending" />
       <MemberSignature Language="VB.NET" Value="Public Sub SortDescending ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SortDescending();" />
+      <MemberSignature Language="F#" Value="abstract member SortDescending : unit -&gt; unit" Usage="range.SortDescending " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5102,6 +5262,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SortOld([in]object&amp; ExcludeHeader, [in]object&amp; FieldNumber, [in]object&amp; SortFieldType, [in]object&amp; SortOrder, [in]object&amp; FieldNumber2, [in]object&amp; SortFieldType2, [in]object&amp; SortOrder2, [in]object&amp; FieldNumber3, [in]object&amp; SortFieldType3, [in]object&amp; SortOrder3, [in]object&amp; SortColumn, [in]object&amp; Separator, [in]object&amp; CaseSensitive, [in]object&amp; LanguageID) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.SortOld(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SortOld (Optional ByRef ExcludeHeader As Object, Optional ByRef FieldNumber As Object, Optional ByRef SortFieldType As Object, Optional ByRef SortOrder As Object, Optional ByRef FieldNumber2 As Object, Optional ByRef SortFieldType2 As Object, Optional ByRef SortOrder2 As Object, Optional ByRef FieldNumber3 As Object, Optional ByRef SortFieldType3 As Object, Optional ByRef SortOrder3 As Object, Optional ByRef SortColumn As Object, Optional ByRef Separator As Object, Optional ByRef CaseSensitive As Object, Optional ByRef LanguageID As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SortOld : obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; unit" Usage="range.SortOld (ExcludeHeader, FieldNumber, SortFieldType, SortOrder, FieldNumber2, SortFieldType2, SortOrder2, FieldNumber3, SortFieldType3, SortOrder3, SortColumn, Separator, CaseSensitive, LanguageID)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5119,20 +5280,20 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ExcludeHeader" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FieldNumber" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortFieldType" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortOrder" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FieldNumber2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortFieldType2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortOrder2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="FieldNumber3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortFieldType3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortOrder3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SortColumn" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Separator" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CaseSensitive" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="LanguageID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="ExcludeHeader" Type="System.Object" RefType="ref" />
+        <Parameter Name="FieldNumber" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortFieldType" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortOrder" Type="System.Object" RefType="ref" />
+        <Parameter Name="FieldNumber2" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortFieldType2" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortOrder2" Type="System.Object" RefType="ref" />
+        <Parameter Name="FieldNumber3" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortFieldType3" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortOrder3" Type="System.Object" RefType="ref" />
+        <Parameter Name="SortColumn" Type="System.Object" RefType="ref" />
+        <Parameter Name="Separator" Type="System.Object" RefType="ref" />
+        <Parameter Name="CaseSensitive" Type="System.Object" RefType="ref" />
+        <Parameter Name="LanguageID" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="ExcludeHeader">To be added.</param>
@@ -5159,6 +5320,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.SpellingChecked" />
       <MemberSignature Language="VB.NET" Value="Public Property SpellingChecked As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SpellingChecked { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.SpellingChecked : bool with get, set" Usage="Microsoft.Office.Interop.Word.Range.SpellingChecked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5195,6 +5357,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.SpellingErrors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SpellingErrors As ProofreadingErrors" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ProofreadingErrors ^ SpellingErrors { Microsoft::Office::Interop::Word::ProofreadingErrors ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SpellingErrors : Microsoft.Office.Interop.Word.ProofreadingErrors" Usage="Microsoft.Office.Interop.Word.Range.SpellingErrors" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5223,6 +5386,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Start" />
       <MemberSignature Language="VB.NET" Value="Public Property Start As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Start { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Start : int with get, set" Usage="Microsoft.Office.Interop.Word.Range.Start" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5259,6 +5423,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 StartOf([in]object&amp; Unit, [in]object&amp; Extend) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.StartOf(System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function StartOf (Optional ByRef Unit As Object, Optional ByRef Extend As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member StartOf : obj * obj -&gt; int" Usage="range.StartOf (Unit, Extend)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5273,8 +5438,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Unit" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Extend" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Unit" Type="System.Object" RefType="ref" />
+        <Parameter Name="Extend" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Unit">Optional <see cref="T:Microsoft.Office.Interop.Word.WdUnits" />. The unit by which the start position of the specified range or selection is to be moved.</param>
@@ -5294,6 +5459,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.StoryLength" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoryLength As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StoryLength { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.StoryLength : int" Usage="Microsoft.Office.Interop.Word.Range.StoryLength" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5322,6 +5488,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.StoryType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoryType As WdStoryType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdStoryType StoryType { Microsoft::Office::Interop::Word::WdStoryType get(); };" />
+      <MemberSignature Language="F#" Value="member this.StoryType : Microsoft.Office.Interop.Word.WdStoryType" Usage="Microsoft.Office.Interop.Word.Range.StoryType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5350,6 +5517,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Style" />
       <MemberSignature Language="VB.NET" Value="Public Property Style As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Style { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Style : obj with get, set" Usage="Microsoft.Office.Interop.Word.Range.Style" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5385,6 +5553,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Subdocuments" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Subdocuments As Subdocuments" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Subdocuments ^ Subdocuments { Microsoft::Office::Interop::Word::Subdocuments ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Subdocuments : Microsoft.Office.Interop.Word.Subdocuments" Usage="Microsoft.Office.Interop.Word.Range.Subdocuments" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5412,6 +5581,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubscribeTo([in]string Edition, [in]object&amp; Format) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.SubscribeTo(System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SubscribeTo (Edition As String, Optional ByRef Format As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SubscribeTo : string * obj -&gt; unit" Usage="range.SubscribeTo (Edition, Format)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5430,7 +5600,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Edition" Type="System.String" />
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Edition">This parameter is for Macintosh only and should not be used.</param>
@@ -5445,6 +5615,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.SynonymInfo" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SynonymInfo As SynonymInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::SynonymInfo ^ SynonymInfo { Microsoft::Office::Interop::Word::SynonymInfo ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SynonymInfo : Microsoft.Office.Interop.Word.SynonymInfo" Usage="Microsoft.Office.Interop.Word.Range.SynonymInfo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5473,6 +5644,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Tables" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tables As Tables" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Tables ^ Tables { Microsoft::Office::Interop::Word::Tables ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Tables : Microsoft.Office.Interop.Word.Tables" Usage="Microsoft.Office.Interop.Word.Range.Tables" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5501,6 +5673,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.TableStyle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TableStyle As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TableStyle { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TableStyle : obj" Usage="Microsoft.Office.Interop.Word.Range.TableStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5529,6 +5702,8 @@
       <MemberSignature Language="C#" Value="public void TCSCConverter (Microsoft.Office.Interop.Word.WdTCSCConverterDirection WdTCSCConverterDirection = Microsoft.Office.Interop.Word.WdTCSCConverterDirection.wdTCSCConverterDirectionAuto, bool CommonTerms = false, bool UseVariants = false);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TCSCConverter([in]valuetype Microsoft.Office.Interop.Word.WdTCSCConverterDirection WdTCSCConverterDirection, [in]bool CommonTerms, [in]bool UseVariants) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.TCSCConverter(Microsoft.Office.Interop.Word.WdTCSCConverterDirection,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TCSCConverter (Optional WdTCSCConverterDirection As WdTCSCConverterDirection = Microsoft.Office.Interop.Word.WdTCSCConverterDirection.wdTCSCConverterDirectionAuto, Optional CommonTerms As Boolean = false, Optional UseVariants As Boolean = false)" />
+      <MemberSignature Language="F#" Value="abstract member TCSCConverter : Microsoft.Office.Interop.Word.WdTCSCConverterDirection * bool * bool -&gt; unit" Usage="range.TCSCConverter (WdTCSCConverterDirection, CommonTerms, UseVariants)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5561,6 +5736,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Text" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Text As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Office.Interop.Word.Range.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5595,6 +5771,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.TextRetrievalMode" />
       <MemberSignature Language="VB.NET" Value="Public Property TextRetrievalMode As TextRetrievalMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TextRetrievalMode ^ TextRetrievalMode { Microsoft::Office::Interop::Word::TextRetrievalMode ^ get(); void set(Microsoft::Office::Interop::Word::TextRetrievalMode ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TextRetrievalMode : Microsoft.Office.Interop.Word.TextRetrievalMode with get, set" Usage="Microsoft.Office.Interop.Word.Range.TextRetrievalMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5626,6 +5803,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.TextVisibleOnScreen" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextVisibleOnScreen As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TextVisibleOnScreen { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.TextVisibleOnScreen : int" Usage="Microsoft.Office.Interop.Word.Range.TextVisibleOnScreen" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5657,6 +5835,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.TopLevelTables" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TopLevelTables As Tables" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Tables ^ TopLevelTables { Microsoft::Office::Interop::Word::Tables ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TopLevelTables : Microsoft.Office.Interop.Word.Tables" Usage="Microsoft.Office.Interop.Word.Range.TopLevelTables" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5688,6 +5867,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.TwoLinesInOne" />
       <MemberSignature Language="VB.NET" Value="Public Property TwoLinesInOne As WdTwoLinesInOneType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTwoLinesInOneType TwoLinesInOne { Microsoft::Office::Interop::Word::WdTwoLinesInOneType get(); void set(Microsoft::Office::Interop::Word::WdTwoLinesInOneType value); };" />
+      <MemberSignature Language="F#" Value="member this.TwoLinesInOne : Microsoft.Office.Interop.Word.WdTwoLinesInOneType with get, set" Usage="Microsoft.Office.Interop.Word.Range.TwoLinesInOne" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5722,6 +5902,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Underline" />
       <MemberSignature Language="VB.NET" Value="Public Property Underline As WdUnderline" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdUnderline Underline { Microsoft::Office::Interop::Word::WdUnderline get(); void set(Microsoft::Office::Interop::Word::WdUnderline value); };" />
+      <MemberSignature Language="F#" Value="member this.Underline : Microsoft.Office.Interop.Word.WdUnderline with get, set" Usage="Microsoft.Office.Interop.Word.Range.Underline" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5753,6 +5934,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Updates" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Updates As CoAuthUpdates" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CoAuthUpdates ^ Updates { Microsoft::Office::Interop::Word::CoAuthUpdates ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Updates : Microsoft.Office.Interop.Word.CoAuthUpdates" Usage="Microsoft.Office.Interop.Word.Range.Updates" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5784,6 +5966,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Range.WholeStory" />
       <MemberSignature Language="VB.NET" Value="Public Sub WholeStory ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WholeStory();" />
+      <MemberSignature Language="F#" Value="abstract member WholeStory : unit -&gt; unit" Usage="range.WholeStory " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5809,6 +5992,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.WordOpenXML" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WordOpenXML As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WordOpenXML { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.WordOpenXML : string" Usage="Microsoft.Office.Interop.Word.Range.WordOpenXML" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5842,6 +6026,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.Words" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Words As Words" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Words ^ Words { Microsoft::Office::Interop::Word::Words ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Words : Microsoft.Office.Interop.Word.Words" Usage="Microsoft.Office.Interop.Word.Range.Words" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5873,6 +6058,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.XML(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XML(Optional DataOnly As Boolean = false) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ XML[bool] { System::String ^ get(bool DataOnly); };" />
+      <MemberSignature Language="F#" Value="member this.XML(bool) : string" Usage="Microsoft.Office.Interop.Word.Range.XML" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5905,6 +6091,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.XMLNodes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XMLNodes As XMLNodes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XMLNodes ^ XMLNodes { Microsoft::Office::Interop::Word::XMLNodes ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.XMLNodes : Microsoft.Office.Interop.Word.XMLNodes" Usage="Microsoft.Office.Interop.Word.Range.XMLNodes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -5936,6 +6123,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Range.XMLParentNode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XMLParentNode As XMLNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XMLNode ^ XMLParentNode { Microsoft::Office::Interop::Word::XMLNode ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.XMLParentNode : Microsoft.Office.Interop.Word.XMLNode" Usage="Microsoft.Office.Interop.Word.Range.XMLParentNode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

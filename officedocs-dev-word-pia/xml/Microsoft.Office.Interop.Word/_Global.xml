@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word._Global" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Global" />
   <TypeSignature Language="C++ CLI" Value="public interface class _Global" />
+  <TypeSignature Language="F#" Value="type _Global = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActiveDocument" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveDocument As Document" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Document ^ ActiveDocument { Microsoft::Office::Interop::Word::Document ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveDocument : Microsoft.Office.Interop.Word.Document" Usage="Microsoft.Office.Interop.Word._Global.ActiveDocument" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActivePrinter" />
       <MemberSignature Language="VB.NET" Value="Public Property ActivePrinter As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ActivePrinter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ActivePrinter : string with get, set" Usage="Microsoft.Office.Interop.Word._Global.ActivePrinter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -87,6 +90,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActiveProtectedViewWindow" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveProtectedViewWindow As ProtectedViewWindow" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ProtectedViewWindow ^ ActiveProtectedViewWindow { Microsoft::Office::Interop::Word::ProtectedViewWindow ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveProtectedViewWindow : Microsoft.Office.Interop.Word.ProtectedViewWindow" Usage="Microsoft.Office.Interop.Word._Global.ActiveProtectedViewWindow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -118,6 +122,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ActiveWindow" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveWindow As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Window ^ ActiveWindow { Microsoft::Office::Interop::Word::Window ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveWindow : Microsoft.Office.Interop.Word.Window" Usage="Microsoft.Office.Interop.Word._Global.ActiveWindow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -149,6 +154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AddIns" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddIns As AddIns" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AddIns ^ AddIns { Microsoft::Office::Interop::Word::AddIns ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AddIns : Microsoft.Office.Interop.Word.AddIns" Usage="Microsoft.Office.Interop.Word._Global.AddIns" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -180,6 +186,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AnswerWizard" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnswerWizard As AnswerWizard" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::AnswerWizard ^ AnswerWizard { Microsoft::Office::Core::AnswerWizard ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AnswerWizard : Microsoft.Office.Core.AnswerWizard" Usage="Microsoft.Office.Interop.Word._Global.AnswerWizard" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -211,6 +218,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word._Global.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -239,6 +247,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Assistant" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Assistant As Assistant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Assistant ^ Assistant { Microsoft::Office::Core::Assistant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Assistant : Microsoft.Office.Core.Assistant" Usage="Microsoft.Office.Interop.Word._Global.Assistant" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -270,6 +279,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AutoCaptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoCaptions As AutoCaptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoCaptions ^ AutoCaptions { Microsoft::Office::Interop::Word::AutoCaptions ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoCaptions : Microsoft.Office.Interop.Word.AutoCaptions" Usage="Microsoft.Office.Interop.Word._Global.AutoCaptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -298,6 +308,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AutoCorrect" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoCorrect As AutoCorrect" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoCorrect ^ AutoCorrect { Microsoft::Office::Interop::Word::AutoCorrect ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoCorrect : Microsoft.Office.Interop.Word.AutoCorrect" Usage="Microsoft.Office.Interop.Word._Global.AutoCorrect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -326,6 +337,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.AutoCorrectEmail" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoCorrectEmail As AutoCorrect" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoCorrect ^ AutoCorrectEmail { Microsoft::Office::Interop::Word::AutoCorrect ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoCorrectEmail : Microsoft.Office.Interop.Word.AutoCorrect" Usage="Microsoft.Office.Interop.Word._Global.AutoCorrectEmail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -353,6 +365,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 BuildKeyCode([in]valuetype Microsoft.Office.Interop.Word.WdKey Arg1, [in]object&amp; Arg2, [in]object&amp; Arg3, [in]object&amp; Arg4) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.BuildKeyCode(Microsoft.Office.Interop.Word.WdKey,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function BuildKeyCode (Arg1 As WdKey, Optional ByRef Arg2 As Object, Optional ByRef Arg3 As Object, Optional ByRef Arg4 As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member BuildKeyCode : Microsoft.Office.Interop.Word.WdKey * obj * obj * obj -&gt; int" Usage="_Global.BuildKeyCode (Arg1, Arg2, Arg3, Arg4)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -368,9 +381,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Arg1" Type="Microsoft.Office.Interop.Word.WdKey" />
-        <Parameter Name="Arg2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Arg3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Arg4" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Arg2" Type="System.Object" RefType="ref" />
+        <Parameter Name="Arg3" Type="System.Object" RefType="ref" />
+        <Parameter Name="Arg4" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Arg1">Required <see cref="T:Microsoft.Office.Interop.Word.WdKey" />. A key you specify by using one of the <b>WdKey</b> constants.</param>
@@ -388,6 +401,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CaptionLabels" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CaptionLabels As CaptionLabels" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::CaptionLabels ^ CaptionLabels { Microsoft::Office::Interop::Word::CaptionLabels ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CaptionLabels : Microsoft.Office.Interop.Word.CaptionLabels" Usage="Microsoft.Office.Interop.Word._Global.CaptionLabels" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -416,6 +430,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.CentimetersToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function CentimetersToPoints (Centimeters As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float CentimetersToPoints(float Centimeters);" />
+      <MemberSignature Language="F#" Value="abstract member CentimetersToPoints : single -&gt; single" Usage="_Global.CentimetersToPoints Centimeters" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -448,6 +463,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.ChangeFileOpenDirectory(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ChangeFileOpenDirectory (Path As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeFileOpenDirectory(System::String ^ Path);" />
+      <MemberSignature Language="F#" Value="abstract member ChangeFileOpenDirectory : string -&gt; unit" Usage="_Global.ChangeFileOpenDirectory Path" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -479,6 +495,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CheckSpelling([in]string Word, [in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; MainDictionary, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.CheckSpelling(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CheckSpelling (Word As String, Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef MainDictionary As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member CheckSpelling : string * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; bool" Usage="_Global.CheckSpelling (Word, CustomDictionary, IgnoreUppercase, MainDictionary, CustomDictionary2, CustomDictionary3, CustomDictionary4, CustomDictionary5, CustomDictionary6, CustomDictionary7, CustomDictionary8, CustomDictionary9, CustomDictionary10)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -494,18 +511,18 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Word" Type="System.String" />
-        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MainDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MainDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Word">Required <b>String</b>. The text whose spelling is to be checked.</param>
@@ -533,7 +550,9 @@
       <MemberSignature Language="C#" Value="public string CleanString (string String);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string CleanString([in]string String) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.CleanString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CleanString (String As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ CleanString(System::String ^ String);" />
+      <MemberSignature Language="F#" Value="abstract member CleanString : string -&gt; string" Usage="_Global.CleanString String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -605,6 +624,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CommandBars" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandBars As CommandBars" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CommandBars ^ CommandBars { Microsoft::Office::Core::CommandBars ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CommandBars : Microsoft.Office.Core.CommandBars" Usage="Microsoft.Office.Interop.Word._Global.CommandBars" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -636,6 +656,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word._Global.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -668,6 +689,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CustomDictionaries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomDictionaries As Dictionaries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Dictionaries ^ CustomDictionaries { Microsoft::Office::Interop::Word::Dictionaries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CustomDictionaries : Microsoft.Office.Interop.Word.Dictionaries" Usage="Microsoft.Office.Interop.Word._Global.CustomDictionaries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -696,6 +718,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.CustomizationContext" />
       <MemberSignature Language="VB.NET" Value="Public Property CustomizationContext As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CustomizationContext { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CustomizationContext : obj with get, set" Usage="Microsoft.Office.Interop.Word._Global.CustomizationContext" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -730,6 +753,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDEExecute(System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DDEExecute (Channel As Integer, Command As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDEExecute(int Channel, System::String ^ Command);" />
+      <MemberSignature Language="F#" Value="abstract member DDEExecute : int * string -&gt; unit" Usage="_Global.DDEExecute (Channel, Command)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -763,6 +787,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDEInitiate(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function DDEInitiate (App As String, Topic As String) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int DDEInitiate(System::String ^ App, System::String ^ Topic);" />
+      <MemberSignature Language="F#" Value="abstract member DDEInitiate : string * string -&gt; int" Usage="_Global.DDEInitiate (App, Topic)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -798,6 +823,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDEPoke(System.Int32,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DDEPoke (Channel As Integer, Item As String, Data As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDEPoke(int Channel, System::String ^ Item, System::String ^ Data);" />
+      <MemberSignature Language="F#" Value="abstract member DDEPoke : int * string * string -&gt; unit" Usage="_Global.DDEPoke (Channel, Item, Data)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -834,6 +860,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDERequest(System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function DDERequest (Channel As Integer, Item As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ DDERequest(int Channel, System::String ^ Item);" />
+      <MemberSignature Language="F#" Value="abstract member DDERequest : int * string -&gt; string" Usage="_Global.DDERequest (Channel, Item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -884,6 +911,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDETerminate(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DDETerminate (Channel As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDETerminate(int Channel);" />
+      <MemberSignature Language="F#" Value="abstract member DDETerminate : int -&gt; unit" Usage="_Global.DDETerminate Channel" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -915,6 +943,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.DDETerminateAll" />
       <MemberSignature Language="VB.NET" Value="Public Sub DDETerminateAll ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DDETerminateAll();" />
+      <MemberSignature Language="F#" Value="abstract member DDETerminateAll : unit -&gt; unit" Usage="_Global.DDETerminateAll " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -945,6 +974,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Dialogs" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dialogs As Dialogs" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Dialogs ^ Dialogs { Microsoft::Office::Interop::Word::Dialogs ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Dialogs : Microsoft.Office.Interop.Word.Dialogs" Usage="Microsoft.Office.Interop.Word._Global.Dialogs" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -973,6 +1003,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Documents" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Documents As Documents" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Documents ^ Documents { Microsoft::Office::Interop::Word::Documents ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Documents : Microsoft.Office.Interop.Word.Documents" Usage="Microsoft.Office.Interop.Word._Global.Documents" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1001,6 +1032,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.FileConverters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileConverters As FileConverters" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FileConverters ^ FileConverters { Microsoft::Office::Interop::Word::FileConverters ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FileConverters : Microsoft.Office.Interop.Word.FileConverters" Usage="Microsoft.Office.Interop.Word._Global.FileConverters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1029,6 +1061,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.FindKey(System.Int32,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FindKey(KeyCode As Integer, Optional ByRef KeyCode2 As Object) As KeyBinding" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeyBinding ^ FindKey[int, System::Object ^ %] { Microsoft::Office::Interop::Word::KeyBinding ^ get(int KeyCode, System::Object ^ % KeyCode2); };" />
+      <MemberSignature Language="F#" Value="member this.FindKey(int * obj) : Microsoft.Office.Interop.Word.KeyBinding" Usage="Microsoft.Office.Interop.Word._Global.FindKey" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1047,7 +1080,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="KeyCode" Type="System.Int32" />
-        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="KeyCode2" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCode">Required <b>Integer</b>. A key you specify by using one of the <see cref="T:Microsoft.Office.Interop.Word.WdKey" /> constants.</param>
@@ -1066,6 +1099,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.FontNames" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontNames As FontNames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FontNames ^ FontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FontNames : Microsoft.Office.Interop.Word.FontNames" Usage="Microsoft.Office.Interop.Word._Global.FontNames" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1093,6 +1127,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.SpellingSuggestions GetSpellingSuggestions([in]string Word, [in]object&amp; CustomDictionary, [in]object&amp; IgnoreUppercase, [in]object&amp; MainDictionary, [in]object&amp; SuggestionMode, [in]object&amp; CustomDictionary2, [in]object&amp; CustomDictionary3, [in]object&amp; CustomDictionary4, [in]object&amp; CustomDictionary5, [in]object&amp; CustomDictionary6, [in]object&amp; CustomDictionary7, [in]object&amp; CustomDictionary8, [in]object&amp; CustomDictionary9, [in]object&amp; CustomDictionary10) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.GetSpellingSuggestions(System.String,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSpellingSuggestions (Word As String, Optional ByRef CustomDictionary As Object, Optional ByRef IgnoreUppercase As Object, Optional ByRef MainDictionary As Object, Optional ByRef SuggestionMode As Object, Optional ByRef CustomDictionary2 As Object, Optional ByRef CustomDictionary3 As Object, Optional ByRef CustomDictionary4 As Object, Optional ByRef CustomDictionary5 As Object, Optional ByRef CustomDictionary6 As Object, Optional ByRef CustomDictionary7 As Object, Optional ByRef CustomDictionary8 As Object, Optional ByRef CustomDictionary9 As Object, Optional ByRef CustomDictionary10 As Object) As SpellingSuggestions" />
+      <MemberSignature Language="F#" Value="abstract member GetSpellingSuggestions : string * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj * obj -&gt; Microsoft.Office.Interop.Word.SpellingSuggestions" Usage="_Global.GetSpellingSuggestions (Word, CustomDictionary, IgnoreUppercase, MainDictionary, SuggestionMode, CustomDictionary2, CustomDictionary3, CustomDictionary4, CustomDictionary5, CustomDictionary6, CustomDictionary7, CustomDictionary8, CustomDictionary9, CustomDictionary10)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1108,19 +1143,19 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Word" Type="System.String" />
-        <Parameter Name="CustomDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="IgnoreUppercase" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="MainDictionary" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="SuggestionMode" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary2" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary3" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary4" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary5" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary6" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary7" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary8" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary9" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="CustomDictionary10" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CustomDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="IgnoreUppercase" Type="System.Object" RefType="ref" />
+        <Parameter Name="MainDictionary" Type="System.Object" RefType="ref" />
+        <Parameter Name="SuggestionMode" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary2" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary3" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary4" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary5" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary6" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary7" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary8" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary9" Type="System.Object" RefType="ref" />
+        <Parameter Name="CustomDictionary10" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Word">Required <b>String</b>. The word whose spelling is to be checked.</param>
@@ -1151,6 +1186,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.HangulHanjaDictionaries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HangulHanjaDictionaries As HangulHanjaConversionDictionaries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::HangulHanjaConversionDictionaries ^ HangulHanjaDictionaries { Microsoft::Office::Interop::Word::HangulHanjaConversionDictionaries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HangulHanjaDictionaries : Microsoft.Office.Interop.Word.HangulHanjaConversionDictionaries" Usage="Microsoft.Office.Interop.Word._Global.HangulHanjaDictionaries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1182,6 +1218,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.Help(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Help (ByRef HelpType As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Help(System::Object ^ % HelpType);" />
+      <MemberSignature Language="F#" Value="abstract member Help : obj -&gt; unit" Usage="_Global.Help HelpType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1196,7 +1233,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="HelpType" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="HelpType" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="HelpType">Required <b>Object</b>. The on-line Help topic or window. Can be any <see cref="T:Microsoft.Office.Interop.Word.WdHelpType" /> constant.</param>
@@ -1213,6 +1250,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.InchesToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function InchesToPoints (Inches As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float InchesToPoints(float Inches);" />
+      <MemberSignature Language="F#" Value="abstract member InchesToPoints : single -&gt; single" Usage="_Global.InchesToPoints Inches" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1245,6 +1283,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.IsObjectValid(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsObjectValid(Object As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsObjectValid[System::Object ^] { bool get(System::Object ^ Object); };" />
+      <MemberSignature Language="F#" Value="member this.IsObjectValid(obj) : bool" Usage="Microsoft.Office.Interop.Word._Global.IsObjectValid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1280,6 +1319,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.IsSandboxed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSandboxed As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSandboxed { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsSandboxed : bool" Usage="Microsoft.Office.Interop.Word._Global.IsSandboxed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1312,6 +1352,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.KeyBindings" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyBindings As KeyBindings" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeyBindings ^ KeyBindings { Microsoft::Office::Interop::Word::KeyBindings ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyBindings : Microsoft.Office.Interop.Word.KeyBindings" Usage="Microsoft.Office.Interop.Word._Global.KeyBindings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1340,6 +1381,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.KeysBoundTo(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeysBoundTo(KeyCategory As WdKeyCategory, Command As String, Optional ByRef CommandParameter As Object) As KeysBoundTo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::KeysBoundTo ^ KeysBoundTo[Microsoft::Office::Interop::Word::WdKeyCategory, System::String ^, System::Object ^ %] { Microsoft::Office::Interop::Word::KeysBoundTo ^ get(Microsoft::Office::Interop::Word::WdKeyCategory KeyCategory, System::String ^ Command, System::Object ^ % CommandParameter); };" />
+      <MemberSignature Language="F#" Value="member this.KeysBoundTo(Microsoft.Office.Interop.Word.WdKeyCategory * string * obj) : Microsoft.Office.Interop.Word.KeysBoundTo" Usage="Microsoft.Office.Interop.Word._Global.KeysBoundTo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1359,7 +1401,7 @@
       <Parameters>
         <Parameter Name="KeyCategory" Type="Microsoft.Office.Interop.Word.WdKeyCategory" />
         <Parameter Name="Command" Type="System.String" />
-        <Parameter Name="CommandParameter" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CommandParameter" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCategory">Required <see cref="T:Microsoft.Office.Interop.Word.WdKeyCategory" />. The category of the key combination.</param>
@@ -1375,6 +1417,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string KeyString([in]int32 KeyCode, [in]object&amp; KeyCode2) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.KeyString(System.Int32,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function KeyString (KeyCode As Integer, Optional ByRef KeyCode2 As Object) As String" />
+      <MemberSignature Language="F#" Value="abstract member KeyString : int * obj -&gt; string" Usage="_Global.KeyString (KeyCode, KeyCode2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1390,7 +1433,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="KeyCode" Type="System.Int32" />
-        <Parameter Name="KeyCode2" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="KeyCode2" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCode">Required <b>Integer</b>. A key you specify by using one of the <b>WdKey</b> constants.</param>
@@ -1409,6 +1452,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.LandscapeFontNames" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LandscapeFontNames As FontNames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FontNames ^ LandscapeFontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LandscapeFontNames : Microsoft.Office.Interop.Word.FontNames" Usage="Microsoft.Office.Interop.Word._Global.LandscapeFontNames" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1437,6 +1481,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Languages" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Languages As Languages" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Languages ^ Languages { Microsoft::Office::Interop::Word::Languages ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Languages : Microsoft.Office.Interop.Word.Languages" Usage="Microsoft.Office.Interop.Word._Global.Languages" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1468,6 +1513,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.LanguageSettings" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageSettings As LanguageSettings" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::LanguageSettings ^ LanguageSettings { Microsoft::Office::Core::LanguageSettings ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageSettings : Microsoft.Office.Core.LanguageSettings" Usage="Microsoft.Office.Interop.Word._Global.LanguageSettings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1496,6 +1542,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.LinesToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function LinesToPoints (Lines As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float LinesToPoints(float Lines);" />
+      <MemberSignature Language="F#" Value="abstract member LinesToPoints : single -&gt; single" Usage="_Global.LinesToPoints Lines" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1528,6 +1575,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ListGalleries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListGalleries As ListGalleries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListGalleries ^ ListGalleries { Microsoft::Office::Interop::Word::ListGalleries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListGalleries : Microsoft.Office.Interop.Word.ListGalleries" Usage="Microsoft.Office.Interop.Word._Global.ListGalleries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1559,6 +1607,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.MacroContainer" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MacroContainer As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MacroContainer { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MacroContainer : obj" Usage="Microsoft.Office.Interop.Word._Global.MacroContainer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1587,6 +1636,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.MillimetersToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function MillimetersToPoints (Millimeters As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float MillimetersToPoints(float Millimeters);" />
+      <MemberSignature Language="F#" Value="abstract member MillimetersToPoints : single -&gt; single" Usage="_Global.MillimetersToPoints Millimeters" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1619,6 +1669,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word._Global.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1647,6 +1698,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.NewWindow" />
       <MemberSignature Language="VB.NET" Value="Public Function NewWindow () As Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Window ^ NewWindow();" />
+      <MemberSignature Language="F#" Value="abstract member NewWindow : unit -&gt; Microsoft.Office.Interop.Word.Window" Usage="_Global.NewWindow " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1677,6 +1729,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.NormalTemplate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalTemplate As Template" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Template ^ NormalTemplate { Microsoft::Office::Interop::Word::Template ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NormalTemplate : Microsoft.Office.Interop.Word.Template" Usage="Microsoft.Office.Interop.Word._Global.NormalTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1705,6 +1758,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Options" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Options As Options" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Options ^ Options { Microsoft::Office::Interop::Word::Options ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Options : Microsoft.Office.Interop.Word.Options" Usage="Microsoft.Office.Interop.Word._Global.Options" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1733,6 +1787,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word._Global.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1761,6 +1816,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PicasToPoints(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function PicasToPoints (Picas As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float PicasToPoints(float Picas);" />
+      <MemberSignature Language="F#" Value="abstract member PicasToPoints : single -&gt; single" Usage="_Global.PicasToPoints Picas" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1792,6 +1848,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PixelsToPoints([in]float32 Pixels, [in]object&amp; fVertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PixelsToPoints(System.Single,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function PixelsToPoints (Pixels As Single, Optional ByRef fVertical As Object) As Single" />
+      <MemberSignature Language="F#" Value="abstract member PixelsToPoints : single * obj -&gt; single" Usage="_Global.PixelsToPoints (Pixels, fVertical)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1807,7 +1864,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Pixels" Type="System.Single" />
-        <Parameter Name="fVertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="fVertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Pixels">Required <b>Single</b>. The pixel value to be converted to points.</param>
@@ -1826,6 +1883,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToCentimeters(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function PointsToCentimeters (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToCentimeters(float Points);" />
+      <MemberSignature Language="F#" Value="abstract member PointsToCentimeters : single -&gt; single" Usage="_Global.PointsToCentimeters Points" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1858,6 +1916,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToInches(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function PointsToInches (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToInches(float Points);" />
+      <MemberSignature Language="F#" Value="abstract member PointsToInches : single -&gt; single" Usage="_Global.PointsToInches Points" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1890,6 +1949,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToLines(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function PointsToLines (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToLines(float Points);" />
+      <MemberSignature Language="F#" Value="abstract member PointsToLines : single -&gt; single" Usage="_Global.PointsToLines Points" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1922,6 +1982,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToMillimeters(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function PointsToMillimeters (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToMillimeters(float Points);" />
+      <MemberSignature Language="F#" Value="abstract member PointsToMillimeters : single -&gt; single" Usage="_Global.PointsToMillimeters Points" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1954,6 +2015,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToPicas(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function PointsToPicas (Points As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float PointsToPicas(float Points);" />
+      <MemberSignature Language="F#" Value="abstract member PointsToPicas : single -&gt; single" Usage="_Global.PointsToPicas Points" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -1985,6 +2047,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float32 PointsToPixels([in]float32 Points, [in]object&amp; fVertical) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.PointsToPixels(System.Single,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function PointsToPixels (Points As Single, Optional ByRef fVertical As Object) As Single" />
+      <MemberSignature Language="F#" Value="abstract member PointsToPixels : single * obj -&gt; single" Usage="_Global.PointsToPixels (Points, fVertical)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2000,7 +2063,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Points" Type="System.Single" />
-        <Parameter Name="fVertical" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="fVertical" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Points">Required <b>Single</b>. The point value to be converted to pixels.</param>
@@ -2019,6 +2082,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.PortraitFontNames" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PortraitFontNames As FontNames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::FontNames ^ PortraitFontNames { Microsoft::Office::Interop::Word::FontNames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PortraitFontNames : Microsoft.Office.Interop.Word.FontNames" Usage="Microsoft.Office.Interop.Word._Global.PortraitFontNames" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2047,6 +2111,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.PrintPreview" />
       <MemberSignature Language="VB.NET" Value="Public Property PrintPreview As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PrintPreview { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.PrintPreview : bool with get, set" Usage="Microsoft.Office.Interop.Word._Global.PrintPreview" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2081,6 +2146,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ProtectedViewWindows" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProtectedViewWindows As ProtectedViewWindows" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ProtectedViewWindows ^ ProtectedViewWindows { Microsoft::Office::Interop::Word::ProtectedViewWindows ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ProtectedViewWindows : Microsoft.Office.Interop.Word.ProtectedViewWindows" Usage="Microsoft.Office.Interop.Word._Global.ProtectedViewWindows" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2112,6 +2178,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.RecentFiles" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecentFiles As RecentFiles" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::RecentFiles ^ RecentFiles { Microsoft::Office::Interop::Word::RecentFiles ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.RecentFiles : Microsoft.Office.Interop.Word.RecentFiles" Usage="Microsoft.Office.Interop.Word._Global.RecentFiles" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2139,6 +2206,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Repeat([in]object&amp; Times) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word._Global.Repeat(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Repeat (Optional ByRef Times As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Repeat : obj -&gt; bool" Usage="_Global.Repeat Times" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2153,7 +2221,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Times" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Times" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Times">Optional <b>Object</b>. The number of times you want to repeat the last command.</param>
@@ -2172,6 +2240,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Selection" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As Selection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Selection ^ Selection { Microsoft::Office::Interop::Word::Selection ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Selection : Microsoft.Office.Interop.Word.Selection" Usage="Microsoft.Office.Interop.Word._Global.Selection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2200,6 +2269,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.ShowVisualBasicEditor" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowVisualBasicEditor As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowVisualBasicEditor { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowVisualBasicEditor : bool with get, set" Usage="Microsoft.Office.Interop.Word._Global.ShowVisualBasicEditor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2234,6 +2304,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.StatusBar" />
       <MemberSignature Language="VB.NET" Value="Public Property StatusBar As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StatusBar {  void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StatusBar : string" Usage="Microsoft.Office.Interop.Word._Global.StatusBar" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2262,6 +2333,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.SynonymInfo(System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SynonymInfo(Word As String, Optional ByRef LanguageID As Object) As SynonymInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::SynonymInfo ^ SynonymInfo[System::String ^, System::Object ^ %] { Microsoft::Office::Interop::Word::SynonymInfo ^ get(System::String ^ Word, System::Object ^ % LanguageID); };" />
+      <MemberSignature Language="F#" Value="member this.SynonymInfo(string * obj) : Microsoft.Office.Interop.Word.SynonymInfo" Usage="Microsoft.Office.Interop.Word._Global.SynonymInfo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2280,7 +2352,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Word" Type="System.String" />
-        <Parameter Name="LanguageID" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="LanguageID" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Word">Required <b>String</b>. The specified word or phrase.</param>
@@ -2296,6 +2368,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.System" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property System As System" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::System ^ System { Microsoft::Office::Interop::Word::System ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.System : Microsoft.Office.Interop.Word.System" Usage="Microsoft.Office.Interop.Word._Global.System" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2324,6 +2397,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Tasks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tasks As Tasks" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Tasks ^ Tasks { Microsoft::Office::Interop::Word::Tasks ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Tasks : Microsoft.Office.Interop.Word.Tasks" Usage="Microsoft.Office.Interop.Word._Global.Tasks" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2352,6 +2426,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Templates" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Templates As Templates" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Templates ^ Templates { Microsoft::Office::Interop::Word::Templates ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Templates : Microsoft.Office.Interop.Word.Templates" Usage="Microsoft.Office.Interop.Word._Global.Templates" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2380,6 +2455,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.VBE" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VBE As VBE" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Vbe::Interop::VBE ^ VBE { Microsoft::Vbe::Interop::VBE ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.VBE : Microsoft.Vbe.Interop.VBE" Usage="Microsoft.Office.Interop.Word._Global.VBE" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2408,6 +2484,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.Windows" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Windows As Windows" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Windows ^ Windows { Microsoft::Office::Interop::Word::Windows ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Windows : Microsoft.Office.Interop.Word.Windows" Usage="Microsoft.Office.Interop.Word._Global.Windows" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -2436,6 +2513,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word._Global.WordBasic" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WordBasic As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ WordBasic { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.WordBasic : obj" Usage="Microsoft.Office.Interop.Word._Global.WordBasic" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

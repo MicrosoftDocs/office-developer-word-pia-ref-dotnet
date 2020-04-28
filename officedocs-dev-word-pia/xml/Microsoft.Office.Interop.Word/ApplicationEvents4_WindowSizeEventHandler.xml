@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents4_WindowSizeEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_WindowSizeEventHandler">
+<Type Name="ApplicationEvents4_WindowSizeEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_WindowSizeEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_WindowSizeEventHandler(Document Doc, Window Wn);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_WindowSizeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_WindowSizeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_WindowSizeEventHandler(Doc As Document, Wn As Window)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_WindowSizeEventHandler(Document ^ Doc, Window ^ Wn);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents4_WindowSizeEventHandler = delegate of Document * Window -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

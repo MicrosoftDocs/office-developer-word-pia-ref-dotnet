@@ -1,9 +1,10 @@
-﻿<Type Name="TextInput" FullName="Microsoft.Office.Interop.Word.TextInput">
+<Type Name="TextInput" FullName="Microsoft.Office.Interop.Word.TextInput">
   <TypeSignature Language="C#" Value="public interface TextInput" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextInput" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TextInput" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextInput" />
   <TypeSignature Language="C++ CLI" Value="public interface class TextInput" />
+  <TypeSignature Language="F#" Value="type TextInput = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.TextInput.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextInput.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="textInput.Clear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -86,6 +89,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.TextInput.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -118,6 +122,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Default" />
       <MemberSignature Language="VB.NET" Value="Public Property Default As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Default : string with get, set" Usage="Microsoft.Office.Interop.Word.TextInput.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -148,6 +153,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EditType([in]valuetype Microsoft.Office.Interop.Word.WdTextFormFieldType Type, [in]object&amp; Default, [in]object&amp; Format, [in]object&amp; Enabled) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TextInput.EditType(Microsoft.Office.Interop.Word.WdTextFormFieldType,System.Object@,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EditType (Type As WdTextFormFieldType, Optional ByRef Default As Object, Optional ByRef Format As Object, Optional ByRef Enabled As Object)" />
+      <MemberSignature Language="F#" Value="abstract member EditType : Microsoft.Office.Interop.Word.WdTextFormFieldType * obj * obj * obj -&gt; unit" Usage="textInput.EditType (Type, Default, Format, Enabled)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -163,9 +169,9 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="Type" Type="Microsoft.Office.Interop.Word.WdTextFormFieldType" />
-        <Parameter Name="Default" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Format" Type="System.Object&amp;" RefType="ref" />
-        <Parameter Name="Enabled" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Default" Type="System.Object" RefType="ref" />
+        <Parameter Name="Format" Type="System.Object" RefType="ref" />
+        <Parameter Name="Enabled" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Type">Required <see cref="T:Microsoft.Office.Interop.Word.WdTextFormFieldType" />. The text box type.<b>WdTextFormFieldType</b> can be one of these constants: <b>wdCalculationText </b><b>wdCurrentDateText </b><b>wdCurrentTimeText </b><b>wdDateText </b><b>wdNumberText </b><b>wdRegularText</b></param>
@@ -182,6 +188,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Format" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Format : string" Usage="Microsoft.Office.Interop.Word.TextInput.Format" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -210,6 +217,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.TextInput.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -238,6 +246,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdTextFormFieldType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTextFormFieldType Type { Microsoft::Office::Interop::Word::WdTextFormFieldType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdTextFormFieldType" Usage="Microsoft.Office.Interop.Word.TextInput.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -288,6 +297,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Valid" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Valid As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool default { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Valid : bool" Usage="Microsoft.Office.Interop.Word.TextInput.Valid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -320,6 +330,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TextInput.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : int with get, set" Usage="Microsoft.Office.Interop.Word.TextInput.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

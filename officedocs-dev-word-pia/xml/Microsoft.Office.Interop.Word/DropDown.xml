@@ -1,9 +1,10 @@
-﻿<Type Name="DropDown" FullName="Microsoft.Office.Interop.Word.DropDown">
+<Type Name="DropDown" FullName="Microsoft.Office.Interop.Word.DropDown">
   <TypeSignature Language="C#" Value="public interface DropDown" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DropDown" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DropDown" />
   <TypeSignature Language="VB.NET" Value="Public Interface DropDown" />
   <TypeSignature Language="C++ CLI" Value="public interface class DropDown" />
+  <TypeSignature Language="F#" Value="type DropDown = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropDown.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.DropDown.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropDown.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.DropDown.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropDown.Default" />
       <MemberSignature Language="VB.NET" Value="Public Property Default As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Default { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Default : int with get, set" Usage="Microsoft.Office.Interop.Word.DropDown.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -127,6 +131,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropDown.ListEntries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListEntries As ListEntries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListEntries ^ ListEntries { Microsoft::Office::Interop::Word::ListEntries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListEntries : Microsoft.Office.Interop.Word.ListEntries" Usage="Microsoft.Office.Interop.Word.DropDown.ListEntries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -155,6 +160,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropDown.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.DropDown.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -183,6 +189,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropDown.Valid" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Valid As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool default { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Valid : bool" Usage="Microsoft.Office.Interop.Word.DropDown.Valid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -215,6 +222,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropDown.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Value { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Value : int with get, set" Usage="Microsoft.Office.Interop.Word.DropDown.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="DropCap" FullName="Microsoft.Office.Interop.Word.DropCap">
+<Type Name="DropCap" FullName="Microsoft.Office.Interop.Word.DropCap">
   <TypeSignature Language="C#" Value="public interface DropCap" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DropCap" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DropCap" />
   <TypeSignature Language="VB.NET" Value="Public Interface DropCap" />
   <TypeSignature Language="C++ CLI" Value="public interface class DropCap" />
+  <TypeSignature Language="F#" Value="type DropCap = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropCap.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.DropCap.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DropCap.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="dropCap.Clear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -85,6 +88,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropCap.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.DropCap.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -117,6 +121,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropCap.DistanceFromText" />
       <MemberSignature Language="VB.NET" Value="Public Property DistanceFromText As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float DistanceFromText { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.DistanceFromText : single with get, set" Usage="Microsoft.Office.Interop.Word.DropCap.DistanceFromText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -148,6 +153,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.DropCap.Enable" />
       <MemberSignature Language="VB.NET" Value="Public Sub Enable ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Enable();" />
+      <MemberSignature Language="F#" Value="abstract member Enable : unit -&gt; unit" Usage="dropCap.Enable " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -173,6 +179,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropCap.FontName" />
       <MemberSignature Language="VB.NET" Value="Public Property FontName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FontName : string with get, set" Usage="Microsoft.Office.Interop.Word.DropCap.FontName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -204,6 +211,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropCap.LinesToDrop" />
       <MemberSignature Language="VB.NET" Value="Public Property LinesToDrop As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LinesToDrop { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.LinesToDrop : int with get, set" Usage="Microsoft.Office.Interop.Word.DropCap.LinesToDrop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -235,6 +243,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropCap.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.DropCap.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -263,6 +272,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.DropCap.Position" />
       <MemberSignature Language="VB.NET" Value="Public Property Position As WdDropPosition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdDropPosition Position { Microsoft::Office::Interop::Word::WdDropPosition get(); void set(Microsoft::Office::Interop::Word::WdDropPosition value); };" />
+      <MemberSignature Language="F#" Value="member this.Position : Microsoft.Office.Interop.Word.WdDropPosition with get, set" Usage="Microsoft.Office.Interop.Word.DropCap.Position" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

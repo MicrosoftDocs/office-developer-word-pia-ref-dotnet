@@ -1,9 +1,10 @@
-﻿<Type Name="Browser" FullName="Microsoft.Office.Interop.Word.Browser">
+<Type Name="Browser" FullName="Microsoft.Office.Interop.Word.Browser">
   <TypeSignature Language="C#" Value="public interface Browser" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Browser" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Browser" />
   <TypeSignature Language="VB.NET" Value="Public Interface Browser" />
   <TypeSignature Language="C++ CLI" Value="public interface class Browser" />
+  <TypeSignature Language="F#" Value="type Browser = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Browser.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Browser.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Browser.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Browser.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Browser.Next" />
       <MemberSignature Language="VB.NET" Value="Public Sub Next ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Next();" />
+      <MemberSignature Language="F#" Value="abstract member Next : unit -&gt; unit" Usage="browser.Next " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -120,6 +124,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Browser.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Browser.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -148,6 +153,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Browser.Previous" />
       <MemberSignature Language="VB.NET" Value="Public Sub Previous ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Previous();" />
+      <MemberSignature Language="F#" Value="abstract member Previous : unit -&gt; unit" Usage="browser.Previous " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -176,6 +182,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Browser.Target" />
       <MemberSignature Language="VB.NET" Value="Public Property Target As WdBrowseTarget" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdBrowseTarget Target { Microsoft::Office::Interop::Word::WdBrowseTarget get(); void set(Microsoft::Office::Interop::Word::WdBrowseTarget value); };" />
+      <MemberSignature Language="F#" Value="member this.Target : Microsoft.Office.Interop.Word.WdBrowseTarget with get, set" Usage="Microsoft.Office.Interop.Word.Browser.Target" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

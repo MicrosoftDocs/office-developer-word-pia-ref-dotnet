@@ -1,9 +1,10 @@
-﻿<Type Name="Bibliography" FullName="Microsoft.Office.Interop.Word.Bibliography">
+<Type Name="Bibliography" FullName="Microsoft.Office.Interop.Word.Bibliography">
   <TypeSignature Language="C#" Value="public interface Bibliography" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Bibliography" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Bibliography" />
   <TypeSignature Language="VB.NET" Value="Public Interface Bibliography" />
   <TypeSignature Language="C++ CLI" Value="public interface class Bibliography" />
+  <TypeSignature Language="F#" Value="type Bibliography = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bibliography.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Bibliography.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bibliography.BibliographyStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property BibliographyStyle As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BibliographyStyle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.BibliographyStyle : string with get, set" Usage="Microsoft.Office.Interop.Word.Bibliography.BibliographyStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -98,6 +101,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bibliography.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Bibliography.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -133,6 +137,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Bibliography.GenerateUniqueTag" />
       <MemberSignature Language="VB.NET" Value="Public Function GenerateUniqueTag () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GenerateUniqueTag();" />
+      <MemberSignature Language="F#" Value="abstract member GenerateUniqueTag : unit -&gt; string" Usage="bibliography.GenerateUniqueTag " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -164,6 +169,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bibliography.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Bibliography.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -194,6 +200,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bibliography.Sources" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sources As Sources" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Sources ^ Sources { Microsoft::Office::Interop::Word::Sources ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sources : Microsoft.Office.Interop.Word.Sources" Usage="Microsoft.Office.Interop.Word.Bibliography.Sources" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

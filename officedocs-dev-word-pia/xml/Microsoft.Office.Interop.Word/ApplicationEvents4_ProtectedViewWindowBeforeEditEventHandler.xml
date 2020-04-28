@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler">
+<Type Name="ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler(ProtectedViewWindow PvWindow, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler(PvWindow As ProtectedViewWindow, ByRef Cancel As Boolean)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler(ProtectedViewWindow ^ PvWindow, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents4_ProtectedViewWindowBeforeEditEventHandler = delegate of ProtectedViewWindow * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,7 +22,7 @@
   </Attributes>
   <Parameters>
     <Parameter Name="PvWindow" Type="Microsoft.Office.Interop.Word.ProtectedViewWindow" />
-    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+    <Parameter Name="Cancel" Type="System.Boolean" RefType="out" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

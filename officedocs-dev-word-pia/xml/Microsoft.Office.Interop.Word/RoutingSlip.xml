@@ -1,9 +1,10 @@
-﻿<Type Name="RoutingSlip" FullName="Microsoft.Office.Interop.Word.RoutingSlip">
+<Type Name="RoutingSlip" FullName="Microsoft.Office.Interop.Word.RoutingSlip">
   <TypeSignature Language="C#" Value="public interface RoutingSlip" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RoutingSlip" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.RoutingSlip" />
   <TypeSignature Language="VB.NET" Value="Public Interface RoutingSlip" />
   <TypeSignature Language="C++ CLI" Value="public interface class RoutingSlip" />
+  <TypeSignature Language="F#" Value="type RoutingSlip = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.RoutingSlip.AddRecipient(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddRecipient (Recipient As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRecipient(System::String ^ Recipient);" />
+      <MemberSignature Language="F#" Value="abstract member AddRecipient : string -&gt; unit" Usage="routingSlip.AddRecipient Recipient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -84,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -112,6 +116,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Delivery" />
       <MemberSignature Language="VB.NET" Value="Public Property Delivery As WdRoutingSlipDelivery" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRoutingSlipDelivery Delivery { Microsoft::Office::Interop::Word::WdRoutingSlipDelivery get(); void set(Microsoft::Office::Interop::Word::WdRoutingSlipDelivery value); };" />
+      <MemberSignature Language="F#" Value="member this.Delivery : Microsoft.Office.Interop.Word.WdRoutingSlipDelivery with get, set" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Delivery" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -143,6 +148,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Message" />
       <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Message { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Message : string with get, set" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Message" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -174,6 +180,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -202,6 +209,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Protect" />
       <MemberSignature Language="VB.NET" Value="Public Property Protect As WdProtectionType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdProtectionType Protect { Microsoft::Office::Interop::Word::WdProtectionType get(); void set(Microsoft::Office::Interop::Word::WdProtectionType value); };" />
+      <MemberSignature Language="F#" Value="member this.Protect : Microsoft.Office.Interop.Word.WdProtectionType with get, set" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Protect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -233,6 +241,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Recipients(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Recipients(Optional ByRef Index As Object) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Recipients[System::Object ^ %] { System::Object ^ get(System::Object ^ % Index); };" />
+      <MemberSignature Language="F#" Value="member this.Recipients(obj) : obj" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Recipients" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -250,7 +259,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Index" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Index" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Index">To be added.</param>
@@ -265,6 +274,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.RoutingSlip.Reset" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberSignature Language="F#" Value="abstract member Reset : unit -&gt; unit" Usage="routingSlip.Reset " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -290,6 +300,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.ReturnWhenDone" />
       <MemberSignature Language="VB.NET" Value="Public Property ReturnWhenDone As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnWhenDone { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ReturnWhenDone : bool with get, set" Usage="Microsoft.Office.Interop.Word.RoutingSlip.ReturnWhenDone" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -321,6 +332,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Status" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As WdRoutingSlipStatus" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRoutingSlipStatus Status { Microsoft::Office::Interop::Word::WdRoutingSlipStatus get(); };" />
+      <MemberSignature Language="F#" Value="member this.Status : Microsoft.Office.Interop.Word.WdRoutingSlipStatus" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Status" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -349,6 +361,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.Subject" />
       <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Subject : string with get, set" Usage="Microsoft.Office.Interop.Word.RoutingSlip.Subject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -380,6 +393,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RoutingSlip.TrackStatus" />
       <MemberSignature Language="VB.NET" Value="Public Property TrackStatus As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TrackStatus { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.TrackStatus : bool with get, set" Usage="Microsoft.Office.Interop.Word.RoutingSlip.TrackStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

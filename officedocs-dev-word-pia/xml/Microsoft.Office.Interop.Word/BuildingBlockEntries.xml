@@ -1,9 +1,10 @@
-﻿<Type Name="BuildingBlockEntries" FullName="Microsoft.Office.Interop.Word.BuildingBlockEntries">
+<Type Name="BuildingBlockEntries" FullName="Microsoft.Office.Interop.Word.BuildingBlockEntries">
   <TypeSignature Language="C#" Value="public interface BuildingBlockEntries" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract BuildingBlockEntries" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.BuildingBlockEntries" />
   <TypeSignature Language="VB.NET" Value="Public Interface BuildingBlockEntries" />
   <TypeSignature Language="C++ CLI" Value="public interface class BuildingBlockEntries" />
+  <TypeSignature Language="F#" Value="type BuildingBlockEntries = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,8 @@
       <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Word.BuildingBlock Add (string Name, Microsoft.Office.Interop.Word.WdBuildingBlockTypes Type, string Category, Microsoft.Office.Interop.Word.Range Range, ref object Description, Microsoft.Office.Interop.Word.WdDocPartInsertOptions InsertOptions = Microsoft.Office.Interop.Word.WdDocPartInsertOptions.wdInsertContent);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Word.BuildingBlock Add([in]string Name, [in]valuetype Microsoft.Office.Interop.Word.WdBuildingBlockTypes Type, [in]string Category, [in]class Microsoft.Office.Interop.Word.Range Range, [in]object&amp; Description, [in]valuetype Microsoft.Office.Interop.Word.WdDocPartInsertOptions InsertOptions) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.BuildingBlockEntries.Add(System.String,Microsoft.Office.Interop.Word.WdBuildingBlockTypes,System.String,Microsoft.Office.Interop.Word.Range,System.Object@,Microsoft.Office.Interop.Word.WdDocPartInsertOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Name As String, Type As WdBuildingBlockTypes, Category As String, Range As Range, Optional ByRef Description As Object, Optional InsertOptions As WdDocPartInsertOptions = Microsoft.Office.Interop.Word.WdDocPartInsertOptions.wdInsertContent) As BuildingBlock" />
+      <MemberSignature Language="F#" Value="abstract member Add : string * Microsoft.Office.Interop.Word.WdBuildingBlockTypes * string * Microsoft.Office.Interop.Word.Range * obj * Microsoft.Office.Interop.Word.WdDocPartInsertOptions -&gt; Microsoft.Office.Interop.Word.BuildingBlock" Usage="buildingBlockEntries.Add (Name, Type, Category, Range, Description, InsertOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -51,7 +54,7 @@
         <Parameter Name="Type" Type="Microsoft.Office.Interop.Word.WdBuildingBlockTypes" />
         <Parameter Name="Category" Type="System.String" />
         <Parameter Name="Range" Type="Microsoft.Office.Interop.Word.Range" />
-        <Parameter Name="Description" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Description" Type="System.Object" RefType="ref" />
         <Parameter Name="InsertOptions" Type="Microsoft.Office.Interop.Word.WdDocPartInsertOptions" />
       </Parameters>
       <Docs>
@@ -74,6 +77,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockEntries.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.BuildingBlockEntries.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -104,6 +108,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockEntries.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Office.Interop.Word.BuildingBlockEntries.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -134,6 +139,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockEntries.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.BuildingBlockEntries.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -169,6 +175,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.BuildingBlockEntries.Item(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Item (ByRef Index As Object) As BuildingBlock" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::BuildingBlock ^ Item(System::Object ^ % Index);" />
+      <MemberSignature Language="F#" Value="abstract member Item : obj -&gt; Microsoft.Office.Interop.Word.BuildingBlock" Usage="buildingBlockEntries.Item Index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -183,7 +190,7 @@
         <ReturnType>Microsoft.Office.Interop.Word.BuildingBlock</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Index" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Index" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Index">Specifies a <b>String</b> or <b>Integer</b> that represents the name or ordinal position of the object in the collection.</param>
@@ -200,6 +207,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.BuildingBlockEntries.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.BuildingBlockEntries.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents4_MailMergeWizardStateChangeEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeWizardStateChangeEventHandler">
+<Type Name="ApplicationEvents4_MailMergeWizardStateChangeEventHandler" FullName="Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeWizardStateChangeEventHandler">
   <TypeSignature Language="C#" Value="public delegate void ApplicationEvents4_MailMergeWizardStateChangeEventHandler(Document Doc, ref int FromState, ref int ToState, ref bool Handled);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents4_MailMergeWizardStateChangeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents4_MailMergeWizardStateChangeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ApplicationEvents4_MailMergeWizardStateChangeEventHandler(Doc As Document, ByRef FromState As Integer, ByRef ToState As Integer, ByRef Handled As Boolean)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void ApplicationEvents4_MailMergeWizardStateChangeEventHandler(Document ^ Doc, int % FromState, int % ToState, bool % Handled);" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents4_MailMergeWizardStateChangeEventHandler = delegate of Document * int * int * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,9 +22,9 @@
   </Attributes>
   <Parameters>
     <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
-    <Parameter Name="FromState" Type="System.Int32&amp;" RefType="ref" />
-    <Parameter Name="ToState" Type="System.Int32&amp;" RefType="ref" />
-    <Parameter Name="Handled" Type="System.Boolean&amp;" RefType="ref" />
+    <Parameter Name="FromState" Type="System.Int32" RefType="ref" />
+    <Parameter Name="ToState" Type="System.Int32" RefType="ref" />
+    <Parameter Name="Handled" Type="System.Boolean" RefType="ref" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

@@ -1,9 +1,10 @@
-﻿<Type Name="RevisionsFilter" FullName="Microsoft.Office.Interop.Word.RevisionsFilter">
+<Type Name="RevisionsFilter" FullName="Microsoft.Office.Interop.Word.RevisionsFilter">
   <TypeSignature Language="C#" Value="public interface RevisionsFilter" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RevisionsFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.RevisionsFilter" />
   <TypeSignature Language="VB.NET" Value="Public Interface RevisionsFilter" />
   <TypeSignature Language="C++ CLI" Value="public interface class RevisionsFilter" />
+  <TypeSignature Language="F#" Value="type RevisionsFilter = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RevisionsFilter.Markup" />
       <MemberSignature Language="VB.NET" Value="Public Property Markup As WdRevisionsMarkup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRevisionsMarkup Markup { Microsoft::Office::Interop::Word::WdRevisionsMarkup get(); void set(Microsoft::Office::Interop::Word::WdRevisionsMarkup value); };" />
+      <MemberSignature Language="F#" Value="member this.Markup : Microsoft.Office.Interop.Word.WdRevisionsMarkup with get, set" Usage="Microsoft.Office.Interop.Word.RevisionsFilter.Markup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RevisionsFilter.Reviewers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Reviewers As Reviewers" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Reviewers ^ Reviewers { Microsoft::Office::Interop::Word::Reviewers ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Reviewers : Microsoft.Office.Interop.Word.Reviewers" Usage="Microsoft.Office.Interop.Word.RevisionsFilter.Reviewers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -95,6 +98,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.RevisionsFilter.ToggleShowAllReviewers" />
       <MemberSignature Language="VB.NET" Value="Public Sub ToggleShowAllReviewers ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToggleShowAllReviewers();" />
+      <MemberSignature Language="F#" Value="abstract member ToggleShowAllReviewers : unit -&gt; unit" Usage="revisionsFilter.ToggleShowAllReviewers " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -123,6 +127,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.RevisionsFilter.View" />
       <MemberSignature Language="VB.NET" Value="Public Property View As WdRevisionsView" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdRevisionsView View { Microsoft::Office::Interop::Word::WdRevisionsView get(); void set(Microsoft::Office::Interop::Word::WdRevisionsView value); };" />
+      <MemberSignature Language="F#" Value="member this.View : Microsoft.Office.Interop.Word.WdRevisionsView with get, set" Usage="Microsoft.Office.Interop.Word.RevisionsFilter.View" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

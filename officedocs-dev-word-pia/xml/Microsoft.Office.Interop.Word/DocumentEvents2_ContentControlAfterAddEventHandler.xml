@@ -1,9 +1,10 @@
-﻿<Type Name="DocumentEvents2_ContentControlAfterAddEventHandler" FullName="Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlAfterAddEventHandler">
+<Type Name="DocumentEvents2_ContentControlAfterAddEventHandler" FullName="Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlAfterAddEventHandler">
   <TypeSignature Language="C#" Value="public delegate void DocumentEvents2_ContentControlAfterAddEventHandler(ContentControl NewContentControl, bool InUndoRedo);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DocumentEvents2_ContentControlAfterAddEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlAfterAddEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub DocumentEvents2_ContentControlAfterAddEventHandler(NewContentControl As ContentControl, InUndoRedo As Boolean)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void DocumentEvents2_ContentControlAfterAddEventHandler(ContentControl ^ NewContentControl, bool InUndoRedo);" />
+  <TypeSignature Language="F#" Value="type DocumentEvents2_ContentControlAfterAddEventHandler = delegate of ContentControl * bool -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

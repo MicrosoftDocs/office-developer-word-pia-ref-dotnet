@@ -1,9 +1,10 @@
-﻿<Type Name="TabStop" FullName="Microsoft.Office.Interop.Word.TabStop">
+<Type Name="TabStop" FullName="Microsoft.Office.Interop.Word.TabStop">
   <TypeSignature Language="C#" Value="public interface TabStop" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TabStop" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.TabStop" />
   <TypeSignature Language="VB.NET" Value="Public Interface TabStop" />
   <TypeSignature Language="C++ CLI" Value="public interface class TabStop" />
+  <TypeSignature Language="F#" Value="type TabStop = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Alignment" />
       <MemberSignature Language="VB.NET" Value="Public Property Alignment As WdTabAlignment" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTabAlignment Alignment { Microsoft::Office::Interop::Word::WdTabAlignment get(); void set(Microsoft::Office::Interop::Word::WdTabAlignment value); };" />
+      <MemberSignature Language="F#" Value="member this.Alignment : Microsoft.Office.Interop.Word.WdTabAlignment with get, set" Usage="Microsoft.Office.Interop.Word.TabStop.Alignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -89,6 +91,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.TabStop.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -117,6 +120,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.TabStop.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="tabStop.Clear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -142,6 +146,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.TabStop.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -174,6 +179,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.CustomTab" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomTab As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CustomTab { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.CustomTab : bool" Usage="Microsoft.Office.Interop.Word.TabStop.CustomTab" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -203,6 +209,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Leader" />
       <MemberSignature Language="VB.NET" Value="Public Property Leader As WdTabLeader" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTabLeader Leader { Microsoft::Office::Interop::Word::WdTabLeader get(); void set(Microsoft::Office::Interop::Word::WdTabLeader value); };" />
+      <MemberSignature Language="F#" Value="member this.Leader : Microsoft.Office.Interop.Word.WdTabLeader with get, set" Usage="Microsoft.Office.Interop.Word.TabStop.Leader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -256,6 +263,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Next" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Next As TabStop" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TabStop ^ Next { Microsoft::Office::Interop::Word::TabStop ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Next : Microsoft.Office.Interop.Word.TabStop" Usage="Microsoft.Office.Interop.Word.TabStop.Next" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -284,6 +292,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.TabStop.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -312,6 +321,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Position" />
       <MemberSignature Language="VB.NET" Value="Public Property Position As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Position { float get(); void set(float value); };" />
+      <MemberSignature Language="F#" Value="member this.Position : single with get, set" Usage="Microsoft.Office.Interop.Word.TabStop.Position" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -343,6 +353,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.TabStop.Previous" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As TabStop" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::TabStop ^ Previous { Microsoft::Office::Interop::Word::TabStop ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Previous : Microsoft.Office.Interop.Word.TabStop" Usage="Microsoft.Office.Interop.Word.TabStop.Previous" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

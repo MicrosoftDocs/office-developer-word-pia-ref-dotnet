@@ -1,9 +1,10 @@
-﻿<Type Name="MailMessage" FullName="Microsoft.Office.Interop.Word.MailMessage">
+<Type Name="MailMessage" FullName="Microsoft.Office.Interop.Word.MailMessage">
   <TypeSignature Language="C#" Value="public interface MailMessage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MailMessage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.MailMessage" />
   <TypeSignature Language="VB.NET" Value="Public Interface MailMessage" />
   <TypeSignature Language="C++ CLI" Value="public interface class MailMessage" />
+  <TypeSignature Language="F#" Value="type MailMessage = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMessage.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.MailMessage.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.CheckName" />
       <MemberSignature Language="VB.NET" Value="Public Sub CheckName ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CheckName();" />
+      <MemberSignature Language="F#" Value="abstract member CheckName : unit -&gt; unit" Usage="mailMessage.CheckName " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -88,6 +91,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMessage.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.MailMessage.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -120,6 +124,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="mailMessage.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -145,6 +150,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.DisplayMoveDialog" />
       <MemberSignature Language="VB.NET" Value="Public Sub DisplayMoveDialog ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisplayMoveDialog();" />
+      <MemberSignature Language="F#" Value="abstract member DisplayMoveDialog : unit -&gt; unit" Usage="mailMessage.DisplayMoveDialog " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -170,6 +176,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.DisplayProperties" />
       <MemberSignature Language="VB.NET" Value="Public Sub DisplayProperties ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisplayProperties();" />
+      <MemberSignature Language="F#" Value="abstract member DisplayProperties : unit -&gt; unit" Usage="mailMessage.DisplayProperties " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -195,6 +202,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.DisplaySelectNamesDialog" />
       <MemberSignature Language="VB.NET" Value="Public Sub DisplaySelectNamesDialog ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisplaySelectNamesDialog();" />
+      <MemberSignature Language="F#" Value="abstract member DisplaySelectNamesDialog : unit -&gt; unit" Usage="mailMessage.DisplaySelectNamesDialog " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -220,6 +228,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.Forward" />
       <MemberSignature Language="VB.NET" Value="Public Sub Forward ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward();" />
+      <MemberSignature Language="F#" Value="abstract member Forward : unit -&gt; unit" Usage="mailMessage.Forward " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -245,6 +254,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.GoToNext" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoToNext ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoToNext();" />
+      <MemberSignature Language="F#" Value="abstract member GoToNext : unit -&gt; unit" Usage="mailMessage.GoToNext " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -270,6 +280,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.GoToPrevious" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoToPrevious ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoToPrevious();" />
+      <MemberSignature Language="F#" Value="abstract member GoToPrevious : unit -&gt; unit" Usage="mailMessage.GoToPrevious " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -295,6 +306,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMessage.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.MailMessage.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -323,6 +335,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.Reply" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reply ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reply();" />
+      <MemberSignature Language="F#" Value="abstract member Reply : unit -&gt; unit" Usage="mailMessage.Reply " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -348,6 +361,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.ReplyAll" />
       <MemberSignature Language="VB.NET" Value="Public Sub ReplyAll ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplyAll();" />
+      <MemberSignature Language="F#" Value="abstract member ReplyAll : unit -&gt; unit" Usage="mailMessage.ReplyAll " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -373,6 +387,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMessage.ToggleHeader" />
       <MemberSignature Language="VB.NET" Value="Public Sub ToggleHeader ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToggleHeader();" />
+      <MemberSignature Language="F#" Value="abstract member ToggleHeader : unit -&gt; unit" Usage="mailMessage.ToggleHeader " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

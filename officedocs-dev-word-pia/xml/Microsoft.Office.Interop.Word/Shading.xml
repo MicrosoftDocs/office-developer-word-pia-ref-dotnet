@@ -1,9 +1,10 @@
-﻿<Type Name="Shading" FullName="Microsoft.Office.Interop.Word.Shading">
+<Type Name="Shading" FullName="Microsoft.Office.Interop.Word.Shading">
   <TypeSignature Language="C#" Value="public interface Shading" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Shading" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Shading" />
   <TypeSignature Language="VB.NET" Value="Public Interface Shading" />
   <TypeSignature Language="C++ CLI" Value="public interface class Shading" />
+  <TypeSignature Language="F#" Value="type Shading = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Shading.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.BackgroundPatternColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BackgroundPatternColor As WdColor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColor BackgroundPatternColor { Microsoft::Office::Interop::Word::WdColor get(); void set(Microsoft::Office::Interop::Word::WdColor value); };" />
+      <MemberSignature Language="F#" Value="member this.BackgroundPatternColor : Microsoft.Office.Interop.Word.WdColor with get, set" Usage="Microsoft.Office.Interop.Word.Shading.BackgroundPatternColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.BackgroundPatternColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property BackgroundPatternColorIndex As WdColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColorIndex BackgroundPatternColorIndex { Microsoft::Office::Interop::Word::WdColorIndex get(); void set(Microsoft::Office::Interop::Word::WdColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.BackgroundPatternColorIndex : Microsoft.Office.Interop.Word.WdColorIndex with get, set" Usage="Microsoft.Office.Interop.Word.Shading.BackgroundPatternColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -182,6 +186,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Shading.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -214,6 +219,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.ForegroundPatternColor" />
       <MemberSignature Language="VB.NET" Value="Public Property ForegroundPatternColor As WdColor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColor ForegroundPatternColor { Microsoft::Office::Interop::Word::WdColor get(); void set(Microsoft::Office::Interop::Word::WdColor value); };" />
+      <MemberSignature Language="F#" Value="member this.ForegroundPatternColor : Microsoft.Office.Interop.Word.WdColor with get, set" Usage="Microsoft.Office.Interop.Word.Shading.ForegroundPatternColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -245,6 +251,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.ForegroundPatternColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property ForegroundPatternColorIndex As WdColorIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdColorIndex ForegroundPatternColorIndex { Microsoft::Office::Interop::Word::WdColorIndex get(); void set(Microsoft::Office::Interop::Word::WdColorIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.ForegroundPatternColorIndex : Microsoft.Office.Interop.Word.WdColorIndex with get, set" Usage="Microsoft.Office.Interop.Word.Shading.ForegroundPatternColorIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -337,6 +344,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Shading.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -365,6 +373,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Shading.Texture" />
       <MemberSignature Language="VB.NET" Value="Public Property Texture As WdTextureIndex" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTextureIndex Texture { Microsoft::Office::Interop::Word::WdTextureIndex get(); void set(Microsoft::Office::Interop::Word::WdTextureIndex value); };" />
+      <MemberSignature Language="F#" Value="member this.Texture : Microsoft.Office.Interop.Word.WdTextureIndex with get, set" Usage="Microsoft.Office.Interop.Word.Shading.Texture" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

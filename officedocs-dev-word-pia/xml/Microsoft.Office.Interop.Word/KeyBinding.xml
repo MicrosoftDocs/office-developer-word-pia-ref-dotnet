@@ -1,9 +1,10 @@
-﻿<Type Name="KeyBinding" FullName="Microsoft.Office.Interop.Word.KeyBinding">
+<Type Name="KeyBinding" FullName="Microsoft.Office.Interop.Word.KeyBinding">
   <TypeSignature Language="C#" Value="public interface KeyBinding" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract KeyBinding" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.KeyBinding" />
   <TypeSignature Language="VB.NET" Value="Public Interface KeyBinding" />
   <TypeSignature Language="C++ CLI" Value="public interface class KeyBinding" />
+  <TypeSignature Language="F#" Value="type KeyBinding = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -33,6 +34,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.KeyBinding.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeyBinding.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="keyBinding.Clear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -86,6 +89,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.Command" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Command As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Command { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Command : string" Usage="Microsoft.Office.Interop.Word.KeyBinding.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -114,6 +118,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandParameter As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CommandParameter { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : string" Usage="Microsoft.Office.Interop.Word.KeyBinding.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -145,6 +150,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.Context" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Context { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Context : obj" Usage="Microsoft.Office.Interop.Word.KeyBinding.Context" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -176,6 +182,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.KeyBinding.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -208,6 +215,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeyBinding.Disable" />
       <MemberSignature Language="VB.NET" Value="Public Sub Disable ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Disable();" />
+      <MemberSignature Language="F#" Value="abstract member Disable : unit -&gt; unit" Usage="keyBinding.Disable " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -237,6 +245,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeyBinding.Execute" />
       <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberSignature Language="F#" Value="abstract member Execute : unit -&gt; unit" Usage="keyBinding.Execute " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -262,6 +271,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.KeyCategory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyCategory As WdKeyCategory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdKeyCategory KeyCategory { Microsoft::Office::Interop::Word::WdKeyCategory get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyCategory : Microsoft.Office.Interop.Word.WdKeyCategory" Usage="Microsoft.Office.Interop.Word.KeyBinding.KeyCategory" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -290,6 +300,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.KeyCode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyCode As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int KeyCode { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyCode : int" Usage="Microsoft.Office.Interop.Word.KeyBinding.KeyCode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -321,6 +332,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.KeyCode2" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyCode2 As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int KeyCode2 { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyCode2 : int" Usage="Microsoft.Office.Interop.Word.KeyBinding.KeyCode2" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -349,6 +361,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.KeyString" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyString As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ KeyString { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyString : string" Usage="Microsoft.Office.Interop.Word.KeyBinding.KeyString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -377,6 +390,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.KeyBinding.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -405,6 +419,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.KeyBinding.Protected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Protected As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Protected { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Protected : bool" Usage="Microsoft.Office.Interop.Word.KeyBinding.Protected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -436,6 +451,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Rebind([in]valuetype Microsoft.Office.Interop.Word.WdKeyCategory KeyCategory, [in]string Command, [in]object&amp; CommandParameter) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.KeyBinding.Rebind(Microsoft.Office.Interop.Word.WdKeyCategory,System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Rebind (KeyCategory As WdKeyCategory, Command As String, Optional ByRef CommandParameter As Object)" />
+      <MemberSignature Language="F#" Value="abstract member Rebind : Microsoft.Office.Interop.Word.WdKeyCategory * string * obj -&gt; unit" Usage="keyBinding.Rebind (KeyCategory, Command, CommandParameter)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -452,7 +468,7 @@
       <Parameters>
         <Parameter Name="KeyCategory" Type="Microsoft.Office.Interop.Word.WdKeyCategory" />
         <Parameter Name="Command" Type="System.String" />
-        <Parameter Name="CommandParameter" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="CommandParameter" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="KeyCategory">Required <see cref="T:Microsoft.Office.Interop.Word.WdKeyCategory" />. The key category of the specified key binding.</param>

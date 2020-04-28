@@ -1,9 +1,10 @@
-﻿<Type Name="Bookmark" FullName="Microsoft.Office.Interop.Word.Bookmark">
+<Type Name="Bookmark" FullName="Microsoft.Office.Interop.Word.Bookmark">
   <TypeSignature Language="C#" Value="public interface Bookmark" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Bookmark" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Bookmark" />
   <TypeSignature Language="VB.NET" Value="Public Interface Bookmark" />
   <TypeSignature Language="C++ CLI" Value="public interface class Bookmark" />
+  <TypeSignature Language="F#" Value="type Bookmark = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Bookmark.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Column" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Column As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Column { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Column : bool" Usage="Microsoft.Office.Interop.Word.Bookmark.Column" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Bookmark.Copy(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Copy (Name As String) As Bookmark" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Bookmark ^ Copy(System::String ^ Name);" />
+      <MemberSignature Language="F#" Value="abstract member Copy : string -&gt; Microsoft.Office.Interop.Word.Bookmark" Usage="bookmark.Copy Name" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -121,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Bookmark.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -153,6 +158,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Bookmark.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="bookmark.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -178,6 +184,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Empty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Empty As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Empty { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.Empty : bool" Usage="Microsoft.Office.Interop.Word.Bookmark.Empty" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -210,6 +217,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.End" />
       <MemberSignature Language="VB.NET" Value="Public Property End As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int End { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.End : int with get, set" Usage="Microsoft.Office.Interop.Word.Bookmark.End" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -246,6 +254,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word.Bookmark.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -274,6 +283,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Bookmark.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -302,6 +312,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Range" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Range ^ Range { Microsoft::Office::Interop::Word::Range ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Range : Microsoft.Office.Interop.Word.Range" Usage="Microsoft.Office.Interop.Word.Bookmark.Range" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -333,6 +344,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Bookmark.Select" />
       <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberSignature Language="F#" Value="abstract member Select : unit -&gt; unit" Usage="bookmark.Select " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -361,6 +373,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.Start" />
       <MemberSignature Language="VB.NET" Value="Public Property Start As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Start { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Start : int with get, set" Usage="Microsoft.Office.Interop.Word.Bookmark.Start" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -397,6 +410,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Bookmark.StoryType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoryType As WdStoryType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdStoryType StoryType { Microsoft::Office::Interop::Word::WdStoryType get(); };" />
+      <MemberSignature Language="F#" Value="member this.StoryType : Microsoft.Office.Interop.Word.WdStoryType" Usage="Microsoft.Office.Interop.Word.Bookmark.StoryType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

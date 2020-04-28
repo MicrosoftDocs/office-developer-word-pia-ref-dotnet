@@ -1,9 +1,10 @@
-﻿<Type Name="DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler" FullName="Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler">
+<Type Name="DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler" FullName="Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler">
   <TypeSignature Language="C#" Value="public delegate void DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler(ContentControl ContentControl, out string Content);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler(ContentControl As ContentControl, ByRef Content As String)" />
   <TypeSignature Language="C++ CLI" Value="public delegate void DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler(ContentControl ^ ContentControl, [Runtime::InteropServices::Out] System::String ^ % Content);" />
+  <TypeSignature Language="F#" Value="type DocumentEvents2_ContentControlBeforeStoreUpdateEventHandler = delegate of ContentControl * string -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,7 +22,7 @@
   </Attributes>
   <Parameters>
     <Parameter Name="ContentControl" Type="Microsoft.Office.Interop.Word.ContentControl" />
-    <Parameter Name="Content" Type="System.String&amp;" RefType="out" />
+    <Parameter Name="Content" Type="System.String" RefType="out" />
   </Parameters>
   <ReturnValue>
     <ReturnType>System.Void</ReturnType>

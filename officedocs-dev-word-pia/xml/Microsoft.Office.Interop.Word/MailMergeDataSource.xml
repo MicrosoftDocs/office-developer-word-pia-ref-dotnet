@@ -1,9 +1,10 @@
-﻿<Type Name="MailMergeDataSource" FullName="Microsoft.Office.Interop.Word.MailMergeDataSource">
+<Type Name="MailMergeDataSource" FullName="Microsoft.Office.Interop.Word.MailMergeDataSource">
   <TypeSignature Language="C#" Value="public interface MailMergeDataSource" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MailMergeDataSource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.MailMergeDataSource" />
   <TypeSignature Language="VB.NET" Value="Public Interface MailMergeDataSource" />
   <TypeSignature Language="C++ CLI" Value="public interface class MailMergeDataSource" />
+  <TypeSignature Language="F#" Value="type MailMergeDataSource = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.ActiveRecord" />
       <MemberSignature Language="VB.NET" Value="Public Property ActiveRecord As WdMailMergeActiveRecord" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdMailMergeActiveRecord ActiveRecord { Microsoft::Office::Interop::Word::WdMailMergeActiveRecord get(); void set(Microsoft::Office::Interop::Word::WdMailMergeActiveRecord value); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveRecord : Microsoft.Office.Interop.Word.WdMailMergeActiveRecord with get, set" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.ActiveRecord" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -66,6 +68,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -94,6 +97,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeDataSource.Close" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit" Usage="mailMergeDataSource.Close " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -119,6 +123,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.ConnectString" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectString As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConnectString { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ConnectString : string" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.ConnectString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -147,6 +152,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -179,6 +185,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.DataFields" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataFields As MailMergeDataFields" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::MailMergeDataFields ^ DataFields { Microsoft::Office::Interop::Word::MailMergeDataFields ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DataFields : Microsoft.Office.Interop.Word.MailMergeDataFields" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.DataFields" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -207,6 +214,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.FieldNames" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FieldNames As MailMergeFieldNames" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::MailMergeFieldNames ^ FieldNames { Microsoft::Office::Interop::Word::MailMergeFieldNames ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FieldNames : Microsoft.Office.Interop.Word.MailMergeFieldNames" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.FieldNames" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -234,6 +242,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool FindRecord([in]string FindText, [in]object&amp; Field) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeDataSource.FindRecord(System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function FindRecord (FindText As String, Optional ByRef Field As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member FindRecord : string * obj -&gt; bool" Usage="mailMergeDataSource.FindRecord (FindText, Field)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -249,7 +258,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="FindText" Type="System.String" />
-        <Parameter Name="Field" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Field" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="FindText">Required <b>String</b>. The text to be looked for.</param>
@@ -269,6 +278,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeDataSource.FindRecord2000(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function FindRecord2000 (FindText As String, Field As String) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool FindRecord2000(System::String ^ FindText, System::String ^ Field);" />
+      <MemberSignature Language="F#" Value="abstract member FindRecord2000 : string * string -&gt; bool" Usage="mailMergeDataSource.FindRecord2000 (FindText, Field)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -303,6 +313,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.FirstRecord" />
       <MemberSignature Language="VB.NET" Value="Public Property FirstRecord As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FirstRecord { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.FirstRecord : int with get, set" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.FirstRecord" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -334,6 +345,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.HeaderSourceName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeaderSourceName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HeaderSourceName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HeaderSourceName : string" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.HeaderSourceName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -362,6 +374,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.HeaderSourceType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeaderSourceType As WdMailMergeDataSource" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdMailMergeDataSource HeaderSourceType { Microsoft::Office::Interop::Word::WdMailMergeDataSource get(); };" />
+      <MemberSignature Language="F#" Value="member this.HeaderSourceType : Microsoft.Office.Interop.Word.WdMailMergeDataSource" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.HeaderSourceType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -393,6 +406,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.Included" />
       <MemberSignature Language="VB.NET" Value="Public Property Included As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Included { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Included : bool with get, set" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.Included" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -428,6 +442,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.InvalidAddress" />
       <MemberSignature Language="VB.NET" Value="Public Property InvalidAddress As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvalidAddress { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.InvalidAddress : bool with get, set" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.InvalidAddress" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -463,6 +478,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.InvalidComments" />
       <MemberSignature Language="VB.NET" Value="Public Property InvalidComments As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InvalidComments { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.InvalidComments : string with get, set" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.InvalidComments" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -497,6 +513,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.LastRecord" />
       <MemberSignature Language="VB.NET" Value="Public Property LastRecord As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LastRecord { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.LastRecord : int with get, set" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.LastRecord" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -528,6 +545,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.MappedDataFields" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MappedDataFields As MappedDataFields" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::MappedDataFields ^ MappedDataFields { Microsoft::Office::Interop::Word::MappedDataFields ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MappedDataFields : Microsoft.Office.Interop.Word.MappedDataFields" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.MappedDataFields" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -556,6 +574,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -584,6 +603,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -612,6 +632,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.QueryString" />
       <MemberSignature Language="VB.NET" Value="Public Property QueryString As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ QueryString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.QueryString : string with get, set" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.QueryString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -643,6 +664,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.RecordCount" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecordCount As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RecordCount { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.RecordCount : int" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.RecordCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -674,6 +696,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeDataSource.SetAllErrorFlags(System.Boolean,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAllErrorFlags (Invalid As Boolean, InvalidComment As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAllErrorFlags(bool Invalid, System::String ^ InvalidComment);" />
+      <MemberSignature Language="F#" Value="abstract member SetAllErrorFlags : bool * string -&gt; unit" Usage="mailMergeDataSource.SetAllErrorFlags (Invalid, InvalidComment)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -707,6 +730,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.MailMergeDataSource.SetAllIncludedFlags(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAllIncludedFlags (Included As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAllIncludedFlags(bool Included);" />
+      <MemberSignature Language="F#" Value="abstract member SetAllIncludedFlags : bool -&gt; unit" Usage="mailMergeDataSource.SetAllIncludedFlags Included" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -739,6 +763,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.TableName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TableName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TableName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TableName : string" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.TableName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -767,6 +792,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.MailMergeDataSource.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdMailMergeDataSource" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdMailMergeDataSource Type { Microsoft::Office::Interop::Word::WdMailMergeDataSource get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdMailMergeDataSource" Usage="Microsoft.Office.Interop.Word.MailMergeDataSource.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

@@ -1,9 +1,10 @@
-﻿<Type Name="ApplicationEvents2_SinkHelper" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper">
+<Type Name="ApplicationEvents2_SinkHelper" FullName="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper">
   <TypeSignature Language="C#" Value="public sealed class ApplicationEvents2_SinkHelper : Microsoft.Office.Interop.Word.ApplicationEvents2" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ApplicationEvents2_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Word.ApplicationEvents2" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ApplicationEvents2_SinkHelper&#xA;Implements ApplicationEvents2" />
   <TypeSignature Language="C++ CLI" Value="public ref class ApplicationEvents2_SinkHelper sealed : Microsoft::Office::Interop::Word::ApplicationEvents2" />
+  <TypeSignature Language="F#" Value="type ApplicationEvents2_SinkHelper = class&#xA;    interface ApplicationEvents2" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -35,6 +36,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.DocumentBeforeClose(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DocumentBeforeClose ( As Document, ByRef  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DocumentBeforeClose(Microsoft::Office::Interop::Word::Document ^ , bool % );" />
+      <MemberSignature Language="F#" Value="abstract member DocumentBeforeClose : Microsoft.Office.Interop.Word.Document * bool -&gt; unit&#xA;override this.DocumentBeforeClose : Microsoft.Office.Interop.Word.Document * bool -&gt; unit" Usage="applicationEvents2_SinkHelper.DocumentBeforeClose (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.DocumentBeforeClose(Microsoft.Office.Interop.Word.Document,System.Boolean@)</InterfaceMember>
@@ -48,7 +50,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -62,6 +64,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.DocumentBeforePrint(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DocumentBeforePrint ( As Document, ByRef  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DocumentBeforePrint(Microsoft::Office::Interop::Word::Document ^ , bool % );" />
+      <MemberSignature Language="F#" Value="abstract member DocumentBeforePrint : Microsoft.Office.Interop.Word.Document * bool -&gt; unit&#xA;override this.DocumentBeforePrint : Microsoft.Office.Interop.Word.Document * bool -&gt; unit" Usage="applicationEvents2_SinkHelper.DocumentBeforePrint (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.DocumentBeforePrint(Microsoft.Office.Interop.Word.Document,System.Boolean@)</InterfaceMember>
@@ -75,7 +78,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -89,6 +92,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.DocumentBeforeSave(Microsoft.Office.Interop.Word.Document,System.Boolean@,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DocumentBeforeSave ( As Document, ByRef  As Boolean, ByRef  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DocumentBeforeSave(Microsoft::Office::Interop::Word::Document ^ , bool % , bool % );" />
+      <MemberSignature Language="F#" Value="abstract member DocumentBeforeSave : Microsoft.Office.Interop.Word.Document * bool * bool -&gt; unit&#xA;override this.DocumentBeforeSave : Microsoft.Office.Interop.Word.Document * bool * bool -&gt; unit" Usage="applicationEvents2_SinkHelper.DocumentBeforeSave (, , )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.DocumentBeforeSave(Microsoft.Office.Interop.Word.Document,System.Boolean@,System.Boolean@)</InterfaceMember>
@@ -102,8 +106,8 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.Document" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.Boolean" RefType="ref" />
+        <Parameter Name="" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -117,6 +121,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.DocumentChange" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DocumentChange ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DocumentChange();" />
+      <MemberSignature Language="F#" Value="abstract member DocumentChange : unit -&gt; unit&#xA;override this.DocumentChange : unit -&gt; unit" Usage="applicationEvents2_SinkHelper.DocumentChange " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.DocumentChange</InterfaceMember>
@@ -140,6 +145,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.DocumentOpen(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DocumentOpen ( As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DocumentOpen(Microsoft::Office::Interop::Word::Document ^ );" />
+      <MemberSignature Language="F#" Value="abstract member DocumentOpen : Microsoft.Office.Interop.Word.Document -&gt; unit&#xA;override this.DocumentOpen : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents2_SinkHelper.DocumentOpen " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.DocumentOpen(Microsoft.Office.Interop.Word.Document)</InterfaceMember>
@@ -166,6 +172,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentBeforeCloseDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_DocumentBeforeCloseDelegate As ApplicationEvents2_DocumentBeforeCloseEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeCloseEventHandler ^ m_DocumentBeforeCloseDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_DocumentBeforeCloseDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeCloseEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentBeforeCloseDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -185,6 +192,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentBeforePrintDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_DocumentBeforePrintDelegate As ApplicationEvents2_DocumentBeforePrintEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforePrintEventHandler ^ m_DocumentBeforePrintDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_DocumentBeforePrintDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforePrintEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentBeforePrintDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -204,6 +212,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentBeforeSaveDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_DocumentBeforeSaveDelegate As ApplicationEvents2_DocumentBeforeSaveEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentBeforeSaveEventHandler ^ m_DocumentBeforeSaveDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_DocumentBeforeSaveDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentBeforeSaveEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentBeforeSaveDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -223,6 +232,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentChangeDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_DocumentChangeDelegate As ApplicationEvents2_DocumentChangeEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentChangeEventHandler ^ m_DocumentChangeDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_DocumentChangeDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentChangeEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentChangeDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -242,6 +252,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentOpenDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_DocumentOpenDelegate As ApplicationEvents2_DocumentOpenEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_DocumentOpenEventHandler ^ m_DocumentOpenDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_DocumentOpenDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_DocumentOpenEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_DocumentOpenDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -261,6 +272,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_dwCookie" />
       <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
       <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberSignature Language="F#" Value="val mutable m_dwCookie : int" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_dwCookie" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -280,6 +292,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_NewDocumentDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_NewDocumentDelegate As ApplicationEvents2_NewDocumentEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_NewDocumentEventHandler ^ m_NewDocumentDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_NewDocumentDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_NewDocumentEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_NewDocumentDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -299,6 +312,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_QuitDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_QuitDelegate As ApplicationEvents2_QuitEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_QuitEventHandler ^ m_QuitDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_QuitDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_QuitEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_QuitDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -318,6 +332,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_StartupDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_StartupDelegate As ApplicationEvents2_StartupEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_StartupEventHandler ^ m_StartupDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_StartupDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_StartupEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_StartupDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -337,6 +352,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowActivateDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_WindowActivateDelegate As ApplicationEvents2_WindowActivateEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_WindowActivateEventHandler ^ m_WindowActivateDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_WindowActivateDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowActivateEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowActivateDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -356,6 +372,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowBeforeDoubleClickDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_WindowBeforeDoubleClickDelegate As ApplicationEvents2_WindowBeforeDoubleClickEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeDoubleClickEventHandler ^ m_WindowBeforeDoubleClickDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_WindowBeforeDoubleClickDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeDoubleClickEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowBeforeDoubleClickDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -375,6 +392,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowBeforeRightClickDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_WindowBeforeRightClickDelegate As ApplicationEvents2_WindowBeforeRightClickEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_WindowBeforeRightClickEventHandler ^ m_WindowBeforeRightClickDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_WindowBeforeRightClickDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowBeforeRightClickEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowBeforeRightClickDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -394,6 +412,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowDeactivateDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_WindowDeactivateDelegate As ApplicationEvents2_WindowDeactivateEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_WindowDeactivateEventHandler ^ m_WindowDeactivateDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_WindowDeactivateDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowDeactivateEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowDeactivateDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -413,6 +432,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowSelectionChangeDelegate" />
       <MemberSignature Language="VB.NET" Value="Public m_WindowSelectionChangeDelegate As ApplicationEvents2_WindowSelectionChangeEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Word::ApplicationEvents2_WindowSelectionChangeEventHandler ^ m_WindowSelectionChangeDelegate;" />
+      <MemberSignature Language="F#" Value="val mutable m_WindowSelectionChangeDelegate : Microsoft.Office.Interop.Word.ApplicationEvents2_WindowSelectionChangeEventHandler" Usage="Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.m_WindowSelectionChangeDelegate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -432,6 +452,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.NewDocument(Microsoft.Office.Interop.Word.Document)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub NewDocument ( As Document)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void NewDocument(Microsoft::Office::Interop::Word::Document ^ );" />
+      <MemberSignature Language="F#" Value="abstract member NewDocument : Microsoft.Office.Interop.Word.Document -&gt; unit&#xA;override this.NewDocument : Microsoft.Office.Interop.Word.Document -&gt; unit" Usage="applicationEvents2_SinkHelper.NewDocument " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.NewDocument(Microsoft.Office.Interop.Word.Document)</InterfaceMember>
@@ -458,6 +479,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.Quit" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Quit ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Quit();" />
+      <MemberSignature Language="F#" Value="abstract member Quit : unit -&gt; unit&#xA;override this.Quit : unit -&gt; unit" Usage="applicationEvents2_SinkHelper.Quit " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.Quit</InterfaceMember>
@@ -481,6 +503,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.Startup" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Startup ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Startup();" />
+      <MemberSignature Language="F#" Value="abstract member Startup : unit -&gt; unit&#xA;override this.Startup : unit -&gt; unit" Usage="applicationEvents2_SinkHelper.Startup " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.Startup</InterfaceMember>
@@ -504,6 +527,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.WindowActivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowActivate ( As Document,  As Window)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowActivate(Microsoft::Office::Interop::Word::Document ^ , Microsoft::Office::Interop::Word::Window ^ );" />
+      <MemberSignature Language="F#" Value="abstract member WindowActivate : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Window -&gt; unit&#xA;override this.WindowActivate : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Window -&gt; unit" Usage="applicationEvents2_SinkHelper.WindowActivate (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.WindowActivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)</InterfaceMember>
@@ -531,6 +555,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.WindowBeforeDoubleClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowBeforeDoubleClick ( As Selection, ByRef  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowBeforeDoubleClick(Microsoft::Office::Interop::Word::Selection ^ , bool % );" />
+      <MemberSignature Language="F#" Value="abstract member WindowBeforeDoubleClick : Microsoft.Office.Interop.Word.Selection * bool -&gt; unit&#xA;override this.WindowBeforeDoubleClick : Microsoft.Office.Interop.Word.Selection * bool -&gt; unit" Usage="applicationEvents2_SinkHelper.WindowBeforeDoubleClick (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.WindowBeforeDoubleClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)</InterfaceMember>
@@ -544,7 +569,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.Selection" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -558,6 +583,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.WindowBeforeRightClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowBeforeRightClick ( As Selection, ByRef  As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowBeforeRightClick(Microsoft::Office::Interop::Word::Selection ^ , bool % );" />
+      <MemberSignature Language="F#" Value="abstract member WindowBeforeRightClick : Microsoft.Office.Interop.Word.Selection * bool -&gt; unit&#xA;override this.WindowBeforeRightClick : Microsoft.Office.Interop.Word.Selection * bool -&gt; unit" Usage="applicationEvents2_SinkHelper.WindowBeforeRightClick (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.WindowBeforeRightClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)</InterfaceMember>
@@ -571,7 +597,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="" Type="Microsoft.Office.Interop.Word.Selection" />
-        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="" Type="System.Boolean" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="">To be added.</param>
@@ -585,6 +611,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.WindowDeactivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowDeactivate ( As Document,  As Window)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowDeactivate(Microsoft::Office::Interop::Word::Document ^ , Microsoft::Office::Interop::Word::Window ^ );" />
+      <MemberSignature Language="F#" Value="abstract member WindowDeactivate : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Window -&gt; unit&#xA;override this.WindowDeactivate : Microsoft.Office.Interop.Word.Document * Microsoft.Office.Interop.Word.Window -&gt; unit" Usage="applicationEvents2_SinkHelper.WindowDeactivate (, )" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.WindowDeactivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)</InterfaceMember>
@@ -612,6 +639,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents2_SinkHelper.WindowSelectionChange(Microsoft.Office.Interop.Word.Selection)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowSelectionChange ( As Selection)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowSelectionChange(Microsoft::Office::Interop::Word::Selection ^ );" />
+      <MemberSignature Language="F#" Value="abstract member WindowSelectionChange : Microsoft.Office.Interop.Word.Selection -&gt; unit&#xA;override this.WindowSelectionChange : Microsoft.Office.Interop.Word.Selection -&gt; unit" Usage="applicationEvents2_SinkHelper.WindowSelectionChange " />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Office.Interop.Word.ApplicationEvents2.WindowSelectionChange(Microsoft.Office.Interop.Word.Selection)</InterfaceMember>

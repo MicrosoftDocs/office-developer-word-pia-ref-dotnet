@@ -1,9 +1,10 @@
-﻿<Type Name="Template" FullName="Microsoft.Office.Interop.Word.Template">
+<Type Name="Template" FullName="Microsoft.Office.Interop.Word.Template">
   <TypeSignature Language="C#" Value="public interface Template" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Template" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.Template" />
   <TypeSignature Language="VB.NET" Value="Public Interface Template" />
   <TypeSignature Language="C++ CLI" Value="public interface class Template" />
+  <TypeSignature Language="F#" Value="type Template = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -49,6 +50,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.Template.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -77,6 +79,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.AutoTextEntries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoTextEntries As AutoTextEntries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::AutoTextEntries ^ AutoTextEntries { Microsoft::Office::Interop::Word::AutoTextEntries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoTextEntries : Microsoft.Office.Interop.Word.AutoTextEntries" Usage="Microsoft.Office.Interop.Word.Template.AutoTextEntries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -108,6 +111,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.BuildingBlockEntries" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildingBlockEntries As BuildingBlockEntries" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::BuildingBlockEntries ^ BuildingBlockEntries { Microsoft::Office::Interop::Word::BuildingBlockEntries ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BuildingBlockEntries : Microsoft.Office.Interop.Word.BuildingBlockEntries" Usage="Microsoft.Office.Interop.Word.Template.BuildingBlockEntries" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -138,6 +142,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.BuildingBlockTypes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildingBlockTypes As BuildingBlockTypes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::BuildingBlockTypes ^ BuildingBlockTypes { Microsoft::Office::Interop::Word::BuildingBlockTypes ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BuildingBlockTypes : Microsoft.Office.Interop.Word.BuildingBlockTypes" Usage="Microsoft.Office.Interop.Word.Template.BuildingBlockTypes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -168,6 +173,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.BuiltInDocumentProperties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuiltInDocumentProperties As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ BuiltInDocumentProperties { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BuiltInDocumentProperties : obj" Usage="Microsoft.Office.Interop.Word.Template.BuiltInDocumentProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -201,6 +207,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.Template.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -233,6 +240,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.CustomDocumentProperties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomDocumentProperties As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CustomDocumentProperties { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CustomDocumentProperties : obj" Usage="Microsoft.Office.Interop.Word.Template.CustomDocumentProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -264,6 +272,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.FarEastLineBreakLanguage" />
       <MemberSignature Language="VB.NET" Value="Public Property FarEastLineBreakLanguage As WdFarEastLineBreakLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFarEastLineBreakLanguageID FarEastLineBreakLanguage { Microsoft::Office::Interop::Word::WdFarEastLineBreakLanguageID get(); void set(Microsoft::Office::Interop::Word::WdFarEastLineBreakLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.FarEastLineBreakLanguage : Microsoft.Office.Interop.Word.WdFarEastLineBreakLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Template.FarEastLineBreakLanguage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -311,6 +320,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.FarEastLineBreakLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property FarEastLineBreakLevel As WdFarEastLineBreakLevel" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdFarEastLineBreakLevel FarEastLineBreakLevel { Microsoft::Office::Interop::Word::WdFarEastLineBreakLevel get(); void set(Microsoft::Office::Interop::Word::WdFarEastLineBreakLevel value); };" />
+      <MemberSignature Language="F#" Value="member this.FarEastLineBreakLevel : Microsoft.Office.Interop.Word.WdFarEastLineBreakLevel with get, set" Usage="Microsoft.Office.Interop.Word.Template.FarEastLineBreakLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -356,6 +366,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.FullName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FullName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FullName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FullName : string" Usage="Microsoft.Office.Interop.Word.Template.FullName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -387,6 +398,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.JustificationMode" />
       <MemberSignature Language="VB.NET" Value="Public Property JustificationMode As WdJustificationMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdJustificationMode JustificationMode { Microsoft::Office::Interop::Word::WdJustificationMode get(); void set(Microsoft::Office::Interop::Word::WdJustificationMode value); };" />
+      <MemberSignature Language="F#" Value="member this.JustificationMode : Microsoft.Office.Interop.Word.WdJustificationMode with get, set" Usage="Microsoft.Office.Interop.Word.Template.JustificationMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -431,6 +443,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.KerningByAlgorithm" />
       <MemberSignature Language="VB.NET" Value="Public Property KerningByAlgorithm As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KerningByAlgorithm { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.KerningByAlgorithm : bool with get, set" Usage="Microsoft.Office.Interop.Word.Template.KerningByAlgorithm" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -463,6 +476,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.LanguageID" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageID As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageID { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageID : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Template.LanguageID" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -498,6 +512,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.LanguageIDFarEast" />
       <MemberSignature Language="VB.NET" Value="Public Property LanguageIDFarEast As WdLanguageID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdLanguageID LanguageIDFarEast { Microsoft::Office::Interop::Word::WdLanguageID get(); void set(Microsoft::Office::Interop::Word::WdLanguageID value); };" />
+      <MemberSignature Language="F#" Value="member this.LanguageIDFarEast : Microsoft.Office.Interop.Word.WdLanguageID with get, set" Usage="Microsoft.Office.Interop.Word.Template.LanguageIDFarEast" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -533,6 +548,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.ListTemplates" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListTemplates As ListTemplates" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::ListTemplates ^ ListTemplates { Microsoft::Office::Interop::Word::ListTemplates ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListTemplates : Microsoft.Office.Interop.Word.ListTemplates" Usage="Microsoft.Office.Interop.Word.Template.ListTemplates" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -561,6 +577,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.Name" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Office.Interop.Word.Template.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -589,6 +606,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.NoLineBreakAfter" />
       <MemberSignature Language="VB.NET" Value="Public Property NoLineBreakAfter As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NoLineBreakAfter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.NoLineBreakAfter : string with get, set" Usage="Microsoft.Office.Interop.Word.Template.NoLineBreakAfter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -620,6 +638,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.NoLineBreakBefore" />
       <MemberSignature Language="VB.NET" Value="Public Property NoLineBreakBefore As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NoLineBreakBefore { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.NoLineBreakBefore : string with get, set" Usage="Microsoft.Office.Interop.Word.Template.NoLineBreakBefore" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -651,6 +670,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.NoProofing" />
       <MemberSignature Language="VB.NET" Value="Public Property NoProofing As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NoProofing { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.NoProofing : int with get, set" Usage="Microsoft.Office.Interop.Word.Template.NoProofing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -683,6 +703,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Template.OpenAsDocument" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenAsDocument () As Document" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Word::Document ^ OpenAsDocument();" />
+      <MemberSignature Language="F#" Value="abstract member OpenAsDocument : unit -&gt; Microsoft.Office.Interop.Word.Document" Usage="template.OpenAsDocument " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -712,6 +733,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.Template.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -740,6 +762,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.Path" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Path { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Office.Interop.Word.Template.Path" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -773,6 +796,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.Template.Save" />
       <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberSignature Language="F#" Value="abstract member Save : unit -&gt; unit" Usage="template.Save " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -801,6 +825,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.Saved" />
       <MemberSignature Language="VB.NET" Value="Public Property Saved As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Saved { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.Saved : bool with get, set" Usage="Microsoft.Office.Interop.Word.Template.Saved" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -833,6 +858,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As WdTemplateType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::WdTemplateType Type { Microsoft::Office::Interop::Word::WdTemplateType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Interop.Word.WdTemplateType" Usage="Microsoft.Office.Interop.Word.Template.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -874,6 +900,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.Template.VBProject" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VBProject As VBProject" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Vbe::Interop::VBProject ^ VBProject { Microsoft::Vbe::Interop::VBProject ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.VBProject : Microsoft.Vbe.Interop.VBProject" Usage="Microsoft.Office.Interop.Word.Template.VBProject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

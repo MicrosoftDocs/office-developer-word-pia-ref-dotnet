@@ -1,9 +1,10 @@
-﻿<Type Name="ConnectorFormat" FullName="Microsoft.Office.Interop.Word.ConnectorFormat">
+<Type Name="ConnectorFormat" FullName="Microsoft.Office.Interop.Word.ConnectorFormat">
   <TypeSignature Language="C#" Value="public interface ConnectorFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConnectorFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ConnectorFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConnectorFormat" />
   <TypeSignature Language="C++ CLI" Value="public interface class ConnectorFormat" />
+  <TypeSignature Language="F#" Value="type ConnectorFormat = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ConnectorFormat.BeginConnect(Microsoft.Office.Interop.Word.Shape@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub BeginConnect (ByRef ConnectedShape As Shape, ConnectionSite As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeginConnect([Runtime::InteropServices::Out] Microsoft::Office::Interop::Word::Shape ^ % ConnectedShape, int ConnectionSite);" />
+      <MemberSignature Language="F#" Value="abstract member BeginConnect : Shape * int -&gt; unit" Usage="connectorFormat.BeginConnect (ConnectedShape, ConnectionSite)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -70,7 +73,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ConnectedShape" Type="Microsoft.Office.Interop.Word.Shape&amp;" RefType="out" />
+        <Parameter Name="ConnectedShape" Type="Microsoft.Office.Interop.Word.Shape" RefType="out" />
         <Parameter Name="ConnectionSite" Type="System.Int32" />
       </Parameters>
       <Docs>
@@ -86,6 +89,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.BeginConnected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BeginConnected As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState BeginConnected { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberSignature Language="F#" Value="member this.BeginConnected : Microsoft.Office.Core.MsoTriState" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.BeginConnected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -114,6 +118,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.BeginConnectedShape" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BeginConnectedShape As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shape ^ BeginConnectedShape { Microsoft::Office::Interop::Word::Shape ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BeginConnectedShape : Microsoft.Office.Interop.Word.Shape" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.BeginConnectedShape" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -142,6 +147,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.BeginConnectionSite" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BeginConnectionSite As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BeginConnectionSite { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.BeginConnectionSite : int" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.BeginConnectionSite" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -170,6 +176,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ConnectorFormat.BeginDisconnect" />
       <MemberSignature Language="VB.NET" Value="Public Sub BeginDisconnect ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeginDisconnect();" />
+      <MemberSignature Language="F#" Value="abstract member BeginDisconnect : unit -&gt; unit" Usage="connectorFormat.BeginDisconnect " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -195,6 +202,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -223,6 +231,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ConnectorFormat.EndConnect(Microsoft.Office.Interop.Word.Shape@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndConnect (ByRef ConnectedShape As Shape, ConnectionSite As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndConnect([Runtime::InteropServices::Out] Microsoft::Office::Interop::Word::Shape ^ % ConnectedShape, int ConnectionSite);" />
+      <MemberSignature Language="F#" Value="abstract member EndConnect : Shape * int -&gt; unit" Usage="connectorFormat.EndConnect (ConnectedShape, ConnectionSite)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -237,7 +246,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ConnectedShape" Type="Microsoft.Office.Interop.Word.Shape&amp;" RefType="out" />
+        <Parameter Name="ConnectedShape" Type="Microsoft.Office.Interop.Word.Shape" RefType="out" />
         <Parameter Name="ConnectionSite" Type="System.Int32" />
       </Parameters>
       <Docs>
@@ -253,6 +262,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.EndConnected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndConnected As MsoTriState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState EndConnected { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberSignature Language="F#" Value="member this.EndConnected : Microsoft.Office.Core.MsoTriState" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.EndConnected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -281,6 +291,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.EndConnectedShape" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndConnectedShape As Shape" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Shape ^ EndConnectedShape { Microsoft::Office::Interop::Word::Shape ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.EndConnectedShape : Microsoft.Office.Interop.Word.Shape" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.EndConnectedShape" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -309,6 +320,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.EndConnectionSite" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndConnectionSite As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EndConnectionSite { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.EndConnectionSite : int" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.EndConnectionSite" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -337,6 +349,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ConnectorFormat.EndDisconnect" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndDisconnect ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDisconnect();" />
+      <MemberSignature Language="F#" Value="abstract member EndDisconnect : unit -&gt; unit" Usage="connectorFormat.EndDisconnect " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -362,6 +375,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -390,6 +404,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.ConnectorFormat.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As MsoConnectorType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoConnectorType Type { Microsoft::Office::Core::MsoConnectorType get(); void set(Microsoft::Office::Core::MsoConnectorType value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Office.Core.MsoConnectorType with get, set" Usage="Microsoft.Office.Interop.Word.ConnectorFormat.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>

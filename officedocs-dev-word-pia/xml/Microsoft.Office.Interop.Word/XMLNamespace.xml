@@ -1,9 +1,10 @@
-﻿<Type Name="XMLNamespace" FullName="Microsoft.Office.Interop.Word.XMLNamespace">
+<Type Name="XMLNamespace" FullName="Microsoft.Office.Interop.Word.XMLNamespace">
   <TypeSignature Language="C#" Value="public interface XMLNamespace" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XMLNamespace" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.XMLNamespace" />
   <TypeSignature Language="VB.NET" Value="Public Interface XMLNamespace" />
   <TypeSignature Language="C++ CLI" Value="public interface class XMLNamespace" />
+  <TypeSignature Language="F#" Value="type XMLNamespace = interface" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.Alias(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Property Alias(Optional AllUsers As Boolean = false) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Alias[bool] { System::String ^ get(bool AllUsers); void set(bool AllUsers, System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Alias(bool) : string with get, set" Usage="Microsoft.Office.Interop.Word.XMLNamespace.Alias" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -67,6 +69,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.Application" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::Application ^ Application { Microsoft::Office::Interop::Word::Application ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Application : Microsoft.Office.Interop.Word.Application" Usage="Microsoft.Office.Interop.Word.XMLNamespace.Application" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -95,6 +98,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.XMLNamespace.AttachToDocument(System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AttachToDocument (ByRef Document As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AttachToDocument(System::Object ^ % Document);" />
+      <MemberSignature Language="F#" Value="abstract member AttachToDocument : obj -&gt; unit" Usage="xMLNamespace.AttachToDocument Document" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -109,7 +113,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Document" Type="System.Object&amp;" RefType="ref" />
+        <Parameter Name="Document" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="Document">Required <b>Object</b>. The document to which to attach the specified XML schema.</param>
@@ -123,6 +127,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.Creator" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Creator : int" Usage="Microsoft.Office.Interop.Word.XMLNamespace.Creator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -155,6 +160,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.DefaultTransform(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Property DefaultTransform(Optional AllUsers As Boolean = false) As XSLTransform" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XSLTransform ^ DefaultTransform[bool] { Microsoft::Office::Interop::Word::XSLTransform ^ get(bool AllUsers); void set(bool AllUsers, Microsoft::Office::Interop::Word::XSLTransform ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DefaultTransform(bool) : Microsoft.Office.Interop.Word.XSLTransform with get, set" Usage="Microsoft.Office.Interop.Word.XMLNamespace.DefaultTransform" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -190,6 +196,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.XMLNamespace.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberSignature Language="F#" Value="abstract member Delete : unit -&gt; unit" Usage="xMLNamespace.Delete " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -215,6 +222,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.Location(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Property Location(Optional AllUsers As Boolean = false) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location[bool] { System::String ^ get(bool AllUsers); void set(bool AllUsers, System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Location(bool) : string with get, set" Usage="Microsoft.Office.Interop.Word.XMLNamespace.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -250,6 +258,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Parent : obj" Usage="Microsoft.Office.Interop.Word.XMLNamespace.Parent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -278,6 +287,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.URI" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property URI As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ URI { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.URI : string" Usage="Microsoft.Office.Interop.Word.XMLNamespace.URI" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
@@ -306,6 +316,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Word.XMLNamespace.XSLTransforms" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XSLTransforms As XSLTransforms" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Word::XSLTransforms ^ XSLTransforms { Microsoft::Office::Interop::Word::XSLTransforms ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.XSLTransforms : Microsoft.Office.Interop.Word.XSLTransforms" Usage="Microsoft.Office.Interop.Word.XMLNamespace.XSLTransforms" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
