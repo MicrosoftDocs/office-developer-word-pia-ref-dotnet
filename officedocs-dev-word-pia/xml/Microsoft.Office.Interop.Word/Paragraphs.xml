@@ -57,7 +57,7 @@
       </Parameters>
       <Docs>
         <param name="Range">Optional <b>Object</b>. The range before which you want the new paragraph to be added. The new paragraph doesn't replace the range.</param>
-        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Paragraph" /> object, When the caller is not the last paragraph in a document that represents a new, blank paragraph added to a document, otherwise that will be the calling paragraph itself.</summary>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Word.Paragraph" /> object. When the caller is not the last paragraph in a document that represents a new, blank paragraph added to a document, otherwise that will be the calling paragraph itself.</summary>
         <returns>To be added.</returns>
         <remarks>
           <para>If <paramref name="Range" /> isn't specified, the new paragraph is added after the selection or range or at the end of the document.</para>
